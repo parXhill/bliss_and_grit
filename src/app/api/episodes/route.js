@@ -1,70 +1,29 @@
-import prisma from '@/lib/prisma';
+// app/api/episodes/route.js - NEW
 import { NextResponse } from 'next/server';
+import { PrismaClient } from '@prisma/client';
 
-export async function GET(request) {
-  const { searchParams } = new URL(request.url);
-  const keyword = searchParams.get('keyword');
-  
-  try {
-    let episodes;
-    
-    if (keyword) {
-      // Search episodes by keyword
-      episodes = await prisma.episode.findMany({
-        where: {
-          keywords: {
-            some: {
-              word: {
-                contains: keyword,
-                mode: 'insensitive'
-              }
-            }
-          }
-        },
-        include: {
-          keywords: true,
-        },
-        orderBy: {
-          publishDate: 'desc'
-        }
-      });
-    } else {
-      // Get all episodes
-      episodes = await prisma.episode.findMany({
-        include: {
-          keywords: true,
-        },
-        orderBy: {
-          publishDate: 'desc'
-        }
-      });
-    }
-    
-    return NextResponse.json(episodes);
-  } catch (error) {
-    return NextResponse.json({ error: error.message }, { status: 500 });
-  }
-}
+const prisma = new PrismaClient();
 
-export async function POST(request) {
+export async function GET() {
   try {
-    const data = await request.json();
-    const episode = await prisma.episode.create({
-      data: {
-        title: data.title,
-        description: data.description,
-        publishDate: data.publishDate ? new Date(data.publishDate) : null,
-        fileName: data.fileName,
-        keywords: {
-          create: data.keywords?.map(word => ({ word })) || []
-        }
+    const episodes = await prisma.episode.findMany({
+      orderBy: {
+        episodeNumber: 'desc',
       },
-      include: {
-        keywords: true,
-      }
+      select: {
+        id: true,
+        episodeNumber: true,
+        title: true,
+        publishDate: true,
+      },
     });
-    return NextResponse.json(episode, { status: 201 });
+    
+    return NextResponse.json({ success: true, data: episodes });
   } catch (error) {
-    return NextResponse.json({ error: error.message }, { status: 500 });
+    console.error('Error fetching episodes:', error);
+    return NextResponse.json(
+      { success: false, error: 'Failed to fetch episodes' },
+      { status: 500 }
+    );
   }
 }

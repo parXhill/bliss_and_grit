@@ -1,66 +1,130 @@
-import prisma from '@/lib/prisma';
+// app/api/search/route.js - UPDATED
 import { NextResponse } from 'next/server';
+import { PrismaClient } from '@prisma/client';
+
+const prisma = new PrismaClient();
 
 export async function GET(request) {
   const { searchParams } = new URL(request.url);
-  const query = searchParams.get('q');
   
-  if (!query) {
-    return NextResponse.json({ error: 'Search query is required' }, { status: 400 });
+  // Basic search params
+  const query = searchParams.get('query');
+  const speaker = searchParams.get('speaker');
+  const timeStart = searchParams.get('timeStart');
+  const timeEnd = searchParams.get('timeEnd');
+  
+  // Episode-specific search params
+  const episodeNumber = searchParams.get('episodeNumber');
+  const episodeTitle = searchParams.get('episodeTitle');
+  const fullEpisode = searchParams.get('fullEpisode') === 'true';
+  
+  // Build episode where clause
+  let episodeWhereClause = {};
+  
+  if (episodeNumber) {
+    episodeWhereClause.episodeNumber = parseInt(episodeNumber, 10);
   }
   
+  if (episodeTitle) {
+    episodeWhereClause.title = {
+      contains: episodeTitle,
+      mode: 'insensitive',
+    };
+  }
+  
+  // Build segment where clause
+  let segmentWhereClause = {};
+  
+  if (query) {
+    segmentWhereClause.content = {
+      contains: query,
+      mode: 'insensitive',
+    };
+  }
+  
+  if (speaker) {
+    segmentWhereClause.speakerId = speaker;
+  }
+  
+  if (timeStart) {
+    segmentWhereClause.startTime = {
+      gte: timeStart,
+    };
+  }
+  
+  if (timeEnd) {
+    segmentWhereClause.startTime = {
+      ...(segmentWhereClause.startTime || {}),
+      lte: timeEnd,
+    };
+  }
+  
+  // Combine the where clauses
+  const whereClause = {
+    ...segmentWhereClause,
+    episode: Object.keys(episodeWhereClause).length > 0 ? episodeWhereClause : undefined,
+  };
+  
   try {
-    // Search across segments content and episode titles
-    const results = await prisma.$transaction([
-      // Search in episode titles and descriptions
-      prisma.episode.findMany({
-        where: {
-          OR: [
-            { title: { contains: query, mode: 'insensitive' } },
-            { description: { contains: query, mode: 'insensitive' } }
-          ]
-        },
+    // If fullEpisode is true and we have episode filters, get the full transcript
+    if (fullEpisode && Object.keys(episodeWhereClause).length > 0) {
+      const episodes = await prisma.episode.findMany({
+        where: episodeWhereClause,
         include: {
-          keywords: true
-        }
-      }),
+          segments: {
+            include: {
+              speaker: true,
+            },
+            orderBy: {
+              startTime: 'asc',
+            },
+          },
+        },
+      });
       
-      // Search in turn content
-      prisma.turn.findMany({
-        where: {
-          content: {
-            contains: query,
-            mode: 'insensitive'
-          }
-        },
-        include: {
-          episode: true,
-          speaker: true
-        }
-      }),
+      // Flatten the segments and add episode info
+      const segments = episodes.flatMap(episode => 
+        episode.segments.map(segment => ({
+          ...segment,
+          episode: {
+            title: episode.title,
+            episodeNumber: episode.episodeNumber,
+          },
+        }))
+      );
       
-      // Search in segment content
-      prisma.segment.findMany({
-        where: {
-          content: {
-            contains: query,
-            mode: 'insensitive'
-          }
-        },
+      return NextResponse.json({ 
+        success: true, 
+        data: segments,
+        isFullEpisode: true,
+        episodeCount: episodes.length 
+      });
+    } else {
+      // Regular segment search
+      const segments = await prisma.segment.findMany({
+        where: whereClause,
         include: {
-          episode: true,
-          speaker: true
+          speaker: true,
+          episode: {
+            select: {
+              title: true,
+              episodeNumber: true,
+            },
+          },
         },
-        take: 50 // Limit results
-      })
-    ]);
-    
-    return NextResponse.json({
-      episodes: results[0],
-      turns: results[1],
-      segments: results[2]
-    });
+        orderBy: [
+          { episodeId: 'asc' },
+          { startTime: 'asc' },
+        ],
+      });
+      
+      return NextResponse.json({ success: true, data: segments });
+    }
   } catch (error) {
-    return NextResponse.json({ error: error.message }, { status: 500 });
+    console.error('Search error:', error);
+    return NextResponse.json(
+      { success: false, error: 'Failed to search transcripts' },
+      { status: 500 }
+    );
   }
 }

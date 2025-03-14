@@ -1,27 +1,23 @@
-import prisma from '@/lib/prisma';
+// app/api/speakers/route.js - NEW
 import { NextResponse } from 'next/server';
+import { PrismaClient } from '@prisma/client';
+
+const prisma = new PrismaClient();
 
 export async function GET() {
   try {
-    const speakers = await prisma.speaker.findMany();
-    return NextResponse.json(speakers);
-  } catch (error) {
-    return NextResponse.json({ error: error.message }, { status: 500 });
-  }
-}
-
-export async function POST(request) {
-  try {
-    const data = await request.json();
-    const speaker = await prisma.speaker.create({
-      data: {
-        id: data.id,
-        name: data.name,
-        displayName: data.displayName
-      }
+    const speakers = await prisma.speaker.findMany({
+      orderBy: {
+        displayName: 'asc',
+      },
     });
-    return NextResponse.json(speaker, { status: 201 });
+    
+    return NextResponse.json({ success: true, data: speakers });
   } catch (error) {
-    return NextResponse.json({ error: error.message }, { status: 500 });
+    console.error('Error fetching speakers:', error);
+    return NextResponse.json(
+      { success: false, error: 'Failed to fetch speakers' },
+      { status: 500 }
+    );
   }
 }

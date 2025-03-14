@@ -12,6 +12,7 @@ datasource db {
 
 model Episode {
   id          String    @id @default(uuid())
+  episodeNumber Int
   title       String
   description String?
   publishDate DateTime?
@@ -46,6 +47,7 @@ model Segment {
   turn       Turn?    @relation(fields: [turnId], references: [id])
   turnId     String?
   
+  @@unique([episodeId, startTime, speakerId])
   @@index([episodeId])
   @@index([speakerId])
   @@index([turnId])

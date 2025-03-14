@@ -1,0 +1,80 @@
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// schema.prisma
+
+model Episode {
+  id          String    @id @default(uuid())
+  title       String
+  description String?
+  publishDate DateTime?
+  fileName    String
+  
+  segments    Segment[]
+  turns       Turn[]
+  keywords    Keyword[]
+}
+
+model Speaker {
+  id          String    @id
+  name        String?
+  displayName String?
+  
+  segments    Segment[]
+  turns       Turn[]
+}
+
+model Segment {
+  id         String   @id @default(uuid())
+  startTime  String
+  endTime    String?
+  content    String
+  
+  episode    Episode  @relation(fields: [episodeId], references: [id])
+  episodeId  String
+  
+  speaker    Speaker  @relation(fields: [speakerId], references: [id])
+  speakerId  String
+  
+  turn       Turn?    @relation(fields: [turnId], references: [id])
+  turnId     String?
+  
+  @@index([episodeId])
+  @@index([speakerId])
+  @@index([turnId])
+}
+
+model Turn {
+  id         String    @id @default(uuid())
+  startTime  String
+  endTime    String
+  content    String    @db.Text
+  
+  episode    Episode   @relation(fields: [episodeId], references: [id])
+  episodeId  String
+  
+  speaker    Speaker   @relation(fields: [speakerId], references: [id])
+  speakerId  String
+  
+  segments   Segment[]
+  
+  @@index([episodeId])
+  @@index([speakerId])
+}
+
+model Keyword {
+  id        String   @id @default(uuid())
+  word      String
+  episode   Episode  @relation(fields: [episodeId], references: [id])
+  episodeId String
+  
+  @@index([word])
+  @@index([episodeId])
+}

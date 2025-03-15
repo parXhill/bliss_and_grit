@@ -66,12 +66,12 @@ export async function GET(request) {
   };
   
   try {
-    // If fullEpisode is true and we have episode filters, get the full transcript
+    // If fullEpisode is true and we have episode filters, get the full transcript using turns
     if (fullEpisode && Object.keys(episodeWhereClause).length > 0) {
       const episodes = await prisma.episode.findMany({
         where: episodeWhereClause,
         include: {
-          segments: {
+          turns: {
             include: {
               speaker: true,
             },
@@ -82,10 +82,10 @@ export async function GET(request) {
         },
       });
       
-      // Flatten the segments and add episode info
-      const segments = episodes.flatMap(episode => 
-        episode.segments.map(segment => ({
-          ...segment,
+      // Flatten the turns and add episode info
+      const turns = episodes.flatMap(episode => 
+        episode.turns.map(turn => ({
+          ...turn,
           episode: {
             title: episode.title,
             episodeNumber: episode.episodeNumber,
@@ -95,9 +95,10 @@ export async function GET(request) {
       
       return NextResponse.json({ 
         success: true, 
-        data: segments,
+        data: turns,
         isFullEpisode: true,
-        episodeCount: episodes.length 
+        episodeCount: episodes.length,
+        resultType: 'turns'
       });
     } else {
       // Regular segment search

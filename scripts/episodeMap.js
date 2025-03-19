@@ -1,17 +1,17 @@
 const episodeMap = {
-    1: { episodeNumber: 1, episodeName: "Meet Vanessa", fileName: "" },
-    2: { episodeNumber: 2, episodeName: "Meet Brooke", fileName: "" },
-    3: { episodeNumber: 3, episodeName: "Why the body?", fileName: "" },
-    4: { episodeNumber: 4, episodeName: "Debating Manifestation and Acceptance", fileName: "" },
-    5: { episodeNumber: 5, episodeName: "When Truth is a Pain in the Ass", fileName: "" },
-    6: { episodeNumber: 6, episodeName: "What is Disembodiment About?", fileName: "" },
-    7: { episodeNumber: 7, episodeName: "Why Meditate", fileName: "" },
-    8: { episodeNumber: 8, episodeName: "Psychology vs. Spirituality", fileName: "" },
-    9: { episodeNumber: 9, episodeName: "What's Self Love Got To Do With It?", fileName: "" },
-    10: { episodeNumber: 10, episodeName: "Self-Love In Action", fileName: "" },
-    11: { episodeNumber: 11, episodeName: "On Spiritual Sensitivity", fileName: "" },
-    12: { episodeNumber: 12, episodeName: "Getting Comfortable With Uncomfortable", fileName: "" },
-    13: { episodeNumber: 13, episodeName: "Relating to Fear", fileName: "" },
+    1: { episodeNumber: 1, episodeName: "Meet Vanessa", fileName: "FINAL_BG_EPS01_Meet_Vanessa_transcript_with_speakers.txt" },
+    2: { episodeNumber: 2, episodeName: "Meet Brooke", fileName: "FINAL_BG_EPS02_Meet_Brooke_transcript_with_speakers.txt" },
+    3: { episodeNumber: 3, episodeName: "Why the body?", fileName: "FINAL_BaG_EPS03_transcript_with_speakers.txt" },
+    4: { episodeNumber: 4, episodeName: "Debating Manifestation and Acceptance", fileName: "FINAL_BaG_EPS04_Law_Of_Attraction_transcript_with_speakers.txt" },
+    5: { episodeNumber: 5, episodeName: "When Truth is a Pain in the Ass", fileName: "FINAL_BaG_EPS05_What_Is_True_transcript_with_speakers.txt" },
+    6: { episodeNumber: 6, episodeName: "What is Disembodiment About?", fileName: "FINAL_BaG_EPS06_What_Does_It_Mean_To_Disembody_transcript_with_speakers.txt" },
+    7: { episodeNumber: 7, episodeName: "Why Meditate", fileName: "FINAL_BaG_EPS07_Why_Meditate_transcript_with_speakers.txt" },
+    8: { episodeNumber: 8, episodeName: "Psychology vs. Spirituality", fileName: "FINAL_BaG_EPS08_Psych_vs_Spirit_transcript_with_speakers.txt" },
+    9: { episodeNumber: 9, episodeName: "What's Self Love Got To Do With It?", fileName: "FINAL_BaG_EPS09_transcript_with_speakers.txt" },
+    10: { episodeNumber: 10, episodeName: "Self-Love In Action", fileName: "FINAL_BaG_EPS10_Self-Love_In_Action_transcript_with_speakers.txt" },
+    11: { episodeNumber: 11, episodeName: "On Spiritual Sensitivity", fileName: "FINAL_BaG_EPS11_Sensies_transcript_with_speakers.txt" },
+    12: { episodeNumber: 12, episodeName: "Getting Comfortable With Uncomfortable", fileName: "FINAL_BaG_EPS12_Comfortable_with_Uncomfortable_transcript_with_speakers.txt" },
+    13: { episodeNumber: 13, episodeName: "Relating to Fear", fileName: "FINAL_BaG_EPS13_Relating_To_Fear_transcript_with_speakers.txt" },
     14: { episodeNumber: 14, episodeName: "Unhooking From the Fear Crazy Train", fileName: "FINAL_BaG_EPS14_Fear_Part_Deux_transcript_with_speakers.txt" },
     15: { episodeNumber: 15, episodeName: "How We Heal", fileName: "FINAL_BaG_EPS15_How_To_Heal_transcript_with_speakers.txt" },
     16: { episodeNumber: 16, episodeName: "Joy Phobia", fileName: "FINAL_BaG_EPS16_Fear_of_Joy_transcript_with_speakers.txt" },
@@ -149,5 +149,4 @@ const episodeMap = {
     152: { episodeNumber: 152, episodeName: "You're Not Doing Anything Wrong", fileName: "FINAL_BG_EPS152_You're_Not_Doing_Anything_Wrong_transcript_with_speakers.txt" },
     153: { episodeNumber: 153, episodeName: "A Fond Farewell and What's Next", fileName: "" }
   }
-
   module.exports = { episodeMap };

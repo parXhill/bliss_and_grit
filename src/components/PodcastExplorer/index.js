@@ -10,7 +10,14 @@ import useSearch from './hooks/useSearch';
 import useTranscript from './hooks/useTranscript';
 
 // Utility functions
-import { formatTime, formatDate, formatTextWithLineBreaks, highlightSearchTerms } from './utils/formatters';
+import { 
+  formatTime, 
+  formatDate, 
+  formatTextWithLineBreaks, 
+  highlightSearchTerms, 
+  getSpotifyUrl,
+  dispatchTimestampEvent
+} from './utils/formatters';
 import { 
   getEpisodeImagePlaceholder, 
   getSpeakerColor, 
@@ -18,12 +25,16 @@ import {
   groupResultsByEpisode
 } from './utils/styleUtils';
 
+// Components
+import SpotifyPlayer from '@/components/spotifyPlayer';
+
 export default function PodcastExplorer() {
   // View state management
   const [view, setView] = useState('episodes'); // 'episodes', 'search', 'transcript'
+  const [playerVisible, setPlayerVisible] = useState(false);
 
   // Custom hooks
-  const { episodes, speakers, loading: dataLoading } = useEpisodesData();
+  const { episodes, speakers, loading: dataLoading, getSpotifyId } = useEpisodesData();
   
   const { 
     searchParams, 
@@ -74,16 +85,16 @@ export default function PodcastExplorer() {
   };
 
   return (
-    <div className="min-h-screen bg-green-50 font-['Montserrat',system-ui,sans-serif] text-gray-800 flex flex-col">
+    <div className="min-h-screen bg-gray-50 font-['Inter',system-ui,sans-serif] text-gray-800 flex flex-col">
       {/* Header */}
-      <header className="sticky top-0 z-50 bg-green-200 text-green-800 shadow-lg">
-        <div className="container mx-auto px-6 py-4 flex items-center justify-between">
+      <header className="sticky top-0 z-50 border-b border-gray-100 backdrop-blur-sm bg-rose-200">
+        <div className="container mx-auto px-4 sm:px-6 py-4 flex items-center justify-between">
           <div className="flex items-center">
             {/* Back button (shows only when viewing transcript or search results) */}
             {(view === 'transcript' || view === 'search') && (
               <button 
                 onClick={handleBack}
-                className="mr-4 p-3 rounded-full hover:bg-green-100 transition-colors"
+                className="mr-3 p-2 rounded-full hover:bg-gray-100 transition-colors"
                 aria-label="Back"
               >
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
@@ -92,18 +103,18 @@ export default function PodcastExplorer() {
               </button>
             )}
             
-            <h1 className="text-xl font-semibold tracking-tight">
-              {view === 'episodes' ? 'Podcast Explorer' : 
+            <h1 className="text-xl font-medium text-gray-900">
+              {view === 'episodes' ? 'Bliss and Grit Podcast Explorer' : 
                view === 'transcript' ? `Episode ${selectedEpisode?.episodeNumber}: ${selectedEpisode?.title}` : 
                'Search Results'}
             </h1>
           </div>
           
-          <div className="flex space-x-4">
+          <div className="flex space-x-3">
             {/* Global search button */}
             <form 
               onSubmit={handleSearch}
-              className="flex items-center bg-white border border-green-300 shadow-sm hover:shadow-md rounded-full transition-all"
+              className="flex items-center bg-gray-50 border border-gray-200 rounded-full transition-all"
             >
               <input
                 type="text"
@@ -112,15 +123,15 @@ export default function PodcastExplorer() {
                 value={searchParams.query}
                 onChange={handleSearchChange}
                 placeholder="Search podcasts..."
-                className="py-3 pl-5 pr-2 bg-transparent rounded-l-full w-44 focus:w-64 focus:outline-none transition-all duration-300"
+                className="py-2 pl-4 pr-2 bg-transparent rounded-l-full w-40 sm:w-48 focus:w-56 focus:outline-none transition-all duration-300"
               />
               <button
                 type="submit"
-                className="p-3 rounded-full text-green-700"
+                className="p-2 rounded-full text-gray-500"
                 aria-label="Search"
               >
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                 </svg>
               </button>
             </form>
@@ -128,18 +139,18 @@ export default function PodcastExplorer() {
             {/* Toggle filter button */}
             <button
               onClick={() => setFiltersExpanded(!filtersExpanded)}
-              className="p-3 rounded-full bg-white border border-green-300 shadow-sm hover:shadow-md transition-all relative text-green-700"
+              className="p-2 rounded-full bg-gray-50 border border-gray-200 relative text-gray-500"
               aria-label="Toggle filters"
             >
               <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 4a1 1 0 011-1h16a1 1 0 011 1v2.586a1 1 0 01-.293.707l-6.414 6.414a1 1 0 00-.293.707V17l-4 4v-6.586a1 1 0 00-.293-.707L3.293 7.293A1 1 0 013 6.586V4z" />
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 4a1 1 0 011-1h16a1 1 0 011 1v2.586a1 1 0 01-.293.707l-6.414 6.414a1 1 0 00-.293.707V17l-4 4v-6.586a1 1 0 00-.293-.707L3.293 7.293A1 1 0 013 6.586V4z" />
               </svg>
               
               {/* Indicator dot for active filters */}
               {Object.values(searchParams).some(value => 
                 value !== '' && value !== false && value !== true && value !== searchParams.query
               ) && (
-                <span className="absolute top-2 right-2 h-3 w-3 bg-amber-400 rounded-full"></span>
+                <span className="absolute top-1 right-1 h-2 w-2 bg-indigo-500 rounded-full"></span>
               )}
             </button>
           </div>
@@ -152,19 +163,19 @@ export default function PodcastExplorer() {
               initial={{ height: 0, opacity: 0 }}
               animate={{ height: 'auto', opacity: 1 }}
               exit={{ height: 0, opacity: 0 }}
-              className="bg-green-100 overflow-hidden shadow-inner border-t border-green-200"
+              className="bg-white border-t border-gray-100 overflow-hidden"
             >
-              <div className="container mx-auto px-6 py-6">
-                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-6 gap-5">
+              <div className="container mx-auto px-4 sm:px-6 py-6">
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-6 gap-4">
                   <div>
-                    <label className="block text-sm text-green-800 mb-2 font-medium">
+                    <label className="block text-sm text-gray-500 mb-1.5 font-medium">
                       Speaker
                     </label>
                     <select
                       name="speaker"
                       value={searchParams.speaker}
                       onChange={handleSearchChange}
-                      className="w-full p-3 rounded-xl bg-white border border-green-300 text-green-800 focus:ring-2 focus:ring-green-200 focus:border-green-400 focus:outline-none transition-all shadow-sm"
+                      className="w-full p-2.5 rounded-lg bg-gray-50 border border-gray-200 text-gray-800 focus:ring-1 focus:ring-indigo-200 focus:border-indigo-300 focus:outline-none transition-all"
                     >
                       <option value="">All Speakers</option>
                       {speakers.map(speaker => (
@@ -176,7 +187,7 @@ export default function PodcastExplorer() {
                   </div>
                   
                   <div>
-                    <label className="block text-sm text-green-800 mb-2 font-medium">
+                    <label className="block text-sm text-gray-500 mb-1.5 font-medium">
                       Episode #
                     </label>
                     <input
@@ -185,12 +196,12 @@ export default function PodcastExplorer() {
                       value={searchParams.episodeNumber}
                       onChange={handleSearchChange}
                       placeholder="e.g. 42"
-                      className="w-full p-3 rounded-xl bg-white border border-green-300 text-green-800 placeholder-green-500 focus:ring-2 focus:ring-green-200 focus:border-green-400 focus:outline-none transition-all shadow-sm"
+                      className="w-full p-2.5 rounded-lg bg-gray-50 border border-gray-200 text-gray-800 placeholder-gray-400 focus:ring-1 focus:ring-indigo-200 focus:border-indigo-300 focus:outline-none transition-all"
                     />
                   </div>
                   
                   <div>
-                    <label className="block text-sm text-green-800 mb-2 font-medium">
+                    <label className="block text-sm text-gray-500 mb-1.5 font-medium">
                       Episode Title
                     </label>
                     <input
@@ -199,12 +210,12 @@ export default function PodcastExplorer() {
                       value={searchParams.episodeTitle}
                       onChange={handleSearchChange}
                       placeholder="Keywords..."
-                      className="w-full p-3 rounded-xl bg-white border border-green-300 text-green-800 placeholder-green-500 focus:ring-2 focus:ring-green-200 focus:border-green-400 focus:outline-none transition-all shadow-sm"
+                      className="w-full p-2.5 rounded-lg bg-gray-50 border border-gray-200 text-gray-800 placeholder-gray-400 focus:ring-1 focus:ring-indigo-200 focus:border-indigo-300 focus:outline-none transition-all"
                     />
                   </div>
                   
                   <div>
-                    <label className="block text-sm text-green-800 mb-2 font-medium">
+                    <label className="block text-sm text-gray-500 mb-1.5 font-medium">
                       Start Time
                     </label>
                     <input
@@ -213,12 +224,12 @@ export default function PodcastExplorer() {
                       value={searchParams.timeStart}
                       onChange={handleSearchChange}
                       placeholder="HH:MM:SS"
-                      className="w-full p-3 rounded-xl bg-white border border-green-300 text-green-800 placeholder-green-500 focus:ring-2 focus:ring-green-200 focus:border-green-400 focus:outline-none transition-all shadow-sm"
+                      className="w-full p-2.5 rounded-lg bg-gray-50 border border-gray-200 text-gray-800 placeholder-gray-400 focus:ring-1 focus:ring-indigo-200 focus:border-indigo-300 focus:outline-none transition-all"
                     />
                   </div>
                   
                   <div>
-                    <label className="block text-sm text-green-800 mb-2 font-medium">
+                    <label className="block text-sm text-gray-500 mb-1.5 font-medium">
                       End Time
                     </label>
                     <input
@@ -227,7 +238,7 @@ export default function PodcastExplorer() {
                       value={searchParams.timeEnd}
                       onChange={handleSearchChange}
                       placeholder="HH:MM:SS"
-                      className="w-full p-3 rounded-xl bg-white border border-green-300 text-green-800 placeholder-green-500 focus:ring-2 focus:ring-green-200 focus:border-green-400 focus:outline-none transition-all shadow-sm"
+                      className="w-full p-2.5 rounded-lg bg-gray-50 border border-gray-200 text-gray-800 placeholder-gray-400 focus:ring-1 focus:ring-indigo-200 focus:border-indigo-300 focus:outline-none transition-all"
                     />
                   </div>
                   
@@ -236,14 +247,14 @@ export default function PodcastExplorer() {
                       <button
                         type="button"
                         onClick={resetSearch}
-                        className="px-5 py-3 bg-white border border-green-300 rounded-xl hover:bg-green-50 transition-all text-green-800 shadow-sm"
+                        className="px-4 py-2.5 bg-gray-50 border border-gray-200 rounded-lg hover:bg-gray-100 transition-all text-gray-700"
                       >
                         Reset
                       </button>
                       <button
                         type="button"
                         onClick={handleSearch}
-                        className="px-5 py-3 bg-green-400 rounded-xl hover:bg-green-500 transition-all text-white font-medium shadow-sm"
+                        className="px-4 py-2.5 bg-indigo-500 rounded-lg hover:bg-indigo-600 transition-all text-white"
                       >
                         Search
                       </button>
@@ -251,16 +262,15 @@ export default function PodcastExplorer() {
                   </div>
                 </div>
                 
-                <div className="mt-4 flex items-center bg-white p-3 rounded-xl shadow-sm inline-block ml-1">
-                  <input
-                    type="checkbox"
-                    name="fullEpisode"
-                    id="fullEpisode"
-                    checked={searchParams.fullEpisode}
-                    onChange={handleSearchChange}
-                    className="h-4 w-4 rounded bg-white border-green-400 text-green-500 focus:ring-green-300"
-                  />
-                  <label htmlFor="fullEpisode" className="ml-2 text-sm text-green-800 font-medium">
+                <div className="mt-4 flex items-center">
+                  <label className="flex items-center text-sm text-gray-600 font-medium cursor-pointer">
+                    <input
+                      type="checkbox"
+                      name="fullEpisode"
+                      checked={searchParams.fullEpisode}
+                      onChange={handleSearchChange}
+                      className="h-4 w-4 rounded bg-white border-gray-300 text-indigo-500 focus:ring-indigo-200 mr-2"
+                    />
                     Show full conversation context
                   </label>
                 </div>
@@ -273,49 +283,48 @@ export default function PodcastExplorer() {
       <main className="flex-grow">
         {/* Loading indicator */}
         {loading && (
-          <div className="fixed inset-0 bg-green-900 bg-opacity-20 backdrop-blur-sm flex items-center justify-center z-50">
-            <div className="bg-white p-8 rounded-2xl shadow-xl flex items-center space-x-5">
-              <svg className="animate-spin h-8 w-8 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+          <div className="fixed inset-0 bg-gray-900/20 backdrop-blur-sm flex items-center justify-center z-50">
+            <div className="bg-white p-6 rounded-xl shadow-lg flex items-center space-x-4">
+              <svg className="animate-spin h-6 w-6 text-indigo-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
                 <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
                 <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
               </svg>
-              <span className="text-lg font-medium text-green-800">Loading...</span>
+              <span className="font-medium text-gray-800">Loading...</span>
             </div>
           </div>
         )}
         
-        <div className="container mx-auto px-6 py-8">
+        <div className="container mx-auto px-4 sm:px-6 py-8">
           {/* Episodes View */}
           {view === 'episodes' && (
-            <div className="space-y-8">
-              <h2 className="text-2xl font-medium text-green-800 mb-8">Browse Episodes</h2>
+            <div>
+              <h2 className="text-2xl font-medium text-gray-800 mb-8">Browse Episodes</h2>
               
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+              {/* Episode Cards */}
+              
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
                 {episodes.map(episode => (
                   <motion.div
                     key={episode.id}
-                    whileHover={{ y: -5 }}
-                    className="bg-white rounded-2xl shadow-md overflow-hidden cursor-pointer border border-green-100 transition-all hover:shadow-lg"
+                    whileHover={{ y: -12, transition: { duration: 0.01 } }}
+                    className="bg-white rounded-xl overflow-hidden cursor-pointer hover:transition-all hover:shadow-2xl shadow-lg border border-slate-400"
                     onClick={() => handleLoadTranscript(episode)}
                   >
-                    <div className={`h-36 p-8 bg-gradient-to-br ${getEpisodeImagePlaceholder(episode.episodeNumber)} flex items-center justify-center`}>
-                      <span className="text-4xl font-bold text-white opacity-90">#{episode.episodeNumber}</span>
+                    <div className={`h-32 flex items-center justify-center bg-rose-300`}>
+                      <span className="text-5xl font-bold text-white opacity-90">{episode.episodeNumber}</span>
                     </div>
-                    <div className="p-6">
-                      <h3 className="font-semibold text-lg mb-3 line-clamp-2 text-green-800">
+                    <div className="p-5">
+                      <h3 className="font-medium italic text-lg mb-2 line-clamp-2 text-gray-800">
                         {episode.title}
                       </h3>
-                      <div className="flex items-center text-sm text-green-600">
-                        <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                        </svg>
+                      <div className="flex items-center text-sm text-gray-500">
                         {formatDate(episode.publishDate)}
                       </div>
-                      <div className="mt-5 pt-4 border-t border-green-100 flex justify-between items-center">
-                        <span className="inline-flex items-center text-sm font-medium text-green-600 hover:text-green-800 transition-colors">
+                      <div className="mt-4 pt-3 border-t border-gray-100 flex justify-between items-center">
+                        <span className="inline-flex items-center text-sm font-medium text-black hover:text-rose-400 transition-colors">
                           View Transcript
                           <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                           </svg>
                         </span>
                       </div>
@@ -328,48 +337,48 @@ export default function PodcastExplorer() {
           
           {/* Transcript View */}
           {view === 'transcript' && selectedEpisode && (
-            <div className="max-w-4xl mx-auto bg-white rounded-3xl shadow-lg overflow-hidden border border-green-100">
-              <div className="bg-green-300 text-green-800 p-8">
-                <h2 className="text-2xl font-medium">
-                  <span className="text-green-700 font-normal">Episode {selectedEpisode.episodeNumber}</span>
-                  <br />
-                  {selectedEpisode.title}
-                </h2>
-                <div className="mt-3 text-sm text-green-700 bg-white bg-opacity-50 inline-block px-3 py-1 rounded-full">
-                  {formatDate(selectedEpisode.publishDate)}
-                </div>
-              </div>
-              
+            <div className="max-w-4xl mx-auto bg-white rounded-xl shadow-sm overflow-hidden">
               <div 
                 ref={transcriptRef}
-                className="p-8 max-h-[calc(100vh-250px)] overflow-y-auto"
+                className="p-6 max-h-[calc(100vh-200px)] overflow-y-auto"
               >
                 {transcript.length > 0 ? (
-                  <div className="space-y-8">
+                  <div className="space-y-6">
                     {transcript.map((turn, index) => {
                       const prevSpeaker = index > 0 ? transcript[index - 1].speaker.id : null;
                       const isNewSpeaker = prevSpeaker !== turn.speaker.id;
-                      const speakerColor = getSpeakerColor(turn.speaker.id, transcript);
-                      const avatarColor = getSpeakerAvatarColor(turn.speaker.id, transcript);
+                      const isHost = turn.speaker?.id === transcript[0].speaker?.id;
                       
                       return (
-                        <div key={turn.id} className={`${isNewSpeaker ? 'mt-10' : 'mt-6'}`}>
+                        <div key={turn.id} className={`border p-2 border-slate-300 rounded-xl ${isNewSpeaker ? 'mt-8' : 'mt-4'}`}>
                           {isNewSpeaker && (
-                            <div className="flex items-center mb-3">
-                              <div className={`w-12 h-12 rounded-full flex items-center justify-center mr-3 shadow-md ${avatarColor}`}>
+                            <div className="flex items-center mb-2">
+                              <div className={`w-10 h-10 rounded-full flex items-center justify-center mr-3 ${isHost ? 'bg-rose-300' : 'bg-yellow-800'} text-white`}>
                                 {(turn.speaker.displayName || turn.speaker.name).charAt(0)}
                               </div>
-                              <div className="font-medium text-green-800 text-lg">
+                              <div className="font-medium text-gray-800">
                                 {turn.speaker.displayName || turn.speaker.name}
                               </div>
-                              <div className="ml-3 text-xs bg-green-100 text-green-700 px-3 py-1 rounded-full">
+                              <button 
+                                className="ml-2 text-xs text-slate-600 text-center py-1 px-2 rounded-2xl hover:bg-rose-200 flex items-center group cursor-pointer"
+                                onClick={(e) => {
+                                  e.stopPropagation();
+                                  const episodeId = selectedEpisode?.spotifyEpisodeId || getSpotifyId(selectedEpisode?.episodeNumber);
+                                  dispatchTimestampEvent(episodeId, turn.startTime);
+                                  setPlayerVisible(true);
+                                }}
+                              >
                                 {formatTime(turn.startTime)}
-                              </div>
+                                <svg xmlns="http://www.w3.org/2000/svg" className="h-3 w-3 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
+                                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                </svg>
+                              </button>
                             </div>
                           )}
-                          <div className="pl-14">
-                            <div className={`rounded-2xl p-6 border-2 shadow-sm ${speakerColor} ${isNewSpeaker ? 'rounded-tl-none' : ''}`}>
-                              <p className="text-gray-800 leading-relaxed tracking-wide" style={{ lineHeight: 1.8 }}>
+                          <div className="pl-12">
+                            <div className={`rounded-lg p-4 ${isHost ? 'bg-indigo-50' : 'bg-amber-50'} ${isNewSpeaker ? 'rounded-tl-none' : ''}`}>
+                              <p className="text-gray-700 text-sm leading-relaxed" style={{ lineHeight: 1.5 }}>
                                 {formatTextWithLineBreaks(turn.content)}
                               </p>
                             </div>
@@ -379,8 +388,8 @@ export default function PodcastExplorer() {
                     })}
                   </div>
                 ) : (
-                  <div className="text-center py-12">
-                    <div className="text-green-600">Loading transcript...</div>
+                  <div className="text-center py-10">
+                    <div className="text-gray-500">Loading transcript...</div>
                   </div>
                 )}
               </div>
@@ -391,28 +400,28 @@ export default function PodcastExplorer() {
           {view === 'search' && (
             <div>
               <div className="max-w-4xl mx-auto">
-                <div className="flex items-center justify-between mb-8">
-                  <h2 className="text-2xl font-medium text-green-800">
+                <div className="flex items-center justify-between mb-6">
+                  <h2 className="text-2xl font-medium text-gray-800">
                     Search Results
                   </h2>
-                  <div className="text-sm bg-green-100 text-green-700 px-4 py-2 rounded-full">
+                  <div className="text-sm bg-indigo-50 text-indigo-700 px-3 py-1 rounded-full">
                     {searchResults.length} matches found
                   </div>
                 </div>
                 
                 {searchResults.length > 0 ? (
-                  <div className="space-y-10">
+                  <div className="space-y-8">
                     {groupResultsByEpisode(searchResults).map(group => (
                       <div 
                         key={`episode-${group.episodeNumber}`}
-                        className="bg-white rounded-3xl shadow-md overflow-hidden border border-green-100"
+                        className="bg-white rounded-xl shadow-sm overflow-hidden"
                       >
-                        <div className="bg-gradient-to-r from-green-300 to-green-400 text-green-800 px-8 py-5">
+                        <div className="bg-gradient-to-r from-indigo-50 to-indigo-100 px-6 py-4 border-b border-indigo-100">
                           <div className="flex justify-between items-center">
-                            <h3 className="text-xl font-medium tracking-tight">
+                            <h3 className="text-lg font-medium text-gray-900">
                               Episode {group.episodeNumber}: {group.title}
                             </h3>
-                            <span className="text-sm bg-white/40 px-4 py-1 rounded-full">
+                            <span className="text-xs bg-white px-3 py-1 rounded-full text-indigo-600">
                               {group.items.length} match{group.items.length !== 1 ? 'es' : ''}
                             </span>
                           </div>
@@ -422,41 +431,43 @@ export default function PodcastExplorer() {
                                 episodeNumber: group.episodeNumber,
                                 title: group.title
                               })}
-                              className="text-sm flex items-center bg-white/60 hover:bg-white/90 transition-colors px-4 py-2 rounded-full text-green-700 shadow-sm"
+                              className="text-xs flex items-center text-indigo-600 hover:text-indigo-700 transition-colors"
                             >
                               <span>View Full Episode</span>
-                              <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                              <svg xmlns="http://www.w3.org/2000/svg" className="h-3.5 w-3.5 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                               </svg>
                             </button>
                           </div>
                         </div>
-                        <div className="p-8 space-y-6">
+                        <div className="p-6 space-y-5">
                           {group.items.map((item, index) => {
                             const prevSpeaker = index > 0 ? group.items[index - 1].speaker.id : null;
                             const isNewSpeaker = prevSpeaker !== item.speaker.id;
-                            const speakerColor = getSpeakerColor(item.speaker.id, group.items);
-                            const avatarColor = getSpeakerAvatarColor(item.speaker.id, group.items);
+                            const isHost = item.speaker?.id === group.items[0].speaker?.id;
                             
                             return (
-                              <div key={item.id} className={`${isNewSpeaker ? 'mt-8' : 'mt-5'}`}>
+                              <div key={item.id} className={`${isNewSpeaker ? 'mt-6' : 'mt-3'}`}>
                                 {isNewSpeaker && (
-                                  <div className="flex items-center mb-3">
-                                    <div className={`w-10 h-10 rounded-full flex items-center justify-center mr-3 shadow-md ${avatarColor}`}>
+                                  <div className="flex items-center  mb-2">
+                                    <div className={`w-8 h-8 rounded-full  flex items-center justify-center mr-2 ${isHost ? 'bg-indigo-500' : 'bg-amber-500'} text-white`}>
                                       {(item.speaker.displayName || item.speaker.name).charAt(0)}
                                     </div>
-                                    <div className="font-medium text-green-800">
+                                    <div className="font-medium text-gray-800 ">
                                       {item.speaker.displayName || item.speaker.name}
                                     </div>
-                                    <div className="ml-3 text-xs bg-green-100 text-green-700 px-3 py-1 rounded-full">
-                                      {formatTime(item.startTime)}
-                                    </div>
+                                  
                                   </div>
                                 )}
-                                <div className="pl-12">
-                                  <div className={`rounded-2xl p-5 border-2 shadow-sm ${speakerColor} ${isNewSpeaker ? 'rounded-tl-none' : ''}`}>
-                                    <p className="text-gray-800 leading-relaxed" style={{ lineHeight: 1.8 }}>
-                                      {highlightSearchTerms(item.content, searchParams.query)}
+                                <div className="pl-10 ">
+                                  <div className={`rounded-lg p-4  ${isHost ? 'bg-indigo-50' : 'bg-amber-50'} ${isNewSpeaker ? 'rounded-tl-none' : ''}`}>
+                                    <p className="text-gray-700 leading-relaxed" style={{ lineHeight: 1.7 }}>
+                                   <span onClick={(e) => {
+                                        e.stopPropagation();
+                                        const episodeId = getSpotifyId(group.episodeNumber);
+                                        dispatchTimestampEvent(episodeId, item.startTime);
+                                        setPlayerVisible(true);
+                                      }} className='text-xs cursor-pointer hover:font-bold mr-6'>{formatTime(item.startTime)}</span>{highlightSearchTerms(item.content, searchParams.query)}
                                     </p>
                                   </div>
                                 </div>
@@ -468,14 +479,14 @@ export default function PodcastExplorer() {
                     ))}
                   </div>
                 ) : (
-                  <div className="bg-white rounded-3xl shadow-md p-12 text-center border border-green-100">
-                    <div className="w-20 h-20 mx-auto mb-6 rounded-full bg-green-50 flex items-center justify-center shadow-inner">
-                      <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 text-green-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                  <div className="bg-white rounded-xl shadow-sm p-10 text-center">
+                    <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-gray-50 flex items-center justify-center">
+                      <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                       </svg>
                     </div>
-                    <h3 className="text-xl font-medium text-green-800 mb-3">No Results Found</h3>
-                    <p className="text-green-700 max-w-md mx-auto">Try adjusting your search terms or filters to find what you're looking for.</p>
+                    <h3 className="text-lg font-medium text-gray-800 mb-2">No Results Found</h3>
+                    <p className="text-gray-500 max-w-md mx-auto">Try adjusting your search terms or filters to find what you're looking for.</p>
                   </div>
                 )}
               </div>
@@ -485,11 +496,17 @@ export default function PodcastExplorer() {
       </main>
       
       {/* Footer */}
-      <footer className="mt-auto py-6 bg-green-100 border-t border-green-200">
-        <div className="container mx-auto px-6 text-center text-green-700">
-          <p className="text-sm">© {new Date().getFullYear()} Podcast Explorer</p>
+      <footer className="mt-auto py-5 border-t border-gray-100">
+        <div className="container mx-auto px-4 sm:px-6 text-center text-gray-500">
+          <p className="text-sm">© {new Date().getFullYear()} Bliss and Grit Podcast Explorer</p>
         </div>
       </footer>
+      
+      {/* Spotify Player */}
+      <SpotifyPlayer 
+        isVisible={playerVisible} 
+        onClose={() => setPlayerVisible(false)} 
+      />
     </div>
   );
 }

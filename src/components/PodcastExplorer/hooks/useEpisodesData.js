@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { episodeMap } from '../utils/episodeMap';
 
 /**
  * Custom hook to fetch episodes and speakers data
@@ -9,6 +10,8 @@ const useEpisodesData = () => {
   const [speakers, setSpeakers] = useState([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
+  
+
 
   useEffect(() => {
     const fetchInitialData = async () => {
@@ -25,7 +28,13 @@ const useEpisodesData = () => {
           const episodesData = await episodesRes.json();
           const speakersData = await speakersRes.json();
           
-          setEpisodes(episodesData.data || []);
+          // Enhance episodes with Spotify episode IDs if available
+          const enhancedEpisodes = episodesData.data.map(episode => ({
+            ...episode,
+            spotifyEpisodeId: episodeMap[episode.episodeNumber]?.id || null
+          }));
+          
+          setEpisodes(enhancedEpisodes || []);
           setSpeakers(speakersData.data || []);
         } else {
           throw new Error('Failed to fetch data');
@@ -41,11 +50,17 @@ const useEpisodesData = () => {
     fetchInitialData();
   }, []);
 
+  // Function to get Spotify ID for an episode number
+  const getSpotifyId = (episodeNumber) => {
+    return episodeMap[episodeNumber]?.id || null;
+  };
+
   return {
     episodes,
     speakers,
-    loading: loading,
-    error
+    loading,
+    error,
+    getSpotifyId
   };
 };
 

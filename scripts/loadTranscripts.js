@@ -6,7 +6,7 @@ const path = require('path');
 require('dotenv').config();
 
 // Either import episodeMap with require
-const { episodeMap } = require('./episodeMap');
+const { episodeMap } = require('../src/components/PodcastExplorer/utils/episodeMap');
 // OR use your embedded map (uncomment below if you had it embedded in the file)
 // const episodeMap = { 
 //   1: { episodeNumber: 1, episodeName: "Meet Vanessa", fileName: "" },

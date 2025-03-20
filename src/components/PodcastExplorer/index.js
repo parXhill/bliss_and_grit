@@ -25,8 +25,9 @@ import {
   groupResultsByEpisode
 } from './utils/styleUtils';
 
-// Components
-import SpotifyPlayer from '@/components/spotifyPlayer';
+// Components - Import the new components
+import SpotifyAuth from '../../components/SpotifyAuth';
+import SpotifySDKPlayer from '../../components/SpotifySDKPlayer';
 
 export default function PodcastExplorer() {
   // View state management
@@ -502,11 +503,16 @@ export default function PodcastExplorer() {
         </div>
       </footer>
       
-      {/* Spotify Player */}
-      <SpotifyPlayer 
-        isVisible={playerVisible} 
-        onClose={() => setPlayerVisible(false)} 
-      />
+      {/* Spotify Player - Replace with SDK player wrapped in Auth component */}
+      <SpotifyAuth>
+        {({ accessToken }) => (
+          <SpotifySDKPlayer 
+            isVisible={playerVisible}
+            onClose={() => setPlayerVisible(false)}
+            accessToken={accessToken}
+          />
+        )}
+      </SpotifyAuth>
     </div>
   );
 }

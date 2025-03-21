@@ -370,7 +370,7 @@ export default function PodcastExplorer() {
                                 {turn.speaker.displayName || turn.speaker.name}
                               </div>
                               <button 
-                                className="ml-2 text-xs text-slate-600 text-center py-1 px-2 rounded-2xl hover:bg-rose-200 flex items-center group cursor-pointer"
+                                className="ml-2 text-xs text-slate-600 text-center py-1 px-2 rounded-2xl hover:font-bold flex items-center group cursor-pointer"
                                 onClick={(e) => {
                                   e.stopPropagation();
                                   const episodeId = selectedEpisode?.spotifyEpisodeId || getSpotifyId(selectedEpisode?.episodeNumber);
@@ -379,7 +379,7 @@ export default function PodcastExplorer() {
                                 }}
                               >
                                 {formatTime(turn.startTime)}
-                                <svg xmlns="http://www.w3.org/2000/svg" className="h-3 w-3 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 bg-green-300 border rounded-full ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
                                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                                 </svg>
@@ -433,6 +433,7 @@ export default function PodcastExplorer() {
                                 title: group.title
                               })} className="text-lg cursor-pointer hover:underline font-medium text-gray-900 col-span-7">
                               Episode {group.episodeNumber}: {group.title}
+                              
                             </h3>
                             <span className="text-xs bg-white px-3 py-1 rounded-full text-[#773C40]">
                               {group.items.length} match{group.items.length !== 1 ? 'es' : ''}
@@ -477,7 +478,12 @@ export default function PodcastExplorer() {
                                         const episodeId = getSpotifyId(group.episodeNumber);
                                         dispatchTimestampEvent(episodeId, item.startTime);
                                         setPlayerVisible(true);
-                                      }} className='text-xs ml-3 cursor-pointer hover:font-bold'>{formatTime(item.startTime)}</span>
+                                      }} className='text-xs ml-3 flex flex-row-reverse gap-x-1 items-center justify-between cursor-pointer hover:font-bold'>{formatTime(item.startTime)}
+                                          <svg xmlns="http://www.w3.org/2000/svg" className="bg-green-300 h-4 w-4 border rounded-full ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
+                                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                </svg>
+                                </span>
                                   
                                 
                                 <div className="pl-10 ">

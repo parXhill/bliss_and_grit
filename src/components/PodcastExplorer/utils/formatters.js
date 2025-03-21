@@ -61,7 +61,7 @@ export const highlightSearchTerms = (text, searchQuery) => {
   });
   
   // Apply line breaks after highlighting
-  highlightedText = formatTextWithLineBreaksHTML(highlightedText);
+  //highlightedText = formatTextWithLineBreaksHTML(highlightedText);
   
   return <span dangerouslySetInnerHTML={{ __html: highlightedText }} />;
 };

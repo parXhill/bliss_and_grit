@@ -19,7 +19,7 @@ export const getEpisodeImagePlaceholder = (episodeNumber) => {
 // Get speaker color for message bubbles
 export const getSpeakerColor = (speakerId, items) => {
   const isHost = items && items.length > 0 && items[0].speaker?.id === speakerId;
-  return isHost ? 'bg-green-50 border-green-300 text-green-800' : 'bg-amber-50 border-amber-300 text-amber-800';
+  return isHost ? 'bg-green-50 border-green-300 text-green-800' : 'bg-indigo-50 border-amber-300 text-amber-800';
 };
 
 // Get speaker avatar color

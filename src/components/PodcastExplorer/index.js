@@ -3,6 +3,8 @@
 import { useState } from 'react';
 import React from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { Nunito } from "next/font/google";
+
 
 // Custom hooks
 import useEpisodesData from './hooks/useEpisodesData';
@@ -28,6 +30,13 @@ import {
 // Components - Import the new components
 import SpotifyAuth from '../../components/SpotifyAuth';
 import SpotifySDKPlayer from '../../components/SpotifySDKPlayer';
+
+
+const nunito = Nunito({
+  variable: "--font-nunito",
+  subsets: ["latin"],
+});
+
 
 export default function PodcastExplorer() {
   // View state management
@@ -86,9 +95,9 @@ export default function PodcastExplorer() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50 font-['Inter',system-ui,sans-serif] text-gray-800 flex flex-col">
-      {/* Header */}
-      <header className="sticky top-0 z-50 border-b border-gray-100 backdrop-blur-sm bg-rose-200">
+<div className={`min-h-screen bg-gray-50 text-gray-800 ${nunito.className}  flex flex-col ${nunito.variable}`}>
+{/* Header */}
+      <header className="sticky top-0 z-50 border-b border-gray-100 backdrop-blur-sm bg-[#773C40]">
         <div className="container mx-auto px-4 sm:px-6 py-4 flex items-center justify-between">
           <div className="flex items-center">
             {/* Back button (shows only when viewing transcript or search results) */}
@@ -104,7 +113,7 @@ export default function PodcastExplorer() {
               </button>
             )}
             
-            <h1 className="text-xl font-medium text-gray-900">
+            <h1 className="text-xl font-medium text-white">
               {view === 'episodes' ? 'Bliss and Grit Podcast Explorer' : 
                view === 'transcript' ? `Episode ${selectedEpisode?.episodeNumber}: ${selectedEpisode?.title}` : 
                'Search Results'}
@@ -123,7 +132,7 @@ export default function PodcastExplorer() {
                 ref={searchInputRef}
                 value={searchParams.query}
                 onChange={handleSearchChange}
-                placeholder="Search podcasts..."
+                placeholder="Search by keyword..."
                 className="py-2 pl-4 pr-2 bg-transparent rounded-l-full w-40 sm:w-48 focus:w-56 focus:outline-none transition-all duration-300"
               />
               <button
@@ -286,7 +295,7 @@ export default function PodcastExplorer() {
         {loading && (
           <div className="fixed inset-0 bg-gray-900/20 backdrop-blur-sm flex items-center justify-center z-50">
             <div className="bg-white p-6 rounded-xl shadow-lg flex items-center space-x-4">
-              <svg className="animate-spin h-6 w-6 text-indigo-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+              <svg className="animate-spin h-6 w-6 text-black" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
                 <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
                 <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
               </svg>
@@ -303,7 +312,7 @@ export default function PodcastExplorer() {
               
               {/* Episode Cards */}
               
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10">
                 {episodes.map(episode => (
                   <motion.div
                     key={episode.id}
@@ -311,7 +320,7 @@ export default function PodcastExplorer() {
                     className="bg-white rounded-xl overflow-hidden cursor-pointer hover:transition-all hover:shadow-2xl shadow-lg border border-slate-400"
                     onClick={() => handleLoadTranscript(episode)}
                   >
-                    <div className={`h-32 flex items-center justify-center bg-rose-300`}>
+                    <div className={`h-32 flex items-center justify-center bg-[#773C40]`}>
                       <span className="text-5xl font-bold text-white opacity-90">{episode.episodeNumber}</span>
                     </div>
                     <div className="p-5">
@@ -378,7 +387,7 @@ export default function PodcastExplorer() {
                             </div>
                           )}
                           <div className="pl-12">
-                            <div className={`rounded-lg p-4 ${isHost ? 'bg-indigo-50' : 'bg-amber-50'} ${isNewSpeaker ? 'rounded-tl-none' : ''}`}>
+                            <div className={`rounded-lg p-4 ${isHost ? 'bg-white' : 'bg-white'} ${isNewSpeaker ? 'rounded-tl-none' : ''}`}>
                               <p className="text-gray-700 text-sm leading-relaxed" style={{ lineHeight: 1.5 }}>
                                 {formatTextWithLineBreaks(turn.content)}
                               </p>
@@ -400,12 +409,12 @@ export default function PodcastExplorer() {
           {/* Search Results View */}
           {view === 'search' && (
             <div>
-              <div className="max-w-4xl mx-auto">
+              <div className="max-w-6xl mx-auto">
                 <div className="flex items-center justify-between mb-6">
-                  <h2 className="text-2xl font-medium text-gray-800">
+                  <h2 className="text-4xl font-bold text-gray-800">
                     Search Results
                   </h2>
-                  <div className="text-sm bg-indigo-50 text-indigo-700 px-3 py-1 rounded-full">
+                  <div className="text-md font-bold bg-white text-[#773C40] px-3 py-1 rounded-full">
                     {searchResults.length} matches found
                   </div>
                 </div>
@@ -415,63 +424,74 @@ export default function PodcastExplorer() {
                     {groupResultsByEpisode(searchResults).map(group => (
                       <div 
                         key={`episode-${group.episodeNumber}`}
-                        className="bg-white rounded-xl shadow-sm overflow-hidden"
+                        className="bg-white rounded-lg shadow-lg"
                       >
-                        <div className="bg-gradient-to-r from-indigo-50 to-indigo-100 px-6 py-4 border-b border-indigo-100">
-                          <div className="flex justify-between items-center">
-                            <h3 className="text-lg font-medium text-gray-900">
+                        <div className="px-6 py-2 border-b border-indigo-100">
+                          <div className="grid grid-cols-8">
+                            <h3 onClick={() => handleLoadTranscript({
+                                episodeNumber: group.episodeNumber,
+                                title: group.title
+                              })} className="text-lg cursor-pointer hover:underline font-medium text-gray-900 col-span-7">
                               Episode {group.episodeNumber}: {group.title}
                             </h3>
-                            <span className="text-xs bg-white px-3 py-1 rounded-full text-indigo-600">
+                            <span className="text-xs bg-white px-3 py-1 rounded-full text-[#773C40]">
                               {group.items.length} match{group.items.length !== 1 ? 'es' : ''}
                             </span>
-                          </div>
-                          <div className="mt-3 flex justify-end">
+                          
+                          {/* <div className="flex justify-end">
                             <button 
                               onClick={() => handleLoadTranscript({
                                 episodeNumber: group.episodeNumber,
                                 title: group.title
                               })}
-                              className="text-xs flex items-center text-indigo-600 hover:text-indigo-700 transition-colors"
+                              className="text-xs flex items-center text-[#773C40] hover:text-indigo-700 transition-colors cursor-pointer"
                             >
-                              <span>View Full Episode</span>
+                              <span>Episode</span>
                               <svg xmlns="http://www.w3.org/2000/svg" className="h-3.5 w-3.5 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                               </svg>
                             </button>
-                          </div>
+                          </div> */}
                         </div>
-                        <div className="p-6 space-y-5">
+                        </div>
+                        <div className="px-6">
                           {group.items.map((item, index) => {
                             const prevSpeaker = index > 0 ? group.items[index - 1].speaker.id : null;
                             const isNewSpeaker = prevSpeaker !== item.speaker.id;
                             const isHost = item.speaker?.id === group.items[0].speaker?.id;
                             
                             return (
-                              <div key={item.id} className={`${isNewSpeaker ? 'mt-6' : 'mt-3'}`}>
+                              <div key={item.id} className={`${isNewSpeaker ? 'mt-1' : 'mt-1'} flex`}>
                                 {isNewSpeaker && (
-                                  <div className="flex items-center  mb-2">
-                                    <div className={`w-8 h-8 rounded-full  flex items-center justify-center mr-2 ${isHost ? 'bg-indigo-500' : 'bg-amber-500'} text-white`}>
+                                  <div className="flex items-center m-1">
+                                    {/* <div className={`w-8 h-8 rounded-full  flex items-center justify-center mr-2 ${isHost ? 'bg-indigo-500' : 'bg-white'} text-white`}>
                                       {(item.speaker.displayName || item.speaker.name).charAt(0)}
-                                    </div>
-                                    <div className="font-medium text-gray-800 ">
+                                    </div> */}
+                                    <div className="font-medium text-nowrap text-gray-800 ">
                                       {item.speaker.displayName || item.speaker.name}
                                     </div>
-                                  
-                                  </div>
-                                )}
-                                <div className="pl-10 ">
-                                  <div className={`rounded-lg p-4  ${isHost ? 'bg-indigo-50' : 'bg-amber-50'} ${isNewSpeaker ? 'rounded-tl-none' : ''}`}>
-                                    <p className="text-gray-700 leading-relaxed" style={{ lineHeight: 1.7 }}>
-                                   <span onClick={(e) => {
+
+
+                                      <span onClick={(e) => {
                                         e.stopPropagation();
                                         const episodeId = getSpotifyId(group.episodeNumber);
                                         dispatchTimestampEvent(episodeId, item.startTime);
                                         setPlayerVisible(true);
-                                      }} className='text-xs cursor-pointer hover:font-bold mr-6'>{formatTime(item.startTime)}</span>{highlightSearchTerms(item.content, searchParams.query)}
+                                      }} className='text-xs ml-3 cursor-pointer hover:font-bold'>{formatTime(item.startTime)}</span>
+                                  
+                                
+                                <div className="pl-10 ">
+                                  <div className={`rounded-lg   ${isHost ? 'bg-white' : 'bg-white'} ${isNewSpeaker ? 'rounded-tl-none' : ''}`}>
+                                    <p className="text-gray-700 leading-relaxed" style={{ lineHeight: 1.3 }}>
+                                      {highlightSearchTerms(item.content, searchParams.query)}
                                     </p>
                                   </div>
-                                </div>
+                                </div> 
+                                
+                                 </div>
+                                )}
+
+
                               </div>
                             );
                           })}

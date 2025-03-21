@@ -301,7 +301,7 @@ const SpotifySDKPlayer = ({
   if (!isVisible) return null;
 
   return (
-    <div className="fixed bottom-10 left-10 right-0 h-auto bg-white shadow-lg z-50 rounded-lg w-[40vw]">
+    <div className="fixed bottom-10 left-10 right-0 h-auto bg-[#773C40] shadow-lg z-50 rounded-lg w-[40vw] opacity-95">
       <div className="container mx-auto p-4">
         <div className="flex items-center justify-between mb-4">
           <div className="flex items-center">
@@ -375,15 +375,20 @@ const SpotifySDKPlayer = ({
             </div>
           </div>
         )}
+
+        
         
         {currentTrack ? (
           <div className="flex items-center mb-4">
+
+          
+            
             {currentTrack.image && (
               <img src={currentTrack.image} alt="Album art" className="w-16 h-16 rounded mr-4" />
             )}
             <div className="flex-1">
-              <h3 className="font-medium">{currentTrack.name}</h3>
-              <p className="text-gray-600 text-sm">{currentTrack.artists}</p>
+              <h3 className="font-medium text-white">{currentTrack.name}</h3>
+              <p className="text-gray-500 text-sm">{currentTrack.artists}</p>
               
               {/* Custom time display showing elapsed time */}
               <div className="mt-2 flex items-center">
@@ -411,19 +416,12 @@ const SpotifySDKPlayer = ({
                 </div>
               </div>
             </div>
-          </div>
-        ) : (
-          <div className="py-3 text-center text-gray-500">
-            {!currentEpisodeId ? 
-              "Click on a timestamp to start playing" : 
-              "Preparing to play your podcast..."}
-          </div>
-        )}
-        
-        <div className="flex justify-center mb-2">
+
+
+            <div className="flex justify-center mb-2">
           <button 
             onClick={togglePlay}
-            className={`rounded-full p-3 focus:outline-none ${currentTrack ? 'bg-green-500 hover:bg-green-600 text-white' : 'bg-gray-200 text-gray-400 cursor-not-allowed'}`}
+            className={`rounded-full p-3 focus:outline-none ${currentTrack ? 'bg-black cursor-pointer hover:bg-green-600 text-white' : 'bg-gray-200 text-gray-400 cursor-not-allowed'}`}
             disabled={!currentTrack || !isReady}
           >
             {isPaused ? (
@@ -437,6 +435,18 @@ const SpotifySDKPlayer = ({
             )}
           </button>
         </div>
+
+
+          </div>
+        ) : (
+          <div className="py-3 text-center text-gray-500">
+            {!currentEpisodeId ? 
+              "Click on a timestamp to start playing" : 
+              "Preparing to play your podcast..."}
+          </div>
+        )}
+        
+  
         
         <div className="text-center text-xs text-gray-500">
           {!isReady && !error && (

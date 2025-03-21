@@ -513,7 +513,7 @@ export default function PodcastExplorer() {
                       </svg>
                     </div>
                     <h3 className="text-lg font-medium text-gray-800 mb-2">No Results Found</h3>
-                    <p className="text-gray-500 max-w-md mx-auto">Try adjusting your search terms or filters to find what you are looking for.</p>
+                    <p className="text-gray-500 max-w-md mx-auto">Try adjusting your search terms or filters.</p>
                   </div>
                 )}
               </div>

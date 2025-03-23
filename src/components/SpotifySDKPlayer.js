@@ -19,6 +19,11 @@ const SpotifySDKPlayer = ({
   const [sdkLoaded, setSdkLoaded] = useState(false);
   const [transferringPlayback, setTransferringPlayback] = useState(false);
   
+  // Add a ref to track if a transfer is in progress to prevent duplicates
+  const transferInProgress = useRef(false);
+  // Add a ref to track the last requested episode/timestamp to prevent duplicates
+  const lastPlayRequest = useRef({ episodeId: null, timestamp: null });
+  
   // Helper function to format time as MM:SS
   const formatTime = (seconds) => {
     const mins = Math.floor(seconds / 60);
@@ -89,77 +94,91 @@ const SpotifySDKPlayer = ({
 
     newPlayer.addListener('playback_error', ({ message }) => {
       console.error('Playback error:', message);
-      setError(`Playback error: ${message}`);
+      // Ignore the "PlayLoad event failed" error since it doesn't affect playback
+      if (!message.includes('PlayLoad event failed')) {
+        setError(`Playback error: ${message}`);
+      }
     });
 
-    // Ready state handling
+    // Ready state handling with debounce to prevent double initialization
     newPlayer.addListener('ready', ({ device_id }) => {
       console.log('Spotify player ready with device ID:', device_id);
       setDeviceId(device_id);
-      setIsReady(true);
-      setIsLoading(false);
       
-      // Automatically transfer playback to this device
-      if (currentEpisodeId) {
-        transferPlayback(device_id, currentEpisodeId, currentTimestamp);
-      }
+      // Add a longer delay on first load to ensure the player is fully ready
+      const readyDelay = isFirstLoad ? 1000 : 300;
+      
+      // Add a small delay before declaring player ready to ensure all systems are go
+      setTimeout(() => {
+        setIsReady(true);
+        setIsLoading(false);
+        
+        // Automatically transfer playback to this device if needed
+        if (currentEpisodeId) {
+          // We need a slightly longer delay before playing on first load
+          setTimeout(() => {
+            transferPlayback(device_id, currentEpisodeId, currentTimestamp);
+          }, isFirstLoad ? 500 : 0);
+        }
+      }, readyDelay);
     });
 
     // Not ready state handling
     newPlayer.addListener('not_ready', ({ device_id }) => {
       console.log('Device ID is no longer ready:', device_id);
       setIsReady(false);
+      transferInProgress.current = false; // Reset transfer status
     });
 
-newPlayer.addListener('player_state_changed', (state) => {
-  if (!state) {
-    console.log('No player state available');
-    return;
-  }
-  
-  setIsPaused(state.paused);
-  
-  // Update playback position (in milliseconds)
-  const elapsedMs = state.position;
-  const durationMs = state.duration;
-  
-  // Check if this is a podcast/episode
-  const isEpisode = state.track_window?.current_track?.type === 'episode';
-  
-  // For debugging
-  console.log('Player state changed:', {
-    trackType: state.track_window?.current_track?.type,
-    trackName: state.track_window?.current_track?.name,
-    paused: state.paused,
-    isEpisode
-  });
-  
-  // Get current track details
-  if (state.track_window?.current_track) {
-    // Extract track URI to get episode ID if it's an episode
-    const trackUri = state.track_window.current_track.uri || '';
-    const episodeIdMatch = trackUri.match(/spotify:episode:(.+)$/);
-    
-    if (episodeIdMatch && episodeIdMatch[1]) {
-      console.log('Episode ID from state change:', episodeIdMatch[1]);
-      setCurrentEpisodeId(episodeIdMatch[1]);
-    }
-    
-    setCurrentTrack({
-      name: state.track_window.current_track.name,
-      artists: isEpisode 
-        ? state.track_window.current_track.album.name || 'Podcast'
-        : state.track_window.current_track.artists.map(artist => artist.name).join(', '),
-      image: state.track_window.current_track.album.images[0]?.url,
-      elapsedMs: elapsedMs,
-      durationMs: durationMs,
-      elapsedFormatted: formatTime(Math.floor(elapsedMs / 1000)),
-      durationFormatted: formatTime(Math.floor(durationMs / 1000))
+    newPlayer.addListener('player_state_changed', (state) => {
+      if (!state) {
+        console.log('No player state available');
+        return;
+      }
+      
+      setIsPaused(state.paused);
+      
+      // Update playback position (in milliseconds)
+      const elapsedMs = state.position;
+      const durationMs = state.duration;
+      
+      // Check if this is a podcast/episode
+      const isEpisode = state.track_window?.current_track?.type === 'episode';
+      
+      // For debugging
+      console.log('Player state changed:', {
+        trackType: state.track_window?.current_track?.type,
+        trackName: state.track_window?.current_track?.name,
+        paused: state.paused,
+        isEpisode
+      });
+      
+      // Get current track details
+      if (state.track_window?.current_track) {
+        // Extract track URI to get episode ID if it's an episode
+        const trackUri = state.track_window.current_track.uri || '';
+        const episodeIdMatch = trackUri.match(/spotify:episode:(.+)$/);
+        
+        if (episodeIdMatch && episodeIdMatch[1]) {
+          console.log('Episode ID from state change:', episodeIdMatch[1]);
+          setCurrentEpisodeId(episodeIdMatch[1]);
+        }
+        
+        setCurrentTrack({
+          name: state.track_window.current_track.name,
+          artists: isEpisode 
+            ? state.track_window.current_track.album.name || 'Podcast'
+            : state.track_window.current_track.artists.map(artist => artist.name).join(', '),
+          image: state.track_window.current_track.album.images[0]?.url,
+          elapsedMs: elapsedMs,
+          durationMs: durationMs,
+          elapsedFormatted: formatTime(Math.floor(elapsedMs / 1000)),
+          durationFormatted: formatTime(Math.floor(durationMs / 1000))
+        });
+      }
     });
-  }
-});
 
-    // Connect to the player
+    // Connect to the player with better error handling
     console.log('Connecting to Spotify...');
     newPlayer.connect()
       .then(success => {
@@ -224,9 +243,78 @@ newPlayer.addListener('player_state_changed', (state) => {
     }
   };
   
-  // Modified transferPlayback function with proper state synchronization
+  // Retry playback function
+  const retryPlayback = async (deviceId, episodeId, timeMs, retryCount = 0) => {
+    if (retryCount > 2) {
+      console.warn('Max retry attempts reached for playback');
+      return;
+    }
+    
+    try {
+      console.log(`Retry attempt ${retryCount + 1} for episode ${episodeId}`);
+      
+      // Wait a bit longer between retries
+      await new Promise(resolve => setTimeout(resolve, 1000));
+      
+      const playResponse = await fetch(`https://api.spotify.com/v1/me/player/play?device_id=${deviceId}`, {
+        method: 'PUT',
+        headers: {
+          'Authorization': `Bearer ${accessToken}`,
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+          uris: [`spotify:episode:${episodeId}`],
+          position_ms: timeMs * 1000
+        })
+      });
+      
+      if (!playResponse.ok) {
+        throw new Error(`Retry failed with status: ${playResponse.status}`);
+      }
+      
+      console.log('Retry playback successful');
+      await fetchAndUpdateCurrentEpisode(episodeId);
+      setIsPaused(false);
+    } catch (error) {
+      console.error(`Retry attempt ${retryCount + 1} failed:`, error);
+      // Recursive retry with increased count
+      if (retryCount < 2) {
+        await retryPlayback(deviceId, episodeId, timeMs, retryCount + 1);
+      }
+    }
+  };
+  
+  // Modified transferPlayback function with proper state synchronization and duplicate prevention
   const transferPlayback = async (deviceId, episodeId, timeMs) => {
-    if (!deviceId || !episodeId) return;
+    // Add duplicate request protection
+    if (
+      lastPlayRequest.current.episodeId === episodeId && 
+      lastPlayRequest.current.timestamp === timeMs &&
+      Date.now() - lastPlayRequest.current.time < 2000
+    ) {
+      console.log('Duplicate play request ignored');
+      return;
+    }
+    
+    // Update last request
+    lastPlayRequest.current = { 
+      episodeId, 
+      timestamp: timeMs, 
+      time: Date.now() 
+    };
+    
+    if (!deviceId || !episodeId) {
+      console.error('Missing deviceId or episodeId for playback');
+      return;
+    }
+    
+    // Check if a transfer is already in progress
+    if (transferInProgress.current) {
+      console.log('Transfer already in progress, aborting new request');
+      return;
+    }
+    
+    transferInProgress.current = true;
     
     try {
       console.log(`Transferring playback to device ${deviceId} for episode ${episodeId} at ${timeMs}ms`);
@@ -235,8 +323,65 @@ newPlayer.addListener('player_state_changed', (state) => {
       // First, update the component state to reflect the requested episode
       setCurrentEpisodeId(episodeId);
       
-      // Try direct play approach
+      // For first load or if we're still initializing, try two-step process first
+      if (isFirstLoad || !player || !isReady) {
+        console.log('Using two-step process for first load or initialization');
+        
+        try {
+          // Step 1: Set active device
+          const transferResponse = await fetch('https://api.spotify.com/v1/me/player', {
+            method: 'PUT',
+            headers: {
+              'Authorization': `Bearer ${accessToken}`,
+              'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+              device_ids: [deviceId],
+              play: false
+            })
+          });
+          
+          if (!transferResponse.ok) {
+            console.warn(`Device transfer failed with status: ${transferResponse.status}, but continuing anyway`);
+          }
+          
+          // Wait for device transfer to complete
+          await new Promise(resolve => setTimeout(resolve, 1500));
+          
+          // Step 2: Play content
+          const playResponse = await fetch('https://api.spotify.com/v1/me/player/play', {
+            method: 'PUT',
+            headers: {
+              'Authorization': `Bearer ${accessToken}`,
+              'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+              uris: [`spotify:episode:${episodeId}`],
+              position_ms: timeMs * 1000
+            })
+          });
+          
+          if (!playResponse.ok) {
+            throw new Error(`Play content failed with status: ${playResponse.status}`);
+          }
+          
+          console.log('Two-step playback successful on first load');
+          
+          // Important: fetch episode details to update UI manually
+          await fetchAndUpdateCurrentEpisode(episodeId);
+          setIsPaused(false);
+          return;
+        } catch (twoStepError) {
+          console.log('Two-step approach failed, trying direct play:', twoStepError);
+          // Fall through to direct play approach
+        }
+      }
+      
+      // Try direct play approach (default for non-first loads)
       try {
+        // Add a small delay before the API call to ensure the SDK is ready
+        await new Promise(resolve => setTimeout(resolve, 300));
+        
         const playResponse = await fetch(`https://api.spotify.com/v1/me/player/play?device_id=${deviceId}`, {
           method: 'PUT',
           headers: {
@@ -250,7 +395,7 @@ newPlayer.addListener('player_state_changed', (state) => {
         });
         
         if (!playResponse.ok) {
-          console.log(`Direct play failed with status: ${playResponse.status}. Will try device transfer first.`);
+          console.log(`Direct play failed with status: ${playResponse.status}. Will try retry mechanism.`);
           throw new Error('Direct play failed');
         }
         
@@ -262,60 +407,32 @@ newPlayer.addListener('player_state_changed', (state) => {
         setIsPaused(false);
         return;
       } catch (directPlayError) {
-        console.log('Trying alternative approach with device transfer first');
+        console.log('Direct play failed, trying retry mechanism');
+        // Call the retry function here
+        await retryPlayback(deviceId, episodeId, timeMs);
+        return; // Return after retry attempts
       }
       
-      // Two-step approach
-      const transferResponse = await fetch('https://api.spotify.com/v1/me/player', {
-        method: 'PUT',
-        headers: {
-          'Authorization': `Bearer ${accessToken}`,
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({
-          device_ids: [deviceId],
-          play: false
-        })
-      });
-        
-      if (!transferResponse.ok) {
-        console.warn(`Device transfer failed with status: ${transferResponse.status}, but continuing anyway`);
-      }
-      
-      await new Promise(resolve => setTimeout(resolve, 1500));
-      
-      const finalPlayResponse = await fetch('https://api.spotify.com/v1/me/player/play', {
-        method: 'PUT',
-        headers: {
-          'Authorization': `Bearer ${accessToken}`,
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({
-          uris: [`spotify:episode:${episodeId}`],
-          position_ms: timeMs * 1000
-        })
-      });
-      
-      if (!finalPlayResponse.ok) {
-        throw new Error(`Play content failed with status: ${finalPlayResponse.status}`);
-      }
-      
-      console.log('Playback transfer successful via two-step process');
-      
-      // Important: fetch episode details to update UI manually
-      await fetchAndUpdateCurrentEpisode(episodeId);
-      
-      setIsPaused(false);
     } catch (error) {
       console.error('Error transferring playback:', error);
-      setError(`Playback error: ${error.message}`);
+      // Ignore 404 errors from PlayLoad event failures since they don't affect playback
+      if (!error.message?.includes('PlayLoad event failed')) {
+        setError(`Playback error: ${error.message}`);
+      }
     } finally {
       setTransferringPlayback(false);
+      transferInProgress.current = false;
     }
   };
 
-  // Listen for timestamp click events
+  // Track first load state
+  const [isFirstLoad, setIsFirstLoad] = useState(true);
+  const firstPlayAttemptRef = useRef(false);
+
+  // Listen for timestamp click events with debounce to prevent double firing
   useEffect(() => {
+    let timeoutId = null;
+    
     const handleTimestampClick = async (event) => {
       const { episodeId, timestamp } = event.detail;
       console.log('Timestamp clicked:', episodeId, timestamp);
@@ -325,27 +442,72 @@ newPlayer.addListener('player_state_changed', (state) => {
         return;
       }
       
-      setCurrentEpisodeId(episodeId);
-      setCurrentTimestamp(timestamp);
-      setIsLoading(true);
-      
-      // If the player is ready, transfer playback to it
-      if (isReady && deviceId) {
-        await transferPlayback(deviceId, episodeId, timestamp);
-      } else {
-        // Store the episode and timestamp for when the player becomes ready
-        console.log('Player not ready yet, storing episode info for later');
+      // Clear any existing timeout to implement debounce
+      if (timeoutId) {
+        clearTimeout(timeoutId);
       }
       
-      setIsLoading(false);
+      // Set a timeout to handle the click event
+      timeoutId = setTimeout(async () => {
+        setCurrentEpisodeId(episodeId);
+        setCurrentTimestamp(timestamp);
+        setIsLoading(true);
+        
+        // Check if this is the first play attempt
+        const isFirstPlayAttempt = isFirstLoad && !firstPlayAttemptRef.current;
+        firstPlayAttemptRef.current = true;
+        
+        if (isFirstPlayAttempt) {
+          console.log('First play attempt - using enhanced initialization');
+          
+          // For first load, wait a bit longer and ensure SDK is fully initialized
+          await new Promise(resolve => setTimeout(resolve, 1000));
+          
+          // First try - direct play with retry
+          if (deviceId) {
+            try {
+              await transferPlayback(deviceId, episodeId, timestamp);
+              // If successful, mark first load as complete
+              setIsFirstLoad(false);
+            } catch (err) {
+              console.log('First attempt failed, will retry shortly');
+              
+              // Second attempt with more delay
+              setTimeout(async () => {
+                try {
+                  if (deviceId) {
+                    await transferPlayback(deviceId, episodeId, timestamp);
+                  }
+                  setIsFirstLoad(false);
+                } catch (retryErr) {
+                  console.error('Retry also failed:', retryErr);
+                } finally {
+                  setIsLoading(false);
+                }
+              }, 2000);
+            }
+          }
+        } else if (isReady && deviceId) {
+          // Normal flow for subsequent plays
+          await transferPlayback(deviceId, episodeId, timestamp);
+        } else {
+          // Store the episode and timestamp for when the player becomes ready
+          console.log('Player not ready yet, storing episode info for later');
+        }
+        
+        setIsLoading(false);
+      }, 300); // 300ms debounce
     };
     
     window.addEventListener('spotify-timestamp-click', handleTimestampClick);
     
     return () => {
       window.removeEventListener('spotify-timestamp-click', handleTimestampClick);
+      if (timeoutId) {
+        clearTimeout(timeoutId);
+      }
     };
-  }, [isReady, deviceId, accessToken]);
+  }, [isReady, deviceId, accessToken, isFirstLoad]);
 
   // Add a timer to update progress periodically even when no state change events come in
   useEffect(() => {
@@ -548,14 +710,14 @@ newPlayer.addListener('player_state_changed', (state) => {
         ) : (
           <div className="py-3 text-center text-gray-500">
             {!currentEpisodeId ? 
-              "Click on a timestamp to start playing" : 
-              "Preparing to play your podcast..."}
+              "" : 
+              ""}
           </div>
         )}
         
   
         
-        <div className="text-center text-xs text-gray-500">
+        <div className="text-center text-lg text-white">
           {!isReady && !error && (
             <>
               <div className="animate-pulse">Initializing Spotify player...</div>

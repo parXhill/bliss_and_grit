@@ -50,15 +50,13 @@ const SpeakerSelector = ({ speakers, currentSpeaker, turnId, onSpeakerChange }) 
           {speakers.map((speaker) => (
             <div
               key={speaker.id}
-              className={`px-3 py-2 text-sm cursor-pointer hover:bg-rose-50 ${
-                speaker.id === currentSpeaker.id ? 'bg-rose-50 text-rose-600' : 'text-gray-700'
-              }`}
+              className={`px-3 py-2 text-sm cursor-pointer hover:bg-rose-50`}
               onClick={() => handleSpeakerChange(speaker.id)}
             >
               {speaker.displayName || speaker.name}
-              {speaker.id === currentSpeaker.id && (
+              {/* {speaker.id === currentSpeaker.id && (
                 <span className="ml-2 text-xs text-rose-500">•</span>
-              )}
+              )} */}
             </div>
           ))}
         </div>

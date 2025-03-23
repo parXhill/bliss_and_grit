@@ -14,6 +14,18 @@ const useSearch = () => {
     episodeTitle: '',
     fullEpisode: true
   });
+
+  const updateSearchResultSpeaker = (turnId, newSpeakerId, newSpeaker) => {
+    setSearchResults(prevResults => 
+      prevResults.map(result => 
+        result.id === turnId 
+          ? { ...result, speaker: newSpeaker || { id: newSpeakerId } }
+          : result
+      )
+    );
+    
+    return { success: true };
+  };
   
   const [searchResults, setSearchResults] = useState([]);
   const [loading, setLoading] = useState(false);
@@ -116,7 +128,8 @@ const useSearch = () => {
     performSearch,
     toggleFilters,
     focusSearch,
-    setFiltersExpanded
+    setFiltersExpanded,
+    updateSearchResultSpeaker
   };
 };
 

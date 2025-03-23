@@ -9,6 +9,18 @@ const useTranscript = () => {
   const [transcript, setTranscript] = useState([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
+
+  const updateTranscriptSpeaker = (turnId, newSpeakerId, newSpeaker) => {
+    setTranscript(prevTranscript => 
+      prevTranscript.map(turn => 
+        turn.id === turnId 
+          ? { ...turn, speaker: newSpeaker || { id: newSpeakerId } }
+          : turn
+      )
+    );
+    
+    return { success: true };
+  };
   
   // Ref for transcript container
   const transcriptRef = useRef(null);
@@ -56,7 +68,8 @@ const useTranscript = () => {
     loading,
     error,
     transcriptRef,
-    loadTranscript
+    loadTranscript,
+    updateTranscriptSpeaker
   };
 };
 

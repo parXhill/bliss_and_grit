@@ -35,31 +35,31 @@
 [0:02:33] SPEAKER_01: On occasion, Brooke and I concur.
 [0:02:35] SPEAKER_01: I don't think we did in this episode, but if you are in mixed company,
 [0:02:40] SPEAKER_01: you may want to pop in some headphones.
-[0:02:42] Unknown: OK, everyone, here we go.
-[0:02:51] Unknown: Hello, Brooke.
-[0:03:09] SPEAKER_01: Hello there.
-[0:03:10] SPEAKER_01: Well, it's been a while because even though we recorded last week,
-[0:03:15] Unknown: this is our first time recording alone in, I don't know, seven weeks.
+[0:02:42] SPEAKER_00: OK, everyone, here we go.
+[0:02:51] SPEAKER_01: Hello, Brooke.
+[0:03:09] SPEAKER_00: Hello there.
+[0:03:10] SPEAKER_00: Well, it's been a while because even though we recorded last week,
+[0:03:15] SPEAKER_00: this is our first time recording alone in, I don't know, seven weeks.
 [0:03:20] SPEAKER_01: Yeah, a really long time.
 [0:03:23] SPEAKER_01: Yeah, it's like a long overdue hangout, even though we've talked
 [0:03:26] SPEAKER_01: and actually hung out in between.
-[0:03:27] Unknown: But yeah, I know.
-[0:03:29] SPEAKER_01: Let's see how rusty we are.
-[0:03:31] SPEAKER_01: Let's do let's, especially considering we're both feeling a little under the weather.
-[0:03:36] SPEAKER_01: So it's perfect. It's all perfectly designed.
-[0:03:39] Unknown: Well, hi, y'all.
-[0:03:42] SPEAKER_01: It's so nice to reconnect again.
+[0:03:27] SPEAKER_00: But yeah, I know.
+[0:03:29] SPEAKER_00: Let's see how rusty we are.
+[0:03:31] SPEAKER_00: Let's do let's, especially considering we're both feeling a little under the weather.
+[0:03:36] SPEAKER_00: So it's perfect. It's all perfectly designed.
+[0:03:39] SPEAKER_00: Well, hi, y'all.
+[0:03:42] SPEAKER_00: It's so nice to reconnect again.
 [0:03:44] SPEAKER_01: And today, what we want to talk about is living from truth.
 [0:03:51] SPEAKER_01: And that's just one very shortcut way to say it.
 [0:03:55] SPEAKER_01: We'll get into it a little bit deeper as we go.
 [0:03:57] SPEAKER_01: But maybe the easiest way is for me to start with a story
 [0:04:02] SPEAKER_01: as to why this feels relevant so we can speak about it
 [0:04:05] SPEAKER_01: from that experiential lens that we love so much.
-[0:04:09] Unknown: So, hmm, I guess a few months back now.
+[0:04:09] SPEAKER_01: So, hmm, I guess a few months back now.
 [0:04:14] SPEAKER_01: I had an experience.
 [0:04:15] SPEAKER_01: I was speaking to a mentor of mine and I was at a crossroads.
 [0:04:20] SPEAKER_01: I had to make a decision about something.
-[0:04:23] Unknown: And my mentor was like, well, what do you want to do?
+[0:04:23] SPEAKER_01: And my mentor was like, well, what do you want to do?
 [0:04:30] SPEAKER_01: Now, that sounds like an awfully simple question, right?
 [0:04:35] SPEAKER_01: But what I was confronted with in that moment, as I really kind of froze
 [0:04:40] SPEAKER_01: in my tracks, is like as they were asking me with that level of intensity,
@@ -86,12 +86,12 @@
 [0:05:54] SPEAKER_01: The challenge was in the owning and the expression of it.
 [0:05:59] SPEAKER_01: I don't even know if I had fully owned it to myself,
 [0:06:03] SPEAKER_01: but certainly to express it out loud.
-[0:06:06] Unknown: And. What came of that circumstance was once I had executed
+[0:06:06] SPEAKER_01: And. What came of that circumstance was once I had executed
 [0:06:12] SPEAKER_01: what I really wanted, what was true for me,
 [0:06:15] SPEAKER_01: even though it was challenging, even though it challenged
 [0:06:19] SPEAKER_01: my identity structures, it challenged my thoughts
 [0:06:22] SPEAKER_01: about what a good person would want and so on and so forth.
-[0:06:27] Unknown: I felt incredibly free, almost like, I don't know,
+[0:06:27] SPEAKER_01: I felt incredibly free, almost like, I don't know,
 [0:06:33] SPEAKER_01: I don't know.
 [0:06:34] SPEAKER_01: A new flow of energy was coming into my being.
 [0:06:39] SPEAKER_01: And it was the first time I really got clear, like, wow.
@@ -99,11 +99,11 @@
 [0:06:48] SPEAKER_01: So it got me thinking back to
 [0:06:51] SPEAKER_01: when did we go see Adi Ashanti that summer in Ithaca?
 [0:06:54] SPEAKER_01: Was that last year or the year before?
-[0:06:56] SPEAKER_01: The year before, because this summer are only real good
-[0:07:00] SPEAKER_01: today was New Jersey. So it was the year before. Yeah.
+[0:06:56] SPEAKER_00: The year before, because this summer are only real good
+[0:07:00] SPEAKER_00: today was New Jersey. So it was the year before. Yeah.
 [0:07:03] SPEAKER_01: Well, we went to see Adi Ashanti.
-[0:07:05] Unknown: I don't even know. I'm like, wait, so was that we went to see Adi Ashanti
-[0:07:10] Unknown: a little bit back in Ithaca, and he was talking about spiritual autonomy.
+[0:07:05] SPEAKER_01: I don't even know. I'm like, wait, so was that we went to see Adi Ashanti
+[0:07:10] SPEAKER_01: a little bit back in Ithaca, and he was talking about spiritual autonomy.
 [0:07:16] SPEAKER_01: And the whole talk was about truth and living from truth
 [0:07:20] SPEAKER_01: and embodying truth in your life.
 [0:07:22] SPEAKER_01: And he said, you know, so many people, I'm going to paraphrase this,
@@ -117,10 +117,10 @@
 [0:07:49] SPEAKER_01: the quickest way to live a life that's based in truth.
 [0:07:53] SPEAKER_01: Tell the truth. Be honest.
 [0:07:56] SPEAKER_01: And I was like, what? No.
-[0:08:00] Unknown: I mean, I will.
+[0:08:00] SPEAKER_01: I mean, I will.
 [0:08:04] SPEAKER_01: I think it stood out in my mind because my small self
 [0:08:09] SPEAKER_01: personality structures always been
-[0:08:13] Unknown: wired to not be confrontational.
+[0:08:13] SPEAKER_01: wired to not be confrontational.
 [0:08:19] SPEAKER_01: Or if that's funny, people who know me would not agree with that.
 [0:08:22] SPEAKER_01: There's some truth and there's not sometimes I've mistakenly been confrontational.
 [0:08:26] SPEAKER_01: But when I can think about it, it's always been wired
@@ -128,7 +128,7 @@
 [0:08:33] SPEAKER_01: or what may be hard choices.
 [0:08:35] SPEAKER_01: And so when you said that, I was like, so just tell the truth.
 [0:08:40] SPEAKER_01: And you think to yourself, how could that really mean
-[0:08:44] Unknown: I'd be aligned with truth to tell the truth?
+[0:08:44] SPEAKER_01: I'd be aligned with truth to tell the truth?
 [0:08:48] SPEAKER_01: Like, is it as simple as that?
 [0:08:50] SPEAKER_01: But when I have this experience and I've had others since
 [0:08:53] SPEAKER_01: and I've worked with some clients in the same domain,
@@ -138,195 +138,195 @@
 [0:09:09] SPEAKER_01: to see where we're still hooked by our conditioning and then let it go
 [0:09:13] SPEAKER_01: so we can evolve into new states of consciousness and understanding.
 [0:09:18] SPEAKER_01: The living path is going to prevent that, present you with all of these
-[0:09:23] Unknown: crossroads, and it's going to say, beloved,
+[0:09:23] SPEAKER_01: crossroads, and it's going to say, beloved,
 [0:09:27] SPEAKER_01: can you choose the truth now? How about now?
 [0:09:31] SPEAKER_01: And I think we can talk more about the ego itself or the protective
 [0:09:36] SPEAKER_01: personality and how it got set up to move away from truth.
 [0:09:41] SPEAKER_01: But I just thought it was really a fascinating thing to talk about.
-[0:09:44] Unknown: Yeah. And I've been up against that some, I mean, plenty.
-[0:09:49] SPEAKER_01: But I mean, in recent, recent history.
-[0:09:53] SPEAKER_01: And what comes to mind, because there's so many avenues we can take with this.
-[0:09:57] SPEAKER_01: One of the things that comes to mind, that's like a misunderstanding
-[0:10:01] SPEAKER_01: about what the spiritual path is, like your definition
-[0:10:04] SPEAKER_01: that you just spoke of the living path is so.
-[0:10:08] SPEAKER_01: Succinct and powerful and right on.
-[0:10:11] SPEAKER_01: And what I've seen when it comes to turning away from the truth
-[0:10:16] SPEAKER_01: is that often there can be an idea that the spiritual path
-[0:10:21] SPEAKER_01: is about better tolerating literally everything
-[0:10:26] SPEAKER_01: and not being triggered by literally anything.
-[0:10:29] SPEAKER_01: And I've seen this so commonly so we can see how that would
-[0:10:33] SPEAKER_01: send us down one particular fork in the road away from from truth.
-[0:10:38] SPEAKER_01: And actually.
-[0:10:42] SPEAKER_01: If we go to the far reaches of that,
-[0:10:45] SPEAKER_01: there's ways that we're putting ourselves in harm's way,
-[0:10:48] SPEAKER_01: even if it's emotionally in harm's way, right?
-[0:10:50] SPEAKER_01: Like, I don't like being around this person,
-[0:10:53] SPEAKER_01: but they really like being around me.
-[0:10:56] Unknown: So I'm going to keep hanging out with this person
-[0:11:00] SPEAKER_01: because a spiritual person would be able to tolerate
-[0:11:05] SPEAKER_01: what it is that annoys me or whatever.
-[0:11:08] SPEAKER_01: And so what you're describing is a very nice, precise clarification
-[0:11:14] Unknown: that we're talking about for any individual human being
-[0:11:19] SPEAKER_01: with the actual life circumstances that they're presented in
-[0:11:22] SPEAKER_01: in any given moment.
-[0:11:24] SPEAKER_01: What is true for them in that moment?
-[0:11:28] SPEAKER_01: And that it takes a tremendous amount of courage
-[0:11:30] SPEAKER_01: because what we're doing is going against our conditioning
-[0:11:36] Unknown: and we're going against our egos,
-[0:11:39] SPEAKER_01: our egos,
-[0:11:42] SPEAKER_01: especially for those of us who have a ton of conditioning about,
-[0:11:46] SPEAKER_01: like you were saying, not hurting people's feelings, being liked.
-[0:11:50] SPEAKER_01: And we're culturally like the United States
-[0:11:53] SPEAKER_01: has like a huge hang up with being liked.
-[0:11:56] SPEAKER_01: That's why celebrity culture is so huge here.
-[0:11:58] SPEAKER_01: It's one of the reasons.
-[0:12:02] SPEAKER_01: Yeah, not hurting people's feelings, being liked.
-[0:12:05] SPEAKER_01: And for those of us who are on a spiritual path
-[0:12:07] SPEAKER_01: or we would describe ourselves that way, being the good one.
-[0:12:11] SPEAKER_01: And then what is the conditioned idea of what the good one is?
-[0:12:15] SPEAKER_01: The good one is never gets emotionally triggered.
-[0:12:18] SPEAKER_01: So can just be in the wind tunnel of anything
-[0:12:23] SPEAKER_01: or can tolerate anything.
-[0:12:25] SPEAKER_01: And that's what compassion is.
-[0:12:26] SPEAKER_01: So they can just let themselves be exposed to things that in truth
-[0:12:34] SPEAKER_01: they would prefer not to be exposed to.
-[0:12:38] SPEAKER_01: And in some circles, they would call what you're describing
-[0:12:42] SPEAKER_01: the spiritual super ego.
-[0:12:44] Unknown: And I it's funny, I
+[0:09:44] SPEAKER_00: Yeah. And I've been up against that some, I mean, plenty.
+[0:09:49] SPEAKER_00: But I mean, in recent, recent history.
+[0:09:53] SPEAKER_00: And what comes to mind, because there's so many avenues we can take with this.
+[0:09:57] SPEAKER_00: One of the things that comes to mind, that's like a misunderstanding
+[0:10:01] SPEAKER_00: about what the spiritual path is, like your definition
+[0:10:04] SPEAKER_00: that you just spoke of the living path is so.
+[0:10:08] SPEAKER_00: Succinct and powerful and right on.
+[0:10:11] SPEAKER_00: And what I've seen when it comes to turning away from the truth
+[0:10:16] SPEAKER_00: is that often there can be an idea that the spiritual path
+[0:10:21] SPEAKER_00: is about better tolerating literally everything
+[0:10:26] SPEAKER_00: and not being triggered by literally anything.
+[0:10:29] SPEAKER_00: And I've seen this so commonly so we can see how that would
+[0:10:33] SPEAKER_00: send us down one particular fork in the road away from from truth.
+[0:10:38] SPEAKER_00: And actually.
+[0:10:42] SPEAKER_00: If we go to the far reaches of that,
+[0:10:45] SPEAKER_00: there's ways that we're putting ourselves in harm's way,
+[0:10:48] SPEAKER_00: even if it's emotionally in harm's way, right?
+[0:10:50] SPEAKER_00: Like, I don't like being around this person,
+[0:10:53] SPEAKER_00: but they really like being around me.
+[0:10:56] SPEAKER_00: So I'm going to keep hanging out with this person
+[0:11:00] SPEAKER_00: because a spiritual person would be able to tolerate
+[0:11:05] SPEAKER_00: what it is that annoys me or whatever.
+[0:11:08] SPEAKER_00: And so what you're describing is a very nice, precise clarification
+[0:11:14] SPEAKER_00: that we're talking about for any individual human being
+[0:11:19] SPEAKER_00: with the actual life circumstances that they're presented in
+[0:11:22] SPEAKER_00: in any given moment.
+[0:11:24] SPEAKER_00: What is true for them in that moment?
+[0:11:28] SPEAKER_00: And that it takes a tremendous amount of courage
+[0:11:30] SPEAKER_00: because what we're doing is going against our conditioning
+[0:11:36] SPEAKER_00: and we're going against our egos,
+[0:11:39] SPEAKER_00: our egos,
+[0:11:42] SPEAKER_00: especially for those of us who have a ton of conditioning about,
+[0:11:46] SPEAKER_00: like you were saying, not hurting people's feelings, being liked.
+[0:11:50] SPEAKER_00: And we're culturally like the United States
+[0:11:53] SPEAKER_00: has like a huge hang up with being liked.
+[0:11:56] SPEAKER_00: That's why celebrity culture is so huge here.
+[0:11:58] SPEAKER_00: It's one of the reasons.
+[0:12:02] SPEAKER_00: Yeah, not hurting people's feelings, being liked.
+[0:12:05] SPEAKER_00: And for those of us who are on a spiritual path
+[0:12:07] SPEAKER_00: or we would describe ourselves that way, being the good one.
+[0:12:11] SPEAKER_00: And then what is the conditioned idea of what the good one is?
+[0:12:15] SPEAKER_00: The good one is never gets emotionally triggered.
+[0:12:18] SPEAKER_00: So can just be in the wind tunnel of anything
+[0:12:23] SPEAKER_00: or can tolerate anything.
+[0:12:25] SPEAKER_00: And that's what compassion is.
+[0:12:26] SPEAKER_00: So they can just let themselves be exposed to things that in truth
+[0:12:34] SPEAKER_00: they would prefer not to be exposed to.
+[0:12:38] SPEAKER_00: And in some circles, they would call what you're describing
+[0:12:42] SPEAKER_00: the spiritual super ego.
+[0:12:44] SPEAKER_01: And I it's funny, I
 [0:12:47] SPEAKER_01: I don't think I would have conceptualized it myself as someone
 [0:12:51] SPEAKER_01: who had a spiritual super ego being active.
 [0:12:54] SPEAKER_01: But in that moment, I could see like the little bits of it, because, you know,
 [0:12:59] SPEAKER_01: I was already a fawn or by nature, a people pleaser by nature.
-[0:13:03] Unknown: And by nature, I really mean by by small self design conditioning.
-[0:13:10] Unknown: And and then I went and I studied a lot of Buddhism
+[0:13:03] SPEAKER_01: And by nature, I really mean by by small self design conditioning.
+[0:13:10] SPEAKER_01: And and then I went and I studied a lot of Buddhism
 [0:13:15] SPEAKER_01: and I followed a lot of teachings and you get all that messaging, right?
 [0:13:20] SPEAKER_01: Compassion, forgiveness, tolerance, acceptance, even the suffering of others.
 [0:13:24] SPEAKER_01: All that Tonglen kind of can get misinterpreted in this way.
 [0:13:28] SPEAKER_01: Right. And then my small self can take these things that are valid.
 [0:13:32] SPEAKER_01: Valuable teachings on states of consciousness and being
 [0:13:39] SPEAKER_01: and turn it into, oh, I'm supposed to just martyr myself.
-[0:13:46] Unknown: Yeah. Right. And.
-[0:13:51] SPEAKER_01: I guess let's talk about how this works.
-[0:13:55] SPEAKER_01: I have like my mind's going in two different directions, but let's
-[0:13:58] SPEAKER_01: let's talk about how it forms a little bit.
-[0:14:02] SPEAKER_01: Because what we can see is when we do something that's not true for us,
-[0:14:08] SPEAKER_01: let's say, stay at the job that we really despise because we think we should
-[0:14:15] SPEAKER_01: or stay in a relationship that's not healthy for us or not desired by us
-[0:14:21] SPEAKER_01: because we want to be a good person or we want to help someone, you know, whatever it is.
-[0:14:26] SPEAKER_01: Whenever we do something that's not true for us, what I've noticed is
-[0:14:30] Unknown: we have free will to do that, but there are consequences to it.
-[0:14:36] SPEAKER_01: Life gets more complicated.
-[0:14:39] SPEAKER_01: Your energy levels get affected.
-[0:14:41] SPEAKER_01: Your health gets affected.
-[0:14:43] SPEAKER_01: Your nervous system gets affected.
-[0:14:46] SPEAKER_01: Yet, if many of us are honest, there's probably two phases.
-[0:14:51] SPEAKER_01: There's a phase where we're so asleep to our conditioning, we don't even see it.
-[0:14:55] SPEAKER_01: If we're asleep enough to our conditioning and we don't see it, there is no choice.
-[0:15:00] SPEAKER_01: Right. There is no choice.
-[0:15:01] SPEAKER_01: We're just operating out of the deep, unconscious habits that were handed to us.
-[0:15:06] SPEAKER_01: Yeah.
-[0:15:07] SPEAKER_01: By other people with deep, unconscious habits.
-[0:15:08] SPEAKER_01: The patterns are just driving the bus and we don't realize it.
-[0:15:12] SPEAKER_01: But then if we wake up enough to say, hey, something's going on here,
-[0:15:16] SPEAKER_01: there's some pattern that's running, then we start to have a choice.
-[0:15:20] SPEAKER_01: We can choose to do what is the most aligned choice,
-[0:15:23] SPEAKER_01: the truthiest truth we can find at the moment.
-[0:15:26] SPEAKER_01: Or we can choose to uphold whatever feels right,
-[0:15:31] SPEAKER_01: quote unquote, easy, appropriate, spiritual.
-[0:15:37] SPEAKER_01: But when we don't choose what's honestly true, we see consequences.
-[0:15:41] SPEAKER_01: So then why isn't this easier?
-[0:15:44] SPEAKER_01: I mean, if you think about the fact that consciousness was always enlightened,
-[0:15:48] SPEAKER_01: consciousness was always awake.
-[0:15:50] SPEAKER_01: I don't know exactly why we come into this body.
-[0:15:53] SPEAKER_01: But my sense is we're coming here.
-[0:15:57] SPEAKER_01: And part of the game of life is its consciousness, knowing itself and waking up to itself.
-[0:16:02] SPEAKER_01: Why isn't this easier?
-[0:16:03] SPEAKER_01: Why is living from truth so complex?
-[0:16:06] SPEAKER_01: And so there's a lot of reasons for that.
-[0:16:08] SPEAKER_01: But, you know, one of the things I was thinking about in in looking at this
-[0:16:13] Unknown: with my clients was when I think about the protective personality
-[0:16:18] SPEAKER_01: or the small self or the ego, whatever we want to call it.
-[0:16:22] SPEAKER_01: I think about it's a safety strategy, right?
-[0:16:25] SPEAKER_01: It's a safety strategy born out of separation consciousness.
-[0:16:30] SPEAKER_01: Yeah. So I have to protect myself because myself is separate than you.
-[0:16:35] SPEAKER_01: And what are we protecting then?
-[0:16:39] SPEAKER_01: Like, what is the strategy?
-[0:16:40] Unknown: So almost always, I think, and this is something I'm thinking about sort of in real time.
-[0:16:46] SPEAKER_01: But I think that we get the message that to be true to ourselves,
-[0:16:52] SPEAKER_01: would incur a cost.
-[0:16:54] SPEAKER_01: And that's not 100 percent across the board.
-[0:16:56] SPEAKER_01: Maybe if you have a really good sense of humor, you're allowed to laugh liberally in your life.
-[0:17:01] SPEAKER_01: There's no danger around that.
-[0:17:03] SPEAKER_01: But in some way, shape or form, we get the message that if we were honest about our feelings
-[0:17:08] SPEAKER_01: or if we honestly articulated our needs or if we were who we were,
-[0:17:14] SPEAKER_01: you know, opinionated, loud, funny, brash, confident,
-[0:17:20] SPEAKER_01: whatever that was, if we were who we were,
-[0:17:24] SPEAKER_01: something that we don't want to happen would happen.
-[0:17:27] SPEAKER_01: There would be some unsafe consequence, whether it's physical or emotional.
-[0:17:31] Unknown: So then I realized, like, wow, almost like if you look at it from a kind of global perspective,
-[0:17:40] SPEAKER_01: the whole strategy of the small self is don't be true.
-[0:17:49] SPEAKER_01: Don't be true. And I'm also pondering this in real time.
-[0:17:52] SPEAKER_01: Don't be true if it goes against your conditioned programming.
-[0:17:56] SPEAKER_01: So if we don't be true, if truth, in whatever way that is the case, would create perceived harm.
-[0:18:06] SPEAKER_01: Right. So like I said, you can laugh if laughing is accepted in your family of origin.
-[0:18:11] SPEAKER_01: You can pitch a fit if pitching fits are accepted in your.
-[0:18:14] SPEAKER_01: But if saying what you need isn't welcomed in your right.
-[0:18:18] SPEAKER_01: Then we can see that that's rare, you know, culturally rare.
-[0:18:21] SPEAKER_01: If you can imagine some fantasy family unit where everyone had all of Brene's Brown's work
-[0:18:27] SPEAKER_01: hooked to their veins from a young age.
-[0:18:30] SPEAKER_01: And it was like, this is how you're true and this is how you're vulnerable.
-[0:18:34] SPEAKER_01: But also while standing in yourself and not flinging it at other people.
-[0:18:37] SPEAKER_01: If that was the norm, like if we can imagine a very healthy family unit
-[0:18:42] Unknown: by way of imagining a very healthy culture, then being true and be so threatening,
-[0:18:47] SPEAKER_01: it would just be what we do.
-[0:18:51] SPEAKER_01: But that's not what's going on.
-[0:18:52] Unknown: So it has to hit up against some perceived survival threat in the nervous system,
-[0:18:59] SPEAKER_01: because these are the things that we got without choosing them when we were at an age
-[0:19:05] SPEAKER_01: when we couldn't choose them.
-[0:19:06] SPEAKER_01: So somewhere in the if we want to be real classical about it,
-[0:19:11] SPEAKER_01: somewhere in the zero to three range, you know, ego structure is, I mean, happens before them.
-[0:19:15] SPEAKER_01: But that's when it's all getting real deep wired in.
-[0:19:19] SPEAKER_01: You're taught, right?
-[0:19:20] SPEAKER_01: Like, don't and taught oftentimes by body language and behavior.
-[0:19:25] SPEAKER_01: Don't cry. It makes mom upset.
-[0:19:28] Unknown: All right. So I can't have needs much of the time because mom responds
-[0:19:35] SPEAKER_01: by losing her shit or shutting down.
-[0:19:38] SPEAKER_01: And I don't like it. So, OK, don't have needs.
-[0:19:41] SPEAKER_01: And that has to be because we're so vulnerable at those ages and our brain maturity
-[0:19:49] Unknown: and our consciousness maturity is, I think, once I say consciousness, I don't know for sure,
-[0:19:54] Unknown: but pretty young.
-[0:19:57] SPEAKER_01: There's a lot of how do I write?
-[0:20:00] SPEAKER_01: I show up as an infant. I was in the womb.
-[0:20:02] SPEAKER_01: The womb is just like pure unity consciousness. Right.
-[0:20:06] SPEAKER_01: Now I'm this person and I get hungry and I need to pee and I need to poo.
-[0:20:10] SPEAKER_01: And there's these other people.
-[0:20:12] SPEAKER_01: And we gradually over time learn like, I am.
-[0:20:15] SPEAKER_01: Oh, my God, I'm a separate person.
-[0:20:17] Unknown: How do the separate people seem to get through life?
-[0:20:21] SPEAKER_01: And then we mirror the people around us.
-[0:20:24] SPEAKER_01: So naturally, at a time when we were so vulnerable
-[0:20:28] SPEAKER_01: and we didn't have the adult awareness or the adult agency that we have now.
-[0:20:33] SPEAKER_01: Right. Like if your parents were a complete shit show and you're 18 months old.
-[0:20:37] SPEAKER_01: Sorry. Like, what are you going to do?
-[0:20:38] SPEAKER_01: Get an apartment across town?
-[0:20:40] Unknown: No. So you have to find ways to manage the environment.
-[0:20:47] SPEAKER_01: And that management feels, rightly so,
-[0:20:52] SPEAKER_01: like a matter of actual survival.
-[0:20:54] SPEAKER_01: How do we get through these human life things when I'm in this body?
-[0:20:59] SPEAKER_01: Oh, like that, you know, where we rage at people and then they do what we want.
-[0:21:04] SPEAKER_01: Or we shut down and always appease people.
-[0:21:07] SPEAKER_01: And then we get our way or we're seen as the good ones.
-[0:21:10] Unknown: There's a secondary gain, whatever it might be.
-[0:21:13] Unknown: So it's fun sometimes to at least bring in the ideal.
-[0:21:20] SPEAKER_01: If there were a world where people really understood this,
-[0:21:23] Unknown: we would all just be like, oh, this is true.
-[0:21:25] SPEAKER_01: And this is true. And this is true because we would believe in.
-[0:21:30] Unknown: The flow of life, not having errors, just being
-[0:21:36] SPEAKER_01: the life that we have, that it's living through us.
-[0:21:38] SPEAKER_01: And so we don't know why it's a mystery, but we're here to have certain kinds of experiences.
-[0:21:43] SPEAKER_01: Oh, right now it's saying no thank you to somebody who you don't like being with.
-[0:21:47] SPEAKER_01: Look at that. That's what showed up today. Huh.
-[0:21:50] Unknown: And you just live that one out.
+[0:13:46] SPEAKER_01: Yeah. Right. And.
+[0:13:51] SPEAKER_00: I guess let's talk about how this works.
+[0:13:55] SPEAKER_00: I have like my mind's going in two different directions, but let's
+[0:13:58] SPEAKER_00: let's talk about how it forms a little bit.
+[0:14:02] SPEAKER_00: Because what we can see is when we do something that's not true for us,
+[0:14:08] SPEAKER_00: let's say, stay at the job that we really despise because we think we should
+[0:14:15] SPEAKER_00: or stay in a relationship that's not healthy for us or not desired by us
+[0:14:21] SPEAKER_00: because we want to be a good person or we want to help someone, you know, whatever it is.
+[0:14:26] SPEAKER_00: Whenever we do something that's not true for us, what I've noticed is
+[0:14:30] SPEAKER_00: we have free will to do that, but there are consequences to it.
+[0:14:36] SPEAKER_00: Life gets more complicated.
+[0:14:39] SPEAKER_00: Your energy levels get affected.
+[0:14:41] SPEAKER_00: Your health gets affected.
+[0:14:43] SPEAKER_00: Your nervous system gets affected.
+[0:14:46] SPEAKER_00: Yet, if many of us are honest, there's probably two phases.
+[0:14:51] SPEAKER_00: There's a phase where we're so asleep to our conditioning, we don't even see it.
+[0:14:55] SPEAKER_00: If we're asleep enough to our conditioning and we don't see it, there is no choice.
+[0:15:00] SPEAKER_00: Right. There is no choice.
+[0:15:01] SPEAKER_00: We're just operating out of the deep, unconscious habits that were handed to us.
+[0:15:06] SPEAKER_00: Yeah.
+[0:15:07] SPEAKER_00: By other people with deep, unconscious habits.
+[0:15:08] SPEAKER_00: The patterns are just driving the bus and we don't realize it.
+[0:15:12] SPEAKER_00: But then if we wake up enough to say, hey, something's going on here,
+[0:15:16] SPEAKER_00: there's some pattern that's running, then we start to have a choice.
+[0:15:20] SPEAKER_00: We can choose to do what is the most aligned choice,
+[0:15:23] SPEAKER_00: the truthiest truth we can find at the moment.
+[0:15:26] SPEAKER_00: Or we can choose to uphold whatever feels right,
+[0:15:31] SPEAKER_00: quote unquote, easy, appropriate, spiritual.
+[0:15:37] SPEAKER_00: But when we don't choose what's honestly true, we see consequences.
+[0:15:41] SPEAKER_00: So then why isn't this easier?
+[0:15:44] SPEAKER_00: I mean, if you think about the fact that consciousness was always enlightened,
+[0:15:48] SPEAKER_00: consciousness was always awake.
+[0:15:50] SPEAKER_00: I don't know exactly why we come into this body.
+[0:15:53] SPEAKER_00: But my sense is we're coming here.
+[0:15:57] SPEAKER_00: And part of the game of life is its consciousness, knowing itself and waking up to itself.
+[0:16:02] SPEAKER_00: Why isn't this easier?
+[0:16:03] SPEAKER_00: Why is living from truth so complex?
+[0:16:06] SPEAKER_00: And so there's a lot of reasons for that.
+[0:16:08] SPEAKER_00: But, you know, one of the things I was thinking about in in looking at this
+[0:16:13] SPEAKER_00: with my clients was when I think about the protective personality
+[0:16:18] SPEAKER_00: or the small self or the ego, whatever we want to call it.
+[0:16:22] SPEAKER_00: I think about it's a safety strategy, right?
+[0:16:25] SPEAKER_00: It's a safety strategy born out of separation consciousness.
+[0:16:30] SPEAKER_00: Yeah. So I have to protect myself because myself is separate than you.
+[0:16:35] SPEAKER_00: And what are we protecting then?
+[0:16:39] SPEAKER_00: Like, what is the strategy?
+[0:16:40] SPEAKER_00: So almost always, I think, and this is something I'm thinking about sort of in real time.
+[0:16:46] SPEAKER_00: But I think that we get the message that to be true to ourselves,
+[0:16:52] SPEAKER_00: would incur a cost.
+[0:16:54] SPEAKER_00: And that's not 100 percent across the board.
+[0:16:56] SPEAKER_00: Maybe if you have a really good sense of humor, you're allowed to laugh liberally in your life.
+[0:17:01] SPEAKER_00: There's no danger around that.
+[0:17:03] SPEAKER_00: But in some way, shape or form, we get the message that if we were honest about our feelings
+[0:17:08] SPEAKER_00: or if we honestly articulated our needs or if we were who we were,
+[0:17:14] SPEAKER_00: you know, opinionated, loud, funny, brash, confident,
+[0:17:20] SPEAKER_00: whatever that was, if we were who we were,
+[0:17:24] SPEAKER_00: something that we don't want to happen would happen.
+[0:17:27] SPEAKER_00: There would be some unsafe consequence, whether it's physical or emotional.
+[0:17:31] SPEAKER_00: So then I realized, like, wow, almost like if you look at it from a kind of global perspective,
+[0:17:40] SPEAKER_00: the whole strategy of the small self is don't be true.
+[0:17:49] SPEAKER_00: Don't be true. And I'm also pondering this in real time.
+[0:17:52] SPEAKER_00: Don't be true if it goes against your conditioned programming.
+[0:17:56] SPEAKER_00: So if we don't be true, if truth, in whatever way that is the case, would create perceived harm.
+[0:18:06] SPEAKER_00: Right. So like I said, you can laugh if laughing is accepted in your family of origin.
+[0:18:11] SPEAKER_00: You can pitch a fit if pitching fits are accepted in your.
+[0:18:14] SPEAKER_00: But if saying what you need isn't welcomed in your right.
+[0:18:18] SPEAKER_00: Then we can see that that's rare, you know, culturally rare.
+[0:18:21] SPEAKER_00: If you can imagine some fantasy family unit where everyone had all of Brene's Brown's work
+[0:18:27] SPEAKER_00: hooked to their veins from a young age.
+[0:18:30] SPEAKER_00: And it was like, this is how you're true and this is how you're vulnerable.
+[0:18:34] SPEAKER_00: But also while standing in yourself and not flinging it at other people.
+[0:18:37] SPEAKER_00: If that was the norm, like if we can imagine a very healthy family unit
+[0:18:42] SPEAKER_00: by way of imagining a very healthy culture, then being true and be so threatening,
+[0:18:47] SPEAKER_00: it would just be what we do.
+[0:18:51] SPEAKER_00: But that's not what's going on.
+[0:18:52] SPEAKER_00: So it has to hit up against some perceived survival threat in the nervous system,
+[0:18:59] SPEAKER_00: because these are the things that we got without choosing them when we were at an age
+[0:19:05] SPEAKER_00: when we couldn't choose them.
+[0:19:06] SPEAKER_00: So somewhere in the if we want to be real classical about it,
+[0:19:11] SPEAKER_00: somewhere in the zero to three range, you know, ego structure is, I mean, happens before them.
+[0:19:15] SPEAKER_00: But that's when it's all getting real deep wired in.
+[0:19:19] SPEAKER_00: You're taught, right?
+[0:19:20] SPEAKER_00: Like, don't and taught oftentimes by body language and behavior.
+[0:19:25] SPEAKER_00: Don't cry. It makes mom upset.
+[0:19:28] SPEAKER_00: All right. So I can't have needs much of the time because mom responds
+[0:19:35] SPEAKER_00: by losing her shit or shutting down.
+[0:19:38] SPEAKER_00: And I don't like it. So, OK, don't have needs.
+[0:19:41] SPEAKER_00: And that has to be because we're so vulnerable at those ages and our brain maturity
+[0:19:49] SPEAKER_00: and our consciousness maturity is, I think, once I say consciousness, I don't know for sure,
+[0:19:54] SPEAKER_00: but pretty young.
+[0:19:57] SPEAKER_00: There's a lot of how do I write?
+[0:20:00] SPEAKER_00: I show up as an infant. I was in the womb.
+[0:20:02] SPEAKER_00: The womb is just like pure unity consciousness. Right.
+[0:20:06] SPEAKER_00: Now I'm this person and I get hungry and I need to pee and I need to poo.
+[0:20:10] SPEAKER_00: And there's these other people.
+[0:20:12] SPEAKER_00: And we gradually over time learn like, I am.
+[0:20:15] SPEAKER_00: Oh, my God, I'm a separate person.
+[0:20:17] SPEAKER_00: How do the separate people seem to get through life?
+[0:20:21] SPEAKER_00: And then we mirror the people around us.
+[0:20:24] SPEAKER_00: So naturally, at a time when we were so vulnerable
+[0:20:28] SPEAKER_00: and we didn't have the adult awareness or the adult agency that we have now.
+[0:20:33] SPEAKER_00: Right. Like if your parents were a complete shit show and you're 18 months old.
+[0:20:37] SPEAKER_00: Sorry. Like, what are you going to do?
+[0:20:38] SPEAKER_00: Get an apartment across town?
+[0:20:40] SPEAKER_00: No. So you have to find ways to manage the environment.
+[0:20:47] SPEAKER_00: And that management feels, rightly so,
+[0:20:52] SPEAKER_00: like a matter of actual survival.
+[0:20:54] SPEAKER_00: How do we get through these human life things when I'm in this body?
+[0:20:59] SPEAKER_00: Oh, like that, you know, where we rage at people and then they do what we want.
+[0:21:04] SPEAKER_00: Or we shut down and always appease people.
+[0:21:07] SPEAKER_00: And then we get our way or we're seen as the good ones.
+[0:21:10] SPEAKER_00: There's a secondary gain, whatever it might be.
+[0:21:13] SPEAKER_00: So it's fun sometimes to at least bring in the ideal.
+[0:21:20] SPEAKER_00: If there were a world where people really understood this,
+[0:21:23] SPEAKER_00: we would all just be like, oh, this is true.
+[0:21:25] SPEAKER_00: And this is true. And this is true because we would believe in.
+[0:21:30] SPEAKER_00: The flow of life, not having errors, just being
+[0:21:36] SPEAKER_00: the life that we have, that it's living through us.
+[0:21:38] SPEAKER_00: And so we don't know why it's a mystery, but we're here to have certain kinds of experiences.
+[0:21:43] SPEAKER_00: Oh, right now it's saying no thank you to somebody who you don't like being with.
+[0:21:47] SPEAKER_00: Look at that. That's what showed up today. Huh.
+[0:21:50] SPEAKER_00: And you just live that one out.
 [0:21:54] SPEAKER_01: I remember in Adia's talk,
 [0:21:59] SPEAKER_01: he was talking about Jesus Christ.
 [0:22:02] SPEAKER_01: I think mostly Jesus, because he wrote that book about Jesus.
@@ -375,7 +375,7 @@
 [0:24:31] SPEAKER_01: You messed up before.
 [0:24:33] SPEAKER_01: What makes you think, you know, you should want this.
 [0:24:36] SPEAKER_01: My friends say, right, you know how many times you listen to someone
-[0:24:39] Unknown: and they're like, but my friends have said and well, they're not you.
+[0:24:39] SPEAKER_01: and they're like, but my friends have said and well, they're not you.
 [0:24:45] SPEAKER_01: Yeah. Right. And life and all its majesty is coming through you.
 [0:24:49] SPEAKER_01: So it's it's a really interesting thing.
 [0:24:51] SPEAKER_01: I was kind of laughing on the inside as we started talking because I'm like, oh,
@@ -388,18 +388,18 @@
 [0:25:22] SPEAKER_01: That we are going against
 [0:25:27] SPEAKER_01: the patterns that said love exists when you do this
 [0:25:31] SPEAKER_01: and safety exists when you do this.
-[0:25:33] Unknown: And this is what spiritual people do.
+[0:25:33] SPEAKER_01: And this is what spiritual people do.
 [0:25:36] SPEAKER_01: And this is what good adults do, et cetera, et cetera,
 [0:25:40] SPEAKER_01: which obviously is not that easy for us.
-[0:25:43] SPEAKER_01: Yeah. And I want to loop back to what you were talking about,
-[0:25:46] SPEAKER_01: because you mentioned the amount when you spoke
-[0:25:50] SPEAKER_01: what you wanted.
-[0:25:52] SPEAKER_01: You said there was this tremendous energy freed up.
-[0:25:55] SPEAKER_01: And I know the energy of what you speak and myself, but I'm curious,
-[0:25:59] SPEAKER_01: did that happen just from articulating for yourself?
-[0:26:03] SPEAKER_01: This is what I want.
-[0:26:04] SPEAKER_01: Or did it happen after you took whatever the action was
-[0:26:08] SPEAKER_01: where you had to convey what it is that you want?
+[0:25:43] SPEAKER_00: Yeah. And I want to loop back to what you were talking about,
+[0:25:46] SPEAKER_00: because you mentioned the amount when you spoke
+[0:25:50] SPEAKER_00: what you wanted.
+[0:25:52] SPEAKER_00: You said there was this tremendous energy freed up.
+[0:25:55] SPEAKER_00: And I know the energy of what you speak and myself, but I'm curious,
+[0:25:59] SPEAKER_00: did that happen just from articulating for yourself?
+[0:26:03] SPEAKER_00: This is what I want.
+[0:26:04] SPEAKER_00: Or did it happen after you took whatever the action was
+[0:26:08] SPEAKER_00: where you had to convey what it is that you want?
 [0:26:13] SPEAKER_01: You know, it's a great question.
 [0:26:15] SPEAKER_01: I think, you know, and now I'm reflecting back
 [0:26:18] SPEAKER_01: and, you know, my memory can be a little spotty,
@@ -444,62 +444,62 @@
 [0:28:46] SPEAKER_01: is more and more alive.
 [0:28:49] SPEAKER_01: It opens up more and more flow and aliveness.
 [0:28:52] SPEAKER_01: I think that's the best way I could describe it for now.
-[0:28:54] SPEAKER_01: I have a great audio quote that you wrote in your notes from when we saw him.
-[0:28:59] SPEAKER_01: When you're in truth, it feels good.
-[0:29:02] SPEAKER_01: Even if it's scary, you can feel scared and good at the same time.
-[0:29:06] SPEAKER_01: I might make a poster out of you can feel scared and good
-[0:29:09] SPEAKER_01: at the same time, because there is when you know that there's a big truth
-[0:29:14] SPEAKER_01: sitting there, which means that there's going to have to be something relational
-[0:29:20] SPEAKER_01: that happens, right?
-[0:29:21] SPEAKER_01: Like you're going to have to articulate it to another person,
-[0:29:24] SPEAKER_01: or you're going to have to make a big change, move,
-[0:29:28] SPEAKER_01: whatever it is that you know.
-[0:29:30] SPEAKER_01: It's really scary.
-[0:29:32] SPEAKER_01: And it feels so freeing like an actual physical
-[0:29:37] SPEAKER_01: and it is an actual physical constriction.
-[0:29:40] Unknown: Constrictions let go.
-[0:29:42] Unknown: And it's like life force can move through.
-[0:29:47] SPEAKER_01: And. One of the reasons why I want to kind of touch on this,
-[0:29:51] SPEAKER_01: because it's like, OK, there's the program that says don't articulate your truth,
-[0:29:55] SPEAKER_01: and then there's the pressure inside that says, there's a truth here
-[0:29:58] SPEAKER_01: that you're going to have to experience and say out loud.
-[0:30:03] SPEAKER_01: And then it's said, articulated for yourself.
-[0:30:07] SPEAKER_01: What do I actually want?
-[0:30:11] SPEAKER_01: And there's this huge flood of energy
-[0:30:15] SPEAKER_01: and whatever it is that needs to happen in your practical life happens.
-[0:30:18] SPEAKER_01: You have the hard conversation, you make the plan to move or leave your job,
-[0:30:21] SPEAKER_01: whatever it is.
-[0:30:23] SPEAKER_01: And then there's just this like,
-[0:30:25] SPEAKER_01: oh, and what you experience is that if it's really from truth
-[0:30:30] SPEAKER_01: and not the ego hijacking a sensation that feels like truth,
-[0:30:33] Unknown: which we can talk about, then.
-[0:30:36] SPEAKER_01: Actually, tons of good stuff opens up, and I'm not trying to be Pollyanna
-[0:30:41] SPEAKER_01: about this, but in my experience, it's like.
-[0:30:45] SPEAKER_01: Yeah, things start to flow.
-[0:30:47] Unknown: People might be upset and not agree with your truth.
-[0:30:52] SPEAKER_01: But my experience is that in my life, something good is going to happen.
-[0:30:57] Unknown: And that reality testing, like the more I do it,
-[0:31:01] SPEAKER_01: I just have more experiences of, look,
-[0:31:05] SPEAKER_01: this is not logically what my preference would be.
-[0:31:07] SPEAKER_01: Logically, my preference would be to just keep on keeping on the way things are.
-[0:31:11] SPEAKER_01: But it seems like there's a truth here pushing on me.
-[0:31:15] Unknown: What do I actually want?
-[0:31:17] SPEAKER_01: And then I articulate it and I can trust more and more
-[0:31:23] SPEAKER_01: this really is this isn't an idea about what the highest good is.
-[0:31:29] SPEAKER_01: I'm going to now see evidence of the highest good.
-[0:31:32] SPEAKER_01: And not just for me, sometimes with deeply unconscious people,
-[0:31:36] SPEAKER_01: the highest good doesn't feel good because it's basically shaking
-[0:31:39] SPEAKER_01: a sleepwalking person and going, wake up.
-[0:31:42] SPEAKER_01: And not everyone wants to come out of sleepwalking. Fine.
-[0:31:46] SPEAKER_01: It's not about them.
-[0:31:48] SPEAKER_01: But I would still put that under the header of highest good.
-[0:31:51] Unknown: Not that we're fixing them, but just like, well, this is the story of my life.
-[0:31:54] SPEAKER_01: This is what's true for me.
-[0:31:55] SPEAKER_01: And since it interacts with theirs,
-[0:31:58] Unknown: this seems to be the story of their life, too, that I articulate this truth.
+[0:28:54] SPEAKER_00: I have a great audio quote that you wrote in your notes from when we saw him.
+[0:28:59] SPEAKER_00: When you're in truth, it feels good.
+[0:29:02] SPEAKER_00: Even if it's scary, you can feel scared and good at the same time.
+[0:29:06] SPEAKER_00: I might make a poster out of you can feel scared and good
+[0:29:09] SPEAKER_00: at the same time, because there is when you know that there's a big truth
+[0:29:14] SPEAKER_00: sitting there, which means that there's going to have to be something relational
+[0:29:20] SPEAKER_00: that happens, right?
+[0:29:21] SPEAKER_00: Like you're going to have to articulate it to another person,
+[0:29:24] SPEAKER_00: or you're going to have to make a big change, move,
+[0:29:28] SPEAKER_00: whatever it is that you know.
+[0:29:30] SPEAKER_00: It's really scary.
+[0:29:32] SPEAKER_00: And it feels so freeing like an actual physical
+[0:29:37] SPEAKER_00: and it is an actual physical constriction.
+[0:29:40] SPEAKER_00: Constrictions let go.
+[0:29:42] SPEAKER_00: And it's like life force can move through.
+[0:29:47] SPEAKER_00: And. One of the reasons why I want to kind of touch on this,
+[0:29:51] SPEAKER_00: because it's like, OK, there's the program that says don't articulate your truth,
+[0:29:55] SPEAKER_00: and then there's the pressure inside that says, there's a truth here
+[0:29:58] SPEAKER_00: that you're going to have to experience and say out loud.
+[0:30:03] SPEAKER_00: And then it's said, articulated for yourself.
+[0:30:07] SPEAKER_00: What do I actually want?
+[0:30:11] SPEAKER_00: And there's this huge flood of energy
+[0:30:15] SPEAKER_00: and whatever it is that needs to happen in your practical life happens.
+[0:30:18] SPEAKER_00: You have the hard conversation, you make the plan to move or leave your job,
+[0:30:21] SPEAKER_00: whatever it is.
+[0:30:23] SPEAKER_00: And then there's just this like,
+[0:30:25] SPEAKER_00: oh, and what you experience is that if it's really from truth
+[0:30:30] SPEAKER_00: and not the ego hijacking a sensation that feels like truth,
+[0:30:33] SPEAKER_00: which we can talk about, then.
+[0:30:36] SPEAKER_00: Actually, tons of good stuff opens up, and I'm not trying to be Pollyanna
+[0:30:41] SPEAKER_00: about this, but in my experience, it's like.
+[0:30:45] SPEAKER_00: Yeah, things start to flow.
+[0:30:47] SPEAKER_00: People might be upset and not agree with your truth.
+[0:30:52] SPEAKER_00: But my experience is that in my life, something good is going to happen.
+[0:30:57] SPEAKER_00: And that reality testing, like the more I do it,
+[0:31:01] SPEAKER_00: I just have more experiences of, look,
+[0:31:05] SPEAKER_00: this is not logically what my preference would be.
+[0:31:07] SPEAKER_00: Logically, my preference would be to just keep on keeping on the way things are.
+[0:31:11] SPEAKER_00: But it seems like there's a truth here pushing on me.
+[0:31:15] SPEAKER_00: What do I actually want?
+[0:31:17] SPEAKER_00: And then I articulate it and I can trust more and more
+[0:31:23] SPEAKER_00: this really is this isn't an idea about what the highest good is.
+[0:31:29] SPEAKER_00: I'm going to now see evidence of the highest good.
+[0:31:32] SPEAKER_00: And not just for me, sometimes with deeply unconscious people,
+[0:31:36] SPEAKER_00: the highest good doesn't feel good because it's basically shaking
+[0:31:39] SPEAKER_00: a sleepwalking person and going, wake up.
+[0:31:42] SPEAKER_00: And not everyone wants to come out of sleepwalking. Fine.
+[0:31:46] SPEAKER_00: It's not about them.
+[0:31:48] SPEAKER_00: But I would still put that under the header of highest good.
+[0:31:51] SPEAKER_00: Not that we're fixing them, but just like, well, this is the story of my life.
+[0:31:54] SPEAKER_00: This is what's true for me.
+[0:31:55] SPEAKER_00: And since it interacts with theirs,
+[0:31:58] SPEAKER_00: this seems to be the story of their life, too, that I articulate this truth.
 [0:32:04] SPEAKER_01: Well, you're stepping out of separation consciousness. Right.
 [0:32:07] SPEAKER_01: And so there's this imagination like we were both put here together
-[0:32:13] Unknown: for a reason and you get your side of it, right?
+[0:32:13] SPEAKER_01: for a reason and you get your side of it, right?
 [0:32:16] SPEAKER_01: Like, we're not trying to figure out for the other person why they're there
 [0:32:20] SPEAKER_01: and what they've got to learn or gain or be invited to.
 [0:32:25] SPEAKER_01: I know this may come off as sounding callous or insensitive,
@@ -509,7 +509,7 @@
 [0:32:40] SPEAKER_01: worrying about if I hurt someone's feelings or upset them
 [0:32:44] SPEAKER_01: or did wrong by them or, you know, all those kinds of things
 [0:32:49] SPEAKER_01: that a conflict avoidant, people pleasing structure could do. Right.
-[0:32:54] Unknown: And like, what good did that do?
+[0:32:54] SPEAKER_01: And like, what good did that do?
 [0:32:58] SPEAKER_01: Honestly. Yeah.
 [0:33:00] SPEAKER_01: Like, were my relationships better? No.
 [0:33:02] SPEAKER_01: I was usually like exhausted or resentful or, you know,
@@ -538,36 +538,36 @@
 [0:34:27] SPEAKER_01: And if I felt better, then I have to assume.
 [0:34:32] SPEAKER_01: This is the only experience I can know.
 [0:34:33] SPEAKER_01: So it's good. Thumbs up. Right.
-[0:34:36] Unknown: Yeah. You only get to
-[0:34:40] SPEAKER_01: pilot your experience and that we have to keep remembering
-[0:34:44] SPEAKER_01: because the habit of duality is to always forget
-[0:34:48] SPEAKER_01: that there is the mystery, something else other than my ideas
-[0:34:51] SPEAKER_01: about what I should do or what's best for another person
-[0:34:55] SPEAKER_01: or the pro and con list about the best job or location or whatever.
-[0:35:01] SPEAKER_01: And so there is this fundamental trust in like,
-[0:35:05] SPEAKER_01: let's invite the mystery to the party and say, I don't know.
-[0:35:10] SPEAKER_01: All I know is what I'm actually feeling and experiencing.
-[0:35:14] Unknown: And it's probably worth mentioning,
-[0:35:18] SPEAKER_01: as you mentioned at the beginning, but just touching on it a little more
-[0:35:21] SPEAKER_01: that like, yes, are we all emerging out of unconsciousness?
-[0:35:25] SPEAKER_01: Definitely. So is it murky sometimes?
-[0:35:29] SPEAKER_01: Is it confusing? Do we sometimes go down a path that we thought felt like truth?
-[0:35:33] Unknown: And it turns out it was just a common one is lust
-[0:35:38] SPEAKER_01: or an addiction to excitement or a habit
-[0:35:41] SPEAKER_01: that we need to like tear it all down and start a new.
-[0:35:44] SPEAKER_01: Sure. Like we're human beings.
-[0:35:47] SPEAKER_01: Do we bungle it? Do we get turned around?
-[0:35:50] SPEAKER_01: And this is where it is just a bit by bit experience.
-[0:35:55] SPEAKER_01: And then we start to get much more familiar with what this process
-[0:35:59] SPEAKER_01: feels like when something is internally is like,
-[0:36:02] SPEAKER_01: I'm going to keep at it until I get your attention.
-[0:36:06] SPEAKER_01: You're not getting out of.
-[0:36:08] SPEAKER_01: And what I find is the more true I get
-[0:36:12] SPEAKER_01: the more I can't get away with being even a little bit.
-[0:36:18] SPEAKER_01: Not true. Am I still full of shit sometimes?
-[0:36:21] SPEAKER_01: Definitely. Does my conditioning still run me plenty?
-[0:36:24] SPEAKER_01: But it only has so much runway
-[0:36:28] Unknown: until truth starts going like, really?
+[0:34:36] SPEAKER_00: Yeah. You only get to
+[0:34:40] SPEAKER_00: pilot your experience and that we have to keep remembering
+[0:34:44] SPEAKER_00: because the habit of duality is to always forget
+[0:34:48] SPEAKER_00: that there is the mystery, something else other than my ideas
+[0:34:51] SPEAKER_00: about what I should do or what's best for another person
+[0:34:55] SPEAKER_00: or the pro and con list about the best job or location or whatever.
+[0:35:01] SPEAKER_00: And so there is this fundamental trust in like,
+[0:35:05] SPEAKER_00: let's invite the mystery to the party and say, I don't know.
+[0:35:10] SPEAKER_00: All I know is what I'm actually feeling and experiencing.
+[0:35:14] SPEAKER_00: And it's probably worth mentioning,
+[0:35:18] SPEAKER_00: as you mentioned at the beginning, but just touching on it a little more
+[0:35:21] SPEAKER_00: that like, yes, are we all emerging out of unconsciousness?
+[0:35:25] SPEAKER_00: Definitely. So is it murky sometimes?
+[0:35:29] SPEAKER_00: Is it confusing? Do we sometimes go down a path that we thought felt like truth?
+[0:35:33] SPEAKER_00: And it turns out it was just a common one is lust
+[0:35:38] SPEAKER_00: or an addiction to excitement or a habit
+[0:35:41] SPEAKER_00: that we need to like tear it all down and start a new.
+[0:35:44] SPEAKER_00: Sure. Like we're human beings.
+[0:35:47] SPEAKER_00: Do we bungle it? Do we get turned around?
+[0:35:50] SPEAKER_00: And this is where it is just a bit by bit experience.
+[0:35:55] SPEAKER_00: And then we start to get much more familiar with what this process
+[0:35:59] SPEAKER_00: feels like when something is internally is like,
+[0:36:02] SPEAKER_00: I'm going to keep at it until I get your attention.
+[0:36:06] SPEAKER_00: You're not getting out of.
+[0:36:08] SPEAKER_00: And what I find is the more true I get
+[0:36:12] SPEAKER_00: the more I can't get away with being even a little bit.
+[0:36:18] SPEAKER_00: Not true. Am I still full of shit sometimes?
+[0:36:21] SPEAKER_00: Definitely. Does my conditioning still run me plenty?
+[0:36:24] SPEAKER_00: But it only has so much runway
+[0:36:28] SPEAKER_00: until truth starts going like, really?
 [0:36:33] SPEAKER_01: Well, the consequences start to become apparent.
 [0:36:36] SPEAKER_01: We just keep pushing them away like, no, thank you.
 [0:36:39] SPEAKER_01: Yes, I don't want to know this.
@@ -595,9 +595,9 @@
 [0:37:52] SPEAKER_01: They want alignment.
 [0:37:54] SPEAKER_01: They want to feel in the flow of life connected to source,
 [0:37:57] SPEAKER_01: connected to the universe, all of these beautiful things.
-[0:38:02] Unknown: And life will respond by showing you exactly where you're still hooked.
+[0:38:02] SPEAKER_01: And life will respond by showing you exactly where you're still hooked.
 [0:38:07] SPEAKER_01: This is like Mat Han's teaching too.
-[0:38:10] SPEAKER_01: Plenty of assignments.
+[0:38:10] SPEAKER_00: Plenty of assignments.
 [0:38:12] SPEAKER_01: Plenty of assignments. And it comes in your life.
 [0:38:14] SPEAKER_01: So it will be like, oh, OK, honey, you want to get free?
 [0:38:17] SPEAKER_01: OK, well, here are the blind spots that still exist
@@ -607,14 +607,14 @@
 [0:38:28] SPEAKER_01: So just use this one example where I was at a crosswalk.
 [0:38:31] SPEAKER_01: And it was a personal relationship.
 [0:38:33] SPEAKER_01: I was feeling, you know, really put out that this was coming my way.
-[0:38:37] SPEAKER_01: Yeah, that's my experience too,
-[0:38:39] SPEAKER_01: when I don't feel like listening to the nudge internally.
+[0:38:37] SPEAKER_00: Yeah, that's my experience too,
+[0:38:39] SPEAKER_00: when I don't feel like listening to the nudge internally.
 [0:38:42] SPEAKER_01: Yeah, like not this again.
 [0:38:44] SPEAKER_01: And why is this happening? Kind of a feeling.
 [0:38:46] SPEAKER_01: And that was very semi conscious.
 [0:38:49] SPEAKER_01: I didn't catch what my psyche was doing with it really in real time.
-[0:38:55] Unknown: So I sat down and I got a tarot card reading.
-[0:39:00] Unknown: And the person reading my tarot card said something to me,
+[0:38:55] SPEAKER_01: So I sat down and I got a tarot card reading.
+[0:39:00] SPEAKER_01: And the person reading my tarot card said something to me,
 [0:39:03] SPEAKER_01: like, you're stuck in victim consciousness.
 [0:39:05] SPEAKER_01: Like, this thing is coming to you for you, you know, not against you.
 [0:39:10] SPEAKER_01: It's not happening to you. It's coming for you.
@@ -630,116 +630,116 @@
 [0:39:46] SPEAKER_01: Like, this is not really complicated.
 [0:39:49] SPEAKER_01: And I know what's hard for me,
 [0:39:51] SPEAKER_01: but I know what is in the highest good for this being named Vanessa.
-[0:39:56] Unknown: And that gave me even more energy to stay committed to the path
+[0:39:56] SPEAKER_01: And that gave me even more energy to stay committed to the path
 [0:40:01] SPEAKER_01: I had chosen already and, like, kind of wake up out of it.
-[0:40:05] Unknown: And when that arises, I mean, I guess that arises at first on a cognitive level
-[0:40:11] SPEAKER_01: and then it becomes more of a living realization.
-[0:40:14] SPEAKER_01: But when you do start to trust life and you realize you are life,
-[0:40:18] SPEAKER_01: so your consciousness is participating in the creation of reality
-[0:40:21] SPEAKER_01: and you realize, well, everything's coming to me as an invitation.
-[0:40:26] SPEAKER_01: It's like Matt's whole book.
-[0:40:28] SPEAKER_01: Everything is here to help you.
-[0:40:30] SPEAKER_01: It was basically about that.
-[0:40:31] SPEAKER_01: Sorry, Matt Kahn.
-[0:40:33] SPEAKER_01: That really shifted.
-[0:40:36] Unknown: And it lets me not be so down on anyone.
-[0:40:40] SPEAKER_01: Because before that, when I was caught in that level of victim consciousness,
-[0:40:45] SPEAKER_01: you're vacillating.
-[0:40:46] SPEAKER_01: I was vacillating between judging the other, me, the other, me, right?
-[0:40:50] SPEAKER_01: Someone's wrong.
-[0:40:51] SPEAKER_01: Something's wrong.
-[0:40:52] SPEAKER_01: Something's going wrong, right?
-[0:40:53] SPEAKER_01: And once you free yourself and you see this is just a beautiful invitation
-[0:40:57] SPEAKER_01: to healing, I could say, oh, you know what?
-[0:41:00] SPEAKER_01: I'm human.
-[0:41:01] SPEAKER_01: There's areas that I have blind spots to.
-[0:41:04] SPEAKER_01: Now I see.
-[0:41:06] SPEAKER_01: Now I know.
-[0:41:07] Unknown: And now I can take deep breaths and find the courage and capacity
-[0:41:11] SPEAKER_01: to be able to do that.
-[0:41:13] SPEAKER_01: And find the courage and capacity to do the thing that my small self
-[0:41:17] Unknown: was trained out of doing for the highest good of myself.
-[0:41:22] SPEAKER_01: And according to unity consciousness, the highest good of everyone involved.
-[0:41:26] SPEAKER_01: And I believe that's true.
-[0:41:28] SPEAKER_01: And I sure hope it is.
-[0:41:29] SPEAKER_01: Whether it look like that right on the spot or it becomes that 10 years later.
-[0:41:34] Unknown: Mm hmm.
-[0:41:35] Unknown: Yeah.
-[0:41:37] Unknown: There's something we're circling here too, a little bit, which is that
-[0:41:42] Unknown: you're describing an incremental lived process like feet on the ground,
-[0:41:48] SPEAKER_01: one foot in front of the other.
-[0:41:49] SPEAKER_01: This experience shows up and gradually over time you learn how to say like,
-[0:41:53] SPEAKER_01: yes, yes, thank you life.
-[0:41:55] SPEAKER_01: Another assignment that's going to feel uncomfortable at first,
-[0:41:59] SPEAKER_01: but definitely bring me deeper healing because I can see that this is all
-[0:42:04] Unknown: familiar turf for this one's life, right?
-[0:42:08] SPEAKER_01: And this is something that we keep mentioning him, but Matt Conn spoke about
-[0:42:13] SPEAKER_01: recently too.
-[0:42:14] SPEAKER_01: I can't remember which talk, but I will for sure look for it and put it in the
-[0:42:17] SPEAKER_01: show notes if it's on YouTube and maybe in one of his private classes.
-[0:42:20] SPEAKER_01: But talking about like there's this giant piece, he didn't put it this way,
-[0:42:26] SPEAKER_01: but of cultural conditioning that we should be able to do things
-[0:42:29] SPEAKER_01: instantaneously, that we should be able to get it all at once.
-[0:42:32] SPEAKER_01: And that is really just cultural conditioning that says,
-[0:42:38] SPEAKER_01: well, okay, well, how do I just let go of all of my shame all at once
-[0:42:41] SPEAKER_01: and never experience it again?
-[0:42:42] Unknown: Or like, okay, well, how do I just, you know, 100% of the time live
-[0:42:47] SPEAKER_01: in the flow of my truth and perfectly articulate the flow of my truth?
-[0:42:51] SPEAKER_01: In my experience, that's just not the way it goes.
-[0:42:53] SPEAKER_01: I believe that it might go that way for some people.
-[0:42:56] SPEAKER_01: I don't know, but we're talking about the human path, right?
-[0:43:00] SPEAKER_01: So just to say, if there's this feeling of like, well, how do I get rid of this
-[0:43:05] SPEAKER_01: 100% right away?
-[0:43:06] Unknown: The perk that I have found, because certainly I went through that frustration as well.
-[0:43:13] Unknown: And the frustration only went away when I realized that these things coming to me,
-[0:43:20] SPEAKER_01: like for what we're talking about, a truth that needs to be spoken
-[0:43:24] SPEAKER_01: so that greater alignment and healing can come through.
-[0:43:27] SPEAKER_01: Having it happen in this slow one step, another step, oh, here comes another assignment,
-[0:43:33] SPEAKER_01: oh, here comes another one, is just actually really, really, really satisfying.
-[0:43:38] SPEAKER_01: And I have a suspicion that that's what we're here for,
-[0:43:41] SPEAKER_01: is to not to be constantly healing, but to enjoy our lives
-[0:43:45] SPEAKER_01: and that there's something really satisfying,
-[0:43:48] SPEAKER_01: that if I'm piloting the one called Brooke for this lifetime,
-[0:43:53] SPEAKER_01: and we're in partnership, we are life, and she has certain experiences and DNA, right?
-[0:44:02] SPEAKER_01: That it's really, really satisfying to be able to experience this life from this point of view.
-[0:44:08] SPEAKER_01: Consciousness gets to be in a body and have this point of view.
-[0:44:11] SPEAKER_01: Life gets to be embodied.
-[0:44:13] Unknown: And to do this in a way where we're asked to get so intimate with what it feels like
-[0:44:23] SPEAKER_01: to acknowledge the truth of something and then have fresh energy washed through,
-[0:44:28] SPEAKER_01: and then life shifts.
-[0:44:31] Unknown: And then like, oh, here comes this deeper teaching or this deeply satisfying experience
-[0:44:37] SPEAKER_01: of what it feels like to live on the other side of articulating that truth.
-[0:44:41] SPEAKER_01: That that's just really satisfying and not something to be turned away from,
-[0:44:46] SPEAKER_01: the slowness of the process.
-[0:44:49] SPEAKER_01: Like I remember because I grew up with some neurological and physical stuff,
-[0:44:53] Unknown: and it was when I was like 30, you and I were living in the Brooklyn area,
-[0:44:59] SPEAKER_01: and I was going to Brooklyn yoga studio.
-[0:45:02] SPEAKER_01: I had talked myself into finally going to yoga.
-[0:45:04] SPEAKER_01: One of my challenges was hypertonicity, so I had very, very, very short hypertonic hamstrings.
-[0:45:09] SPEAKER_01: Couldn't really bend forward to touch my knees.
-[0:45:11] SPEAKER_01: So needless to say, yoga studio, very intimidating.
-[0:45:15] SPEAKER_01: And I did a private with the owner, because I was so embarrassed
-[0:45:19] SPEAKER_01: because I didn't want to show my body and its limitations in a group class.
-[0:45:23] SPEAKER_01: And he was like, oh, so how long have you been working on rehabilitating this pattern?
-[0:45:27] SPEAKER_01: And at that time, it was seven or eight years.
-[0:45:29] SPEAKER_01: So I said, oh, seven or eight years.
-[0:45:31] Unknown: And he said, oh, it's so great.
-[0:45:34] SPEAKER_01: And I was like, what do you mean it's so great?
-[0:45:36] SPEAKER_01: Like I felt like I had fallen down at a job.
-[0:45:38] Unknown: And he's like, well, what else are you going to do?
-[0:45:43] SPEAKER_01: Jonathan.
+[0:40:05] SPEAKER_00: And when that arises, I mean, I guess that arises at first on a cognitive level
+[0:40:11] SPEAKER_00: and then it becomes more of a living realization.
+[0:40:14] SPEAKER_00: But when you do start to trust life and you realize you are life,
+[0:40:18] SPEAKER_00: so your consciousness is participating in the creation of reality
+[0:40:21] SPEAKER_00: and you realize, well, everything's coming to me as an invitation.
+[0:40:26] SPEAKER_00: It's like Matt's whole book.
+[0:40:28] SPEAKER_00: Everything is here to help you.
+[0:40:30] SPEAKER_00: It was basically about that.
+[0:40:31] SPEAKER_00: Sorry, Matt Kahn.
+[0:40:33] SPEAKER_00: That really shifted.
+[0:40:36] SPEAKER_00: And it lets me not be so down on anyone.
+[0:40:40] SPEAKER_00: Because before that, when I was caught in that level of victim consciousness,
+[0:40:45] SPEAKER_00: you're vacillating.
+[0:40:46] SPEAKER_00: I was vacillating between judging the other, me, the other, me, right?
+[0:40:50] SPEAKER_00: Someone's wrong.
+[0:40:51] SPEAKER_00: Something's wrong.
+[0:40:52] SPEAKER_00: Something's going wrong, right?
+[0:40:53] SPEAKER_00: And once you free yourself and you see this is just a beautiful invitation
+[0:40:57] SPEAKER_00: to healing, I could say, oh, you know what?
+[0:41:00] SPEAKER_00: I'm human.
+[0:41:01] SPEAKER_00: There's areas that I have blind spots to.
+[0:41:04] SPEAKER_00: Now I see.
+[0:41:06] SPEAKER_00: Now I know.
+[0:41:07] SPEAKER_00: And now I can take deep breaths and find the courage and capacity
+[0:41:11] SPEAKER_00: to be able to do that.
+[0:41:13] SPEAKER_00: And find the courage and capacity to do the thing that my small self
+[0:41:17] SPEAKER_00: was trained out of doing for the highest good of myself.
+[0:41:22] SPEAKER_00: And according to unity consciousness, the highest good of everyone involved.
+[0:41:26] SPEAKER_00: And I believe that's true.
+[0:41:28] SPEAKER_00: And I sure hope it is.
+[0:41:29] SPEAKER_00: Whether it look like that right on the spot or it becomes that 10 years later.
+[0:41:34] SPEAKER_00: Mm hmm.
+[0:41:35] SPEAKER_00: Yeah.
+[0:41:37] SPEAKER_00: There's something we're circling here too, a little bit, which is that
+[0:41:42] SPEAKER_00: you're describing an incremental lived process like feet on the ground,
+[0:41:48] SPEAKER_00: one foot in front of the other.
+[0:41:49] SPEAKER_00: This experience shows up and gradually over time you learn how to say like,
+[0:41:53] SPEAKER_00: yes, yes, thank you life.
+[0:41:55] SPEAKER_00: Another assignment that's going to feel uncomfortable at first,
+[0:41:59] SPEAKER_00: but definitely bring me deeper healing because I can see that this is all
+[0:42:04] SPEAKER_00: familiar turf for this one's life, right?
+[0:42:08] SPEAKER_00: And this is something that we keep mentioning him, but Matt Conn spoke about
+[0:42:13] SPEAKER_00: recently too.
+[0:42:14] SPEAKER_00: I can't remember which talk, but I will for sure look for it and put it in the
+[0:42:17] SPEAKER_00: show notes if it's on YouTube and maybe in one of his private classes.
+[0:42:20] SPEAKER_00: But talking about like there's this giant piece, he didn't put it this way,
+[0:42:26] SPEAKER_00: but of cultural conditioning that we should be able to do things
+[0:42:29] SPEAKER_00: instantaneously, that we should be able to get it all at once.
+[0:42:32] SPEAKER_00: And that is really just cultural conditioning that says,
+[0:42:38] SPEAKER_00: well, okay, well, how do I just let go of all of my shame all at once
+[0:42:41] SPEAKER_00: and never experience it again?
+[0:42:42] SPEAKER_00: Or like, okay, well, how do I just, you know, 100% of the time live
+[0:42:47] SPEAKER_00: in the flow of my truth and perfectly articulate the flow of my truth?
+[0:42:51] SPEAKER_00: In my experience, that's just not the way it goes.
+[0:42:53] SPEAKER_00: I believe that it might go that way for some people.
+[0:42:56] SPEAKER_00: I don't know, but we're talking about the human path, right?
+[0:43:00] SPEAKER_00: So just to say, if there's this feeling of like, well, how do I get rid of this
+[0:43:05] SPEAKER_00: 100% right away?
+[0:43:06] SPEAKER_00: The perk that I have found, because certainly I went through that frustration as well.
+[0:43:13] SPEAKER_00: And the frustration only went away when I realized that these things coming to me,
+[0:43:20] SPEAKER_00: like for what we're talking about, a truth that needs to be spoken
+[0:43:24] SPEAKER_00: so that greater alignment and healing can come through.
+[0:43:27] SPEAKER_00: Having it happen in this slow one step, another step, oh, here comes another assignment,
+[0:43:33] SPEAKER_00: oh, here comes another one, is just actually really, really, really satisfying.
+[0:43:38] SPEAKER_00: And I have a suspicion that that's what we're here for,
+[0:43:41] SPEAKER_00: is to not to be constantly healing, but to enjoy our lives
+[0:43:45] SPEAKER_00: and that there's something really satisfying,
+[0:43:48] SPEAKER_00: that if I'm piloting the one called Brooke for this lifetime,
+[0:43:53] SPEAKER_00: and we're in partnership, we are life, and she has certain experiences and DNA, right?
+[0:44:02] SPEAKER_00: That it's really, really satisfying to be able to experience this life from this point of view.
+[0:44:08] SPEAKER_00: Consciousness gets to be in a body and have this point of view.
+[0:44:11] SPEAKER_00: Life gets to be embodied.
+[0:44:13] SPEAKER_00: And to do this in a way where we're asked to get so intimate with what it feels like
+[0:44:23] SPEAKER_00: to acknowledge the truth of something and then have fresh energy washed through,
+[0:44:28] SPEAKER_00: and then life shifts.
+[0:44:31] SPEAKER_00: And then like, oh, here comes this deeper teaching or this deeply satisfying experience
+[0:44:37] SPEAKER_00: of what it feels like to live on the other side of articulating that truth.
+[0:44:41] SPEAKER_00: That that's just really satisfying and not something to be turned away from,
+[0:44:46] SPEAKER_00: the slowness of the process.
+[0:44:49] SPEAKER_00: Like I remember because I grew up with some neurological and physical stuff,
+[0:44:53] SPEAKER_00: and it was when I was like 30, you and I were living in the Brooklyn area,
+[0:44:59] SPEAKER_00: and I was going to Brooklyn yoga studio.
+[0:45:02] SPEAKER_00: I had talked myself into finally going to yoga.
+[0:45:04] SPEAKER_00: One of my challenges was hypertonicity, so I had very, very, very short hypertonic hamstrings.
+[0:45:09] SPEAKER_00: Couldn't really bend forward to touch my knees.
+[0:45:11] SPEAKER_00: So needless to say, yoga studio, very intimidating.
+[0:45:15] SPEAKER_00: And I did a private with the owner, because I was so embarrassed
+[0:45:19] SPEAKER_00: because I didn't want to show my body and its limitations in a group class.
+[0:45:23] SPEAKER_00: And he was like, oh, so how long have you been working on rehabilitating this pattern?
+[0:45:27] SPEAKER_00: And at that time, it was seven or eight years.
+[0:45:29] SPEAKER_00: So I said, oh, seven or eight years.
+[0:45:31] SPEAKER_00: And he said, oh, it's so great.
+[0:45:34] SPEAKER_00: And I was like, what do you mean it's so great?
+[0:45:36] SPEAKER_00: Like I felt like I had fallen down at a job.
+[0:45:38] SPEAKER_00: And he's like, well, what else are you going to do?
+[0:45:43] SPEAKER_00: Jonathan.
 [0:45:44] SPEAKER_01: Yeah, Jonathan Fitzgordon, for those who are wondering.
-[0:45:47] Unknown: Like, it seems to be what's on your plate.
-[0:45:51] SPEAKER_01: How cool that you get to be so devoted to your physical rehabilitation,
-[0:45:56] Unknown: because otherwise you're just going to either decide that it's untenable or that you're the worst.
-[0:46:06] SPEAKER_01: Instead, it could just be like, oh, great.
-[0:46:09] SPEAKER_01: I'm seven or eight years into like thinking about maybe moving
-[0:46:13] SPEAKER_01: and not being embarrassed that I move differently in group movement classes.
-[0:46:18] Unknown: Right. Well, you said that was beautiful.
+[0:45:47] SPEAKER_00: Like, it seems to be what's on your plate.
+[0:45:51] SPEAKER_00: How cool that you get to be so devoted to your physical rehabilitation,
+[0:45:56] SPEAKER_00: because otherwise you're just going to either decide that it's untenable or that you're the worst.
+[0:46:06] SPEAKER_00: Instead, it could just be like, oh, great.
+[0:46:09] SPEAKER_00: I'm seven or eight years into like thinking about maybe moving
+[0:46:13] SPEAKER_00: and not being embarrassed that I move differently in group movement classes.
+[0:46:18] SPEAKER_01: Well, you said that was beautiful.
 [0:46:22] SPEAKER_01: And you said so many things.
 [0:46:23] SPEAKER_01: I had about 20 different thoughts explode in my head at once.
-[0:46:27] Unknown: I should write them down as like future topics, but let's see which one wants to get through the most.
-[0:46:35] Unknown: I think I like that you mentioned how good it can feel.
+[0:46:27] SPEAKER_01: I should write them down as like future topics, but let's see which one wants to get through the most.
+[0:46:35] SPEAKER_01: I think I like that you mentioned how good it can feel.
 [0:46:41] SPEAKER_01: And, you know, it's funny sometimes because this is how the small self works.
 [0:46:46] SPEAKER_01: It's like I'm going to play this game called Do It Life's Asking Me
 [0:46:49] SPEAKER_01: because then I want to kick back and manifest some good shit.
@@ -752,20 +752,20 @@
 [0:47:18] SPEAKER_01: Consciousness doesn't need to get your attention quite so dramatically.
 [0:47:21] SPEAKER_01: Quite so dramatically.
 [0:47:23] SPEAKER_01: But you are gaming yourself in the process.
-[0:47:27] Unknown: It's tremendous to feel more real.
+[0:47:27] SPEAKER_01: It's tremendous to feel more real.
 [0:47:32] SPEAKER_01: It's tremendous to recover yourself.
 [0:47:35] SPEAKER_01: And the funny part is I was thinking about this today, you know,
 [0:47:39] SPEAKER_01: so you begin to wake up out of your conditioning, right?
 [0:47:43] SPEAKER_01: And you start to see all the ways in which you were asleep
 [0:47:46] SPEAKER_01: and these patterns of inheritance or patterns of your life are kind of driving the bus.
-[0:47:53] Unknown: And then you look back and you're ashamed of yourself.
+[0:47:53] SPEAKER_01: And then you look back and you're ashamed of yourself.
 [0:47:58] SPEAKER_01: Now, shame is a very deep-seated habit.
 [0:48:01] SPEAKER_01: And I do think that it's an energy and a frequency that can exist in the body.
 [0:48:05] SPEAKER_01: So it can often use multiple forms of support.
 [0:48:08] SPEAKER_01: But if we just looked at this for a second from like a higher view,
-[0:48:14] Unknown: it's almost like, I don't know, being ashamed when you're in the 12th grade
+[0:48:14] SPEAKER_01: it's almost like, I don't know, being ashamed when you're in the 12th grade
 [0:48:20] SPEAKER_01: that as a sixth grader, you didn't understand how to ask someone on a date.
-[0:48:26] SPEAKER_01: Yeah, exactly.
+[0:48:26] SPEAKER_00: Yeah, exactly.
 [0:48:28] SPEAKER_01: Right? That you didn't know how to use the internet the same way.
 [0:48:33] SPEAKER_01: So it's really funny because what's really happening is
 [0:48:37] SPEAKER_01: as you're waking up enough to look back and see the pattern,
@@ -797,16 +797,16 @@
 [0:50:30] SPEAKER_01: whether it's choose to act differently than before or choose to engage with the situation
 [0:50:36] SPEAKER_01: or myself differently, right?
 [0:50:38] SPEAKER_01: Choice can look a lot of different ways, but then we get to be able to choose differently.
-[0:50:44] Unknown: I was talking to one of our friends and I was just, I said something to him, you know,
-[0:50:51] SPEAKER_01: like, I don't, you know, when people talk about like, aligned or like, am I aligned?
-[0:50:56] SPEAKER_01: I want to be aligned or I want to live from truth.
-[0:50:59] SPEAKER_01: And it sounds like a definitive statement, like there was before aligned and after aligned.
-[0:51:05] Unknown: And I was like, you know, I just always feel like we can get more and more free,
-[0:51:11] SPEAKER_01: more and more aligned, more and more true.
-[0:51:13] SPEAKER_01: And I was just sharing with him like how I experience it.
-[0:51:18] SPEAKER_01: And then he was like, oh, my God, that's so liberating.
-[0:51:22] SPEAKER_01: And I was like, well, it turns out having that line in the sand apparently is very stressful for us.
-[0:51:27] SPEAKER_01: Right. Because we're either the ones who achieved it or the ones who failed.
+[0:50:44] SPEAKER_00: I was talking to one of our friends and I was just, I said something to him, you know,
+[0:50:51] SPEAKER_00: like, I don't, you know, when people talk about like, aligned or like, am I aligned?
+[0:50:56] SPEAKER_00: I want to be aligned or I want to live from truth.
+[0:50:59] SPEAKER_00: And it sounds like a definitive statement, like there was before aligned and after aligned.
+[0:51:05] SPEAKER_00: And I was like, you know, I just always feel like we can get more and more free,
+[0:51:11] SPEAKER_00: more and more aligned, more and more true.
+[0:51:13] SPEAKER_00: And I was just sharing with him like how I experience it.
+[0:51:18] SPEAKER_00: And then he was like, oh, my God, that's so liberating.
+[0:51:22] SPEAKER_00: And I was like, well, it turns out having that line in the sand apparently is very stressful for us.
+[0:51:27] SPEAKER_00: Right. Because we're either the ones who achieved it or the ones who failed.
 [0:51:31] SPEAKER_01: Exactly. And when you realize like, wow, OK, this is just the game of having a body and a 3D reality
 [0:51:38] SPEAKER_01: is that it comes with all sorts of conditioning and patterns and, you know, the battery runs low
 [0:51:44] SPEAKER_01: because you got a lot of shit running at the same time and you're not saying the truth.
@@ -816,61 +816,61 @@
 [0:52:05] SPEAKER_01: and we're curious enough and devoted enough, we do seem to need to choose differently.
 [0:52:11] SPEAKER_01: Like that is what will come our way. Yeah.
 [0:52:15] SPEAKER_01: And I'm thinking because we've been talking about Adyashanti.
-[0:52:18] Unknown: I remember hearing him say somewhere, I can't remember if it was a book or when we saw him in person
-[0:52:23] Unknown: that when people experience what we would call awakening, for lack of a better word,
-[0:52:31] Unknown: have an experience of awakening, that it's never nobody's ever like, oh, yep, that's exactly what I thought it was going to be.
+[0:52:18] SPEAKER_01: I remember hearing him say somewhere, I can't remember if it was a book or when we saw him in person
+[0:52:23] SPEAKER_01: that when people experience what we would call awakening, for lack of a better word,
+[0:52:31] SPEAKER_01: have an experience of awakening, that it's never nobody's ever like, oh, yep, that's exactly what I thought it was going to be.
 [0:52:43] SPEAKER_01: It's always and we're talking about it as this ongoing incremental path, which I might experience is just how that shows up.
 [0:52:55] SPEAKER_01: That what we experience instead is is way more simple.
-[0:52:58] Unknown: It's like, oh, I'm just supposed to be this one, right?
+[0:52:58] SPEAKER_01: It's like, oh, I'm just supposed to be this one, right?
 [0:53:04] SPEAKER_01: This one having these experiences and seeing that the conditioning is not true,
 [0:53:09] SPEAKER_01: seeing that I'm not all alone in the universe, that I am life itself. Right.
 [0:53:14] SPEAKER_01: So I could I don't mean to introduce this at like a tricky time right at the end of the episode,
 [0:53:18] SPEAKER_01: because I could say a lot more about what that means.
 [0:53:21] SPEAKER_01: I'm talking about one little slice of that, which is like, oh, go figure.
-[0:53:25] Unknown: I'm just the one whose consciousness is expanding in this body,
+[0:53:25] SPEAKER_01: I'm just the one whose consciousness is expanding in this body,
 [0:53:30] SPEAKER_01: which means just like we know the universe is constantly expanding, so is there's no end line.
 [0:53:37] SPEAKER_01: I really don't believe there's any end to the amount that we can expand.
-[0:53:40] Unknown: And I'm really suspicious of teachers who say that they have finished gone to the finish line,
-[0:53:48] Unknown: like if somebody said to you like, I finished the Internet.
+[0:53:40] SPEAKER_01: And I'm really suspicious of teachers who say that they have finished gone to the finish line,
+[0:53:48] SPEAKER_01: like if somebody said to you like, I finished the Internet.
 [0:53:53] SPEAKER_01: I read all of the Internet's like, really?
-[0:53:57] Unknown: I just feel like that's not true.
+[0:53:57] SPEAKER_01: I just feel like that's not true.
 [0:54:03] SPEAKER_01: So we're here to have an experience as an individual who is also the consciousness
 [0:54:08] SPEAKER_01: and that that has infinite expansion.
-[0:54:11] Unknown: Go figure. Way more simple than the stories I told myself right about.
+[0:54:11] SPEAKER_01: Go figure. Way more simple than the stories I told myself right about.
 [0:54:16] SPEAKER_01: Oh, same. What I would be on the other side of the finish line.
-[0:54:20] SPEAKER_01: Same. And I think that's the thing to remember.
-[0:54:24] SPEAKER_01: You know, sometimes like when you hear people speak about these types of topics like we're speaking about now,
-[0:54:31] SPEAKER_01: you have to remember that there comes a point where you're ready for it to be like that.
-[0:54:36] SPEAKER_01: It's like because we're gradually evolving, we're gradually maturing and we're gradually increasing our capacity
-[0:54:43] SPEAKER_01: and we're gradually finding more trust and we're gradually learning more regulation
-[0:54:48] SPEAKER_01: and we're gradually finding courage. Right.
-[0:54:51] SPEAKER_01: So that when this came my way, it wasn't like I couldn't handle it.
-[0:54:57] SPEAKER_01: I could. It was the perfect cue up. I was the one who it should come to.
-[0:55:02] SPEAKER_01: Maybe Vanessa five years ago might have been different. Right.
-[0:55:06] SPEAKER_01: Right. And I mean, P.S., I was seeing this in a lot of different ways and I just handled it very lacklusterly in the past.
-[0:55:13] SPEAKER_01: But, you know, so it's like if it sounds daunting or intimidating,
-[0:55:18] SPEAKER_01: because I remember when Nadia was like, then just be honest. I was like, huh, wait a minute.
-[0:55:24] SPEAKER_01: It's going to be some consequences to that.
-[0:55:26] SPEAKER_01: Yeah, because, you know, idea has the vibration. Right.
-[0:55:29] SPEAKER_01: So those are fine words when people we've had teachers say to us, you know, truth heals and all of these different things.
-[0:55:35] SPEAKER_01: About truth. And I'm like, yeah, truth is good.
-[0:55:39] SPEAKER_01: But when I said it, I felt it and I felt what he meant.
-[0:55:44] SPEAKER_01: And that's very different than some nice idea about, oh, I'll just tell the truth or I'll be my truth.
-[0:55:51] SPEAKER_01: Because, you know, you think your truth is different than it is.
-[0:55:54] SPEAKER_01: You think your truth is other than you.
-[0:55:56] SPEAKER_01: Turns out your truth includes a lot of your personality, too. Yeah. Right.
-[0:56:01] SPEAKER_01: It's just not including all of the delusions you've been holding on to about what the world means, like that meaning making device.
-[0:56:09] Unknown: But anyway, so yeah, that was shocking when he said it.
-[0:56:14] SPEAKER_01: And now I'm like, come at me already. Like, I got this. This is OK.
-[0:56:19] SPEAKER_01: And and that was a gradual trial and error because, you know, you dip your toe in and it turns out your toe doesn't freeze and it's OK.
-[0:56:27] SPEAKER_01: And then, oh, it feels kind of nice and tingly and cute. Right.
-[0:56:31] SPEAKER_01: And we keep evolving into that. So, you know, this will be a conversation that either it's like perfect timing for you.
-[0:56:39] SPEAKER_01: You're right on the precipice of having to make a decision and you kind of know what you want, but you've been super scared to admit it.
-[0:56:47] SPEAKER_01: And this will be a really beautiful invitation for you to choose differently with the consciousness that you are for your highest good rather than what your patterns would tell you.
-[0:56:57] SPEAKER_01: Or you may not even be close to this yet. And this will just be a seed.
-[0:57:02] SPEAKER_01: But no big deal. You will be ready for this.
-[0:57:05] SPEAKER_01: And when you are, you will be the one who has all of the capacity to meet whatever that challenge is.
-[0:57:15] SPEAKER_01: How do you say? You can feel scared and good at the same time.
+[0:54:20] SPEAKER_00: Same. And I think that's the thing to remember.
+[0:54:24] SPEAKER_00: You know, sometimes like when you hear people speak about these types of topics like we're speaking about now,
+[0:54:31] SPEAKER_00: you have to remember that there comes a point where you're ready for it to be like that.
+[0:54:36] SPEAKER_00: It's like because we're gradually evolving, we're gradually maturing and we're gradually increasing our capacity
+[0:54:43] SPEAKER_00: and we're gradually finding more trust and we're gradually learning more regulation
+[0:54:48] SPEAKER_00: and we're gradually finding courage. Right.
+[0:54:51] SPEAKER_00: So that when this came my way, it wasn't like I couldn't handle it.
+[0:54:57] SPEAKER_00: I could. It was the perfect cue up. I was the one who it should come to.
+[0:55:02] SPEAKER_00: Maybe Vanessa five years ago might have been different. Right.
+[0:55:06] SPEAKER_00: Right. And I mean, P.S., I was seeing this in a lot of different ways and I just handled it very lacklusterly in the past.
+[0:55:13] SPEAKER_00: But, you know, so it's like if it sounds daunting or intimidating,
+[0:55:18] SPEAKER_00: because I remember when Nadia was like, then just be honest. I was like, huh, wait a minute.
+[0:55:24] SPEAKER_00: It's going to be some consequences to that.
+[0:55:26] SPEAKER_00: Yeah, because, you know, idea has the vibration. Right.
+[0:55:29] SPEAKER_00: So those are fine words when people we've had teachers say to us, you know, truth heals and all of these different things.
+[0:55:35] SPEAKER_00: About truth. And I'm like, yeah, truth is good.
+[0:55:39] SPEAKER_00: But when I said it, I felt it and I felt what he meant.
+[0:55:44] SPEAKER_00: And that's very different than some nice idea about, oh, I'll just tell the truth or I'll be my truth.
+[0:55:51] SPEAKER_00: Because, you know, you think your truth is different than it is.
+[0:55:54] SPEAKER_00: You think your truth is other than you.
+[0:55:56] SPEAKER_00: Turns out your truth includes a lot of your personality, too. Yeah. Right.
+[0:56:01] SPEAKER_00: It's just not including all of the delusions you've been holding on to about what the world means, like that meaning making device.
+[0:56:09] SPEAKER_00: But anyway, so yeah, that was shocking when he said it.
+[0:56:14] SPEAKER_00: And now I'm like, come at me already. Like, I got this. This is OK.
+[0:56:19] SPEAKER_00: And and that was a gradual trial and error because, you know, you dip your toe in and it turns out your toe doesn't freeze and it's OK.
+[0:56:27] SPEAKER_00: And then, oh, it feels kind of nice and tingly and cute. Right.
+[0:56:31] SPEAKER_00: And we keep evolving into that. So, you know, this will be a conversation that either it's like perfect timing for you.
+[0:56:39] SPEAKER_00: You're right on the precipice of having to make a decision and you kind of know what you want, but you've been super scared to admit it.
+[0:56:47] SPEAKER_00: And this will be a really beautiful invitation for you to choose differently with the consciousness that you are for your highest good rather than what your patterns would tell you.
+[0:56:57] SPEAKER_00: Or you may not even be close to this yet. And this will just be a seed.
+[0:57:02] SPEAKER_00: But no big deal. You will be ready for this.
+[0:57:05] SPEAKER_00: And when you are, you will be the one who has all of the capacity to meet whatever that challenge is.
+[0:57:15] SPEAKER_00: How do you say? You can feel scared and good at the same time.
 [0:57:19] SPEAKER_01: You can feel scared and good at the same time.
 [0:57:28] SPEAKER_01: Thank you so much for listening to today's show.
 [0:57:30] SPEAKER_01: The show notes, including all the resources we mentioned, live on our website, bliss and grit dot com.
@@ -886,4 +886,4 @@
 [0:58:31] SPEAKER_01: It's quite possible that I'm addicted.
 [0:58:34] SPEAKER_01: We love that. We love coffee. We love being a part of your morning and we love all of you.
 [0:58:40] SPEAKER_01: Thank you all so much. Till next week.
-[0:59:01] Unknown: Thank you.
+[0:59:01] SPEAKER_01: Thank you.

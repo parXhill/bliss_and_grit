@@ -86,6 +86,7 @@ export default function PodcastExplorer() {
   // Load transcript and update view
   const handleLoadTranscript = async (episode) => {
     const result = await loadTranscript(episode);
+    console.log('loaded episode is ', result, episode);
     if (result?.success) {
       setView('transcript');
     }
@@ -461,6 +462,7 @@ export default function PodcastExplorer() {
                       onClick={(e) => {
                         e.stopPropagation();
                         const episodeId = selectedEpisode?.spotifyEpisodeId || getSpotifyId(selectedEpisode?.episodeNumber);
+                        console.log('episodeid: ',episodeId, turn.startTime);
                         dispatchTimestampEvent(episodeId, turn.startTime);
                         setPlayerVisible(true);
                       }}

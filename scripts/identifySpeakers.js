@@ -86,6 +86,7 @@ async function identifySpeakersInEpisode(episodeId) {
     /I'?m Brooke/i,
     /I am Brooke/i,
     /This is Brooke/i,
+    /it's brooke here/i
   ];
   
   // Check each segment for identification patterns

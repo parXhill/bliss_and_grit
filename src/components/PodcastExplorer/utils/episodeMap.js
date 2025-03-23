@@ -1,4 +1,4 @@
-export const episodeMap = {
+const episodeMap = {
     1: { episodeNumber: 1, episodeName: "Meet Vanessa", fileName: "FINAL_BG_EPS01_Meet_Vanessa_transcript_with_speakers.txt", id: "5IilfJTUyEKzb3eCcYjyN8" },
     2: { episodeNumber: 2, episodeName: "Meet Brooke", fileName: "FINAL_BG_EPS02_Meet_Brooke_transcript_with_speakers.txt", id: "4ky9obFBItwg73ZWiwNq4z" },
     3: { episodeNumber: 3, episodeName: "Why the body?", fileName: "FINAL_BaG_EPS03_transcript_with_speakers.txt", id: "3bh9FZqsyuc5FeOTVa9f20" },
@@ -148,4 +148,11 @@ export const episodeMap = {
     151: { episodeNumber: 151, episodeName: "Spiritual Maturity and Surrender: A Conversation with Matt Kahn", fileName: "FINAL_BG_EPS151_Matt_Kahn_transcript_with_speakers.txt", id: "5d5tdVmVeKalZS1i2yvvJj" },
     152: { episodeNumber: 152, episodeName: "You're Not Doing Anything Wrong", fileName: "FINAL_BG_EPS152_You're_Not_Doing_Anything_Wrong_transcript_with_speakers.txt", id: "2awfwoLqqNQBn8hyHVjitg" },
     153: { episodeNumber: 153, episodeName: "A Fond Farewell and What's Next", fileName: "", id: "4BQBDnGx9z0YmYayn6zQJy" }
+}
+
+module.exports = { episodeMap };
+
+// You can add this conditional export for ES modules compatibility if needed later
+if (typeof exports !== 'undefined') {
+    Object.defineProperty(exports, '__esModule', { value: true });
 }

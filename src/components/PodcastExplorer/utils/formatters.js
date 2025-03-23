@@ -85,6 +85,7 @@ export const getSpotifyUrl = (episodeId, timeString) => {
 
 // Dispatch an event to update the embedded player
 export const dispatchTimestampEvent = (episodeId, timeString) => {
+  console.log('dispatchTimestampEvent', episodeId, timeString)
   if (!episodeId) return;
   
   const seconds = timeToSeconds(timeString);

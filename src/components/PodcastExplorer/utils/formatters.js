@@ -86,7 +86,12 @@ export const getSpotifyUrl = (episodeId, timeString) => {
 // Dispatch an event to update the embedded player
 export const dispatchTimestampEvent = (episodeId, timeString) => {
   console.log('dispatchTimestampEvent', episodeId, timeString)
-  if (!episodeId) return;
+  if (!episodeId){
+
+    window.alert("Sorry, this episode is not available on Spotify");
+    return;
+
+  }
   
   const seconds = timeToSeconds(timeString);
   
@@ -97,6 +102,8 @@ export const dispatchTimestampEvent = (episodeId, timeString) => {
       timestamp: Math.floor(seconds)
     }
   });
+
+  console.log('event detail epId', event.detail.episodeId);
   
   window.dispatchEvent(event);
 };

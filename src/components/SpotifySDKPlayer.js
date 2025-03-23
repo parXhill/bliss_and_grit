@@ -570,9 +570,9 @@ const SpotifySDKPlayer = ({
   if (!isVisible) return null;
 
   return (
-    <div className="fixed bottom-10 left-10 right-0 h-auto bg-[#773C40] shadow-lg z-50 rounded-lg w-[40vw] opacity-95">
-      <div className="container mx-auto p-4">
-        <div className="flex items-center justify-between mb-4">
+    <div className="fixed bottom-0 left-0 right-0 md:bottom-10 md:left-10 md:right-auto md:w-2/5 h-auto bg-[#773C40] shadow-lg z-50 rounded-none md:rounded-lg opacity-95">
+      <div className="container mx-auto p-2 md:p-4">
+        <div className="flex items-center justify-between mb-2 md:mb-4">
           <div className="flex items-center">
             {isLoading || transferringPlayback ? (
               <div className="flex items-center">
@@ -580,7 +580,7 @@ const SpotifySDKPlayer = ({
                   <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
                   <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
                 </svg>
-                <span className="text-sm font-medium">
+                <span className="text-xs md:text-sm font-medium">
                   {transferringPlayback ? 'Preparing to play...' : 'Loading player...'}
                 </span>
               </div>
@@ -589,7 +589,7 @@ const SpotifySDKPlayer = ({
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2 text-green-500" viewBox="0 0 20 20" fill="currentColor">
                   <path d="M18 3a1 1 0 00-1.196-.98l-10 2A1 1 0 006 5v9.114A4.369 4.369 0 005 14c-1.657 0-3 .895-3 2s1.343 2 3 2 3-.895 3-2V7.82l8-1.6v5.894A4.37 4.37 0 0015 12c-1.657 0-3 .895-3 2s1.343 2 3 2 3-.895 3-2V3z" />
                 </svg>
-                <span className="text-sm font-medium mr-2">
+                <span className="text-xs md:text-sm font-medium mr-2">
                   {isReady ? 'Connected to Spotify' : 'Connecting...'}
                 </span>
               </div>
@@ -608,10 +608,10 @@ const SpotifySDKPlayer = ({
         </div>
         
         {error && (
-          <div className="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded mb-4">
-            <p>{error}</p>
+          <div className="bg-red-100 border border-red-400 text-red-700 px-2 py-2 md:px-4 md:py-3 rounded mb-2 md:mb-4">
+            <p className="text-xs md:text-base">{error}</p>
             {error.includes('Premium') && (
-              <p className="text-sm mt-1">Note: Spotify Web Playback SDK requires a Spotify Premium subscription.</p>
+              <p className="text-xs mt-1">Note: Spotify Web Playback SDK requires a Spotify Premium subscription.</p>
             )}
             <div className="mt-2 flex space-x-3">
               <button 
@@ -629,7 +629,7 @@ const SpotifySDKPlayer = ({
                     });
                   }
                 }}
-                className="text-sm px-3 py-1 bg-indigo-600 text-white rounded"
+                className="text-xs md:text-sm px-2 py-1 md:px-3 md:py-1 bg-indigo-600 text-white rounded"
               >
                 Retry Connection
               </button>
@@ -637,7 +637,7 @@ const SpotifySDKPlayer = ({
                 href="https://open.spotify.com" 
                 target="_blank" 
                 rel="noreferrer"
-                className="text-sm px-3 py-1 bg-green-600 text-white rounded"
+                className="text-xs md:text-sm px-2 py-1 md:px-3 md:py-1 bg-green-600 text-white rounded"
               >
                 Open Spotify Web
               </a>
@@ -648,20 +648,20 @@ const SpotifySDKPlayer = ({
         
         
         {currentTrack ? (
-          <div className="flex items-center mb-4">
+          <div className="flex items-center mb-2 md:mb-4">
 
           
             
             {currentTrack.image && (
-              <img src={currentTrack.image} alt="Album art" className="w-16 h-16 rounded mr-4" />
+              <img src={currentTrack.image} alt="Album art" className="w-12 h-12 md:w-16 md:h-16 rounded mr-2 md:mr-4" />
             )}
             <div className="flex-1">
-              <h3 className="font-medium text-white">{currentTrack.name}</h3>
-              <p className="text-gray-500 text-sm">{currentTrack.artists}</p>
+              <h3 className="font-medium text-white text-sm md:text-base truncate">{currentTrack.name}</h3>
+              <p className="text-gray-500 text-xs md:text-sm truncate">{currentTrack.artists}</p>
               
               {/* Custom time display showing elapsed time */}
-              <div className="mt-2 flex items-center">
-                <div className="text-sm font-medium text-green-600 mr-2">
+              <div className="mt-1 md:mt-2 flex items-center">
+                <div className="text-xs md:text-sm font-medium text-green-600 mr-1 md:mr-2">
                   {currentTrack.elapsedFormatted}
                 </div>
                 <div 
@@ -680,25 +680,25 @@ const SpotifySDKPlayer = ({
                   }}
                 ></div>
               </div>
-                <div className="text-sm font-medium text-gray-500 ml-2">
+                <div className="text-xs md:text-sm font-medium text-gray-500 ml-1 md:ml-2">
                   {currentTrack.durationFormatted}
                 </div>
               </div>
             </div>
 
 
-            <div className="flex justify-center mb-2">
+            <div className="flex justify-center ml-2 md:mb-2">
           <button 
             onClick={togglePlay}
-            className={`rounded-full p-3 focus:outline-none ${currentTrack ? 'bg-black cursor-pointer hover:bg-green-600 text-white' : 'bg-gray-200 text-gray-400 cursor-not-allowed'}`}
+            className={`rounded-full p-2 md:p-3 focus:outline-none ${currentTrack ? 'bg-black cursor-pointer hover:bg-green-600 text-white' : 'bg-gray-200 text-gray-400 cursor-not-allowed'}`}
             disabled={!currentTrack || !isReady}
           >
             {isPaused ? (
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 md:h-6 md:w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
               </svg>
             ) : (
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 md:h-6 md:w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 9v6m4-6v6m7-3a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
             )}
@@ -708,7 +708,7 @@ const SpotifySDKPlayer = ({
 
           </div>
         ) : (
-          <div className="py-3 text-center text-gray-500">
+          <div className="py-2 md:py-3 text-center text-gray-500">
             {!currentEpisodeId ? 
               "" : 
               ""}
@@ -717,7 +717,7 @@ const SpotifySDKPlayer = ({
         
   
         
-        <div className="text-center text-lg text-white">
+        <div className="text-center text-sm md:text-lg text-white">
           {!isReady && !error && (
             <>
               <div className="animate-pulse">Initializing Spotify player...</div>

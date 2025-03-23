@@ -195,7 +195,7 @@ export default function PodcastExplorer() {
               </button>
             )}
             
-            <h1 className="text-xl font-medium text-white">
+            <h1 className="text-3xl p-1 font-medium text-white">
               {view === 'episodes' ? 'Bliss and Grit Podcast Explorer' : 
                view === 'transcript' ? `Episode ${selectedEpisode?.episodeNumber}: ${selectedEpisode?.title}` : 
                'Search Results'}
@@ -215,11 +215,11 @@ export default function PodcastExplorer() {
                 value={searchParams.query}
                 onChange={handleSearchChange}
                 placeholder="Search by keyword..."
-                className="py-2 pl-4 pr-2 bg-transparent rounded-l-full w-40 sm:w-48 focus:w-56 focus:outline-none transition-all duration-300"
+                className="py-2 pl-4 pr-2 bg-transparent text-2xl cursor-text rounded-l-full w-40 sm:w-72 focus:w-72 focus:outline-none transition-all duration-300"
               />
               <button
                 type="submit"
-                className="p-2 rounded-full text-gray-500"
+                className="p-2 rounded-full text-gray-500 cursor-pointer hover:scale-150 transition-all"
                 aria-label="Search"
               >
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -231,7 +231,7 @@ export default function PodcastExplorer() {
             {/* Toggle filter button */}
             <button
               onClick={() => setFiltersExpanded(!filtersExpanded)}
-              className="p-2 rounded-full bg-gray-50 border border-gray-200 relative text-gray-500"
+              className="p-2 rounded-full bg-gray-50 border border-gray-200 relative text-gray-500 cursor-pointer"
               aria-label="Toggle filters"
             >
               <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -339,14 +339,14 @@ export default function PodcastExplorer() {
                       <button
                         type="button"
                         onClick={resetSearch}
-                        className="px-4 py-2.5 bg-gray-50 border border-gray-200 rounded-lg hover:bg-gray-100 transition-all text-gray-700"
+                        className="px-4 py-2.5 cursor-pointer bg-gray-50 border border-gray-200 rounded-lg hover:bg-gray-100 transition-all text-gray-700"
                       >
                         Reset
                       </button>
                       <button
                         type="button"
                         onClick={handleSearch}
-                        className="px-4 py-2.5 bg-indigo-500 rounded-lg hover:bg-indigo-600 transition-all text-white"
+                        className="px-4 cursor-pointer py-2.5 bg-indigo-500 rounded-lg hover:bg-indigo-600 transition-all text-white"
                       >
                         Search
                       </button>
@@ -354,7 +354,7 @@ export default function PodcastExplorer() {
                   </div>
                 </div>
                 
-                <div className="mt-4 flex items-center">
+                {/* <div className="mt-4 flex items-center">
                   <label className="flex items-center text-sm text-gray-600 font-medium cursor-pointer">
                     <input
                       type="checkbox"
@@ -365,7 +365,7 @@ export default function PodcastExplorer() {
                     />
                     Show full conversation context
                   </label>
-                </div>
+                </div> */}
               </div>
             </motion.div>
           )}
@@ -390,7 +390,7 @@ export default function PodcastExplorer() {
           {/* Episodes View */}
           {view === 'episodes' && (
             <div>
-              <h2 className="text-2xl font-medium text-gray-800 mb-8">Browse Episodes</h2>
+              <h2 className="text-3xl font-bold text-gray-800 mb-8">Browse Episodes</h2>
               
               {/* Episode Cards */}
               

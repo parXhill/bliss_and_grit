@@ -111,32 +111,53 @@ const SpotifySDKPlayer = ({
       setIsReady(false);
     });
 
-    // State updates
-    newPlayer.addListener('player_state_changed', (state) => {
-      if (!state) {
-        console.log('No player state available');
-        return;
-      }
-      
-      setIsPaused(state.paused);
-      
-      // Update playback position (in milliseconds)
-      const elapsedMs = state.position;
-      const durationMs = state.duration;
-      
-      // Get current track details
-      if (state.track_window?.current_track) {
-        setCurrentTrack({
-          name: state.track_window.current_track.name,
-          artists: state.track_window.current_track.artists.map(artist => artist.name).join(', '),
-          image: state.track_window.current_track.album.images[0]?.url,
-          elapsedMs: elapsedMs,
-          durationMs: durationMs,
-          elapsedFormatted: formatTime(Math.floor(elapsedMs / 1000)),
-          durationFormatted: formatTime(Math.floor(durationMs / 1000))
-        });
-      }
+newPlayer.addListener('player_state_changed', (state) => {
+  if (!state) {
+    console.log('No player state available');
+    return;
+  }
+  
+  setIsPaused(state.paused);
+  
+  // Update playback position (in milliseconds)
+  const elapsedMs = state.position;
+  const durationMs = state.duration;
+  
+  // Check if this is a podcast/episode
+  const isEpisode = state.track_window?.current_track?.type === 'episode';
+  
+  // For debugging
+  console.log('Player state changed:', {
+    trackType: state.track_window?.current_track?.type,
+    trackName: state.track_window?.current_track?.name,
+    paused: state.paused,
+    isEpisode
+  });
+  
+  // Get current track details
+  if (state.track_window?.current_track) {
+    // Extract track URI to get episode ID if it's an episode
+    const trackUri = state.track_window.current_track.uri || '';
+    const episodeIdMatch = trackUri.match(/spotify:episode:(.+)$/);
+    
+    if (episodeIdMatch && episodeIdMatch[1]) {
+      console.log('Episode ID from state change:', episodeIdMatch[1]);
+      setCurrentEpisodeId(episodeIdMatch[1]);
+    }
+    
+    setCurrentTrack({
+      name: state.track_window.current_track.name,
+      artists: isEpisode 
+        ? state.track_window.current_track.album.name || 'Podcast'
+        : state.track_window.current_track.artists.map(artist => artist.name).join(', '),
+      image: state.track_window.current_track.album.images[0]?.url,
+      elapsedMs: elapsedMs,
+      durationMs: durationMs,
+      elapsedFormatted: formatTime(Math.floor(elapsedMs / 1000)),
+      durationFormatted: formatTime(Math.floor(durationMs / 1000))
     });
+  }
+});
 
     // Connect to the player
     console.log('Connecting to Spotify...');
@@ -160,7 +181,50 @@ const SpotifySDKPlayer = ({
     };
   }, [sdkLoaded, accessToken]);
 
-  // Function to transfer playback to this device
+  const fetchAndUpdateCurrentEpisode = async (episodeId) => {
+    try {
+      // Get episode details from Spotify API
+      const response = await fetch(`https://api.spotify.com/v1/episodes/${episodeId}`, {
+        headers: {
+          'Authorization': `Bearer ${accessToken}`
+        }
+      });
+      
+      if (!response.ok) {
+        console.error(`Failed to fetch episode details: ${response.status}`);
+        return;
+      }
+      
+      const episodeData = await response.json();
+      console.log('Successfully fetched episode details:', episodeData);
+      
+      // Manually update the currentTrack state with episode details
+      setCurrentTrack({
+        name: episodeData.name,
+        artists: episodeData.show?.name || 'Podcast',
+        image: episodeData.images?.[0]?.url,
+        elapsedMs: episodeData.resume_point?.resume_position_ms || 0,
+        durationMs: episodeData.duration_ms || 0,
+        elapsedFormatted: formatTime(Math.floor((episodeData.resume_point?.resume_position_ms || 0) / 1000)),
+        durationFormatted: formatTime(Math.floor((episodeData.duration_ms || 0) / 1000))
+      });
+      
+      // Request a getState from the player to force a UI refresh
+      if (player) {
+        player.getCurrentState().then(state => {
+          if (state) {
+            console.log('Player state updated after episode change');
+          } else {
+            console.log('Player state not available yet');
+          }
+        });
+      }
+    } catch (error) {
+      console.error('Error fetching episode details:', error);
+    }
+  };
+  
+  // Modified transferPlayback function with proper state synchronization
   const transferPlayback = async (deviceId, episodeId, timeMs) => {
     if (!deviceId || !episodeId) return;
     
@@ -168,8 +232,41 @@ const SpotifySDKPlayer = ({
       console.log(`Transferring playback to device ${deviceId} for episode ${episodeId} at ${timeMs}ms`);
       setTransferringPlayback(true);
       
-      // First make this the active device
-      await fetch('https://api.spotify.com/v1/me/player', {
+      // First, update the component state to reflect the requested episode
+      setCurrentEpisodeId(episodeId);
+      
+      // Try direct play approach
+      try {
+        const playResponse = await fetch(`https://api.spotify.com/v1/me/player/play?device_id=${deviceId}`, {
+          method: 'PUT',
+          headers: {
+            'Authorization': `Bearer ${accessToken}`,
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({
+            uris: [`spotify:episode:${episodeId}`],
+            position_ms: timeMs * 1000
+          })
+        });
+        
+        if (!playResponse.ok) {
+          console.log(`Direct play failed with status: ${playResponse.status}. Will try device transfer first.`);
+          throw new Error('Direct play failed');
+        }
+        
+        console.log('Direct play successful');
+        
+        // Important: fetch episode details to update UI manually
+        await fetchAndUpdateCurrentEpisode(episodeId);
+        
+        setIsPaused(false);
+        return;
+      } catch (directPlayError) {
+        console.log('Trying alternative approach with device transfer first');
+      }
+      
+      // Two-step approach
+      const transferResponse = await fetch('https://api.spotify.com/v1/me/player', {
         method: 'PUT',
         headers: {
           'Authorization': `Bearer ${accessToken}`,
@@ -180,12 +277,14 @@ const SpotifySDKPlayer = ({
           play: false
         })
       });
+        
+      if (!transferResponse.ok) {
+        console.warn(`Device transfer failed with status: ${transferResponse.status}, but continuing anyway`);
+      }
       
-      // Wait a moment for the device activation to take effect
-      await new Promise(resolve => setTimeout(resolve, 1000));
+      await new Promise(resolve => setTimeout(resolve, 1500));
       
-      // Then play the specific content
-      await fetch('https://api.spotify.com/v1/me/player/play', {
+      const finalPlayResponse = await fetch('https://api.spotify.com/v1/me/player/play', {
         method: 'PUT',
         headers: {
           'Authorization': `Bearer ${accessToken}`,
@@ -197,11 +296,19 @@ const SpotifySDKPlayer = ({
         })
       });
       
-      console.log('Playback transfer successful');
+      if (!finalPlayResponse.ok) {
+        throw new Error(`Play content failed with status: ${finalPlayResponse.status}`);
+      }
+      
+      console.log('Playback transfer successful via two-step process');
+      
+      // Important: fetch episode details to update UI manually
+      await fetchAndUpdateCurrentEpisode(episodeId);
+      
       setIsPaused(false);
     } catch (error) {
       console.error('Error transferring playback:', error);
-      setError(`Could not play on this device: ${error.message}`);
+      setError(`Playback error: ${error.message}`);
     } finally {
       setTransferringPlayback(false);
     }

@@ -195,7 +195,7 @@ export default function PodcastExplorer() {
               </button>
             )}
             
-            <h1 className="text-3xl p-1 font-medium text-white">
+            <h1 className="md:block hidden text-3xl p-1 font-medium text-white">
               {view === 'episodes' ? 'Bliss and Grit Podcast Explorer' : 
                view === 'transcript' ? `Episode ${selectedEpisode?.episodeNumber}: ${selectedEpisode?.title}` : 
                'Search Results'}
@@ -215,7 +215,7 @@ export default function PodcastExplorer() {
                 value={searchParams.query}
                 onChange={handleSearchChange}
                 placeholder="Search by keyword..."
-                className="py-2 pl-4 pr-2 bg-transparent text-2xl cursor-text rounded-l-full w-40 sm:w-72 focus:w-72 focus:outline-none transition-all duration-300"
+                className="py-2 pl-4 pr-2 bg-transparent text-2xl cursor-text rounded-l-full sm:w-72 focus:w-72 focus:outline-none transition-all duration-300"
               />
               <button
                 type="submit"
@@ -231,7 +231,7 @@ export default function PodcastExplorer() {
             {/* Toggle filter button */}
             <button
               onClick={() => setFiltersExpanded(!filtersExpanded)}
-              className="p-2 rounded-full bg-gray-50 border border-gray-200 relative text-gray-500 cursor-pointer"
+              className="md:block hidden p-2 rounded-full bg-gray-50 border border-gray-200 relative text-gray-500 cursor-pointer"
               aria-label="Toggle filters"
             >
               <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -432,7 +432,7 @@ export default function PodcastExplorer() {
   <div className="max-w-4xl mx-auto bg-white rounded-xl shadow-sm overflow-hidden">
     <div 
       ref={transcriptRef}
-      className="p-6 max-h-[calc(100vh-200px)] overflow-y-auto"
+      className="md:p-6 max-h-[calc(100vh-200px)] overflow-y-auto"
     >
       {transcript.length > 0 ? (
         <div className="space-y-6">
@@ -475,7 +475,7 @@ export default function PodcastExplorer() {
                     </button>
                   </div>
                 )}
-                <div className="pl-12">
+                <div className="md:pl-12">
                   <div className={`rounded-lg p-4 ${isHost ? 'bg-white' : 'bg-white'} ${isNewSpeaker ? 'rounded-tl-none' : ''}`}>
                     <p className="text-gray-700 text-sm leading-relaxed" style={{ lineHeight: 1.5 }}>
                       {formatTextWithLineBreaks(turn.content)}
@@ -500,7 +500,7 @@ export default function PodcastExplorer() {
   <div>
     <div className="max-w-6xl mx-auto">
       <div className="flex items-center justify-between mb-6">
-        <h2 className="text-4xl font-bold text-gray-800">
+        <h2 className="md:text-4xl text-xl font-bold text-gray-800">
           Search Results
         </h2>
         <div className="text-md font-bold bg-white text-[#773C40] px-3 py-1 rounded-full">
@@ -520,15 +520,15 @@ export default function PodcastExplorer() {
                   <h3 onClick={() => handleLoadTranscript({
                       episodeNumber: group.episodeNumber,
                       title: group.title
-                    })} className="text-lg cursor-pointer hover:underline font-medium text-gray-900 col-span-7">
+                    })} className="md:text-lg text-md cursor-pointer hover:underline font-medium text-gray-900 col-span-7">
                     Episode {group.episodeNumber}: {group.title}
                   </h3>
-                  <span className="text-xs bg-white px-3 py-1 rounded-full text-[#773C40]">
+                  <span className="md:block hidden text-xs bg-white px-3 py-1 rounded-full text-[#773C40]">
                     {group.items.length} match{group.items.length !== 1 ? 'es' : ''}
                   </span>
                 </div>
               </div>
-              <div className="px-6">
+              <div className="md:px-6">
                 {group.items.map((item, index) => {
                   const prevSpeaker = index > 0 ? group.items[index - 1].speaker.id : null;
                   const isNewSpeaker = prevSpeaker !== item.speaker.id;
@@ -537,8 +537,9 @@ export default function PodcastExplorer() {
                   return (
                     <div key={item.id} className={`${isNewSpeaker ? 'mt-1' : 'mt-1'} flex`}>
                       {isNewSpeaker && (
-                        <div className="flex items-center m-1">
+                        <div className="flex md:flex-row flex-col md:items-center m-1 md:gap-0 gap-y-3">
                           {/* Replace the speaker name div with SpeakerSelector */}
+                          <div className="flex">
                           <SpeakerSelector
                             speakers={speakers}
                             currentSpeaker={item.speaker}
@@ -556,10 +557,10 @@ export default function PodcastExplorer() {
                               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
                               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                             </svg>
-                          </span>
-                          <div className="pl-10">
+                          </span></div>
+                          <div className="md:pl-10">
                             <div className={`rounded-lg ${isHost ? 'bg-white' : 'bg-white'} ${isNewSpeaker ? 'rounded-tl-none' : ''}`}>
-                              <p className="text-gray-700 leading-relaxed" style={{ lineHeight: 1.3 }}>
+                              <p className="text-gray-700 leading-relaxed md:not-italic italic" style={{ lineHeight: 1.3 }}>
                                 {highlightSearchTerms(item.content, searchParams.query)}
                               </p>
                             </div>

@@ -13,6 +13,19 @@ export async function GET(request) {
   const timeStart = searchParams.get('timeStart');
   const timeEnd = searchParams.get('timeEnd');
   
+
+  console.log('Search query: ', query, new Intl.DateTimeFormat('cs-CZ', {
+    timeZone: 'Europe/Prague',
+    year: 'numeric',
+    month: 'numeric',
+    day: 'numeric',
+    hour: '2-digit',
+    minute: '2-digit',
+    second: '2-digit',
+    hour12: false
+  }).format(new Date()));
+
+
   // Episode-specific search params
   const episodeNumber = searchParams.get('episodeNumber');
   const episodeTitle = searchParams.get('episodeTitle');

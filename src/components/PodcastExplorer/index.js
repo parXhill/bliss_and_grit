@@ -354,18 +354,7 @@ export default function PodcastExplorer() {
                   </div>
                 </div>
                 
-                {/* <div className="mt-4 flex items-center">
-                  <label className="flex items-center text-sm text-gray-600 font-medium cursor-pointer">
-                    <input
-                      type="checkbox"
-                      name="fullEpisode"
-                      checked={searchParams.fullEpisode}
-                      onChange={handleSearchChange}
-                      className="h-4 w-4 rounded bg-white border-gray-300 text-indigo-500 focus:ring-indigo-200 mr-2"
-                    />
-                    Show full conversation context
-                  </label>
-                </div> */}
+         
               </div>
             </motion.div>
           )}
@@ -509,72 +498,69 @@ export default function PodcastExplorer() {
       </div>
       
       {searchResults.length > 0 ? (
-        <div className="space-y-8">
-          {groupResultsByEpisode(searchResults).map(group => (
-            <div 
-              key={`episode-${group.episodeNumber}`}
-              className="bg-white rounded-lg shadow-lg"
-            >
-              <div className="px-6 py-2 border-b border-indigo-100">
-                <div className="grid grid-cols-8">
-                  <h3 onClick={() => handleLoadTranscript({
-                      episodeNumber: group.episodeNumber,
-                      title: group.title
-                    })} className="md:text-lg text-md cursor-pointer hover:underline font-medium text-gray-900 col-span-7">
-                    Episode {group.episodeNumber}: {group.title}
-                  </h3>
-                  <span className="md:block hidden text-xs bg-white px-3 py-1 rounded-full text-[#773C40]">
-                    {group.items.length} match{group.items.length !== 1 ? 'es' : ''}
-                  </span>
+  <div className="space-y-8">
+    {groupResultsByEpisode(searchResults).map(group => (
+      <div 
+        key={`episode-${group.episodeNumber}`}
+        className="bg-white rounded-lg shadow-lg"
+      >
+        <div className="px-6 py-2 border-b border-indigo-100">
+          <div className="grid grid-cols-8">
+            <h3 onClick={() => handleLoadTranscript({
+                episodeNumber: group.episodeNumber,
+                title: group.title
+              })} className="md:text-lg text-md cursor-pointer hover:underline font-medium text-gray-900 col-span-7">
+              Episode {group.episodeNumber}: {group.title}
+            </h3>
+            <span className="md:block hidden text-xs bg-white px-3 py-1 rounded-full text-[#773C40]">
+              {group.items.length} match{group.items.length !== 1 ? 'es' : ''}
+            </span>
+          </div>
+        </div>
+        <div className="md:px-6">
+          {group.items.map((item, index) => {
+            const isHost = item.speaker?.id === group.items[0].speaker?.id;
+            
+            return (
+              <div key={item.id} className="mt-1 flex">
+                <div className="flex md:flex-row flex-col md:items-center m-1 md:gap-0 gap-y-3">
+                  {/* Speaker selector for every item */}
+                  <div className="flex">
+                    <SpeakerSelector
+                      speakers={speakers}
+                      currentSpeaker={item.speaker}
+                      turnId={item.id}
+                      onSpeakerChange={updateSpeaker}
+                    />
+
+                    <span onClick={(e) => {
+                      e.stopPropagation();
+                      const episodeId = getSpotifyId(group.episodeNumber);
+                      dispatchTimestampEvent(episodeId, item.startTime);
+                      setPlayerVisible(true);
+                    }} className='text-xs ml-3 flex flex-row-reverse gap-x-1 items-center justify-between cursor-pointer hover:font-bold'>{formatTime(item.startTime)}
+                      <svg xmlns="http://www.w3.org/2000/svg" className="bg-green-300 h-4 w-4 border rounded-full ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                      </svg>
+                    </span>
+                  </div>
+                  <div className="md:pl-10">
+                    <div className={`rounded-lg ${isHost ? 'bg-white' : 'bg-white'} rounded-tl-none`}>
+                      <p className="text-gray-700 leading-relaxed md:not-italic italic" style={{ lineHeight: 1.3 }}>
+                        {highlightSearchTerms(item.content, searchParams.query)}
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </div>
-              <div className="md:px-6">
-                {group.items.map((item, index) => {
-                  const prevSpeaker = index > 0 ? group.items[index - 1].speaker.id : null;
-                  const isNewSpeaker = prevSpeaker !== item.speaker.id;
-                  const isHost = item.speaker?.id === group.items[0].speaker?.id;
-                  
-                  return (
-                    <div key={item.id} className={`${isNewSpeaker ? 'mt-1' : 'mt-1'} flex`}>
-                      {isNewSpeaker && (
-                        <div className="flex md:flex-row flex-col md:items-center m-1 md:gap-0 gap-y-3">
-                          {/* Replace the speaker name div with SpeakerSelector */}
-                          <div className="flex">
-                          <SpeakerSelector
-                            speakers={speakers}
-                            currentSpeaker={item.speaker}
-                            turnId={item.id}
-                            onSpeakerChange={updateSpeaker}
-                          />
-
-                          <span onClick={(e) => {
-                            e.stopPropagation();
-                            const episodeId = getSpotifyId(group.episodeNumber);
-                            dispatchTimestampEvent(episodeId, item.startTime);
-                            setPlayerVisible(true);
-                          }} className='text-xs ml-3 flex flex-row-reverse gap-x-1 items-center justify-between cursor-pointer hover:font-bold'>{formatTime(item.startTime)}
-                            <svg xmlns="http://www.w3.org/2000/svg" className="bg-green-300 h-4 w-4 border rounded-full ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
-                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                            </svg>
-                          </span></div>
-                          <div className="md:pl-10">
-                            <div className={`rounded-lg ${isHost ? 'bg-white' : 'bg-white'} ${isNewSpeaker ? 'rounded-tl-none' : ''}`}>
-                              <p className="text-gray-700 leading-relaxed md:not-italic italic" style={{ lineHeight: 1.3 }}>
-                                {highlightSearchTerms(item.content, searchParams.query)}
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                      )}
-                    </div>
-                  );
-                })}
-              </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
-      ) : (
+      </div>
+    ))}
+  </div>
+) : (
         <div className="bg-white rounded-xl shadow-sm p-10 text-center">
           <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-gray-50 flex items-center justify-center">
             <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">

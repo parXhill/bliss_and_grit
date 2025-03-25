@@ -1,0 +1,751 @@
+[0:00:00] SPEAKER_00: Bliss and Grit is an entirely listener-supported show.
+[0:00:07] SPEAKER_00: Supporting us is also designed to support you, through keeping the episodes rolling
+[0:00:11] SPEAKER_00: but also through rewards for your donation, like a Getting Started Guide, a private forum,
+[0:00:16] SPEAKER_00: and downloadable meditations.
+[0:00:18] SPEAKER_00: To become a supporting member, you can visit patreon.com forward slash bliss and grit.
+[0:00:24] Unknown: Hello, beautifuls! You are listening to Bliss and Grit. I'm Vanessa Scotto and I'll be joined
+[0:00:35] SPEAKER_01: soon by my dear friend and co-host Brooke Thomas.
+[0:00:39] SPEAKER_01: On the show, we're talking about the embodied spiritual path, including themes such as healing,
+[0:00:46] SPEAKER_01: awakening, and the simple bliss and grit of living a full human life.
+[0:00:52] SPEAKER_01: Today, we're speaking with Dr. Miles Neal.
+[0:00:56] SPEAKER_01: Dr. Neal is among the leading voices of the current generation of Buddhist teachers
+[0:01:01] SPEAKER_01: and a forerunner in the emerging field of contemplative psychotherapy.
+[0:01:05] SPEAKER_01: He's a licensed psychotherapist in private practice, international speaker, and faculty member
+[0:01:11] SPEAKER_01: of Tibet House US and Weill Cornell Medical College.
+[0:01:15] SPEAKER_01: Miles is author of a new book called Gradual Awakening, the Tibetan Buddhist Path of Becoming
+[0:01:21] SPEAKER_01: Fully Human, along with its audio companion of guided meditations, The Gradual Path.
+[0:01:28] SPEAKER_01: He's co-editor of the groundbreaking volume, Advances in Contemplative Psychotherapy,
+[0:01:34] SPEAKER_01: and he's currently based out of New York City.
+[0:01:37] SPEAKER_01: Miles asks that we also let you all know that the proceeds for both the book and the program
+[0:01:42] SPEAKER_01: go directly to supporting Kopan Nunnery in Nepal.
+[0:01:47] SPEAKER_01: It's a really amazing program for orphans who then get a home training in Buddhism.
+[0:01:54] SPEAKER_01: So you can get more information on Miles at milesneal.com,
+[0:01:59] SPEAKER_01: and we'll have that link in the show resources for you.
+[0:02:02] SPEAKER_01: In this episode, we go deep into what Miles calls the sickness of paradigm,
+[0:02:08] SPEAKER_01: which is essentially a life perspective that he believes is plaguing our modern cultures.
+[0:02:14] SPEAKER_01: We explore whether spirituality has become a necessary medicine for our current crises,
+[0:02:20] SPEAKER_01: what may help us wake up a sense of interconnectivity, and the dilemmas presented
+[0:02:25] SPEAKER_01: to us by the trend towards watered down meditation practices, which he has coined,
+[0:02:33] SPEAKER_01: mcmindfulness.
+[0:02:35] SPEAKER_01: Miles presents us with the possibility that all human beings have the potential to awaken
+[0:02:40] SPEAKER_01: if they're willing to walk the gradual steps of the hero's journey.
+[0:02:45] SPEAKER_01: If you're enjoying the show, there are a few ways you can help support us.
+[0:02:50] SPEAKER_01: We would love it if you would leave a review on iTunes or on our Facebook page,
+[0:02:55] SPEAKER_01: which is Bliss and Grit.
+[0:02:57] SPEAKER_01: You can also head over to blissandgrit.com and subscribe to read our blog,
+[0:03:02] SPEAKER_01: subscribe to our weekly digest, or find out more about becoming one of our supporting Patreon members.
+[0:03:11] SPEAKER_01: One last thing before we head into the conversation,
+[0:03:14] SPEAKER_01: Brooke and I do curse, so if you're in mixed non-swearing company,
+[0:03:19] SPEAKER_01: you may want to wear headphones.
+[0:03:22] Unknown: Okay, everyone, here we go.
+[0:03:27] SPEAKER_01: Hi, Miles.
+[0:03:28] SPEAKER_01: Hi, Brooke.
+[0:03:30] SPEAKER_02: Hello.
+[0:03:31] SPEAKER_02: Hello.
+[0:03:32] SPEAKER_01: I am so excited to have Miles on the show because, gosh, we just realized it was four years ago now,
+[0:03:40] SPEAKER_01: I actually had the honor of doing a program.
+[0:03:43] SPEAKER_01: Miles was one of the facilitators of the program on contemplative psychology
+[0:03:48] SPEAKER_01: with a theme on compassion, right?
+[0:03:51] SPEAKER_02: It was an amazing, amazing ride.
+[0:03:53] SPEAKER_02: We had also a Bob Thurman there.
+[0:03:55] SPEAKER_02: I remember that retreat at Menlo was a real winner.
+[0:03:59] SPEAKER_01: I felt like I had found my way home.
+[0:04:02] SPEAKER_01: It was, I think, the first long program I did that was actually based on spirituality,
+[0:04:09] SPEAKER_01: which is really funny because I have my master's in counseling psychology
+[0:04:13] SPEAKER_01: with the transpersonal emphasis.
+[0:04:15] SPEAKER_01: Miles and I actually went to the same school,
+[0:04:18] SPEAKER_01: and yet I feel like I barely learned anything about spiritual practice in my master's degree.
+[0:04:23] SPEAKER_01: So when I sat down in that training with this group of people who were just
+[0:04:28] SPEAKER_01: making the time and space to look at these ancient teachings, I was like,
+[0:04:33] SPEAKER_01: I'm home.
+[0:04:34] SPEAKER_01: And then Bob Thurman just went on a tear that had me laughing and just like,
+[0:04:38] SPEAKER_01: I found my place.
+[0:04:40] SPEAKER_02: Yeah, Bob Thurman is a lunatic from another planet.
+[0:04:45] SPEAKER_02: So, so important.
+[0:04:50] SPEAKER_01: So, Miles wrote this amazing book and it's actually on gradual awakening.
+[0:04:55] SPEAKER_01: And as you all know, we love to talk about awakening on this show.
+[0:04:59] SPEAKER_01: It actually draws a lot of its inspiration from an ancient Tibetan text called the Lam Rim.
+[0:05:05] SPEAKER_01: And we'll get into that.
+[0:05:06] SPEAKER_01: But we have a passion spot that we really wanted to begin with,
+[0:05:10] SPEAKER_01: which is based off of a term you coined, Miles, which is mindfulness.
+[0:05:17] SPEAKER_01: So I think all of us have some similar thoughts on mindfulness and meditation today
+[0:05:23] SPEAKER_01: as it's been popularized, you know, with things like goals, like I want to achieve more,
+[0:05:28] SPEAKER_01: so I'll meditate or I just want to calm my mind and the way that it can diminish the power and
+[0:05:35] SPEAKER_01: intent of meditation.
+[0:05:36] SPEAKER_01: So I wanted to just read a quote of yours because it summed it up so freaking poetically.
+[0:05:43] Unknown: And then see if we could hear some of your thoughts on this.
+[0:05:46] SPEAKER_01: So, all right, everybody, I'm quoting.
+[0:05:48] SPEAKER_01: Any meditation practice that fails to address our culture's distorted worldview of scientific
+[0:05:56] SPEAKER_01: reductionism, ground in nihilism and its equally misguided offshoots, materialism, hedonism,
+[0:06:04] Unknown: imperialism, neoliberal capitalism and consumerism that constitute the current zeitgeist and fails
+[0:06:12] SPEAKER_01: to connect them directly to our society's mental health pandemic, general apathy,
+[0:06:18] SPEAKER_01: and the broader plight of our planet in peril is dangerous.
+[0:06:23] SPEAKER_01: Any such approach is the equivalent of encouraging people to rearrange the furniture
+[0:06:29] SPEAKER_01: when their house is on fire.
+[0:06:31] SPEAKER_01: When their house is on fire.
+[0:06:33] SPEAKER_01: So that's a really powerful statement.
+[0:06:35] SPEAKER_01: I thought we could just start there.
+[0:06:39] SPEAKER_02: Well, let's not waste any time.
+[0:06:41] SPEAKER_01: No, just get right to the mic drop moment of the book.
+[0:06:43] SPEAKER_01: We've been dying for this talk.
+[0:06:47] SPEAKER_02: Well, first of all, thank you for highlighting that section of the book.
+[0:06:50] SPEAKER_02: That's the central argument.
+[0:06:52] SPEAKER_02: And I put my neck out there because it's not a very simple thesis for a book and it's
+[0:06:57] SPEAKER_02: certainly not a glamorous one.
+[0:06:59] Unknown: And that might be the point.
+[0:07:03] SPEAKER_02: In order for me to discuss that particular paradigm, we might also have to just back
+[0:07:08] SPEAKER_02: up to what you were saying at the outset, which is this term,
+[0:07:12] SPEAKER_02: Mcmindfulness, which is coming from around 2010.
+[0:07:15] SPEAKER_02: Before we get to Mcmindfulness, we also just have to sort of appreciate where my head was
+[0:07:20] Unknown: coming from because I had, I mean, the short story is that I had spent
+[0:07:27] Unknown: let's say more than a decade sort of hanging out in the Buddhist world, in a Buddhist
+[0:07:37] Unknown: cultural milieu and really savoring some of the fantastic wisdom teachings that come from
+[0:07:45] SPEAKER_02: its original context.
+[0:07:47] Unknown: And then at a certain point, I migrated into a clinical setting at Harvard, at Herbert
+[0:07:54] SPEAKER_02: Benson's mind-body clinic.
+[0:07:58] SPEAKER_02: And there I was exposed in contrast to a very secular and radically reduced
+[0:08:05] Unknown: Pith instruction for a wider audience.
+[0:08:09] SPEAKER_02: And we were doing clinical trials and dealing with people with heart disease and pain
+[0:08:17] Unknown: and monitoring and facilitating a basically in a very quick way,
+[0:08:22] SPEAKER_02: introduction to meditation so that they could get some health outcome benefit.
+[0:08:27] SPEAKER_02: But I was just internally sort of disillusioned by the whole thing because I had just come out
+[0:08:33] SPEAKER_02: of India and after sitting under the Bodhi tree in Bodh Gaya where the Buddha gained
+[0:08:37] SPEAKER_02: enlightenment and living with the monks and being in a really full throttle milieu,
+[0:08:42] SPEAKER_02: which spans thousands of years back and isn't sort of an unchanging process.
+[0:08:47] SPEAKER_02: And so I had these two exposures and one was almost like, where's the beef?
+[0:09:01] SPEAKER_02: And then I've sort of had a lot of my mentors challenge me because I think everybody is
+[0:09:05] SPEAKER_02: in agreement and I am in agreement too that we cannot, in order for meditation to be available,
+[0:09:12] Unknown: it has to be secularized because the notion of a religious practice is just not going to
+[0:09:19] SPEAKER_02: appeal to a large population.
+[0:09:23] Unknown: But I think by the time 2010 rolls around and I was interviewed by Danny Fisher for this article,
+[0:09:32] SPEAKER_02: I just needed to get something in just to push back on the tremendous interest and sort of
+[0:09:40] Unknown: glamorous presentation and a kind of pitch that I was seeing, a marketing pitch about how amazing
+[0:09:48] SPEAKER_02: mindfulness was and how it could be used for just about anything. And I think at that time,
+[0:09:52] SPEAKER_02: there was every other third book was about mindfulness and like mindfulness for this and
+[0:09:56] SPEAKER_02: mindfulness for that and mindfulness, mindfulness, mindfulness, but not a lot on wisdom,
+[0:10:01] SPEAKER_02: not a lot on ethics, simply just about the technique and kind of marketing pitch that it
+[0:10:06] SPEAKER_02: can do so much. And I've read all the research and it's not like they're lying, but in another way,
+[0:10:10] SPEAKER_02: I just feel like the hooks of our own consumerism and our own marketing ploy or prowess just took
+[0:10:18] SPEAKER_02: mindfulness by the reins and was turning it into a billion dollar industry. And at the same time,
+[0:10:23] SPEAKER_02: I felt like some of the teachings that constitute the entire Buddhist path are really what we need.
+[0:10:31] Unknown: And so, in order to, you can say that breakout critique happened to 2010, but it's not until
+[0:10:37] SPEAKER_02: gradual awakening, my current book that I fully articulate the entire thesis, which you laid out
+[0:10:43] Unknown: now, we've kind of got this. Okay, if you and I and all of us sit down, we look at the world,
+[0:10:49] SPEAKER_02: we have a real fucking problem on our hands, are we in agreement?
+[0:10:52] SPEAKER_02: Yes, we are.
+[0:10:53] Unknown: And there's many ways to slice it, but if you just look at
+[0:10:58] SPEAKER_02: the ice caps melting, if you look at the polarization, the geopolitical crisis,
+[0:11:04] SPEAKER_02: the economic divide, you look at all these insane, insane factors, variables on our planet right now.
+[0:11:14] SPEAKER_02: It's true from a Buddhist point of view that all of them are being driven by what are called
+[0:11:18] SPEAKER_02: the three poisons, the human mind, unchecked forces, the human mind, the human mind,
+[0:11:26] SPEAKER_02: unchecked forces of human instinct of greed and hatred and delusion. It's true. And we cannot
+[0:11:32] Unknown: find a period in human history when none of those were happening, when there wasn't poverty or
+[0:11:37] SPEAKER_02: when there wasn't war, when there wasn't economic prejudice and like these kinds of things.
+[0:11:44] SPEAKER_02: But there is something in the last 300 years that has made those things amplified and totally
+[0:11:50] SPEAKER_02: berserk. Okay, so like it's only taken 300 years for us to completely put our species and all other
+[0:11:57] SPEAKER_02: species in danger. And as a father of two young kids, I've had to really sit down and take a very
+[0:12:03] SPEAKER_02: honest look and come up with an explanation for how did we get here? How did we get here?
+[0:12:09] SPEAKER_02: I mean, Buddhism has been around for a long time and has an explanation, but it doesn't necessarily
+[0:12:14] SPEAKER_02: has an explanation for how it is that we arrive at such a rapid demise and such a global far-reaching
+[0:12:24] Unknown: convergence of crises. And in order to answer that, I've had to go back in about 300 years
+[0:12:32] SPEAKER_02: to the enlightenment where we have a pendulum swing between religion and science. We move away
+[0:12:38] SPEAKER_02: from religion because of barbarism and authoritarian dictatorship and blind faith
+[0:12:46] SPEAKER_02: and crusades and pedophilia and all the rest of it. We got rid of it. We got so sick of it that
+[0:12:52] SPEAKER_02: a pendulum swing movement happens to the other extreme and we break out with logic, individualism,
+[0:12:57] SPEAKER_02: science, technology, medicine. And for that, we're thankful because look at all the benefits that
+[0:13:04] SPEAKER_02: we've created from sending a person to the moon to curing illnesses to creating the worldwide web
+[0:13:10] SPEAKER_02: and internet and et cetera. But we also find ourselves in these really disturbing, teetering
+[0:13:17] Unknown: on the edge phenomenon because of the paradigm. And the paradigm has to do with being so
+[0:13:26] Unknown: individualistic and so materialistic and so hedonistic. In other words, we're automatons.
+[0:13:34] SPEAKER_02: We have one life to live. We are brain jelly. We die at the end of our, you know, the
+[0:13:41] SPEAKER_02: electric activity in our brain at the end of death proves that at the end of that, there's nothing to
+[0:13:46] SPEAKER_02: it. So if we have to drink, eat, be merry for tomorrow, we die basically and we're just gobbling
+[0:13:51] SPEAKER_02: up the resources and everybody's out for theirs. And people on the top don't care about anybody else
+[0:13:58] SPEAKER_02: because we live in an inconsequential, nihilistic worldview. That's basically what's running the
+[0:14:03] SPEAKER_02: show right now. And scarily enough, we are exporting that from the West all over. So places like India
+[0:14:10] SPEAKER_02: and Mexico and et cetera just want their Coca-Cola, Levi's and Marlboro cigarettes, look the part
+[0:14:17] SPEAKER_02: and follow suit by exploiting everything else on the planet. So it is a disease. It is a mean
+[0:14:23] SPEAKER_02: disease, if you will. And we're creating a unified culture, you know, that's going to destroy us.
+[0:14:34] SPEAKER_02: So I think that's how I explain where we are. And I don't think with the time that we have remaining,
+[0:14:44] SPEAKER_02: that it's possible to just sit down and gently follow the breath or do a few yoga poses and put
+[0:14:49] Unknown: an end to that. So that is what I'm explaining is the limits of the mindfulness revolution.
+[0:14:55] SPEAKER_02: If you just have the technique and you sit and count your breath and you get gentle and you put
+[0:15:01] SPEAKER_02: a little spritzer on your yoga mat and you burn a few candles and you say a few prayers, I just
+[0:15:08] SPEAKER_02: don't think it's going to be enough. I don't think it's going to be enough given the time. It's
+[0:15:12] SPEAKER_02: not going to be far reaching enough or penetrative enough or expeditious enough or effective enough
+[0:15:17] SPEAKER_02: to reach deep down into the fundamental program where the paradigm lies and reverse it. So that's
+[0:15:24] Unknown: maybe I'll turn it back over to you to get some of your thoughts so we can kick this conversation
+[0:15:28] Unknown: off. Well, I'm thinking Vanessa and I did an episode a while back titled The Spiritual Path
+[0:15:36] SPEAKER_00: is Not a Benzo and you know that basically there's this way that you can just go back to the
+[0:15:43] SPEAKER_00: paradigm. It's like an infection, right? It can infect anything that it touches with its
+[0:15:50] Unknown: worldview and so it can take these practices, it can take these traditions, it can take these
+[0:15:57] SPEAKER_00: whole cultures, wisdom cultures and reduce it down to what we have which is a pill that'll make you
+[0:16:03] Unknown: feel better. So if you can just follow the breath or you can be more calm, you can be nicer, you can
+[0:16:10] Unknown: be more productive. All these things that yeah you can achieve more and we've seen that those
+[0:16:16] Unknown: are our cultural values and so it reinforces the objectification of everything as opposed to
+[0:16:25] SPEAKER_00: liberating from the objectification of everything which I believe is what the path is actually
+[0:16:30] Unknown: designed to do. So like you were saying, truly these wisdom practices, truly this path
+[0:16:41] Unknown: in its genuineness is really a dose of what we need culturally and you talk about you know paradigm
+[0:16:48] Unknown: therapy so I'd be interested to hear more about how you see like if we could get these back in full
+[0:16:57] SPEAKER_00: embodied ways as opposed to strip mining them for techniques,
+[0:17:01] SPEAKER_00: how is that the antidote to the paradigm sickness? That's so beautiful. So I love that. Benzos,
+[0:17:07] Unknown: what'd you call it? Benzo? Spiritual path is not a benzo. Okay it's not benzo and then strip mining
+[0:17:12] SPEAKER_02: that's another great because that's so true we're like into extracting right? We just want the raw
+[0:17:19] SPEAKER_02: material and then everything else can go to shit right? We just like want our we want the pith of
+[0:17:24] SPEAKER_02: it and we don't care about like the displacement of all the earth and the trees above as long as
+[0:17:32] Unknown: we get that like just like that gram of gold right? Yeah. Yeah I mean again those are part
+[0:17:38] SPEAKER_02: and parcel of like our Eurocentrism and our materialism that like they are just symptoms,
+[0:17:44] Unknown: they're symptomatic of the deeper paradigm. So if we're all in agreement and I'm sure there's a
+[0:17:50] SPEAKER_02: number of different ways to look at it okay? This is just one way but I think we so far so
+[0:17:57] SPEAKER_02: we're just having an open conversation where we can make our way through some of the themes of
+[0:18:00] SPEAKER_02: the book and so far we're in agreement that we're first in a very we're in a dire predicament
+[0:18:07] SPEAKER_02: and we're just like the Four Noble Truths. First truth is that we're in a dire predicament. We are
+[0:18:12] Unknown: symptomatic, the topsoil is ruined, the ice caps are melting, the corporate sector has
+[0:18:20] SPEAKER_02: hijacked the political systems and the economic systems are outdated because they run by way of a
+[0:18:27] SPEAKER_02: paradigm of infinite growth on a planet of finite resources. So everything, every sector of human
+[0:18:34] SPEAKER_02: civilization right now is up for a critical analysis because it's on life support. So we
+[0:18:41] SPEAKER_01: are in agreement about that. And our individuals you know just to add that level to it, depression,
+[0:18:49] SPEAKER_01: anxiety, you know existential crises like we are as even individuals reflecting this larger global
+[0:19:00] SPEAKER_01: suffering that you're describing. So it's not even as if oh well I'm fine as long as I
+[0:19:07] SPEAKER_01: spritz something on my mat and do a couple of deep breaths because we're suffering under this illness
+[0:19:13] SPEAKER_02: personally as well. Would you agree? Well thank you for reminding me yeah because like I'm included
+[0:19:19] SPEAKER_02: in that you know like I've just been through 18 months of one of the deepest depressions that I
+[0:19:23] SPEAKER_02: can imagine and so probably of my entire life. So I'm definitely included and I definitely,
+[0:19:30] SPEAKER_02: I'm on a spiritual quest to find solutions but it's not that I have the answer. I'm really deeply
+[0:19:36] Unknown: just very concerned first and foremost for my own mental state but also that of my family, my
+[0:19:43] SPEAKER_02: children but also the welfare of everybody else and particularly as a therapist and all of you
+[0:19:48] SPEAKER_02: guys are working with individuals I think ourselves included but the people we work with
+[0:19:53] SPEAKER_02: are constantly coming in with maladies but I think what unifies them all is an underlying
+[0:19:58] SPEAKER_02: malady that living in a concrete civilization with a meaningless work life, feeling deadly
+[0:20:05] SPEAKER_02: apathetic about the future and not much purpose or meaning is really destroying the internal world of
+[0:20:13] SPEAKER_02: of people including us about and we're finding it very hard to keep up. So yes I think that's a
+[0:20:22] SPEAKER_02: great thing to agree and include on the outset is we have a cultural malady that's symptomatic of
+[0:20:30] Unknown: in these various ways but we're also anxious beyond measure, depressed beyond measure in
+[0:20:37] SPEAKER_02: in orders of magnitude higher than we've ever seen before and the general population
+[0:20:44] Unknown: from Athens to New York you know and certainly in the Arab countries and people, the young people
+[0:20:53] SPEAKER_02: of this planet are not very happy with their circumstance, with their lot in life because
+[0:20:59] SPEAKER_02: they have been thoroughly disenfranchised. It does not look good if you're living in
+[0:21:03] Unknown: Portugal and you're 25 years old right now. So yes I would agree with that. So we would say that
+[0:21:11] SPEAKER_02: that's let's say that's a thorough first noble truth review of our current sickness and all
+[0:21:17] SPEAKER_02: its symptoms both sociologically but also personally then we would have to look deeper into
+[0:21:22] SPEAKER_02: the second noble truth and there I would suggest that the Buddhists have a very good trans
+[0:21:29] SPEAKER_02: generational you know they're able to locate something that goes beyond time and space
+[0:21:34] SPEAKER_02: with the addictions of greed and delusion and aggression but I think I'm trying to say that
+[0:21:43] SPEAKER_02: in the last 300 years it's almost we've put like a magnifying glass on top of that match
+[0:21:51] SPEAKER_02: and amplified it greatly with neoliberal capitalism that is a kind of capitalism that has
+[0:21:57] SPEAKER_02: no checks and balances anymore. There's no regulation. It's just a few people can just
+[0:22:02] SPEAKER_02: basically make all the political decisions and do what they want with the entire system
+[0:22:08] SPEAKER_02: and they've co-opted the media circus which is now just a propaganda arm for the corporate elite
+[0:22:14] SPEAKER_02: and let's not go into deep state stuff right now but we've got a serious problem right?
+[0:22:22] Unknown: And so there's that sort of deep seated instinctual programming on a personal level that's
+[0:22:34] Unknown: then amplified by the socio-political and economic systems. They're geared towards benefiting the few.
+[0:22:46] SPEAKER_02: So then you want to talk about the solution and the best that I can come up with is well,
+[0:22:53] SPEAKER_02: mindfulness is not going to be enough. I mean the other two years ago I was invited to a conference
+[0:22:57] SPEAKER_02: in Amsterdam which is one of the most outstanding conferences I've ever been to. It's called the
+[0:23:02] SPEAKER_02: Inner Peace Conference that happens in October and it's really three days where the city of
+[0:23:07] SPEAKER_02: Amsterdam is transformed into a peace summit and you can attend beautiful 400 year old churches
+[0:23:14] SPEAKER_02: and all day long there are teachers of various traditions giving classes and it's basically a
+[0:23:19] SPEAKER_02: smorgasbord all day of this class of Kundalini yoga and then you know this kind of yoga and that
+[0:23:26] SPEAKER_02: kind of meditation and all and but they also include wisdom practices and teachings and dharma
+[0:23:30] Unknown: talks and it's a fantastic, fantastic, definitely full of integrity but it is still the Inner Peace
+[0:23:41] Unknown: Conference, okay? And at that time in my thinking I was just really struck by the limits of an
+[0:23:52] Unknown: individual calming down and taking a few breaths, you know, going to the yoga studio, going to the
+[0:24:01] SPEAKER_02: ashram, going on a dharma adventure, having things be peaceful is like a provisional
+[0:24:09] SPEAKER_02: necessity, prerequisite you could say but not a total solution
+[0:24:15] SPEAKER_02: because the code has to be changed and not only the individual code but we need a new political
+[0:24:20] SPEAKER_02: system, we need a new economic system, we need new agricultural systems and to be honest I don't
+[0:24:28] Unknown: think the Buddhists know how to deal with that stuff so like I've spent 20 years of my life
+[0:24:35] SPEAKER_02: learning this programmatic level and the wisdom traditions that are capable of getting deep down
+[0:24:41] Unknown: to the instincts but it's time for conversations with people who have spent 20, 30 and 40 years
+[0:24:49] SPEAKER_02: learning how to do permaculture, learning how to do new bitcoin blockchain revolutionary ideas for
+[0:24:58] SPEAKER_02: new economic systems that bypass the central banking system for example and allow just the
+[0:25:03] SPEAKER_02: common person to have a go at life, you know? And so spiritual teachings and spiritually informed
+[0:25:11] SPEAKER_02: people are also going to have to bond together with social activists and political activists and
+[0:25:16] SPEAKER_02: people are on the cutting edge of new social design if we're going to have a chance at redoing
+[0:25:22] SPEAKER_02: the entire thing both inner and outer and so that critique is part of the book too because
+[0:25:30] SPEAKER_02: I'm just, I'm 42 years old, I'm coming at the limits of a long intensive study, first and foremost
+[0:25:37] SPEAKER_02: the Buddhist study is limited and they say change your mind to change the world and in a way I think
+[0:25:43] SPEAKER_02: we all understand it but in another way it's a little naive because it's just, it assumes too
+[0:25:48] SPEAKER_02: much, like how? Is it just a mentally created world and if we just all get all peaceful it
+[0:25:53] SPEAKER_02: will transform? No, I'm sorry, we're going to need to have different systems and people are
+[0:25:59] SPEAKER_02: going to have to create those systems and they're actually sophisticated and technical so there's
+[0:26:03] SPEAKER_02: going to have to be someone with a lot of expertise or a lot of people coming together with a lot of
+[0:26:07] Unknown: expertise to design them and so I'm coming up against the limits of that as I am coming up
+[0:26:14] SPEAKER_02: against the limits of my own psychotherapy practice about life, I mean I'm sure as body
+[0:26:19] SPEAKER_02: workers and coaches you're also experiencing the limits of your own small little discipline.
+[0:26:25] SPEAKER_02: I mean haven't you discovered at some point that you really need to network and collaborate with
+[0:26:29] SPEAKER_02: other healthcare providers and practitioners to really address the full spectrum of what your
+[0:26:35] SPEAKER_02: client is bringing in? If you're a body worker you might have to refer for psychotherapy, if you're a
+[0:26:40] SPEAKER_02: psychotherapist you might have to work to refer to energy healing, if you're, you know, if you do
+[0:26:45] SPEAKER_02: any of those you might have to also include an astrologer to get a top-down perspective, suddenly
+[0:26:50] SPEAKER_02: we're working in a much more interdisciplinary and multicultural way because we're noticing the limits
+[0:26:56] SPEAKER_02: of each of our disciplines and this is a very unique time and place where we can actually
+[0:27:03] SPEAKER_02: cross divides and bring people together and it's almost like that image that comes out of the
+[0:27:07] SPEAKER_02: Buddhist text where there are four blind people touching different parts of the elephant, they
+[0:27:11] SPEAKER_02: don't know what the full gestalt of what they're dealing with is, is like I've got the trunk and
+[0:27:15] SPEAKER_02: you've got the hoof and you're the foot or the tail and the ear and but like suddenly like we
+[0:27:21] SPEAKER_02: can work together to create a bigger map that is inclusive of both the internal environment but also
+[0:27:27] SPEAKER_02: the external environment, the inner instincts but also the social domains, the social and
+[0:27:34] SPEAKER_02: geopolitical domains that have to be bridged. So I think that that is a broad way of starting
+[0:27:41] SPEAKER_02: to talk about the third noble truth which is the possibility of freedom but that's such a kind of
+[0:27:47] SPEAKER_02: cliche thing, I think we just assume okay it's possible to change but how, how are we going to
+[0:27:52] SPEAKER_02: change? So I think the one of the points that I'm making is that it's going to take us working
+[0:28:00] SPEAKER_02: together in different disciplines to create a broader full-scale map of the human being's
+[0:28:07] SPEAKER_02: capability but also not just do an inner work, also combine that with the outer work.
+[0:28:14] Unknown: So that's the first thing. The other thing is, maybe I'll just put it out there and then we can,
+[0:28:21] SPEAKER_02: I can include you guys because I don't want to take all the air time here but the other thing
+[0:28:26] SPEAKER_02: would be that we can't wait for Obama's to do it anymore. I don't think there's the end of waiting
+[0:28:32] SPEAKER_02: for the one top-down resolution is over. I'm not going to say it's the end of the guru
+[0:28:38] SPEAKER_02: because I'm always going to think that a guru serves an important purpose but it is the end
+[0:28:44] SPEAKER_02: of us feeling so juvenile and inadequate that, I mean if you notice on the planet there is
+[0:28:49] SPEAKER_02: grassroots movements of people, uprising movements where the common man and woman are
+[0:28:55] SPEAKER_02: reclaiming their, their innate power to stand up against some of this and that's what it's going
+[0:29:01] SPEAKER_02: to take. That is exactly what it's going to take. So I'll just stop there just to hear some of your
+[0:29:06] SPEAKER_01: thoughts. I'm so sorry. No, I apologize. You're the guest. Of course what you're pointing to there is
+[0:29:13] SPEAKER_01: not just theory, we're observing it, right? Consciousness is coming forward in groups of
+[0:29:18] Unknown: people rising up together. So I mean you just said a lot. Let me just pull out a couple of
+[0:29:23] SPEAKER_01: thoughts that were on my mind. I mean on one level we're talking about interconnectivity
+[0:29:28] SPEAKER_01: and you are talking in the book about awakening. You know that we can awaken if we follow this
+[0:29:35] SPEAKER_01: process and that as we do have this gradual awakening we have greater access to clarity.
+[0:29:42] SPEAKER_01: I mean how can you think differently than the conditioning of the sickness of paradigm would
+[0:29:48] Unknown: have you think unless you have some access to basic clarity, right? So in a way when they talk
+[0:29:56] SPEAKER_01: about inner peace, I mean the the joy and the power of taking an actual unfolding path is that you can
+[0:30:03] SPEAKER_01: see through all of the bullshit, all of the conditioning, all of the well this is what
+[0:30:08] SPEAKER_01: everybody does kind of attitudes so you can access a new more creative and aligned way of
+[0:30:15] Unknown: experiencing things. So I think for me one of the things I love is I love the idea of the sickness
+[0:30:24] SPEAKER_01: of paradigm from the standpoint that when I started meditating it was no choice. I just I needed it.
+[0:30:32] SPEAKER_01: I was nihilistic. I was despairing. I was hopeful. I was all of it. I was drawn on the path. So I found
+[0:30:37] SPEAKER_01: my way to meditation fairly easily quote unquote. I used that meaning I could practice but most
+[0:30:44] SPEAKER_01: people don't even want to sit and have a practice. Why? No context. No context and then you can have
+[0:30:51] SPEAKER_01: a practice and what happens when you have a practice and you start to unravel or deconstruct
+[0:30:57] SPEAKER_01: like when I first started studying meditation it was in the Shambhala tradition and I started to
+[0:31:03] SPEAKER_01: unravel rapidly and the depth of despair that was opening up in me was greater than I knew how to
+[0:31:10] SPEAKER_01: relate to and I didn't have a guru. I didn't have a teacher to go to. I was by myself in it
+[0:31:16] SPEAKER_01: and there was no context really supporting me in the way of like instruction. So I feel like
+[0:31:24] SPEAKER_01: this context you called it correct me if I'm wrong Miles but you called it like the quantum view.
+[0:31:30] SPEAKER_01: This this context which is like the paradigm therapy is extremely important in all these
+[0:31:36] SPEAKER_01: levels one so we can actually liberate ourselves because all of our listeners are very sensitive
+[0:31:43] SPEAKER_01: people. They've tried a million things and they realize where it ends like okay it's not getting
+[0:31:49] SPEAKER_01: me there. They've been disillusioned with the easy quick fixes really and so from a personal level if
+[0:31:57] Unknown: we want to actually be free of suffering we need a real path and then from the collective level
+[0:32:04] SPEAKER_01: if we want to have clarity if we want to have creativity if we want to have actual
+[0:32:08] SPEAKER_01: interconnectivity where people care about each other we need we need a clearer path.
+[0:32:15] SPEAKER_02: I don't know what it took so long for us to get together if that's your audience that's
+[0:32:20] SPEAKER_02: uh that's the kind of people I want to hang out with. Yeah they're pretty great to know them.
+[0:32:25] SPEAKER_01: That's the people we're like we've found a beautiful niche of people who it's like
+[0:32:29] SPEAKER_01: I always used to say if you're even going to see me as a client you probably have to have had your
+[0:32:33] SPEAKER_01: first disillusionment with life or you are not going to like what I have to say about it.
+[0:32:40] SPEAKER_02: Yeah so then so at least you recognize it's a niche okay because it's it feels to me that still
+[0:32:44] SPEAKER_02: the broader breaststrokes of the spiritual market is feel good yoga yoga journal type
+[0:32:52] Unknown: um you know looks good feels good type it's spiritual materialism or its spirituality with
+[0:33:00] SPEAKER_02: an underbelly of pleasure principle driven agenda agenda but for a subset of people that I think
+[0:33:08] SPEAKER_02: have been either around the block or have had enough time to sample that and long enough to
+[0:33:15] Unknown: realize it has limits and that there must be something else that's the kind of person
+[0:33:21] SPEAKER_02: I wrote the book for and when we sat down with the publisher they were sounds true they were so
+[0:33:27] SPEAKER_02: kind because uh first and foremost I'm an unknown entity I don't have a big following I don't I
+[0:33:32] SPEAKER_02: didn't come with thousands of people on Facebook and in today's publishing world that's like you
+[0:33:37] SPEAKER_02: know that's what that's that's everything but sounds true took a big gamble on me and we had
+[0:33:43] SPEAKER_02: been in conversation for years and years and years and my my my reach wasn't developing but they they
+[0:33:50] SPEAKER_02: somehow thought it was a timely message and I owe them a huge debt of gratitude for not
+[0:33:57] SPEAKER_02: um sort of selling selling short on on the on the on the principle here but they I think they really
+[0:34:05] SPEAKER_02: resonated with the message but it was clear when we were in negotiations around the contract that
+[0:34:10] SPEAKER_02: this is for a small subset of people because this is not the mainstream thing and maybe the
+[0:34:15] SPEAKER_02: mainstream will just continue for uh as long as it takes until people have had enough time to sample
+[0:34:21] SPEAKER_02: what's available to them until they get to this point that you're talking about where they're
+[0:34:26] SPEAKER_02: they reach a limit or an impasse with where the current methodology can take them and let's not
+[0:34:34] SPEAKER_02: poo poo it like if you if you have a health problem and you've benefited from mindfulness an
+[0:34:40] SPEAKER_02: eight-week mbsr program that is that's an incredible open door for some people let's let's
+[0:34:47] SPEAKER_02: let's be clear about that but then when it comes to these symptomatic issues these larger global
+[0:34:54] SPEAKER_02: symptomatic issues or the the level of apathy and the level of purposelessness that come by way of
+[0:35:00] SPEAKER_02: being reduced so thoroughly to a to brain jelly I like to call it you know then then I think
+[0:35:07] SPEAKER_02: um we're going to need a little bit more so I think what you were alerting to is that what's
+[0:35:13] SPEAKER_02: the little bit more and for that we'd have to get into the fourth noble truth uh we're not just
+[0:35:18] SPEAKER_02: talking about awareness actually I mean awareness is key but awareness is part of the meditative
+[0:35:24] SPEAKER_02: offering that's already available in the culture so why isn't that enough I mean the way that I've
+[0:35:29] SPEAKER_02: been trying you know it's funny writing the book is one thing but then pitching it and talking about
+[0:35:34] SPEAKER_02: it after you write it is a completely other thing so thank you for the opportunity to articulate
+[0:35:39] SPEAKER_02: some of these things because it's like an it's like an evolution you know I've just given a
+[0:35:42] SPEAKER_02: couple of book talks and I wasn't I I didn't prep I didn't I did no one prepped me on like
+[0:35:51] SPEAKER_02: okay it's a different thing to start talking about the the premise of the book and what's
+[0:35:55] SPEAKER_02: what's really important but one way I've come up with a I think maybe some people can can
+[0:36:02] Unknown: understand that is if you have a world picture that the world is flat and there are people out
+[0:36:10] SPEAKER_02: there right now with there's like a little subculture of flat earth people saw them on
+[0:36:14] SPEAKER_01: the news like did you see that brook I saw like a whole thing on that I was like huh
+[0:36:19] SPEAKER_02: maybe sure and they have some they have some very interesting ideas I mean it's worth looking into
+[0:36:25] SPEAKER_02: and looking at some of those ideas but that that we could say that that's a kind of world view okay
+[0:36:30] SPEAKER_02: you think that the world is flat and out of that world view you were going to start to live a
+[0:36:34] Unknown: certain way okay you're going to your lifestyle is part and parcel rooted or grounded in your
+[0:36:41] SPEAKER_02: worldview so let's say you don't want to leave your block if you think it's a flat earth because
+[0:36:47] SPEAKER_02: you're afraid that you're going to tumble off the edge you know okay and this is a little bit of a
+[0:36:51] Unknown: caricature but if you then see the world a particular way and you live in the world as
+[0:36:57] SPEAKER_02: a result of seeing the world that particular way which is the equivalent of well there are infinite
+[0:37:03] SPEAKER_02: resources and we have an economic paradigm where we would just gobble them up infinitely
+[0:37:08] SPEAKER_02: and yet that isn't the case it's a wrong worldview and the way we've been living is rooted in that
+[0:37:14] SPEAKER_02: wrong worldview that's how we explain where we are right now and my point is is if you just go
+[0:37:20] SPEAKER_02: to the ashram and you sit and count mantras or you follow your breath or you do some beautiful yoga
+[0:37:26] SPEAKER_02: postures it's very unlikely that you're going to dig deep enough down into your worldview what
+[0:37:32] SPEAKER_02: you're going to do is suspend your worldview until you have a kind of feel good experience
+[0:37:37] SPEAKER_02: now not everybody has a feel good experience when meditating as you as you clearly indicated and
+[0:37:42] SPEAKER_02: i'm sure we've all worked with people that have come and said i unraveled it was a scary experience
+[0:37:48] SPEAKER_02: like i you know if you do a 10-day vipassana retreat and you're not prepared you can have
+[0:37:53] SPEAKER_02: you can brush up against the the the abyss you know which is another kind of implicit worldview
+[0:38:00] SPEAKER_02: so either way it's it's not guaranteed that if you do your meditative practice that you're going
+[0:38:07] SPEAKER_02: to get down into the code where the program and the lifestyle components are most likely what's
+[0:38:14] SPEAKER_02: going to happen is you're going to have a suspension and either have a beautiful blissful experience
+[0:38:18] SPEAKER_02: or scary one but either way you're going to come back from your yoga vacation and just continue
+[0:38:25] SPEAKER_02: with the status quo right so part of what the buddhist tradition does is it offers not just one
+[0:38:33] Unknown: what do you call that leg in the three three-legged bar stool
+[0:38:41] SPEAKER_02: so it's actually got an eight-legged bar stool that can be reduced to a three-legged bar stool
+[0:38:48] SPEAKER_02: and just one of the legs is meditation where the other two legs is wisdom or or what i'm calling
+[0:38:54] SPEAKER_02: quantum view the the view that is able to penetrate deep enough to see the interconnectivity of all
+[0:38:59] SPEAKER_02: things which would be a replacement for the a newtonian paradigm or the the paradigm that sees
+[0:39:08] SPEAKER_02: things as building blocks or or atoms that can be controlled that that newtonian paradigm is
+[0:39:17] SPEAKER_02: is the single most important variable 300 years ago in the age of reason that we use as a launch
+[0:39:23] SPEAKER_02: plan to dominate matter and create science and the scientific revolution but it is also the same
+[0:39:29] SPEAKER_02: phenomenon or worldview that makes us believe that we can dominate the planet and that we're
+[0:39:34] SPEAKER_02: just independent automatons and gobbling up gobbling up resources so quantum view is about
+[0:39:40] SPEAKER_02: penetrating that and getting to the the the wave-like essence of things which is what this
+[0:39:47] Unknown: what the mystics have always talked about but then based on that mystical worldview then then
+[0:39:53] Unknown: you'd have you'd have these recommendations that are they're in every world culture really how to
+[0:39:58] Unknown: live how to live with each other from a quantum paradigm the the the first nations people of this
+[0:40:06] SPEAKER_02: of north america knew how to live in nature and i'm a big fan of quoting this
+[0:40:11] SPEAKER_02: first nations elder one of my buddies phil is doing a documentary he was at standing rock about
+[0:40:18] SPEAKER_02: six months ago and after all the media hype left you know vice news and fox news they all rolled
+[0:40:25] SPEAKER_02: out and the iconic image of the opposing forces of the first nations people and the the the national
+[0:40:34] Unknown: guard once they cleared phil's phil still he he hung out there after the hype had died down
+[0:40:45] SPEAKER_02: and because of the sincerity of his heart some of the first nations elders brought him in and they
+[0:40:50] Unknown: actually did something very rare with phil which is give him exclusive access including some very
+[0:40:57] SPEAKER_02: very profound ceremonies which were incredibly transformative for him i mean they blew his mind
+[0:41:04] SPEAKER_02: and we had long talks and debriefs about some of the transformative experiences that he was able to
+[0:41:11] SPEAKER_02: gain access to but there's a one sound bite from his documentary where he's looking at this young
+[0:41:16] Unknown: probably about 35 year old lakota elder who is looking at phil and he says your your culture
+[0:41:24] SPEAKER_02: your culture's way of life has a has a shelf life of about 300 years
+[0:41:31] SPEAKER_02: and and what you are seeing right now is the ceiling effect of your way of living
+[0:41:38] Unknown: our way of life we could live on this planet indefinitely
+[0:41:43] SPEAKER_02: indefinitely
+[0:41:46] Unknown: yeah and that that is a very bold claim but i think if you've been around the block
+[0:41:55] SPEAKER_02: you're you can resonate you you can resonate with some very deep truth there
+[0:41:59] Unknown: yeah feels really true for sure well i'll just be curious to hear what you guys think of it
+[0:42:07] SPEAKER_00: well you couldn't see it on skype but i was doing a happy dance when you were
+[0:42:10] SPEAKER_00: talking about the newtonian idea being like the beginning of this fracture the big passion of mine
+[0:42:16] SPEAKER_00: the way it turned everything into object that i object out there that i control or i'm an object
+[0:42:22] SPEAKER_00: that is controlled or we all come off some factory assembly line and that this is what's breaking down
+[0:42:27] SPEAKER_00: in every area of life and i think some really beautiful things are emerging like a reconnection
+[0:42:32] SPEAKER_00: like you're talking about with your friend with this documentary or like the book that you wrote
+[0:42:36] Unknown: and talking about this gradual path and you use a really beautiful frame in the book that i think
+[0:42:43] SPEAKER_00: to explain this because i could imagine that some people listening are like okay i want the path for
+[0:42:48] SPEAKER_00: real and most of the people who listen to our show are already very much engaged with that but i would
+[0:42:53] Unknown: imagine there are a lot of people are like so how and your book lays that out beautifully so i don't
+[0:42:58] Unknown: mean give us the step-by-step blueprint because that's just more strip mining but the frame that
+[0:43:05] SPEAKER_00: you use that i think is really makes sense to almost everybody is the hero's journey and you
+[0:43:11] Unknown: quote from joseph campbell and this idea that we each have a hero's journey to live out and that our
+[0:43:20] SPEAKER_00: own if we're really connected to our own hero's journey that that is an awakening path that that's
+[0:43:26] SPEAKER_00: what it has to be because that's we're all going home if we really connect genuinely with what's
+[0:43:33] Unknown: unfolding in us and if we can really get to this quantum view so since i think that that really
+[0:43:40] SPEAKER_00: makes good sense to people as a frame that we have we're all born into our own hero's journey
+[0:43:46] Unknown: and our own path that has its own intelligence of unfolding i'm curious if you could speak to that
+[0:43:51] SPEAKER_00: a little bit for people listening who are saying like okay yes i am fed up with mig mindfulness
+[0:43:58] Unknown: what is the hero's journey really look like how do i even plug that into my own worldview so that i
+[0:44:04] Unknown: can commit to that more deeply yeah the hero's journey i mean i've been so impacted i mean at
+[0:44:13] SPEAKER_02: my earliest i mean my own hero's journey has been impacted by it because i was raised in a very
+[0:44:19] SPEAKER_02: chaotic household with an alcoholic father and there was not that much emotional attunement and
+[0:44:25] SPEAKER_02: a lot of material opportunities and and there wasn't that fundamental sense of unconditional
+[0:44:32] Unknown: positive regard or unconditional love and i was hacking and burning and and and basically turned
+[0:44:39] SPEAKER_02: my aggression inwards at a very early start and if it were not for finding a few key spiritual
+[0:44:46] SPEAKER_02: figures at my high school who turned me on to such things as one of my teachers and when i was 16
+[0:44:52] SPEAKER_02: turned me on to siddhartha that was a seminal book but the other teacher turned me on to the
+[0:44:58] SPEAKER_02: collection of bill moyer's conversations with joseph campbell that on pbs i think it was
+[0:45:08] SPEAKER_02: and so there there's my start at 16 years old is joseph campbell talking about
+[0:45:13] Unknown: each of us is called at some point and we we are called out of a struggle
+[0:45:25] Unknown: to follow a path that is less traveled and that's the beginning is like everybody's born into the
+[0:45:33] SPEAKER_02: status quo and we're basically like sheep and then out of the blue there comes a phone call
+[0:45:39] SPEAKER_02: out of the blue there comes a phone call and you get the choice whether you're going to answer it
+[0:45:44] SPEAKER_02: or not then and there but if you don't answer it then and there then don't worry you're not
+[0:45:48] SPEAKER_02: out of luck you don't get it once life is going to come knocking it's going to find you you're
+[0:45:54] SPEAKER_02: going to everywhere you live definitely don't worry you know they don't like live in regret oh
+[0:45:59] SPEAKER_02: there's only one phone call oprah called and i didn't answer it you know never going to
+[0:46:03] SPEAKER_02: should have luck you know it's going to come again and again and again and and when you want
+[0:46:08] SPEAKER_02: you know it will take courage that's the one thing it will take courage to answer that call
+[0:46:12] Unknown: because the call is going to say something like you're right the way that you've been
+[0:46:17] SPEAKER_02: living isn't satisfying the the lies that your culture gave you your family systems that are
+[0:46:23] SPEAKER_02: out of whack your body that is like dying on you whatever it is the girlfriend or boyfriend that
+[0:46:30] SPEAKER_02: left you whatever the story is i mean it is part and parcel of the quintessential movement of every
+[0:46:36] SPEAKER_02: human being to struggle with death illness sickness old age depression sadness and then
+[0:46:43] SPEAKER_02: ask themselves why am i here who am i why am i here where am i going that's what it boils down
+[0:46:48] Unknown: to the mono myth who am i why am i here where am i going and the the hero's journey whether it is
+[0:46:57] SPEAKER_02: you know whatever culture whatever epoch it is a it is a template for proceeding through these
+[0:47:04] SPEAKER_02: various milestones the first one is answering that bloody call you know like going shit it's not
+[0:47:12] SPEAKER_02: working if i can't live here and by the way you know i'm 42 years old and i had built a really
+[0:47:19] SPEAKER_02: successful psychotherapy practice i worked with unbelievable people i had a tenured
+[0:47:27] SPEAKER_02: not a tenure but a faculty position at very credible university a wonderful position at
+[0:47:34] Unknown: at my institute i mean on paper after already struggling with my first hero's journey call at
+[0:47:41] SPEAKER_02: 16 it's not like that was it there's another one oh there are so many
+[0:47:52] SPEAKER_00: yeah you don't just get an a on one test and then you're done i do it all over again yeah
+[0:47:59] SPEAKER_02: so that was 20 years ago that i answered the first one and it brought me through all the you know
+[0:48:04] SPEAKER_02: signs that joseph campbell laid out including you know leaving the shire and then entering into the
+[0:48:10] SPEAKER_02: dark place which was my time in india but then finding guides who were going to train you you
+[0:48:15] SPEAKER_02: know the obi-wan konobi type figures and then finding the elixir the elixir for me was the
+[0:48:22] SPEAKER_02: unconditional love that i my first teacher gave me which was some i mean i'll cry thinking about
+[0:48:28] SPEAKER_02: it because i had so much self-aggression and still have a lot of it but at that point i never
+[0:48:32] SPEAKER_02: had someone whose presence was alchemically so generously given without anything in return
+[0:48:40] SPEAKER_02: without the wish for anything in return which was couldn't be more of a 180 degree difference
+[0:48:45] SPEAKER_02: than how my upbringing with my own parents were and that was that was the beginning of
+[0:48:52] SPEAKER_02: some felt sense that there could be a different way to live and that that was the elixir moment
+[0:48:57] SPEAKER_02: and then there was the return home which is how do you you know spend time with that elixir and
+[0:49:02] SPEAKER_02: suddenly want to you know you want to savor it but you also want to share it so then 20 years of
+[0:49:08] SPEAKER_02: my life's work going to phd and then working with the tibetans and working with my teachers and
+[0:49:14] SPEAKER_02: learning how to integrate and building a system and building a protocol building a program building
+[0:49:18] SPEAKER_02: a school and then i get to a place where like a year and a half ago i just like there's the call
+[0:49:26] Unknown: again it's not working out i'm not sleeping literally the office walls of my psychotherapy
+[0:49:34] SPEAKER_02: practice feel like they are closing in the same with my relationships with important figures
+[0:49:41] Unknown: feel like they are coming to an end and every part of me is resisting because on paper it's so good
+[0:49:50] SPEAKER_02: i live i live i was living the dream of a well spent life i honestly believe that like i
+[0:49:58] SPEAKER_02: it came out of tremendous effort but it was guided by bodhisattva vow and i was following the lamrim
+[0:50:06] SPEAKER_02: and but every single night i'm until i got so distraught that i was wondering if i could go on
+[0:50:14] SPEAKER_02: i was remember turning to my wife emily and going i don't i don't know if i can do this i don't know
+[0:50:18] SPEAKER_02: if i can get up and i have two small kids younger than four each of them okay and i was like every
+[0:50:25] SPEAKER_02: fiber in my body and being was telling me you cannot stay here this has become the new shire
+[0:50:33] SPEAKER_02: so that's almost like a 20-year cycle where you come all the way back home but it's not the home
+[0:50:39] SPEAKER_02: of liberation it's the home of like this has become like the ordinary routine again and and now you're
+[0:50:47] SPEAKER_02: complacent and now you're comfortable and some part of you is not growing and you're not listening
+[0:50:53] Unknown: you motherfucker you're not listening yep it like really pressurizes at a certain point
+[0:51:03] SPEAKER_02: to get you to pick up the call it's not the cating it really was suffocating and like
+[0:51:08] SPEAKER_02: so then i you know and it's just so funny that that happens to coincide with the release of the book
+[0:51:13] SPEAKER_02: you know so the book finally comes out it was a real hardship to write not a great writer i'm
+[0:51:19] SPEAKER_02: not well read i have limitations without articulate things and it was a real struggle on anybody who's
+[0:51:25] SPEAKER_02: taking on a book i don't i mean i wish them well good luck with it but for me it was great
+[0:51:31] SPEAKER_02: hardship it was in the depths of the winter with you know freezing cold in my basement with two kids
+[0:51:37] Unknown: under four and in the midst of this midlife crisis so now the book is out and i started
+[0:51:45] SPEAKER_02: listening now i'm listening like i'm giving up every single bit of my life everything is up for
+[0:51:50] SPEAKER_02: reevaluation i'm ready to move i'm ready to let go i'm ready to surrender and the thing is is it's
+[0:51:56] SPEAKER_02: not pretty i don't know where i'm going to land i don't know what's going to happen it's like the
+[0:52:02] SPEAKER_02: whole world is shaking me up on a great both a saturn return with mixed in with some deadly
+[0:52:08] SPEAKER_02: pluto with a lot of shit kicked up from childhood where i get to re-examine stuff
+[0:52:13] SPEAKER_02: and it's messy and it's dirty and it's painful i wouldn't wish it on anyone and i don't have
+[0:52:17] Unknown: any clear answers except for just cleat planting good seeds and have a little bit of faith that
+[0:52:26] Unknown: if i surrender i will be caught by reality the world will catch me and i will land but it's not
+[0:52:34] SPEAKER_02: it's not i'm not telling myself that to it's not creating any less more ease i'm just following
+[0:52:44] Unknown: the warrior's code it's just more courage in a sense yes and i would say so this is for your
+[0:52:52] Unknown: grace and grit audience fuck pleasure go for purpose purpose is the new pleasure principle
+[0:53:01] SPEAKER_02: one day i'll write an article with you girls okay pleasure is passe the new pleasure is purpose
+[0:53:09] Unknown: because pleasure comes and goes but purpose purpose can help you survive even the most
+[0:53:15] SPEAKER_02: deadly incidents and and i have woken up wondering if i could make it to the next day but i'm driven
+[0:53:21] SPEAKER_02: by purpose i have my boys to take care of i have students who who are really committed and inspiring
+[0:53:28] SPEAKER_02: i had this book to put out and even though every fiber in my being is dying and literally in a
+[0:53:34] SPEAKER_02: bardo what the tibetans call the between state between life and rebirth and i'm i'm committed
+[0:53:40] SPEAKER_02: to my bodhisattva commitments and my and i'm still practicing and it but it doesn't doesn't
+[0:53:46] SPEAKER_02: give me relief right the only thing that is helping is being driven by purpose so
+[0:53:54] SPEAKER_02: i don't know where we we got on that i don't know how we got you're on track brooke talked about the
+[0:53:59] SPEAKER_02: hero's journey your journey oh yeah yeah you're applicable okay every everybody at some point is
+[0:54:06] SPEAKER_02: going to be faced with this phone call and it's going to be a matter of picking up or not but i
+[0:54:10] SPEAKER_02: guess what what i hope is books like mine and others offer some road map once you've picked up
+[0:54:18] SPEAKER_02: the call because the next thing is okay i get it i don't like the way i've been living i don't like
+[0:54:22] SPEAKER_02: the culture the way it is but what are the alternatives and how do i get from point a to
+[0:54:27] SPEAKER_02: point b because a eight-week mindfulness you know maybe we uh mbsr course is not going to give you
+[0:54:34] SPEAKER_01: the whole shebang part of why this is maybe such a niche audience is it can come off sounding as
+[0:54:41] Unknown: if it's bad news you know like when when i first it is bad news bad news to a part of you bad news
+[0:54:50] SPEAKER_02: for our culture anybody who's trying to make money on this stuff watch out yeah exactly
+[0:54:56] SPEAKER_01: definitely that won't last yeah when i started my spiritual path and buddhism was really my first
+[0:55:02] SPEAKER_01: love it was the first thing that turned me on and everything when i used to read about enlightenment
+[0:55:07] SPEAKER_01: not only did it feel pretty far out there like oh god if i could ever even get close that's
+[0:55:13] SPEAKER_01: unimaginable um but i had a lot of ideas about what it was i mean i had a lot of concepts that
+[0:55:19] SPEAKER_01: were untrue and most of them involved this like really detached bodhisattva who never had to deal
+[0:55:26] SPEAKER_01: with the mess and the fray of my own trauma and emotionality right and boy was i disappointed
+[0:55:34] SPEAKER_01: that's what i mean by these like stages of disillusionment to find out wow it's actually
+[0:55:39] SPEAKER_01: about being fully human right like oh you had a cool quote that your teacher gave you breaking
+[0:55:45] Unknown: out is only as important as how we break back in right so you know what sounds like bad news is
+[0:55:52] SPEAKER_01: we're saying it's not going to be all just bliss right it's it's not just this easy path and and
+[0:55:59] SPEAKER_01: here's miles talking about hey here's a journey i've outlined it and in the meantime i'm in the
+[0:56:04] SPEAKER_01: middle of this like crazy dark night experience and i don't know which way to go but what's amazing
+[0:56:11] SPEAKER_01: is there's still it's like the matrix we all know the matrix and i always love when venezia stops
+[0:56:18] SPEAKER_01: and goes it's like the matrix it's like the old blue pill red pill situation right do you want
+[0:56:26] SPEAKER_01: truth or not and there are some of us that it's almost like i don't think we're wired to deny
+[0:56:31] SPEAKER_01: truth i think when we're in denial we constantly feel it as like a gnawing or or a symptom that's
+[0:56:38] SPEAKER_01: arising in our life and so we're constantly turning towards what's more true and and there's good news
+[0:56:45] SPEAKER_01: in that it doesn't matter that sometimes i mean brooke and i talk about this on the show all the
+[0:56:50] SPEAKER_01: time and you're clearly sharing this like sometimes it feels like life's falling apart sometimes it
+[0:56:54] SPEAKER_01: feels like we're falling apart sometimes it feels like there's nothing to anchor to sometimes it
+[0:56:59] SPEAKER_01: feels really blissful sometimes i feel really open you know all of that is a part of the experience
+[0:57:05] SPEAKER_01: but what i treasure and what feels better than any of the false hope i had earlier in life is um
+[0:57:13] Unknown: feeling closer to being real i mean that's the good news would you guys agree
+[0:57:21] SPEAKER_00: absolutely i mean being aligned with reality even if you're in the midst of hell hell never feels
+[0:57:26] SPEAKER_00: good but at a certain point you become the kind of person who can't wear another halloween costume
+[0:57:33] SPEAKER_00: or believe in the halloween costumes that you didn't realize you were wearing you know once you
+[0:57:37] Unknown: get a little glimpse of that yeah it's like pretend not hell is worse than hell yes just real
+[0:57:45] SPEAKER_00: hell and just letting yourself just acknowledging that that's the truth of what's up has a certain
+[0:57:51] SPEAKER_01: kind of relief in it um maybe miles this could be a useful point to talk a little bit about um the
+[0:57:58] SPEAKER_01: guru because you know we read your book and and you give a lot of um attention to the fact that
+[0:58:05] SPEAKER_01: you've had many beautiful teachers or gurus in your life who've supported you you just mentioned
+[0:58:10] SPEAKER_01: it brooke and i have as well and you know oftentimes it's like the path home isn't for
+[0:58:16] SPEAKER_01: sissies right and it's really easy to get lost amidst your own conditioning and amidst the
+[0:58:21] Unknown: cultural confusion so teachers have been so important for us as well as spiritual friends
+[0:58:28] SPEAKER_01: but but then you know in our western culture look at all the documentaries we see gurus behaving
+[0:58:34] Unknown: badly you know we we see the western resistance to a concept that is like we hand over our identity
+[0:58:44] SPEAKER_01: to the guru or we hand over our individuality the guru and i think on some level that can um
+[0:58:50] SPEAKER_01: create resistance to people finding the right support for this world view in this context like
+[0:58:56] SPEAKER_01: they don't even want to commit to one religious path never mind one teacher sometimes and so i
+[0:59:02] SPEAKER_01: wonder if we could talk about um the role that you think a guru has or even how you would define
+[0:59:07] Unknown: guru well it's such i mean do you have three more hours we'll just wrap it up yeah from the
+[0:59:19] SPEAKER_02: tibetan point of view the guru is the root of the path which means from the outset when you answer
+[0:59:25] SPEAKER_02: the phone call on your hero's journey pretty soon thereafter you're looking for a teacher because
+[0:59:30] SPEAKER_02: if you start if you had a plane crash and you wound up in the amazon and you try to hack your
+[0:59:36] Unknown: way through on your own you the chances of you making it are so slim so slim and that's like life
+[0:59:47] SPEAKER_02: if you know there are few people that make it through unassisted uh you can call them like
+[0:59:53] SPEAKER_02: you know geniuses or you know you put them in the very one point point zero one percent let's say
+[0:59:59] SPEAKER_02: so from the tibetan point of view if the metaphor is the jungle of confusion then the guru is the
+[1:00:07] SPEAKER_02: the guide that helps you learn your how to how to identify the right plant so that you can eat drink
+[1:00:13] SPEAKER_02: and and and work your way through the amazon to find your way to the other side and the same is
+[1:00:18] SPEAKER_02: true in mundane world i mean if you want to be an architect or a pianist or a gymnast or whatever
+[1:00:22] SPEAKER_02: if you're not you know you can't learn that stuff on amazon or on youtube you have to have a master
+[1:00:28] SPEAKER_02: teach you if you really want to go for gold if you really want to be a michael phelps you need
+[1:00:33] SPEAKER_02: an instructor if you want to be a serena williams you have to have the most expert help assisting
+[1:00:38] SPEAKER_02: you and and sometimes behind the scenes these are huge teams of people that are helping the one
+[1:00:44] SPEAKER_02: person get to the moon you know so that's it takes a village in other words uh and and so what i what
+[1:00:52] SPEAKER_02: i think is that just as a number of other issues in our culture our secular culture is phobic
+[1:01:00] Unknown: to the group principle as another reaction to the pre-age of reason or pre-enlightenment period in
+[1:01:08] Unknown: europe where authority was misusing power and we have been traumatized and as a result of being
+[1:01:18] Unknown: traumatized we are at best skeptical and at worst phobic to the spiritual figure okay and so secular
+[1:01:28] Unknown: society won't put up with it and has condemned it and i see this all the time i have to have i have
+[1:01:37] Unknown: to i have found ways to work with this and in the book i don't try to shy away from these things
+[1:01:43] Unknown: because listen you guys are therapists too traumatize people finding safe spaces for them
+[1:01:50] SPEAKER_02: so that they avoid that that which they are uh noxious about is not the full course of treatment
+[1:01:56] Unknown: is it no absolutely or you're like it's so small safety is a precursor you have to have some safety
+[1:02:03] SPEAKER_02: but you only use safety provisionally to help ease people back into relationship with that's which is
+[1:02:08] SPEAKER_02: noxious so secular society at some point is going to have to contend with its traumatization of
+[1:02:15] SPEAKER_02: religion and what better way to use that than to use science as a land bridge to like help explain
+[1:02:23] SPEAKER_02: some of these things and that's what i'm doing in the book let's take for example the guru figure
+[1:02:29] SPEAKER_02: let's take alters and offerings let's take prayer all of these things from a secular point of view
+[1:02:35] SPEAKER_02: are speculative metaphysics that are to be you know sitting around praying for god for you know
+[1:02:42] SPEAKER_02: a child to be born or for a million dollars to drop out of the sky never worked what a bunch of
+[1:02:47] SPEAKER_02: craziness oh let's talk about the crusades by the way that's killed millions of people why do we need
+[1:02:53] SPEAKER_02: this archaic thing i mean just listen to like some sam harris for about half an hour okay and you have
+[1:03:00] SPEAKER_02: some good points why we should be suspicious about religion and drop the whole thing on the
+[1:03:06] SPEAKER_02: other hand dropping the whole thing doesn't change the transgenerational trauma imprint that we have
+[1:03:12] Unknown: been afflicted by that keeps pushing it generation after generation the the adverse reaction the the
+[1:03:21] Unknown: phobic adverse reaction it doesn't solve the trauma so if you take the lens of science and you
+[1:03:28] SPEAKER_02: superimpose it on some of the things i'm talking about from the debent Buddhist tradition like the
+[1:03:32] SPEAKER_02: guru figure or a visualization on a guru or an altar or an offering or a prayer and you start to say
+[1:03:39] SPEAKER_02: well we're not just doing a prayer and hoping that someone's going to rescue us a prayer is a way of
+[1:03:45] Unknown: creating a new neural network in our brain an altar isn't like a metaphysics thing where you
+[1:03:50] SPEAKER_02: you know put something out to some some separate being an altar is a workstation where you are
+[1:03:57] SPEAKER_02: uh rehearsing generosity and what does generosity do generosity changes your neural filter so that
+[1:04:03] SPEAKER_02: you are coming from a place of more abundance let's say and you could just talk about it from
+[1:04:09] SPEAKER_02: a neuroscience point of view and you could really ground it and you could retain the beauty of the
+[1:04:14] Unknown: spirit part of it but you don't have to make it into this woo woo you know senseless thing
+[1:04:21] SPEAKER_02: and you don't also have to throw it out and so what is a guru a guru is someone whose mind has
+[1:04:26] SPEAKER_02: been transformed that is going to serve as a lamb bridge or a parental figure for you to download
+[1:04:33] SPEAKER_02: certain bits of humanity and information that you want to reinstall in your program dislodging the
+[1:04:38] SPEAKER_02: old neurotic self and upgrading it or you know you want you want to go from Yosemite to Mojave
+[1:04:45] Unknown: you need another human being for that you know and so you got to find better human beings
+[1:04:51] SPEAKER_02: now there are scandals and believe me as a therapist and I'm sure you've gotten a few
+[1:04:56] SPEAKER_02: calls recently people that are involved in communities where there are scandals it's
+[1:05:01] SPEAKER_02: an egregious horrific completely debasing uh I wouldn't wish it on anyone uh experience because
+[1:05:10] SPEAKER_02: spiritual life is so core and central and if your spiritual teacher deceives you or abuses you or
+[1:05:16] SPEAKER_02: abandons you or sexually violates you it's deeply deeply traumatizing but just like every trauma
+[1:05:24] SPEAKER_02: the reaction is to generalize it suddenly no gurus are worthwhile suddenly everything they taught me
+[1:05:31] SPEAKER_02: needs to be thrown out uh suddenly I've got to abandon my entire practice and and so these are
+[1:05:37] SPEAKER_02: the normal symptomatic reactions trauma reactions and what we have to do is we have to help people
+[1:05:43] SPEAKER_02: parse out the unfortunate bits and keep the the positive bits and help them integrate the whole
+[1:05:53] SPEAKER_02: experience because it's actually just like the crisis I'm going through there's a lot to learn
+[1:05:57] SPEAKER_02: there there's a lot to learn about life and about how to trust again and how to trust with less
+[1:06:03] SPEAKER_02: naivete but how to trust in more appropriate ways and how to rely on people and we are talking about
+[1:06:08] SPEAKER_02: middle way that avoids the extremes between over idealization and complete uh distancing
+[1:06:16] SPEAKER_02: and skepticism we're talking about how do you show up where you can admire the qualities of other
+[1:06:21] SPEAKER_02: people who have something to teach you and and therefore expose your brain to information that
+[1:06:26] SPEAKER_02: can help you optimize but not doing it by disenfranchising yourself and and and uh
+[1:06:32] SPEAKER_02: neglecting your intuitions I mean this is the thing is if we if we if we were really listened
+[1:06:39] SPEAKER_02: we'd have a lot of information while we were going through relationships and sometimes when
+[1:06:44] SPEAKER_02: you over idealize people you neglect your own information that's telling you something isn't
+[1:06:48] SPEAKER_02: right here and so and my sense is that in these traumas with guru figures
+[1:06:56] SPEAKER_02: it is very difficult at the moment to really listen to your intuitions but that doesn't mean
+[1:07:00] SPEAKER_02: you can't learn that retroactively you can go back and go oh I wasn't listening I wasn't listening
+[1:07:07] SPEAKER_02: to all the signals that were telling me this wasn't working out or this this something was a
+[1:07:12] Unknown: little off or but I can learn that now you know and so the whole experience doesn't have to just
+[1:07:20] SPEAKER_02: come and go and lead and and be like a tornado and level the whole you know your whole life you can
+[1:07:26] SPEAKER_02: learn so much retroactively if you're willing to invest in getting closer to the problem
+[1:07:32] SPEAKER_02: so I would say just in brief that the guru figure is a necessary piece of the apparatus of the
+[1:07:38] SPEAKER_02: spiritual path but there are it's rife with problems but everything is rife with problems
+[1:07:46] SPEAKER_02: going to your therapist getting on a bus is rife with problems you know using the technology that
+[1:07:50] SPEAKER_02: we are surrounded by is rife with problems all right so like what are we going to do is be averse
+[1:07:54] SPEAKER_02: to using a tool no you have to use a tool correctly and sometimes you cut your your finger with a
+[1:07:59] SPEAKER_02: knife but what do you do no no you don't use a knife anymore no you learn how to use it better
+[1:08:04] Unknown: I think you did quite well without three hours sorry no I think I mean I think that was a beautiful
+[1:08:13] SPEAKER_00: summation yeah I mean you got because we wanted to get into how you use neuroscience as a bridge
+[1:08:18] Unknown: as well and that was a beautiful illustration of that yeah it's very helpful yeah I know it's
+[1:08:24] SPEAKER_01: about ready to wrap up Brooke and I want to give you a chance to ask any questions you may have but
+[1:08:29] SPEAKER_01: just one thing to add to what you said because looking at neuroscience and how we approach let's
+[1:08:34] Unknown: say altars or prayers or all of these different things when I first learned um like deity
+[1:08:42] SPEAKER_01: visualization kinds of meditations I was working with white tara I was part of the sakya lineage
+[1:08:48] SPEAKER_01: and buddhism so you do these visualizations and you picture kind of like a specific sort of we
+[1:08:54] Unknown: could call it heaven for this conversation and it's got blue floors and it's crystal and then
+[1:08:59] Unknown: you become the goddess and you know all of these other things and it can seem even to some people
+[1:09:06] SPEAKER_01: especially as we look at non-dualism today it can seem irrelevant right like why do we have to have
+[1:09:11] SPEAKER_01: a figure for a god or goddess and all this archetypal stuff but I started to understand
+[1:09:17] SPEAKER_01: I think the beginning of the understanding happened in the program with you but even as I
+[1:09:21] Unknown: just started to understand reality more like what you're doing is like grossly deconstructing the
+[1:09:28] SPEAKER_01: conditioning you have that makes you think this world does any particular way like I already am
+[1:09:33] SPEAKER_01: conditioned to think this desk is solid and I am Vanessa and you guys are who you are and that's
+[1:09:39] SPEAKER_01: conditioning and when I could begin to picture this reality it wasn't just my imagination it was the
+[1:09:46] SPEAKER_01: deconstructing in my mind of some concrete solid reality that looks the way I think it
+[1:09:53] SPEAKER_01: looks and then of course you can foster these experiences in your body like gratitude or
+[1:09:59] SPEAKER_01: compassion and everything as you embodied the archetype of the god or goddess that change your
+[1:10:05] SPEAKER_01: wiring and it changes your sense of possibility for who you are and for what the world could look
+[1:10:11] SPEAKER_01: like like this quantum view so I do think it's interesting it's everyone finds their own path
+[1:10:17] SPEAKER_01: and it's fine to have some skepticism questions are always welcome but it is interesting how in
+[1:10:22] SPEAKER_01: the name of like rationality we throw everything out as if they haven't figured something out
+[1:10:29] SPEAKER_02: thousands of years ago. So beautifully put and I would just say that Tibet is a good example of a
+[1:10:36] SPEAKER_02: tradition or culture that didn't jettison faith for reason they actually maintain both so for
+[1:10:42] Unknown: example they have incredible sciences and logic and epistemology that rival western academic
+[1:10:53] Unknown: rigorous scientific disciplines but at the same time on the Dalai Lama's political staff is an
+[1:11:01] SPEAKER_02: oracle no one talks about this they love the Dalai Lama they love he's so sweet and cute and
+[1:11:07] SPEAKER_02: everybody loves the Dalai Lama so lovable but the reason he's alive is because on the night that he
+[1:11:13] Unknown: fled he had already consulted an oracle about when to do it and there's a state oracle for Tibet who
+[1:11:21] SPEAKER_02: goes into a trance and channels mystical beings and comes up with direction for the country.
+[1:11:27] Unknown: I love it I'm a mystical cutthroat so I'm all about that life.
+[1:11:36] SPEAKER_02: So they're an example of a culture that was able to maintain a very pronounced spirituality and when
+[1:11:41] SPEAKER_02: we're talking about spirit we're talking about above and beyond the material world we're talking
+[1:11:45] SPEAKER_02: about a quantum where there are different agencies and different frequencies and things that wouldn't
+[1:11:50] SPEAKER_02: be acceptable to just the modern materialistic paradigm and at the same time they were very
+[1:11:57] SPEAKER_02: rigorous materialism also and a very rigorous scientific paradigm so they maintain both
+[1:12:05] SPEAKER_02: and those visualizations I described the psychological mechanism by that you've just
+[1:12:11] SPEAKER_02: described I unpack it in a whole chapter in the book in which we make we can make sense of a deep
+[1:12:18] SPEAKER_02: guru yoga or a deity practice I mean I'm liking it these days to VR virtual reality
+[1:12:25] SPEAKER_02: if we could put goggles and a program on a 10 year old where instead of playing like
+[1:12:31] SPEAKER_02: I don't know the games because I never played them but like I don't know you name it like some
+[1:12:36] Unknown: shoot a shoot them up some shoot them up or a race car game or a race car game right if you could
+[1:12:42] SPEAKER_02: put on goggles so that they saw themselves where they were the purpose of the game was to save
+[1:12:49] SPEAKER_02: others and you get points for doing it and as you as you as you rescued other people and got points
+[1:12:55] SPEAKER_02: you also became incredibly competent and flexible in your mentality that you could open doors in
+[1:12:59] SPEAKER_02: other worlds in other words you could like go beyond the the infrastructure of the program to
+[1:13:04] SPEAKER_02: find hidden realms which would be really habituating you to see possibilities that aren't obvious
+[1:13:12] SPEAKER_02: that's quantum view right so we're talking about a VR game that enhances your openheartedness or
+[1:13:18] SPEAKER_02: altruism and at the same time quantum view what would where would our children be you know like
+[1:13:23] SPEAKER_02: because when we're going down the road of technology anyway yeah so god it says so much
+[1:13:28] SPEAKER_00: about our culture that that doesn't exist right like there's so many games it's so amazing that
+[1:13:33] SPEAKER_00: nobody I want you to video game developing is your next somebody from your grace and grit
+[1:13:39] SPEAKER_02: has a billion dollars and is tied they're connected to the world please contact me please that would
+[1:13:46] SPEAKER_00: be amazing yeah there's one video game that my son played where you would you would get to the
+[1:13:52] SPEAKER_00: you would win the game the more compassionate you could be exactly but other than that
+[1:13:59] SPEAKER_00: I've never seen any it's amazing right there's so many video games why not that
+[1:14:04] SPEAKER_02: yeah or business executives could enhance their altruism by imagining themselves doing unbelievable
+[1:14:10] SPEAKER_02: feats of virtue and conducting themselves ethically and they would change their brain
+[1:14:16] SPEAKER_02: structure in a 30-minute session and but that's basically what Tibetans have been doing what do
+[1:14:20] SPEAKER_02: you think those yogis are doing in those caves they are vr'ing themselves to enlightenment right
+[1:14:26] SPEAKER_01: organic old school yo I can't wait to quote that vr'ing themselves to enlightenment that's
+[1:14:33] SPEAKER_00: organic old school yo yeah so into it miles I'm so grateful for your work and I'm so grateful we
+[1:14:41] SPEAKER_00: had a chance to talk with you about it thank you so much my pleasure and I'd love to do it again and
+[1:14:45] SPEAKER_02: to your whole community I'm so glad that everybody that you provide an opportunity for people to get
+[1:14:50] SPEAKER_02: real on this path it's like one of the big virtues for my of mine and so I'm so blessed and fortunate
+[1:14:56] SPEAKER_02: to have met you and I really appreciate the honest work that you're doing and I look forward to
+[1:15:00] SPEAKER_02: having another conversation with you because we need more time together yes I would love we would
+[1:15:05] Unknown: both love that I'm sure yeah I look forward to it thank you so much for listening to today's show
+[1:15:16] SPEAKER_01: the show notes including any resources we mentioned live at bliss and grit.com if you go to the website
+[1:15:22] SPEAKER_01: and scroll down you'll see each episode separate post and the resources are right in there our
+[1:15:28] SPEAKER_01: member platform is at patreon.com backslash bliss and grit you can head over there to donate to the
+[1:15:36] SPEAKER_01: show and also get rewards for your support if you're wanting to engage with these topics in
+[1:15:42] SPEAKER_01: a deeper way it's a great place to go for a more immersive experience you can also come play with
+[1:15:49] SPEAKER_01: us on instagram and facebook or subscribe on the website which again is blissandgrit.com if you want
+[1:15:57] SPEAKER_01: to get our weekly digest of what resources we are currently loving we're so grateful for the reviews
+[1:16:05] SPEAKER_01: that you guys have written and for the membership support so many of you have provided and for all
+[1:16:12] SPEAKER_01: of the notes you send we couldn't do this without you and it means the world to us thank you all so
+[1:16:19] Unknown: much till next week

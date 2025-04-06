@@ -118,6 +118,12 @@ const SpotifySDKPlayer = ({ isVisible, onClose, accessToken }) => {
           duration: state.duration,
           currentEpisodeId: currentTrack.uri.split(':')[2]
         });
+        
+        // When we receive a state update and isPaused is false, 
+        // we know playback has actually started
+        if (!isPaused) {
+          setPlayerState(prev => ({ ...prev, isLoading: false }));
+        }
       }
     });
     
@@ -169,12 +175,15 @@ const SpotifySDKPlayer = ({ isVisible, onClose, accessToken }) => {
         throw new Error(`Failed to play: ${response.status}`);
       }
       
-      // Update state on success
+      // Store the requested episode ID but don't update isPaused yet
+      // We'll let the player_state_changed event confirm when audio is actually playing
       setPlaybackInfo(prev => ({ 
         ...prev, 
-        isPaused: false,
         currentEpisodeId: episodeId 
       }));
+      
+      // Keep loading state active until playback actually starts
+      // The loading state will be cleared in player_state_changed when isPaused becomes false
     } catch (error) {
       console.error('Playback error:', error);
       setPlayerState(prev => ({ 
@@ -182,8 +191,6 @@ const SpotifySDKPlayer = ({ isVisible, onClose, accessToken }) => {
         error: `Playback error: ${error.message}`,
         isLoading: false 
       }));
-    } finally {
-      setPlayerState(prev => ({ ...prev, isLoading: false }));
     }
   };
   

@@ -5,6 +5,8 @@ import React from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Nunito } from "next/font/google";
 import SpeakerSelector from '../../components/SpeakerSelector';
+import { preloadSearchResultEpisodes } from './utils/spotifyPreloader';
+
 
 
 
@@ -74,12 +76,24 @@ export default function PodcastExplorer() {
   // Combined loading state
   const loading = dataLoading || searchLoading || transcriptLoading;
 
-  // Perform search and update view
+
   const handleSearch = async (e) => {
     e?.preventDefault();
     const result = await performSearch(e);
+    
     if (result?.success) {
       setView('search');
+      
+      // Get the current access token from SpotifyAuth
+      const spotifyAuthElement = document.getElementById('spotify-auth');
+      if (spotifyAuthElement && spotifyAuthElement.dataset.token) {
+        // Preload episodes from search results as soon as results are available
+        preloadSearchResultEpisodes(
+          result.data, // The search results array
+          getSpotifyId, // Your existing function to get Spotify ID from episode number
+          spotifyAuthElement.dataset.token // The access token
+        );
+      }
     }
   };
 
@@ -585,15 +599,20 @@ export default function PodcastExplorer() {
       </footer>
       
       {/* Spotify Player - Replace with SDK player wrapped in Auth component */}
-      <SpotifyAuth>
-        {({ accessToken }) => (
-          <SpotifySDKPlayer 
-            isVisible={playerVisible}
-            onClose={() => setPlayerVisible(false)}
-            accessToken={accessToken}
-          />
-        )}
-      </SpotifyAuth>
+     <SpotifyAuth>
+  {({ accessToken }) => (
+    <>
+      {/* Hidden element to store the token for preloading */}
+      <div id="spotify-auth" data-token={accessToken} style={{ display: 'none' }} />
+      
+      <SpotifySDKPlayer 
+        isVisible={playerVisible}
+        onClose={() => setPlayerVisible(false)}
+        accessToken={accessToken}
+      />
+    </>
+  )}
+</SpotifyAuth>
     </div>
   );
 }

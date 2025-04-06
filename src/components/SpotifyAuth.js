@@ -90,7 +90,15 @@ const SpotifyAuth = ({ children }) => {
   }
   
   // Pass the token down to children
-  return children({ accessToken });
+  return (
+    <>
+      {/* Hidden element to expose token for preloading */}
+      <div id="spotify-auth" data-token={accessToken} style={{ display: 'none' }} />
+      
+      {/* Keep your existing render prop */}
+      {children({ accessToken })}
+    </>
+  );
 };
 
 export default SpotifyAuth;

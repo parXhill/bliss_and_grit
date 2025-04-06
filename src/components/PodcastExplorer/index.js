@@ -432,7 +432,7 @@ export default function PodcastExplorer() {
             
             return (
               <div key={turn.id} className={`border p-2 border-slate-300 rounded-xl ${isNewSpeaker ? 'mt-8' : 'mt-4'}`}>
-                {isNewSpeaker && (
+            
                   <div className="flex items-center mb-2">
                     <div className={`w-10 h-10 rounded-full flex items-center justify-center mr-3 ${isHost ? 'bg-rose-300' : 'bg-yellow-800'} text-white`}>
                       {(turn.speaker.displayName || turn.speaker.name).charAt(0)}
@@ -463,7 +463,7 @@ export default function PodcastExplorer() {
                       </svg>
                     </button>
                   </div>
-                )}
+               
                 <div className="md:pl-12">
                   <div className={`rounded-lg p-4 ${isHost ? 'bg-white' : 'bg-white'} ${isNewSpeaker ? 'rounded-tl-none' : ''}`}>
                     <p className="text-gray-700 text-sm leading-relaxed" style={{ lineHeight: 1.5 }}>

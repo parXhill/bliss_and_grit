@@ -5,13 +5,8 @@ const fs = require('fs/promises');
 const path = require('path');
 require('dotenv').config();
 
-// Either import episodeMap with require
+// Import episodeMap with require
 const { episodeMap } = require('../src/components/PodcastExplorer/utils/episodeMap');
-// OR use your embedded map (uncomment below if you had it embedded in the file)
-// const episodeMap = { 
-//   1: { episodeNumber: 1, episodeName: "Meet Vanessa", fileName: "" },
-//   ...
-// };
 
 // Global prisma instance for all operations
 const prisma = new PrismaClient({
@@ -84,29 +79,115 @@ async function loadTranscript(filePath) {
       // 2. Parse the transcript file
       const { segments, turns } = await parseTranscriptFile(filePath, episode.id);
       
-      // 3. Ensure speakers exist in database - do this in parallel
+      // 3. Get all speaker IDs from this transcript
       const speakerIds = [...new Set([...segments.map(s => s.speakerId), ...turns.map(t => t.speakerId)])];
-      await Promise.all(speakerIds.map(speakerId => {
-        return tx.speaker.upsert({
-          where: { id: speakerId },
-          update: {},
-          create: {
-            id: speakerId,
-            displayName: speakerId === 'SPEAKER_00' ? 'Vanessa Scotto' : 
-                        speakerId === 'SPEAKER_01' ? 'Brooke Thomas' : speakerId
-          },
-        });
-      }));
-      
-      // 4. Create turns in batch if supported, otherwise use Promise.all
+      console.log(`Speaker IDs in transcript: ${speakerIds.join(', ')}`);
+
+      // Create speaker translation map for this episode
+      const speakerTranslation = {};
+
+      // For each speaker ID in the transcript
+      for (const speakerId of speakerIds) {
+        // Default to unknown
+        let speakerName = "unknown";
+        
+        // Known speaker in episode map
+        if (episodeInfo.speakers && episodeInfo.speakers[speakerId]) {
+          speakerName = episodeInfo.speakers[speakerId];
+        }
+        // Fall back to defaults if necessary (for backward compatibility)
+        else if (speakerId === 'SPEAKER_00') {
+          speakerName = 'vanessa';
+        }
+        else if (speakerId === 'SPEAKER_01') {
+          speakerName = 'brooke';
+        }
+        else if (speakerId !== "Unknown") {
+          // For any other unmapped SPEAKER_XX, warn the user and use "unknown"
+          console.warn(`Warning: Speaker "${speakerId}" in episode ${episodeInfo.episodeNumber} has no mapping. Using "unknown" instead.`);
+          console.warn(`Consider adding this speaker to your episodeMap: ${speakerId}: "speakerName"`);
+        }
+        
+        // Store the mapping from transcript ID to actual name
+        speakerTranslation[speakerId] = speakerName;
+      }
+
+      console.log('Speaker translation for this episode:', speakerTranslation);
+
+      // Get all unique speaker names we need for this episode
+      const uniqueSpeakerNames = [...new Set(Object.values(speakerTranslation))];
+
+      // Find all existing speakers with these names
+      const existingSpeakers = await tx.speaker.findMany({
+        where: {
+          id: {
+            in: uniqueSpeakerNames.map(name => name.toLowerCase())
+          }
+        }
+      });
+
+      console.log(`Found ${existingSpeakers.length} existing speakers out of ${uniqueSpeakerNames.length} needed`);
+
+      // Create a map of speaker name to database ID
+      const speakerNameToId = {};
+      existingSpeakers.forEach(speaker => {
+        speakerNameToId[speaker.id.toLowerCase()] = speaker.id;
+      });
+
+      // Create any missing speakers
+      for (const speakerName of uniqueSpeakerNames) {
+        if (!speakerNameToId[speakerName.toLowerCase()]) {
+          console.log(`Creating new speaker: "${speakerName}"`);
+          
+          // Set the ID to be the lowercase name from episodeMap
+          const speakerId = speakerName.toLowerCase();
+          
+          // Handle display names properly
+          let displayName;
+          if (speakerId === 'brooke') {
+            displayName = 'Brooke Thomas';
+          } else if (speakerId === 'vanessa') {
+            displayName = 'Vanessa Scotto';
+          } else if (speakerId === 'amodamaa') {
+            displayName = 'Amoda Maa';
+          } else if (speakerId === 'unknown') {
+            displayName = 'Unknown Speaker';
+          } else {
+            // For any other speaker, capitalize nicely by words
+            displayName = speakerName.split(/[\s_]+/).map(word => 
+              word.charAt(0).toUpperCase() + word.slice(1).toLowerCase()
+            ).join(' ');
+          }
+          
+          const newSpeaker = await tx.speaker.create({
+            data: {
+              id: speakerId,
+              displayName: displayName,
+              // The 'name' field is null so we don't need to set it
+            }
+          });
+          
+          speakerNameToId[speakerName.toLowerCase()] = newSpeaker.id;
+        }
+      }
+
+      // Now create a final translation map from transcript speaker ID to database speaker ID
+      const speakerIdTranslation = {};
+      for (const [transcriptId, speakerName] of Object.entries(speakerTranslation)) {
+        speakerIdTranslation[transcriptId] = speakerNameToId[speakerName.toLowerCase()];
+      }
+
+      console.log('Final speaker ID translation:', speakerIdTranslation);
+
+      // Now use this translation map when creating turns and segments
       const turnsData = turns.map(turn => ({
         startTime: turn.startTime,
         endTime: turn.endTime,
         content: turn.content,
         episodeId: episode.id,
-        speakerId: turn.speakerId,
+        speakerId: speakerIdTranslation[turn.speakerId], // Use the translated speaker ID
       }));
-
+      
       // Use Prisma's createMany if available
       if (tx.turn.createMany) {
         await tx.turn.createMany({ data: turnsData });
@@ -125,31 +206,23 @@ async function loadTranscript(filePath) {
         orderBy: { startTime: 'asc' }
       });
       
-      // Create a lookup map for turns by time and speaker
-      const turnLookup = new Map();
-      for (const turn of createdTurns) {
-        turnLookup.set(`${turn.startTime}-${turn.speakerId}`, turn.id);
-      }
-      
-      // 5. Create segments efficiently by using a direct relationship between turns and segments
-      // Create a mapping of segments to turn IDs
-      const segmentsData = [];
-      
       // Create a lookup to efficiently match segments to turns
       const turnTimeRanges = turns.map((turn, index) => ({
         id: createdTurns[index].id,
         startTime: turn.startTime,
         endTime: turn.endTime,
-        speakerId: turn.speakerId
+        speakerId: speakerIdTranslation[turn.speakerId] // Use the translated speaker ID
       }));
       
+      // Process segments
+      const segmentsData = [];
       for (let i = 0; i < segments.length; i++) {
         const segment = segments[i];
         const nextStartTime = segments[i + 1]?.startTime || null;
         
         // Find the matching turn for this segment
         const matchingTurn = turnTimeRanges.find(turn => 
-          segment.speakerId === turn.speakerId && 
+          speakerIdTranslation[segment.speakerId] === turn.speakerId && // Compare using translated speaker ID
           segment.startTime >= turn.startTime && 
           (turn.endTime === null || segment.startTime <= turn.endTime)
         );
@@ -160,7 +233,7 @@ async function loadTranscript(filePath) {
             endTime: nextStartTime,
             content: segment.content,
             episodeId: episode.id,
-            speakerId: segment.speakerId,
+            speakerId: speakerIdTranslation[segment.speakerId], // Use the translated speaker ID
             turnId: matchingTurn.id
           });
         }
@@ -193,7 +266,7 @@ async function loadAllTranscriptsFromDirectory() {
   const transcriptsDir = path.resolve(__dirname, '../data/transcripts');
   const files = await fs.readdir(transcriptsDir);
   
-  console.log("Matching files to episodes based on filename patterns...");
+  console.log("Matching files to episodes based on episodeMap...");
   
   // Track matched and unmatched files
   const matchedFiles = [];
@@ -202,51 +275,18 @@ async function loadAllTranscriptsFromDirectory() {
   for (const file of files) {
     if (!file.endsWith('.txt')) continue;
     
-    // Already in the mapping?
+    // Check if this file is in our fileNameToEpisodeMap
     if (fileNameToEpisodeMap[file]) {
       matchedFiles.push(file);
-      continue;
-    }
-    
-    // Extract episode number using multiple patterns
-    let episodeNum = null;
-    
-    // Pattern 1: FINAL_BG_EPS101 or FINAL_BaG_EPS14
-    const epsMatch = file.match(/EPS(\d+)/i);
-    if (epsMatch) {
-      episodeNum = parseInt(epsMatch[1], 10);
-    }
-    // Pattern 2: Ep_104
-    else if (file.match(/^Ep_(\d+)/i)) {
-      episodeNum = parseInt(file.match(/^Ep_(\d+)/i)[1], 10);
-    }
-    // Pattern 3: BG-106 or similar
-    else if (file.match(/^BG-(\d+)/i)) {
-      episodeNum = parseInt(file.match(/^BG-(\d+)/i)[1], 10);
-    }
-    // Pattern 4: Starts with number like 26_ or 48_
-    else if (file.match(/^(\d+)_/)) {
-      episodeNum = parseInt(file.match(/^(\d+)_/)[1], 10);
-    }
-    // Pattern 5: FinalBaG_126
-    else if (file.match(/FinalBaG_(\d+)/i)) {
-      episodeNum = parseInt(file.match(/FinalBaG_(\d+)/i)[1], 10);
-    }
-    
-    // If we found a valid episode number and it exists in our map
-    if (episodeNum && episodeMap[episodeNum]) {
-      console.log(`Matched file "${file}" to Episode ${episodeNum}: ${episodeMap[episodeNum].episodeName}`);
-      
-      // Update the episode map with this filename
-      episodeMap[episodeNum].fileName = file;
-      fileNameToEpisodeMap[file] = episodeMap[episodeNum];
-      matchedFiles.push(file);
-    } else if (episodeNum) {
-      console.log(`Found episode number ${episodeNum} in "${file}" but no matching entry in episodeMap`);
-      unmatchedFiles.push(file);
     } else {
-      console.log(`Could not extract episode number from "${file}"`);
-      unmatchedFiles.push(file);
+      // Try checking for normalized versions (in case of filesystem changes)
+      const normalizedFileName = file.toLowerCase().replace(/\s+/g, '');
+      if (fileNameToEpisodeMap[normalizedFileName]) {
+        matchedFiles.push(file);
+      } else {
+        console.log(`No mapping found for "${file}"`);
+        unmatchedFiles.push(file);
+      }
     }
   }
   
@@ -280,22 +320,7 @@ async function loadAllTranscriptsFromDirectory() {
     console.warn(`Found ${unmatchedFiles.length} transcript file(s) with no mapping:`);
     unmatchedFiles.forEach(file => console.warn(`- ${file}`));
     
-    // Suggest manual mapping for unmapped files
-    console.warn('\nSuggested mappings to add to episodeMap:');
-    console.warn('-----------------------------------');
-    for (const file of unmatchedFiles) {
-      // Try to extract a reasonable episode name from the filename
-      let episodeName = file
-        .replace(/FINAL_/i, '')
-        .replace(/BaG_|BG_/i, '')
-        .replace(/EPS\d+_/i, '')
-        .replace(/transcript_with_speakers\.txt$/i, '')
-        .replace(/_/g, ' ')
-        .trim();
-      
-      console.warn(`// Add this to your episodeMap:`);
-      console.warn(`// XX: { episodeNumber: XX, episodeName: "${episodeName}", fileName: "${file}" },`);
-    }
+    console.warn('\nTo process these files, update your episodeMap with the correct file names.');
   }
   
   return results.length;

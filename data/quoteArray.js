@@ -356,7 +356,7 @@ export const quoteArray = [{
 ,
 { "episodeNumber": "19", "quotes": [ { "quote": "Your actions, your thoughts, essentially your experiences... As you experience things, you start to plant these little seeds, seeds of action, seeds of thought, seeds of belief. And it's like, if you imagine your mind like a garden, whatever seeds you plant, eventually begin to grow. If I planted daffodil seed, I get daffodils. And if I plant a sunflower seed, I get sunflowers. And there's nothing confusing about that. And that's kind of how, on a very basic level, we can start to look at karma.", "speaker": "Vanessa Scotto" }, { "quote": "Karma is a verb, which I think is a very important thing to put a point on. It's not a thing. It's a movement. It's in action. It's in experience. It's lived. And just to go with your sunflower analogy a little bit, you know, we often don't know what the seeds are that we're planting. So I think I'm planting the seeds of abundance, security, stability, success, but I'm actually putting the seeds of desperation, of fear, of anxiety.", "speaker": "Brooke Thomas" }, { "quote": "It took a long time for me to give up the idea that life's teaching you. And that's kind of that like, big, big dog sitting up in the sky, like writing out a curriculum for Vanessa. It's not that life's teaching me, although there's wonderful opportunity to learn and grow. It's that life is simply mirroring. And if I have eyes that are open enough, I see this bush, like, oh, Lord, I thought I planted an abundance bush and I planted a desperation plant.", "speaker": "Vanessa Scotto" }, { "quote": "You have to also listen, it's we talked about this in our last episode, thinking about things as an exchange, inhale, exhale, you know, it's got to have the two sides, it can't just be acting out what you've decided. And the body will give you a like, no, thank you, please. And the body will give you a green light. And it's the clench on clench. It's the delicious yes.", "speaker": "Brooke Thomas" }, { "quote": "I'm at a point now where I can look back at even the really, really painful things and even things that say I take or would take personal responsibility for and feel regret about. And I'm just like, God, that's such useful seasoning for me, the way that I have compassion and the way that I see the world now because of those things.", "speaker": "Brooke Thomas" } ] }
 ,{
-  "episodeNumber": "Episode 20: Big Me vs. Little Me",
+  "episodeNumber": "20",
   "quotes": [
     {
       "quote": "My current resting place with that or my current exploration with that is that a completely awakened person is a person who does not argue with reality at all. And so that does not mean no suffering. That does not mean no emotion. It does not mean any of those things. What it means is that reality is what's happening right now in each moment. So thoughts about the past and thoughts about the future are just fantasies. And that whatever is happening is not the thoughts might arise, but they don't, you don't believe the story the thought is telling you about them.",
@@ -1461,7 +1461,7 @@ export const quoteArray = [{
   ]
 },
 {
-  "episodeNumber": "Episode 90",
+  "episodeNumber": "90",
   "quotes": [
     {
       "quote": "It's the difference between making everything in existence into an object and letting everything be a sovereign unfolding experience... Object means it's something separate from me, including I am a separate object from life and I can control it. I can control it based on ideas I have about an outcome I want or don't want. What happens from an awake perspective is everything is just an unfolding experience that has its own right to exist and worth exactly as it is.",
@@ -2360,10 +2360,11 @@ export const quoteArray = [{
     }
   ]
 }
-
-
-
-
-
 ]
 
+module.exports = { quoteArray };
+
+// You can add this conditional export for ES modules compatibility if needed later
+if (typeof exports !== 'undefined') {
+    Object.defineProperty(exports, '__esModule', { value: true });
+}

@@ -19,7 +19,8 @@
     "pg": "^8.14.0",
     "prisma": "^6.5.0",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "string-similarity": "^4.0.4"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",

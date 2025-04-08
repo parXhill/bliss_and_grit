@@ -4,7 +4,7 @@ generator client {
 
 datasource db {
   provider = "postgresql"
-  url      = env("DATABASE_URL")
+  url      = env("POSTGRES_URL_NON_POOLING")
 }
 
 model Episode {
@@ -15,6 +15,7 @@ model Episode {
   fileName      String
   episodeNumber Int
   keywords      Keyword[]
+  quotes        Quote[]
   segments      Segment[]
   turns         Turn[]
 }
@@ -23,8 +24,44 @@ model Speaker {
   id          String    @id
   name        String?
   displayName String?
+  quotes      Quote[]
   segments    Segment[]
   turns       Turn[]
+}
+
+model Turn {
+  id        String    @id @default(uuid())
+  startTime String
+  endTime   String
+  content   String
+  episodeId String
+  speakerId String
+  quotes    Quote[]
+  segments  Segment[]
+  episode   Episode   @relation(fields: [episodeId], references: [id])
+  speaker   Speaker   @relation(fields: [speakerId], references: [id])
+
+  @@index([episodeId])
+  @@index([speakerId])
+}
+
+model Quote {
+  id         String   @id @default(uuid())
+  content    String
+  episodeId  String
+  speakerId  String
+  turnId     String?
+  segmentId  String? // Add new field as optional
+  matchScore Float?
+  episode    Episode  @relation(fields: [episodeId], references: [id])
+  speaker    Speaker  @relation(fields: [speakerId], references: [id])
+  turn       Turn?    @relation(fields: [turnId], references: [id])
+  segment    Segment? @relation(fields: [segmentId], references: [id]) // Add new relation as optional
+
+  @@index([episodeId])
+  @@index([speakerId])
+  @@index([turnId])
+  @@index([segmentId])
 }
 
 model Segment {
@@ -35,6 +72,7 @@ model Segment {
   episodeId String
   speakerId String
   turnId    String?
+  quotes    Quote[] // Change to array but keep existing fields
   episode   Episode @relation(fields: [episodeId], references: [id])
   speaker   Speaker @relation(fields: [speakerId], references: [id])
   turn      Turn?   @relation(fields: [turnId], references: [id])
@@ -42,21 +80,6 @@ model Segment {
   @@index([episodeId])
   @@index([speakerId])
   @@index([turnId])
-}
-
-model Turn {
-  id        String    @id @default(uuid())
-  startTime String
-  endTime   String
-  content   String
-  episodeId String
-  speakerId String
-  segments  Segment[]
-  episode   Episode   @relation(fields: [episodeId], references: [id])
-  speaker   Speaker   @relation(fields: [speakerId], references: [id])
-
-  @@index([episodeId])
-  @@index([speakerId])
 }
 
 model Keyword {

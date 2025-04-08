@@ -164,7 +164,7 @@ export function QuoteCollection({ initialQuotes, speakers, episodes }) {
       <div className="mb-14 p-6 bg-[#773C40]/10 rounded-xl shadow-md border border-[#773C40]/20">
         <h3 className="text-[#773C40] font-semibold mb-5 text-lg text-center">Search through the top quotes from each episode</h3>
         <div className="flex flex-col md:flex-row gap-5 max-w-2xl mx-auto">
-          <div className="w-full md:w-1/2">
+          {/* <div className="w-full md:w-1/2">
             <label className="block text-sm font-medium text-[#773C40] mb-2">
               Speaker
             </label>
@@ -184,9 +184,9 @@ export function QuoteCollection({ initialQuotes, speakers, episodes }) {
                 </svg>
               </div>
             </div>
-          </div>
+          </div> */}
           
-          <div className="w-full md:w-1/2">
+          <div className="w-full">
             <label className="block text-sm font-medium text-[#773C40] mb-2">
               Episode
             </label>

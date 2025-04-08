@@ -19,9 +19,11 @@ export async function PUT(request) {
     // First, determine the type of record we're working with
     let isTurn = false;
     let isSegment = false;
+    let isQuote = false;
     let segmentWithTurn = false;
     let turnId = null;
     let segmentId = null;
+    let quoteId = null;
     
     // If recordType is specified, use that
     if (recordType === 'turn') {
@@ -30,8 +32,11 @@ export async function PUT(request) {
     } else if (recordType === 'segment') {
       isSegment = true;
       segmentId = id;
+    } else if (recordType === 'quote') {
+      isQuote = true;
+      quoteId = id;
     } else {
-      // Auto-detect the record type (try turn first, then segment)
+      // Auto-detect the record type (try turn, segment, then quote)
       try {
         const turn = await prisma.turn.findUnique({ where: { id } });
         if (turn) {
@@ -59,12 +64,24 @@ export async function PUT(request) {
           // Not a segment either
         }
       }
+      
+      if (!isTurn && !isSegment) {
+        try {
+          const quote = await prisma.quote.findUnique({ where: { id } });
+          if (quote) {
+            isQuote = true;
+            quoteId = id;
+          }
+        } catch (e) {
+          // Not a quote either
+        }
+      }
     }
     
     // If we couldn't determine the record type, return an error
-    if (!isTurn && !isSegment) {
+    if (!isTurn && !isSegment && !isQuote) {
       return NextResponse.json(
-        { success: false, error: 'Record not found as either turn or segment' },
+        { success: false, error: 'Record not found as either turn, segment, or quote' },
         { status: 404 }
       );
     }
@@ -145,6 +162,21 @@ export async function PUT(request) {
         success: true, 
         data: updatedSegment,
         recordType: 'segment',
+        relatedUpdates: 'none'
+      });
+    }
+    else if (isQuote) {
+      // 4. Updating a Quote
+      const updatedQuote = await prisma.quote.update({
+        where: { id: quoteId },
+        data: { speakerId: newSpeakerId },
+        include: { speaker: true }
+      });
+      
+      return NextResponse.json({ 
+        success: true, 
+        data: updatedQuote,
+        recordType: 'quote',
         relatedUpdates: 'none'
       });
     }

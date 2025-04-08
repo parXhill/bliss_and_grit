@@ -6,6 +6,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Nunito } from "next/font/google";
 import SpeakerSelector from '../../components/SpeakerSelector';
 import { preloadSearchResultEpisodes } from './utils/spotifyPreloader';
+import Link from 'next/link';
 
 
 
@@ -216,6 +217,7 @@ export default function PodcastExplorer() {
             </h1>
           </div>
           
+      
           <div className="flex space-x-3">
             {/* Global search button */}
             <form 
@@ -260,6 +262,11 @@ export default function PodcastExplorer() {
               )}
             </button>
           </div>
+
+
+          <Link href="/quotes" className="flex items-center space-x-2">
+          <p className="text-sm text-white bg-yellow-950 border p-2 m-4 hover:bg-white hover:text-black rounded-xl text-center cursor-pointer shadow-xl">View Quotes</p></Link>
+          
         </div>
         
         {/* Advanced search filters dropdown */}

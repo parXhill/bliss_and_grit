@@ -1,6 +1,13 @@
 // Server Component
 import { QuoteCollection } from './components/QuoteCollection';
 import { PrismaClient } from '@prisma/client';
+import { Nunito } from 'next/font/google';
+
+
+const nunito = Nunito({
+  variable: "--font-nunito",
+  subsets: ["latin"],
+});
 
 // Create a new Prisma client instance
 const prisma = new PrismaClient();
@@ -48,5 +55,5 @@ export default async function QuotesPage() {
     }
   });
   
-  return <QuoteCollection initialQuotes={quotes} speakers={speakers} episodes={episodes} />;
+  return <div className={`${nunito.className}`} ><QuoteCollection initialQuotes={quotes} speakers={speakers} episodes={episodes} /></div>;
 }

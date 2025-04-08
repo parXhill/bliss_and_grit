@@ -235,7 +235,7 @@ const SpotifySDKPlayer = ({ isVisible, onClose, accessToken }) => {
   
   // 7. SIMPLIFIED UI
   return (
-    <div className="fixed bottom-0 left-0 right-0 md:bottom-10 md:left-10 md:right-auto md:w-2/5 bg-[#773C40] shadow-lg z-50 rounded-none md:rounded-lg opacity-95">
+    <div className="fixed bottom-0 left-0 right-0 md:bottom-10 md:left-10 md:right-auto md:w-full bg-[#773C40] shadow-lg z-50 rounded-none md:rounded-lg opacity-95">
       <div className="p-3 md:p-4">
         {/* Header with status and close button */}
         <div className="flex justify-between items-center mb-3">

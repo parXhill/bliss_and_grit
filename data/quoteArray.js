@@ -74,7 +74,7 @@ export const quoteArray = [{
   ]
 },
 {
-  "episodeNumber": 6,
+  "episodeNumber": "6",
   "quotes": [
     {
       "quote": "If you believe that there's such a thing as the unconscious mind, what we need to know - the missing piece - is that our body is our unconscious mind. That's the big link. Our body is the tangible, alive thing that is our lives. It's the map of our lives. It's the map of our unconscious patterns and our holding.",
@@ -199,7 +199,7 @@ export const quoteArray = [{
   ]
 },
 {
-  "episodeNumber": 11,
+  "episodeNumber": "11",
   "quotes": [
     {
       "quote": "So think about sensitive in my mind, I think of it as like highly receptive to. So people who are senses or spiritually sensitive or HSP, whatever language you resonate with, they tend to be like big antennas. They're just picking up on the subtle vibrations in an environment, right? And subtle vibrations that can be sound, that can be energy, it can be emotion. I mean, I guess, actually, it's all energy, but we can categorize it into these different things. So we're really talking more about imagining like a nervous system that's so highly attuned, that it can pick up on more of the subtle levels that aren't striking other people's nervous system with that level of intensity.",
@@ -351,10 +351,10 @@ export const quoteArray = [{
 },
 
 
-{ "episodeNumber": 18, "quotes": [ { "quote": "So really so much of the pain comes from trying to hold on to the reins when really the reins aren't ours.", "speaker": "Brooke Thomas" }, { "quote": "What I am is someone who has relationship issues. And when I'm around people, my landmines start getting triggered as they, you know, just walk through the fields and unwittingly set them off.", "speaker": "Vanessa Scotto" }, { "quote": "These people planted the landmines in us, many of them, through their behaviors, through their belief systems, and then also through our intergenerational trauma and our DNA and our neurobiological wiring. So these people planted the landmines, but like 20 years later, they don't remember where they planted them. They don't know they're there. You know, they're not trying to always set them off.", "speaker": "Vanessa Scotto" }, { "quote": "When you can unhook from that idea that I need everything out there to look a certain way in order for me to have the feeling I want to have, then you can start making different kinds of decisions.", "speaker": "Brooke Thomas" }, { "quote": "The motivation was for me to be free of the response and the reaction. And then lo and behold, they did change. Because we're all connected, what I realized was I was walking up to her defended bristly, like expecting her to annoy me, expecting her to ask for something I didn't want to give, expecting her to guilt me.", "speaker": "Vanessa Scotto" } ] }
+{ "episodeNumber": "18", "quotes": [ { "quote": "So really so much of the pain comes from trying to hold on to the reins when really the reins aren't ours.", "speaker": "Brooke Thomas" }, { "quote": "What I am is someone who has relationship issues. And when I'm around people, my landmines start getting triggered as they, you know, just walk through the fields and unwittingly set them off.", "speaker": "Vanessa Scotto" }, { "quote": "These people planted the landmines in us, many of them, through their behaviors, through their belief systems, and then also through our intergenerational trauma and our DNA and our neurobiological wiring. So these people planted the landmines, but like 20 years later, they don't remember where they planted them. They don't know they're there. You know, they're not trying to always set them off.", "speaker": "Vanessa Scotto" }, { "quote": "When you can unhook from that idea that I need everything out there to look a certain way in order for me to have the feeling I want to have, then you can start making different kinds of decisions.", "speaker": "Brooke Thomas" }, { "quote": "The motivation was for me to be free of the response and the reaction. And then lo and behold, they did change. Because we're all connected, what I realized was I was walking up to her defended bristly, like expecting her to annoy me, expecting her to ask for something I didn't want to give, expecting her to guilt me.", "speaker": "Vanessa Scotto" } ] }
 
 ,
-{ "episodeNumber": 19, "quotes": [ { "quote": "Your actions, your thoughts, essentially your experiences... As you experience things, you start to plant these little seeds, seeds of action, seeds of thought, seeds of belief. And it's like, if you imagine your mind like a garden, whatever seeds you plant, eventually begin to grow. If I planted daffodil seed, I get daffodils. And if I plant a sunflower seed, I get sunflowers. And there's nothing confusing about that. And that's kind of how, on a very basic level, we can start to look at karma.", "speaker": "Vanessa Scotto" }, { "quote": "Karma is a verb, which I think is a very important thing to put a point on. It's not a thing. It's a movement. It's in action. It's in experience. It's lived. And just to go with your sunflower analogy a little bit, you know, we often don't know what the seeds are that we're planting. So I think I'm planting the seeds of abundance, security, stability, success, but I'm actually putting the seeds of desperation, of fear, of anxiety.", "speaker": "Brooke Thomas" }, { "quote": "It took a long time for me to give up the idea that life's teaching you. And that's kind of that like, big, big dog sitting up in the sky, like writing out a curriculum for Vanessa. It's not that life's teaching me, although there's wonderful opportunity to learn and grow. It's that life is simply mirroring. And if I have eyes that are open enough, I see this bush, like, oh, Lord, I thought I planted an abundance bush and I planted a desperation plant.", "speaker": "Vanessa Scotto" }, { "quote": "You have to also listen, it's we talked about this in our last episode, thinking about things as an exchange, inhale, exhale, you know, it's got to have the two sides, it can't just be acting out what you've decided. And the body will give you a like, no, thank you, please. And the body will give you a green light. And it's the clench on clench. It's the delicious yes.", "speaker": "Brooke Thomas" }, { "quote": "I'm at a point now where I can look back at even the really, really painful things and even things that say I take or would take personal responsibility for and feel regret about. And I'm just like, God, that's such useful seasoning for me, the way that I have compassion and the way that I see the world now because of those things.", "speaker": "Brooke Thomas" } ] }
+{ "episodeNumber": "19", "quotes": [ { "quote": "Your actions, your thoughts, essentially your experiences... As you experience things, you start to plant these little seeds, seeds of action, seeds of thought, seeds of belief. And it's like, if you imagine your mind like a garden, whatever seeds you plant, eventually begin to grow. If I planted daffodil seed, I get daffodils. And if I plant a sunflower seed, I get sunflowers. And there's nothing confusing about that. And that's kind of how, on a very basic level, we can start to look at karma.", "speaker": "Vanessa Scotto" }, { "quote": "Karma is a verb, which I think is a very important thing to put a point on. It's not a thing. It's a movement. It's in action. It's in experience. It's lived. And just to go with your sunflower analogy a little bit, you know, we often don't know what the seeds are that we're planting. So I think I'm planting the seeds of abundance, security, stability, success, but I'm actually putting the seeds of desperation, of fear, of anxiety.", "speaker": "Brooke Thomas" }, { "quote": "It took a long time for me to give up the idea that life's teaching you. And that's kind of that like, big, big dog sitting up in the sky, like writing out a curriculum for Vanessa. It's not that life's teaching me, although there's wonderful opportunity to learn and grow. It's that life is simply mirroring. And if I have eyes that are open enough, I see this bush, like, oh, Lord, I thought I planted an abundance bush and I planted a desperation plant.", "speaker": "Vanessa Scotto" }, { "quote": "You have to also listen, it's we talked about this in our last episode, thinking about things as an exchange, inhale, exhale, you know, it's got to have the two sides, it can't just be acting out what you've decided. And the body will give you a like, no, thank you, please. And the body will give you a green light. And it's the clench on clench. It's the delicious yes.", "speaker": "Brooke Thomas" }, { "quote": "I'm at a point now where I can look back at even the really, really painful things and even things that say I take or would take personal responsibility for and feel regret about. And I'm just like, God, that's such useful seasoning for me, the way that I have compassion and the way that I see the world now because of those things.", "speaker": "Brooke Thomas" } ] }
 ,{
   "episodeNumber": "Episode 20: Big Me vs. Little Me",
   "quotes": [
@@ -389,7 +389,7 @@ export const quoteArray = [{
 
 
 ,{
-  "episodeNumber": 23,
+  "episodeNumber": "23",
   "quotes": [
     {
       "quote": "A desire for me is something that happens only in the present tense. It does not have a past or a future. And it's just something that in the present tense is a like, yes. And because the present tense is always now, meaning it's always fluid, it's not a fixed point in time, that will potentially keep unfolding. But you don't know what the outcome is. You're not attached to what it looks like on some other side because there is no other side. It's just a genuine and I would say sacred and I would say from God movement of clarity in your life that feels like a yes.",
@@ -414,7 +414,7 @@ export const quoteArray = [{
   ]
 },
 {
-  "episodeNumber": 24,
+  "episodeNumber": "24",
   "quotes": [
     {
       "quote": "Everybody creates at some point in their life your working model of love. It's like I'm watching my parents and I watch how they engage with each other and I watch how they engage with me and my siblings and my friends. And I'm basically in my mind creating a narrative about what love looks like and what love feels like and what I can expect from love and what will be expected from me in order to keep love. So we all have it. It's like walking around like a little blueprint, completely changeable. But nevertheless, it's kind of sketched out in a way and we start to follow it.",
@@ -441,7 +441,7 @@ export const quoteArray = [{
 
 
 {
-  "episodeNumber": 25,
+  "episodeNumber": "25",
   "quotes": [
     {
       "quote": "Like, you know, how we've talked about delicious. Yes. Right. Like, delicious. Yes. There are a lot of nuances to it that I'm still working with. But one like, is it a hell yes or not is so clear, because one person asks you to do a business project. And you're like, hmm, on my pro and con list, this is interesting. And then another person asks, and you're like, yes, right. Oh, totally. No, this thing. Yes. It doesn't feel like effort. It's just like wind at my back.",
@@ -468,7 +468,7 @@ export const quoteArray = [{
 
 
 {
-  "episodeNumber": 26,
+  "episodeNumber": "26",
   "quotes": [
     {
       "quote": "To not grieve is a violence to the divine and our own hearts, and especially to the dead. If we do not grieve what we miss, we are not praising what we love. We are not praising the life we have been given in order to love. If we do not praise whom we miss, we ourselves are in some way dead. So grief and praise make us alive.",
@@ -521,7 +521,7 @@ export const quoteArray = [{
 },
 
 
-{ "episodeNumber": 28, "quotes": [ { "quote": "Your life, all of your life, is your path to awakening. By resisting or not dealing with its challenges, you stay asleep to reality. Pay attention to what life is trying to reveal to you. Say yes to its fierce, ruthless, and loving grace.", "speaker": "Adyashanti (quoted by Brooke Thomas)" }, { "quote": "Many people try to find a spiritual path where they do not have to face themselves, but where they can still liberate themselves. Liberate themselves from themselves, in fact. In truth, this is impossible. We cannot do that. We have to be honest with ourselves. We have to see our gut, our real shit, our most undesirable parts. We have to see that. That is the foundation of warriorship and the basis of conquering fear.", 
+{ "episodeNumber": "28", "quotes": [ { "quote": "Your life, all of your life, is your path to awakening. By resisting or not dealing with its challenges, you stay asleep to reality. Pay attention to what life is trying to reveal to you. Say yes to its fierce, ruthless, and loving grace.", "speaker": "Adyashanti (quoted by Brooke Thomas)" }, { "quote": "Many people try to find a spiritual path where they do not have to face themselves, but where they can still liberate themselves. Liberate themselves from themselves, in fact. In truth, this is impossible. We cannot do that. We have to be honest with ourselves. We have to see our gut, our real shit, our most undesirable parts. We have to see that. That is the foundation of warriorship and the basis of conquering fear.", 
   "speaker": "Chogyam Trungpa Rinpoche (quoted by Vanessa Scotto)" }, { "quote": "Being only in the present tense is the definition of being an awakened person. But we have these little minds that keep telling us stories about the past and the future and the past and the future, and we're shackled to them. The work that we're trying to do is to unbind ourselves from them or see the mind as the useful tool that it is, but not the only filter through which we see reality. And the more that we decide we're going to go somewhere in the future where we are better, life is better, we've achieved some goal that's going to give us what we think we want. It's just delusion. We're just escaping ourselves.", "speaker": "Brooke Thomas" }, { "quote": "So, you know, I like to say there's no way through but in. And we learned this. This wasn't something we wanted or something we chose. It was something we learned. And, you know, we've talked a lot about how we learned that the other way doesn't work. Right. We learned that just trying to cling to a delusion or trying to like fix yourself, like going to war with yourself is such a common strategy. We've learned all of that is not going to work. And we've learned the opposite, that when we go in, we're actually moving through.", "speaker": "Vanessa Scotto" }, { "quote": "A thread of this conversation is that a part of what we want is the easy way out. What I am not saying is too bad. Suck it up. Take the hard way. What I'm saying is going in and through is the easy way. The hard way is to delude yourself and create more and more and more messes in your life. I know I have done it like a fucking Olympic champion. And what I realized is these these future tense ideas that I'm chasing after are making a mess of my life. Not feeling the feelings I'm actually having, not sitting with myself is making my life way harder. So the easy way is to be, to use Adyashanti's words, ruthless and loving about what is true for you.", "speaker": "Brooke Thomas" } ] }
 
 
@@ -551,7 +551,7 @@ export const quoteArray = [{
   ]
 },
 {
-  "episodeNumber": 30,
+  "episodeNumber": "30",
   "quotes": [
     {
       "quote": "We can identify with anything as in this is who I am and this is what life is meant to be like. And when we're that identified with a thought, a belief, a vision of who we are, there is no space to see anything differently. So it just feels like the air that you breathe.",
@@ -602,12 +602,12 @@ export const quoteArray = [{
 },
 
 
-{ "episodeNumber": 32, "quotes": [ { "quote": "It becomes problematic because I wind up missing my life. Like when I keep living in polarities, I'm not really here. I'm just jumping onto the next pretend piece of solid ground and I can't ever really land here because here is a place with a lot of ambiguity and a lot of different kinds of people and value systems and opinions and data points. And so when I'm constantly scrambling to put ground under my feet, I can't just lay down under my feet. I can't just land here and just appreciate things.", "speaker": "Brooke Thomas" }, { "quote": "When we don't tolerate complexity and ambiguity within our conversations, within our thought processes, within our culture, we don't tolerate it within ourselves either. So as outside, so inside. And I think that the larger picture that we're making is making space for being human, which means making space for some of the complexity and the mystery and the wonder that is an alive experience that is ever unfolding.", "speaker": "Vanessa Scotto" }, { "quote": "Amy said, no, it's a raft. So of course, I'm a raft girl, right? I'm into the groundlessness. She's like, and over the years, I've been on the same raft, but I've constructed a really nice raft for myself. Like I've replaced a few boards here and put in some cushy pillows over here. And there's a little margarita fountain over there. And it's like, I'm just in the raft, but it's a lovely raft. It's a very safe place for me to be unmoored.", "speaker": "Brooke Thomas" }, { "quote": "As soon as we have to cling to any dogma, dogma about our identity, dogma about the way life works, how we move, how we eat, anything, we're already a closed loop. And there's no possibility for that intimacy and that exchange and that growth that happens. We sort of have to remain open circuits, right? We have to be in a call and response with our life because if we're not in a call and response with life, we know how slippery it is to just believe all your conditioning.", "speaker": "Vanessa Scotto" }, { "quote": "We don't need to hold our models so closely that we identify with them and that we claim them as the rightest, truest, goodest, shiniest nugget of truth. And then whenever we gather together, what we're doing is defending our model, defending our truth and we spend our career lives polishing up. Look at my truth, it's the rightest one.", "speaker": "Brooke Thomas" } ] }
+{ "episodeNumber": "32", "quotes": [ { "quote": "It becomes problematic because I wind up missing my life. Like when I keep living in polarities, I'm not really here. I'm just jumping onto the next pretend piece of solid ground and I can't ever really land here because here is a place with a lot of ambiguity and a lot of different kinds of people and value systems and opinions and data points. And so when I'm constantly scrambling to put ground under my feet, I can't just lay down under my feet. I can't just land here and just appreciate things.", "speaker": "Brooke Thomas" }, { "quote": "When we don't tolerate complexity and ambiguity within our conversations, within our thought processes, within our culture, we don't tolerate it within ourselves either. So as outside, so inside. And I think that the larger picture that we're making is making space for being human, which means making space for some of the complexity and the mystery and the wonder that is an alive experience that is ever unfolding.", "speaker": "Vanessa Scotto" }, { "quote": "Amy said, no, it's a raft. So of course, I'm a raft girl, right? I'm into the groundlessness. She's like, and over the years, I've been on the same raft, but I've constructed a really nice raft for myself. Like I've replaced a few boards here and put in some cushy pillows over here. And there's a little margarita fountain over there. And it's like, I'm just in the raft, but it's a lovely raft. It's a very safe place for me to be unmoored.", "speaker": "Brooke Thomas" }, { "quote": "As soon as we have to cling to any dogma, dogma about our identity, dogma about the way life works, how we move, how we eat, anything, we're already a closed loop. And there's no possibility for that intimacy and that exchange and that growth that happens. We sort of have to remain open circuits, right? We have to be in a call and response with our life because if we're not in a call and response with life, we know how slippery it is to just believe all your conditioning.", "speaker": "Vanessa Scotto" }, { "quote": "We don't need to hold our models so closely that we identify with them and that we claim them as the rightest, truest, goodest, shiniest nugget of truth. And then whenever we gather together, what we're doing is defending our model, defending our truth and we spend our career lives polishing up. Look at my truth, it's the rightest one.", "speaker": "Brooke Thomas" } ] }
 ,{ "episodeNumber": "33", "quotes": [ { "quote": "I see it like a beautiful soap bubble. It's very thin and it's kind of like porous, but it surrounds us. And within it is all of our painful belief systems. I'm not enough. I'm not lovable enough. No one will ever care about me the way I need. I won't get my needs met. And they bounce around in the bubble, kind of like it's like an echo chamber. And so it's always this like self-referencing and looping back and looping back... And I almost feel like as information comes from the outside and it passes through the bubble, it becomes about me. So the information from the outside could have been neutral data, you know, but it's always like getting translated as if someone was like throwing an apple, but as it passed the barrier, it becomes an orange.", "speaker": "Vanessa Scotto" }, { "quote": "I see it as two identifiers that allow the bubble to stay in place. Like the first big, big one is I'm a person. Oh no. We got here. Shit. And then the other one, which is not as large as that, it's smaller. It's a closer ring in, closer to us, is I'm a person who is lacking something. And so it always gets translated into a narrative of I'm not sexy enough. I'm not empathetic enough. They don't think that I'm working hard enough because I'm not doing enough.", "speaker": "Brooke Thomas" }, 
   { "quote": "When we're in that bubble, they are more like objects because everything about them is in reference to me. Are they responding the way I need them to do? They like what I like. Do they want what I want? Are they doing what I think a good husband should do or a good friend should do?... That movement is objectifying him, imagining him to think and feel and want and prefer as I think and feel and want and prefer. When someone deviates from that, you think they're pathological.", "speaker": "Vanessa Scotto" }, { "quote": "When we start to see that people are subjects in their own lives and not the object that I'm putting on, 'oh, they must think I'm not interesting enough' or whatever, we realize like, oh yeah, just like me, they have all of these competing narratives, all these competing identifiers and histories and trajectories and storylines... And I think if we could all just choose one mantra forever and ever, it would be, I don't know. It's such a powerful statement. Actually, it just it frees you from so much suffering and it frees you from trying to manipulate your environment and other people as objects in a way that just causes more suffering.", "speaker": "Brooke Thomas" }, { "quote": "Awareness is a beautiful thing. It's the alchemical agent, right? Like as we see, so things can unfold. But if you don't have understanding and compassion with that awareness, like understanding of like a little bit about human nature, a little bit about the Eagle, a little bit about what makes us move, and then the compassion that's born out of understanding that, well then that awareness just gets co-opted again by the self-referencing ego. And now we're judging ourselves. We're judging others. So Buddhism, they say, like wisdom and compassion are like two wings of a bird. And wisdom is awareness. And you know, if you have one without the other, there's something off.", "speaker": "Vanessa Scotto" } ] }
 
 ,{
-  "episodeNumber": 35,
+  "episodeNumber": "35",
   "quotes": [
     {
       "quote": "The idea in happiness culture is that if you do your work to bring more consciousness, awareness, healing to your life, you'll just feel better and better and better. And you're healing, which is a form of better. But it brings up a bunch of shit, you know. I come back home to my life and lots of stuff is pushed up through the soil. And now it's harvest time. Now I have to deal with the stuff I couldn't see before. And clarity comes through. And it doesn't always feel like the hills are alive with the sound of music.",
@@ -634,7 +634,7 @@ export const quoteArray = [{
 
 
 {
-  "episodeNumber": 36,
+  "episodeNumber": "36",
   "quotes": [
     {
       "quote": "Real acceptance is just very, very sweet and loving. And certainly our mentor, Kieran Trace does a very good job of distinguishing real acceptance versus fake acceptance. And she talks about it as, you know, one of the words she uses a lot is warm, that it's just very, very warm. And I think about it in terms of like, warm in the way that like I snuggle my dog warm in the way that I kiss my son good night, like that kind of level of like, just really warm.",
@@ -686,7 +686,7 @@ export const quoteArray = [{
   ]
 },
 {
-  "episodeNumber": 38,
+  "episodeNumber": "38",
   "quotes": [
     {
       "quote": "The sangha is people who are committed to not hiding... The mark of the sangha is joy, the joyfulness of people who do not have to pretend to be anything other than who they are.",
@@ -712,7 +712,7 @@ export const quoteArray = [{
 },
 
 
-{ "episodeNumber": 39, "quotes": [ { "quote": "If you're that striving person and you know that's part of your identity and you know it's part of your defense system and your pain body wiring, then you are likely going to need that softness. And if you're someone who was taught always to avoid the hard things, always to just be kind to yourself and indulge and don't overdo it, then maybe you're going to be bringing in the medicine of discipline in a certain regard and that that will hold love.", "speaker": "Vanessa Scotto" }, { "quote": "That is not at all what we're up to and of course we all live within the cultural veil that is prescriptive. So our brains automatically go for what is the prescription they're telling me to have? Be softer, be harder, push myself, lay around. That's just the nature of how we are all, literally all of us, we grow up wired to that, to seek that very quickly. But that's not what we're trying to do. Instead it's an invitation to listen to yourself. It's an invitation to get to know yourself and that's going to have a great deal of subtlety and nuance.", "speaker": "Brooke Thomas" }, 
+{ "episodeNumber": "39", "quotes": [ { "quote": "If you're that striving person and you know that's part of your identity and you know it's part of your defense system and your pain body wiring, then you are likely going to need that softness. And if you're someone who was taught always to avoid the hard things, always to just be kind to yourself and indulge and don't overdo it, then maybe you're going to be bringing in the medicine of discipline in a certain regard and that that will hold love.", "speaker": "Vanessa Scotto" }, { "quote": "That is not at all what we're up to and of course we all live within the cultural veil that is prescriptive. So our brains automatically go for what is the prescription they're telling me to have? Be softer, be harder, push myself, lay around. That's just the nature of how we are all, literally all of us, we grow up wired to that, to seek that very quickly. But that's not what we're trying to do. Instead it's an invitation to listen to yourself. It's an invitation to get to know yourself and that's going to have a great deal of subtlety and nuance.", "speaker": "Brooke Thomas" }, 
   { "quote": "What I noticed is everyone is always worried about their inhale. Like that's their default. They're always like, but shouldn't I, you know, do that thing that I think is really effective and like strive more. And what I always want to say to them is you can take your attention off of the inhale and put it on the exhale. Because if let's say you're a striver, you're not going to stop. Right. You don't have to worry about working hard. If you are a hard worker, that's what you do. That's your inhale. That's your zone. That's how you flow. So you don't need to worry about it.", "speaker": "Vanessa Scotto" }, { "quote": "Some of us come to the end of the road of being able to manage our lives from the level of the mind. And all the normal things I'm sitting in meditation two times a day for 30 minutes. I've been doing that for four months and I only feel exhausted, consumed with dread. You know, like then forcing yourself into that shape box isn't useful. You've come to the end of the road there, that's an end of a road. And so then you have to feel into what can help.", "speaker": "Brooke Thomas" }, { "quote": "And yet, it's fine. You're fine. The whole thing is fine. And the only thing that the ego loves to do is make everything into a problem. And that's what we're trying to solve. That's why we're like, well, when all else fails, be compassionate, meet what's up with like that kind of welcome and yes, because the big thing the ego does is make everything into a problem.", "speaker": "Vanessa Scotto" } ] }
 ,{
   "episodeNumber": "40",
@@ -769,7 +769,7 @@ export const quoteArray = [{
   { "quote": "This arrived, like you said, probably, I think definitely was an aptitude we just showed up with. Then we had an environment where it was required and it became distorted... But these things are worth getting curious about and playing with for a life that just feels more nourishing and less draining and where you get to actually have this deep communion with people in the world that's a lot more profound than running around putting out other people's and your own fires.", "speaker": "Brooke Thomas" }, { "quote": "As you recognize you're not pathological, you're beautiful, you're divine, you're sacred, and you are as you're meant to be, you can realign your life in support of yourself. And then as you learn to inhabit your body and exist, these things are less and less problematic. They really are. So mostly, I just wanted to plant some seeds that there's hope that you don't have to spend the rest of your life managing.", "speaker": "Vanessa Scotto" } ] }
 ,
 {
-  "episodeNumber": 44,
+  "episodeNumber": "44",
   "quotes": [
     {
       "quote": "Just because you have a partner going through something hard, doesn't mean it has to feel like sacrifice. So if it does feel like sacrifice and it does feel like you're not receiving, then that might be an area to get really curious about. Like is that some wounding for you or is that some really relevant truth? Because it's not a given that when your partner is in difficult circumstances, it's not a given that you will feel pinned down to the mat like that where it's all output and no input.",
@@ -823,7 +823,7 @@ export const quoteArray = [{
 
 
 {
-  "episodeNumber": 46,
+  "episodeNumber": "46",
   "quotes": [
     {
       "quote": "It's amazing how much that non-verbal level is the alchemical agent. You know, it's like the words have this really beautiful way of sometimes popping something open in you. Words do have power, but so much of it is in the experience. And that's the hard part to name.",
@@ -877,7 +877,7 @@ export const quoteArray = [{
   ]
 },
 {
-  "episodeNumber": 50,
+  "episodeNumber": '50',
   "quotes": [
     {
       "quote": "In this vision, I'm holding myself, wrapped around myself as I'm dying in my own arms. And it wasn't a problem or a pity... it was so much more clean, just this experience of touching the profundity of life and sitting with someone in that intimate space.",
@@ -931,7 +931,7 @@ export const quoteArray = [{
 
 
 {
-  "episodeNumber": 52,
+  "episodeNumber": "52",
   "quotes": [
     {
       "quote": "If we talk about the two ends of the attachment spectrum, anxious or avoidant, both of them are very similar in that they're predicated on lack belief system. So in the anxious type, like if we use the sort of visual metaphor of a bucket with a hole in the bottom, the anxious type, which would be like the grabby hands type, like there's a hole in the bottom of the bucket and it's like, please, keep filling the bucket and it keeps pouring out the bottom. But it's like, maybe if I just keep grabbing and putting it in the bucket and just try and begging and kind of pleading energetically with the world, please, if you just pour enough in fast enough and it's enough, maybe there'll be this feeling of like sufficiency. Maybe the bucket will have this moment of fullness before it drains right out again. So that's that version of lack. And then the avoidant version of lack is I have a hole in the bottom of my bucket, nothing will ever fill it. That's fine. I'm a bottomless bucket.",
@@ -957,7 +957,7 @@ export const quoteArray = [{
 },
 
 
-{ "episodeNumber": 53, "quotes": [ { "quote": "We rediscovered the truth of ourselves pretty much where we left it before we got distracted by how we imagine ourselves to be. I like the word rediscover more than awakening since that word's gotten so loaded. We can't really leave our true being. We can imagine we have, but the essence of all of this is a kind of rediscovering and then a bringing forth of our discovery.", "speaker": "Brooke Thomas (quoting Adyashanti)" }, { "quote": "I'm thinking about the separate self as just this kind of like misunderstanding... It's just this big old misunderstanding... that we take thoughts, we take feelings, we take behaviors to be who we are. The most simple thing, I may have told this story on the podcast before, I can't remember, I've certainly told it to you, Brooke, I know I have. But I was talking to a friend of mine, this is the stupidest metaphor, but you'll get it about relationship issues. She was having relationship issues. This is years ago. And she was saying that it embarrassed her, that her boyfriend didn't like the way she brushed her teeth. Because when she brushed her teeth, she had a way of keeping her mouth open so that her toothpaste flew like down her chin and like, such a great visual, okay, onto her shirt. And so he would like, I guess make fun of her about it, and lovingly ponder why she couldn't maybe brush her teeth differently than that. And what she said back to me as she was describing the story is, but that's who I am. I'm the person that brushes my teeth like that. And I was like, what? The best ego metaphor ever.", "speaker": "Vanessa Scotto" }, { "quote": "And for years, I mean, forever, Buddhists were talking about this concept of emptiness, you know, how, how life is empty. And it always felt like deficient, like, it was zero, it was nothingness. And it was only in my later years of studying and practicing that I came to understand that emptiness was full potentiality. It was like ground zero of birth, you know, like anything can come after that. And that there's all this energy and emptiness that it's not this null and void state.", "speaker": "Brooke Thomas" }, 
+{ "episodeNumber": "53", "quotes": [ { "quote": "We rediscovered the truth of ourselves pretty much where we left it before we got distracted by how we imagine ourselves to be. I like the word rediscover more than awakening since that word's gotten so loaded. We can't really leave our true being. We can imagine we have, but the essence of all of this is a kind of rediscovering and then a bringing forth of our discovery.", "speaker": "Brooke Thomas (quoting Adyashanti)" }, { "quote": "I'm thinking about the separate self as just this kind of like misunderstanding... It's just this big old misunderstanding... that we take thoughts, we take feelings, we take behaviors to be who we are. The most simple thing, I may have told this story on the podcast before, I can't remember, I've certainly told it to you, Brooke, I know I have. But I was talking to a friend of mine, this is the stupidest metaphor, but you'll get it about relationship issues. She was having relationship issues. This is years ago. And she was saying that it embarrassed her, that her boyfriend didn't like the way she brushed her teeth. Because when she brushed her teeth, she had a way of keeping her mouth open so that her toothpaste flew like down her chin and like, such a great visual, okay, onto her shirt. And so he would like, I guess make fun of her about it, and lovingly ponder why she couldn't maybe brush her teeth differently than that. And what she said back to me as she was describing the story is, but that's who I am. I'm the person that brushes my teeth like that. And I was like, what? The best ego metaphor ever.", "speaker": "Vanessa Scotto" }, { "quote": "And for years, I mean, forever, Buddhists were talking about this concept of emptiness, you know, how, how life is empty. And it always felt like deficient, like, it was zero, it was nothingness. And it was only in my later years of studying and practicing that I came to understand that emptiness was full potentiality. It was like ground zero of birth, you know, like anything can come after that. And that there's all this energy and emptiness that it's not this null and void state.", "speaker": "Brooke Thomas" }, 
   { "quote": "I could see the mountain that we are on. We were at Mount Madonna. I could see the trees and I could see the birds in the sky and I can hear them in the room that I'm in, but in my mind's eye, I can see them and I could see that they were all emerging out of the space, right? And this is where all these things sound so corny. And then you have an experience of it and it's it actually seems like the most obvious thing in the world. So the birds are part of emerging out of the world and so is the sky and so are the trees and so is the mountain and so is the building we're on. And so it was almost like this periscope looking out there at the world and going, wow, everything out there is one. Everything out there is woven of the same thing. That's so cool. And then the energetic like periscope turned and looked at me in this kind of like and I could see this thin like bubble around me and then all the oneness happening around me and then the periscope just kind of like popped the bubble and I fell over laughing harder. I mean, just tears like that kind of ugly cry laugh where you're happy and delighted but your face is swollen because you're laughing and crying so hard. But what happened in that moment was like, oh my god, it's so funny that I would think that everything is one but not me. It's this hilarious narcissism actually.", "speaker": "Vanessa Scotto" }, { "quote": "For those listening who are wondering, Am I supposed to be on the awakening train? Am I supposed to be doing something different or more or better? Am I getting it right? Am I getting it wrong? I would just say, like, don't worry about it. Because the whole point is like, it's not you doing a thing like this idea of the controller who is, you know, pulling the right switches and pushing the right buttons in order to create an outcome is just a delusion. And so if it's causing you suffering, because it's telling you that you're not getting it quite right enough, and you're not spiritual enough or evolved enough, that's just the ego messing with you. You know, we're all playing our exact right role, I swear to God. So don't worry about it. You know, just like you're breathing the whole time you've been listening to this podcast, your breath has been breathing you this entire time, life is living you this entire time, any path you're on is, is doing itself.", "speaker": "Vanessa Scotto" } ] }
 
 ,
@@ -1014,12 +1014,12 @@ export const quoteArray = [{
 
 
 
-{ "episodeNumber": 57, "quotes": [ { "quote": "Which is such a weird locus of control, right? Because you think it's inner locus of control because you're trying to be good or put together, but it's actually super externalized because people have to approve of you. And in fact, it's all built on a lie that anyone is in control other than life.", "speaker": "Brooke Thomas" }, { "quote": "The more that we come into really intimate contact with ourselves, the more that we get embodied, the more we truly get to become subject in our lives as opposed to object in our lives. And you realize just how much we are all conditioned to be object, you know, in every possible way, the good object, the bad object, the hot object, the smart object, the together object, everything is like you said, the locus of control is way out there. What does the world think of me? Is this the kind of one that gets love in the world? And if not, how can I make this one, this object more lovable?", 
+{ "episodeNumber": "57", "quotes": [ { "quote": "Which is such a weird locus of control, right? Because you think it's inner locus of control because you're trying to be good or put together, but it's actually super externalized because people have to approve of you. And in fact, it's all built on a lie that anyone is in control other than life.", "speaker": "Brooke Thomas" }, { "quote": "The more that we come into really intimate contact with ourselves, the more that we get embodied, the more we truly get to become subject in our lives as opposed to object in our lives. And you realize just how much we are all conditioned to be object, you know, in every possible way, the good object, the bad object, the hot object, the smart object, the together object, everything is like you said, the locus of control is way out there. What does the world think of me? Is this the kind of one that gets love in the world? And if not, how can I make this one, this object more lovable?", 
   "speaker": "Vanessa Scotto" }, { "quote": "Samsara happens only and strictly because we try to pin things down. And this is followed by when we resist the urge to pin things down, then we experience real freedom. And I'm starting to be able to see the mechanics of it that before there is like during the day at night, it's just waking up randomly, but it's really just this gut like, there's something I'm trying to pin down. Sometimes it can be a to-do list item like that, but sometimes it can be regret like a way I wish I had been as I interacted with a friend or a plan. It just seems like I'm at a stage where whenever I do even any tiny pin down like that, it makes my body feel sick.", "speaker": "Vanessa Scotto" }, { "quote": "And then I noticed my stealth start, right? Like, okay, how am I gonna fix this situation? Do I talk to the librarian? Do I just wait it out? Do I defend myself? Do I seal off? And then I was like, okay, if I ask for mercy, mercy comes. Like I need something here to change this dynamic so that I can just rest here and not be afraid. And so that I can enjoy my night quite frankly. And I also need an experience of, I'm not the one who has to do it. Like fix it, solve it, manipulate the dynamics.", "speaker": "Vanessa Scotto" }, { "quote": "But really in the core place, I think it's vulnerable because we associate not knowing with being in danger. Like being unsafe, being unworthy, unknowledgeable, as opposed to it being this quite massive maturational development. In psychology, we would look at that as being a maturational development when someone can sit with paradox, when someone can sit with not having to pin things down. Because then you have way more freedom to see truth, the truth of it all.", "speaker": "Brooke Thomas" } ] }
 
 
 ,{
-  "episodeNumber": 58,
+  "episodeNumber": "58",
   "quotes": [
     {
       "quote": "My whole life has been oriented around 'Will it work out? I don't know. Can I make it work? How do I make it work out?' And it's like there is no work out. It's just life and P.S. It's fucking beautiful.",
@@ -1069,7 +1069,7 @@ export const quoteArray = [{
     }
   ]
 },
-{ "episodeNumber": 61, "quotes": [ { "quote": "I would even say that our bias culturally towards the positive emotions and being the positive person has really kind of put a stake in the heart of genuine positivity. We don't experience genuine positivity so much because it's the age of the curated self. People are broadcasting a performance of positivity because we all got the memo. We got the memo that the good ones are positive and optimistic and working on themselves and self-improving and blah. We're surrounded because of social media with people who are getting very adept because we're all picking up on cues from one another at how to broadcast being the positive one. It's this surface layer of fake positivity and genuine positivity is such a beautiful thing, but it's very deep.", "speaker": "Vanessa Scotto" }, { "quote": "We forget that all of these emotions, all of these experiences are part of the human fabric because they're meant to be. There's something for us within them. They are for us to experience the multi-dimensionality of this life, to find compassion, to find presence, to be aware. Even within those states, there can be so much exquisite beauty that it makes you want to just shed a tear for the profundity of our lives. I think one of the dilemmas that we face is that both culturally and personally, we can have such a bias towards the quote unquote positive emotions that we forget that we add value both in our own exploration of life, but to the world through having these other feelings.", "speaker": "Brooke Thomas" }, { "quote": "I think connection is a really good thing to point to because I often think about it as connection to self, like genuine self, deep self, connection to others, our friends, our family, our communities, our global people, our world, our animals, our plants, and connection to life, God, universe, source, energy, light. And on so many levels, we are disconnected. And wow, this is probably its own topic in and of itself of what it means to feel disconnected from our ecosystem.", 
+{ "episodeNumber": "61", "quotes": [ { "quote": "I would even say that our bias culturally towards the positive emotions and being the positive person has really kind of put a stake in the heart of genuine positivity. We don't experience genuine positivity so much because it's the age of the curated self. People are broadcasting a performance of positivity because we all got the memo. We got the memo that the good ones are positive and optimistic and working on themselves and self-improving and blah. We're surrounded because of social media with people who are getting very adept because we're all picking up on cues from one another at how to broadcast being the positive one. It's this surface layer of fake positivity and genuine positivity is such a beautiful thing, but it's very deep.", "speaker": "Vanessa Scotto" }, { "quote": "We forget that all of these emotions, all of these experiences are part of the human fabric because they're meant to be. There's something for us within them. They are for us to experience the multi-dimensionality of this life, to find compassion, to find presence, to be aware. Even within those states, there can be so much exquisite beauty that it makes you want to just shed a tear for the profundity of our lives. I think one of the dilemmas that we face is that both culturally and personally, we can have such a bias towards the quote unquote positive emotions that we forget that we add value both in our own exploration of life, but to the world through having these other feelings.", "speaker": "Brooke Thomas" }, { "quote": "I think connection is a really good thing to point to because I often think about it as connection to self, like genuine self, deep self, connection to others, our friends, our family, our communities, our global people, our world, our animals, our plants, and connection to life, God, universe, source, energy, light. And on so many levels, we are disconnected. And wow, this is probably its own topic in and of itself of what it means to feel disconnected from our ecosystem.", 
   "speaker": "Brooke Thomas" }, { "quote": "I think we're always going to go for anything that creates more shame. And I think it is part of why healing is tricky, quite frankly. You know, I think it's part of why getting the genuine states of positivity and love has a trickiness to it that for some reason, we all think it shouldn't like we think it should be simpler. But I think part of the delicacy of working with ourselves and even of us supporting others when we coach people or when we are coached is the shame infection. So easily triggered. And once shame grabs a whole of the wiring and starts to drive the bus, you can guarantee we're going in the wrong direction. Healing can't happen. We just go farther and farther down the pretend road, the fake it, the be happy.", "speaker": "Brooke Thomas" }, { "quote": "I had an experience at one point this year at night, totally normal night, sitting on my couch in my living room, same thing that happens every night. My son's asleep in his room. My dog's on the couch with me. Most boring thing in the world. And all of a sudden I felt as if I were, let's say my 80-year-old self, who had been gifted an opportunity to come back and be my 42-year-old self and live that totally ordinary moment over again. So if you could imagine you're 80 and you're looking through your photo album, if those still exist, which they won't, you're looking through photographs and you see a picture totally, oh my God, that was my living room when I was 42. I remember that couch. Oh my God, my dog. I remember his soft fur and the sound of my son's breathing down the hall in the room. He's asleep. And it's just normal. But if you could really relive that as your 80-year-old self, how much you would cherish the fiber weave of the couch, the smell of the candle on the kitchen table. Everything would be so cherished.", "speaker": "Vanessa Scotto" } ] }
 
 ,
@@ -1130,12 +1130,12 @@ export const quoteArray = [{
   "speaker": "Vanessa Scotto" }, { "quote": "Every microsecond, there are multitudes of processes going on that don't require that we think about it. We grew ourselves as a fetus and we started before we had a fucking brain. So like there's something moving here that's a larger intelligence. But it's so funny because like those are the moments now that I hear and I'm like, well, it's only mind blowing if you think you, your thoughts, which fit into this container of separate self, is actually doing anything.", "speaker": "Brooke Thomas" }, { "quote": "What's amazing is there's that part. Even in those of us who think we're rapidly fucked up, like we are a problem, like capital A, capital problem, even in those people, we can feel this other part, which is true, which is, and I'm whole and complete and perfect just as I am. And then we can take that part that's real. So it's not a figment of our imagination. We're not sort of mentally muscling our way to, okay, okay, this is all for the better. But rather, we can find the part of us that just accesses truth that even if we can't understand it, there's a rhythm here and it's not a problem and we don't have to make it one.", "speaker": "Vanessa Scotto" }, { "quote": "We can hold those feelings from the lens of separate self that says, OK, this is a problem or I am a problem. I've got to fix it. If I don't fix it, I'm a bigger problem and I'm not worthy of existing and being a part of this community and success and love. And like we all know how far that spins out. It's maybe part of the I'm unworthy ecosystem that exists within us. Or we can hold it with the part of us that already knows that this is not a problem, that we are not a problem, that life is not a problem to solve, but rather a magical mystery to experience.", "speaker": "Vanessa Scotto" }, { "quote": "I have been spared. I have been spared a life of sleepwalking. That is a big fucking deal. Like that I get to be here and really be here is the kingdom of heaven on earth. Quite literally. That is the most loving gift that I could ever receive. And I got that courtesy of my friend trauma recovery, you know, and trauma in general.", "speaker": "Brooke Thomas" } ] }
 
 ,
-{ "episodeNumber": 66, "quotes": [ { "quote": "I noticed that it's our overcoming of tragedy that can make us feel different. It's the pain itself that we've been through. It's the way we think, which is often loaded with our pain that makes us feel like we are who we are... I got this sense that we actually don't need to hold on to this. All of a sudden it was like I was manufacturing stories, but actually not feeling anything. And so everything kept crumbling under the light of awareness is like dust, meaningless.", "speaker": "Vanessa Scotto" }, { "quote": "It was really like watching a very, very high level, like ultimate world championship level jujitsu master of energy where nothing is resisted. Everything is welcomed. You know, like if you picture jujitsu, which is such beautiful movement, you know, it's like nobody pushes away, right? Like everything is like a move towards and roll with and then you come out of the role. Nothing is against. And the way he spoke, if he was speaking to the whole group or if he spoke to an individual person who had asked a question, you really got to see what it feels like when really everything is welcomed. Nothing is a problem.", "speaker": "Brooke Thomas" }, { "quote": "When change happens, there's this real organic quality to it. You couldn't see it coming. It doesn't come in those moments where you're like, 'OK, let me interrupt every thought I have and then do this thing where I say I love you so that I counteract it.' That's not how it happens. It's like you woke up and one day you didn't take things personally anymore. And you're like, who is this person? I always would take this personally. The best cases are when they're telling you a story and they don't even realize that they are completely relating to life differently than they ever have before, because it's so natural because the change just arose.", 
+{ "episodeNumber": "66", "quotes": [ { "quote": "I noticed that it's our overcoming of tragedy that can make us feel different. It's the pain itself that we've been through. It's the way we think, which is often loaded with our pain that makes us feel like we are who we are... I got this sense that we actually don't need to hold on to this. All of a sudden it was like I was manufacturing stories, but actually not feeling anything. And so everything kept crumbling under the light of awareness is like dust, meaningless.", "speaker": "Vanessa Scotto" }, { "quote": "It was really like watching a very, very high level, like ultimate world championship level jujitsu master of energy where nothing is resisted. Everything is welcomed. You know, like if you picture jujitsu, which is such beautiful movement, you know, it's like nobody pushes away, right? Like everything is like a move towards and roll with and then you come out of the role. Nothing is against. And the way he spoke, if he was speaking to the whole group or if he spoke to an individual person who had asked a question, you really got to see what it feels like when really everything is welcomed. Nothing is a problem.", "speaker": "Brooke Thomas" }, { "quote": "When change happens, there's this real organic quality to it. You couldn't see it coming. It doesn't come in those moments where you're like, 'OK, let me interrupt every thought I have and then do this thing where I say I love you so that I counteract it.' That's not how it happens. It's like you woke up and one day you didn't take things personally anymore. And you're like, who is this person? I always would take this personally. The best cases are when they're telling you a story and they don't even realize that they are completely relating to life differently than they ever have before, because it's so natural because the change just arose.", 
   "speaker": "Vanessa Scotto" }, { "quote": "The ego says, 'I've endured hardship and now it's mine to fix.' And that's how it perpetuates problems, is that it's always saying like, I have something to fix. And at the very end of the retreat, he was talking about like, give a little thought to like who you are in addition to your path, your healing journey, or who are you at the end of your healing. Give a little thought to the idea that it could end. It's not who you are forever. Otherwise you keep looking for it. You need that narrative to sustain your existence.", "speaker": "Brooke Thomas" }, { "quote": "Matt's strength is palpable and it's not a strength born of fight. It's not a fight energy. It's the exact opposite. It's once you are in love enough, then nothing really can hurt you. Which doesn't mean nothing's painful. It's not that, it's just nothing can ever be taken away from you. And as your conviction builds, that life is a gift, that everything is a gift, that the universe has a benevolence and it's working for you, that you are a part of this beautiful, benevolent universe that is inextricable and absolutely adored just as you are... many, many sensitive, kind people don't even begin to know the depths of their own strength.", "speaker": "Vanessa Scotto" } ] }
 
 ,
 {
-  "episodeNumber": 70,
+  "episodeNumber": "70",
   "quotes": [
     {
       "quote": "We forgive so that we don't need darkness to motivate our life to shine brighter.",
@@ -1311,7 +1311,7 @@ export const quoteArray = [{
   ]
 },
 {
-  "episodeNumber": 80,
+  "episodeNumber": "80",
   "quotes": [
     {
       "quote": "To know is in time and is born of imagination, since you actually are always changing. So what if the clearest view is no view in particular? You just see what you see and you put nothing on it. Ultimately, a view is a reference point. Life doesn't need you to know anything, because life is not separate than you.",
@@ -1336,7 +1336,7 @@ export const quoteArray = [{
   ]
 },
 {
-  "episodeNumber": 83,
+  "episodeNumber": "83",
   "quotes": [
     {
       "quote": "We can talk about this process of awakening or maturation of consciousness as a physiological thing and that the physiology of that is all about the capacity of the nervous system... seeing just how much these ideas about dimensions of reality are really different dimensions of capacity within my nervous system or where my nervous system is locating.",
@@ -1386,7 +1386,7 @@ export const quoteArray = [{
   ]
 },
 {
-  "episodeNumber": 87,
+  "episodeNumber": "87",
   "quotes": [
     {
       "quote": "Because the narrative that fear always tells is this will be the worst, you're screwing up, and the most important thing fear says is this will always be the worst. You will never get over this. PS, why aren't you over it yet? What's wrong with you? What's the matter with you? Why haven't you cleared all of this yet? And then for whatever reason, a different narrative this time around appeared for you, which said the complete opposite, which was, oh my gosh, if I face this this time, it will never be this pressurized again, which is amazing because it's the complete opposite of what fear says.",
@@ -1411,7 +1411,7 @@ export const quoteArray = [{
   ]
 },
 {
-  "episodeNumber": 88,
+  "episodeNumber": "88",
   "quotes": [
     {
       "quote": "Your parents conditioning, your siblings conditioning, their parents conditioning, that all of these things are influencing how they'll choose their words in any given moment to speak to you about a circumstance that is arising and thereby they'll give you meaning. They'll shape the meaning you take out of any given circumstance. It kind of blows the mind, right?",
@@ -1486,7 +1486,7 @@ export const quoteArray = [{
   ]
 },
 {
-  "episodeNumber": 91,
+  "episodeNumber": "91",
   "quotes": [
     {
       "quote": "Basic trust is an unspoken, implicit trust that what is optimal will happen. The sense that whatever happens will ultimately be fine. It is the confidence that reality is ultimately good, that nature, the universe, and all that exists are of their very nature good and trustworthy, that what happens is the best that can happen. Basic trust is a non-conceptual confidence in the goodness of the universe, an unquestioned, implicit trust that there's something about the universe and human nature and life that's inherently and fundamentally good, loving, and wishing us the best.",
@@ -1560,7 +1560,7 @@ export const quoteArray = [{
   ]
 },
 {
-  "episodeNumber": 99,
+  "episodeNumber": '99',
   "quotes": [
     {
       "quote": "Put simply to me, co-dependency means that, 'I can't feel happy when others around me aren't.' It means, 'I can't be exactly who I am if I think it will hurt or bother someone.' It means I feel responsible for others' wellbeing. It often also means worry, anxiety, frustration, exhaustion, and self-doubt.",
@@ -1610,7 +1610,7 @@ export const quoteArray = [{
   ]
 },
 {
-  "episodeNumber": 101,
+  "episodeNumber": "101",
   "quotes": [
     {
       "quote": "Because as soon as we say I have to, the message we're giving back to this body mind is, I am a servant of, I am obligated, I am under the burden of. But if we say I want to, I choose to, I'm lucky enough to, I'm invited to, you know, if we switch that, then again, the message we're giving back ourselves is, I'm an active creator. I'm an active participant. I have choice.",
@@ -1635,7 +1635,7 @@ export const quoteArray = [{
   ]
 },
 {
-  "episodeNumber": 102,
+  "episodeNumber": "102",
   "quotes": [
     {
       "quote": "What you start to realize is maybe continually turning towards it as if it has something important to convey to you is not a solution. And then you start to wonder, could it be adding to it? Could me continually looking at the activations that keep rising in my nervous system be part of the problem?",
@@ -1660,7 +1660,7 @@ export const quoteArray = [{
   ]
 },
 {
-  "episodeNumber": 104,
+  "episodeNumber": "104",
   "quotes": [
     {
       "quote": "The first time you name something, an experience, a feeling, a story, the first time you connect the dots, oh, my father was like this and that's why I'm like this. It is very helpful. And in fact, your brain will show a decrease in survival activity. It will show relaxation. Second time, that's the same. According to what I've read over the third time, fourth time, fifth time, that's when it starts to be a self-reinforcing neural feedback loop.",
@@ -1735,7 +1735,7 @@ export const quoteArray = [{
   ]
 },
 {
-  "episodeNumber": 108,
+  "episodeNumber": '108',
   "quotes": [
     {
       "quote1": "I come back to that 'pain pushes until vision pulls' quote... I got pushed to meditation early in life, I got pushed to spiritual seeking, a lot of my motivation was really, I was just in so much pain, I needed a way through it. And that's fine. There's no problem with that. That's a wonderful motivator for a lot of us. And it opens beautiful doors. But there's something different about having something pull you forward. You can feel like the magnetism of it and the inspiration and the courage that we get when we have an inspired vision.",
@@ -1760,7 +1760,7 @@ export const quoteArray = [{
   ]
 },
 {
-  "episodeNumber": 109,
+  "episodeNumber": "109",
   "quotes": [
     {
       "quote": "What gets interesting is, oh, okay, well, if it all goes away, like, let's just say hypothetically, it's all gone. There is no judgmentality left in me at all. What does that look like? And what I discover as I continue to feel into that is what that looks like is unconditional love. It's the only place left. If there's not judgmentality, it's unconditional positive regard... it becomes greeting the self and the world in this completely undefended, wildly open hearted way, which to my separate self is scary. That's the whole reason why I developed this method of judging self and other. But to my deep being, it's really exciting.",
@@ -1785,7 +1785,7 @@ export const quoteArray = [{
   ]
 },
 {
-  "episodeNumber": 110,
+  "episodeNumber": "110",
   "quotes": [
     {
       "quote": "Offering is handing any burden, whether a desire, attachment, illness, finances or anything back to God. After all, it was hers to begin with. In a way, doing so says this is persecuting me so much I can no longer lean on my ego's own strength. Please show me your will. True offering takes what can be an unbearable cross and returns it to love. It untangles you from the seemingly inescapable thicket of doership.",
@@ -1810,7 +1810,7 @@ export const quoteArray = [{
   ]
 },
 {
-  "episodeNumber": 111,
+  "episodeNumber": "111",
   "quotes": [
     {
       "quote": "This brings us to the issue of trusting life no matter what. Some call this trust faith, but faith usually means believing in something. Trust is not based on a belief. Rather, it is a felt sense of being held by a benevolent presence or field that is greater than the little me.",
@@ -1960,7 +1960,7 @@ export const quoteArray = [{
   ]
 },
 {
-  "episodeNumber": 120,
+  "episodeNumber": "120",
   "quotes": [
     {
       "quote": "I honestly don't know that I am going to make the perfect decision. I honestly don't know that this will not have downsides. I'm almost certain it will because everything has upsides and downsides. It certainly will. There will be aspects of this that are a bummer. There will be aspects of the other choice that I could have made that will be a bummer, would have been a bummer. Like that's the way it goes. And so the idea of I'm going to pristinely step on new ground, free from all conditioning and separate self. And so now I get to live in this space of like, the one that got it a hundred percent right. It's just fantasy.",
@@ -1983,7 +1983,387 @@ export const quoteArray = [{
       "speaker": "Brooke Thomas"
     }
   ]
+},
+{
+  "episodeNumber": "121",
+  "quotes": [
+    {
+      "quote": "And I can see how too much and not enough, like you're pointing out here, if it's all about make sure I'm acceptable to the others by scanning for how am I being perceived, what's going on with them, do I represent any kind of threat? You can see how too much and not enough are one thing. It's like a circular shape or like one continuum where in some instances, if you're picking up cues from the others that you're too much, you're going to dim yourself, make yourself smaller, make yourself seem less threatening to the others. And if you're picking up on cues from the others that they are wanting and needing something from you, then you're going to then try and pour yourself out more to them, be the more polite one, the more thoughtful one, the more engaging one. And so it just sets up where it's always about, you know, the curse of the empath, right? Like I can read the cues and I'm only going to exist within what I can feel in other people is perceived as non-threatening and acceptable.",
+      "speaker": "Brooke Thomas"
+    },
+    {
+      "quote": "And I'm looking at them like, no, do something with this so I can feel okay. And guess what? It was too much. And then there goes the voice in my head. Here's my worst case scenario coming to pass. And it says I am too much for people. And then finally, of course, as all of us sitting here having this conversation can see that younger Vanessa couldn't see was it's not I capital I am too much. I am fine. I am whole. I am precious. I am one. I am complete. It was the habits and patterns of my ego protective mechanism combined with this pain I didn't know how to sit with. I didn't even know I had to sit with it. I didn't know how to meet it. And I didn't know I had to meet it. It was all of that that was getting projected onto this person, all of the power I was giving them that was too much. But not me.",
+      "speaker": "Vanessa Scotto"
+    },
+    {
+      "quote": "But it was because I had to repair the rupture with myself, not because anyone who's listening especially, right? Not because if you're ill, you're too much. Not because if you have needs, you're too much, but because it was a part of a fundamental misalignment and contortion where I was sitting on myself and that needed to explode because let's take a beat and acknowledge that these are one of the moments where we can see that life is woven of love. Doesn't mean it always feels good and that it's not sometimes hell, but that it doesn't let us get away with our strategies of self-annihilation. Ultimately, at a certain point, it's going to just be like, nope, and push it to the point where it's spewing and it's obvious. There was a contortion here. I missed something in innocence and unconsciously, but now it's all here.",
+      "speaker": "Brooke Thomas"
+    },
+    {
+      "quote": "When we're too much for people, there's a few different things that could be happening. Let's say we began the conversation with our shininess or our thriving may feel threatening to someone who has a painful pattern of lack, a painful pattern of there's not enough to go around, or a painful pattern of I'll never get it. I'll never get to be happy and thrive. Sometimes when we're told we're too much, we're experienced as too much, too shiny, too bright, it is because it's triggering some painful thing within the person who is in the seat of the beholder. Sometimes when we look at too much, like what we're talking about just now, Brooke, we can look at it as their nervous system is getting overloaded.",
+      "speaker": "Vanessa Scotto"
+    },
+    {
+      "quote": "But it's healing for them even if you never see this person again because they contacted something real, which is healing for all of us. They contacted someone coming into their truth and that's a seed that's planted for them too. And then in other situations, other relationships, it will be such a relief for people and your intimacy with them and your love with them will really deepen no matter who they are because we are energy beings. People can feel when you're contorting yourself. People can feel when you're in them scanning and trying to match their needs and provide something to them and wear a certain Halloween costume and when that goes away or when it becomes more subtle and less frequent. For a lot of people, it's a huge relief.",
+      "speaker": "Brooke Thomas"
+    }
+  ]
+},
+{
+  "episodeNumber": "126",
+  "quotes": [
+    {
+      "quote": "Over time, it starts to become your whole defensive structure. Your ego starts to get built not only on those aptitudes, but on the idea that I am a person who does this. And moreover, you could start to think things like this is a good way to be, or you can start to think things like this is a bad way to be. And then you can start to judge yourself. But you start to build a whole personality structure sometimes on top of these defensive patterns.",
+      "speaker": "Vanessa Scotto"
+    },
+    {
+      "quote": "So what we're referring to is if there is a pattern that we start to identify with and it starts to become woven into our core identity. Obviously, this is happening below the level of consciousness. And so it plays out in ways where we have less than ideal or nourishing lives because we're being sacrificed in some way or another to the pattern, the pattern that can't we can't have enough conscious awareness of it and whatever it would take for it to be able to complete its action and move through for it to just do that, to come back to like regulate it. It's that we're always playing out the character of that nervous system response.",
+      "speaker": "Brooke Thomas"
+    },
+    {
+      "quote": "At some point in life, this innate strategy, this unconscious and innate strategy was literally the best you could come up with to stay intact because you don't really get to leave your parents. Not really. In very rare circumstances. Can you leave your parents or is it safe to leave your parents? You know, kids may run away, but it's not always the safest situation for them. So you go through life and then unconsciously still think in that same circumstance, the body, the mind, the energy systems are all holding this memory that says if you were to have disharmony, if you were to upset that person, if you were to go against that person, danger, danger, danger, danger.",
+      "speaker": "Vanessa Scotto"
+    },
+    {
+      "quote": "So you can see how all spiritual platitudes can start to be problematic for the fawn type, because they can be co-opted by the ego structure to justify why you shouldn't be you. All humans have needs, have preferences, have wants. It's part of having a body. We're not angels, right? We're humans with bodies, they have needs, preferences and wants.",
+      "speaker": "Vanessa Scotto"
+    },
+    {
+      "quote": "We can catch them up to the future from the point of view of the one in the past. But it's really just the present tense. So that they get the message, the one in the past who was the beginning of these choices, they get the message that there's freedom here and they can contact the safety of your adult life because a three year old who can't run away from home, who can't run away from the parent or they're going to get punished even more, who can't speak up or it's going to be 'I'll give you something to cry about' - that three year old does not have choices. But me at 44, I have a lot of choices.",
+      "speaker": "Brooke Thomas"
+    }
+  ]
+},
+
+{
+  "episodeNumber": "128",
+  "quotes": [
+    {
+      "quote": "We call this unconscious mind or unconscious material because it's actually, until we're aware of it, as soon as we're aware of it, it's no longer unconscious mind. It's no longer unconscious material. For as long as it is, it means we cannot be conscious of it. This is about the process of how do we become more conscious of the sponsoring thought. Like what are the sponsoring thoughts? If I'm too smart, I will be rejected by my family. And so you start to develop the persona, the identity at a very, very young age, unconsciously of dumbing yourself down a little bit. But until these sponsoring thoughts are brought up to the level of consciousness, they just run us and we believe that it's the entirety of who we are.",
+      "speaker": "Brooke Thomas"
+    },
+    {
+      "quote": "Buddha came out with these four truths and he said, okay, suffering exists. The human life is suffering is probably closer to what he said. And he said, but hey, there's good news. There's a way through and you don't have to suffer because you suffer. They call that the second arrow teaching, like the first arrow that goes in. Okay, that's painful. That's really happening. There are things happening in the world. There's things happening in our human lives and they hurt. But then the second arrow is the way we perceive them or the way we judge them or the way we push them away or the way that we can't process that emotional experience. And so Buddha said, that's the level where we can intervene.",
+      "speaker": "Vanessa Scotto"
+    },
+    {
+      "quote": "It was like going back in time to the moment when it originated and talking to the little girl and helping her have a new belief. Finally giving her the context she never had, the understanding she needed, that it wasn't about her. And that took the energetic charge off of it. It was almost like I finally turned to it with enough love, enough attention, enough strength and conviction to the Genesis moment. And then it could finally get metabolized through. And those are the moments when you feel like a chunk of conditioning can fall off. Like a chunk. And then the light comes in.",
+      "speaker": "Vanessa Scotto"
+    },
+    {
+      "quote": "I've been using the word the spontaneous self. Because if you haven't experienced wholeness or you haven't experienced a chunk of conditioning falling out of your body, it's like, what is it that I'm aiming at? Most of us can relate to having thoughts where we're editing ourselves or we're analyzing ourselves. We're taking our temperature. Am I doing a good job? Am I doing a bad job? Do people like me? And what my hope and hypothesis is, what it sounds like when you speak to people who have a really awake life is you get to just be. That's what we're talking about, right? It's this spontaneous but present level of engagement, which of course is very different than impulsive and reactive, driven by our conditioning.",
+      "speaker": "Vanessa Scotto"
+    },
+    {
+      "quote": "If we're saying there's all this conditioning and conditioning stores in us in these ways, and we don't need to believe we are it, so we don't need to be just our protective personality, just our ego, great. But it's really important to include in that conversation: Well, if we're not that, then what are we? There has to be this engaging with the 'there's something else here,' something else here that partners with a human life. And this is where we're getting to human potential. What does it mean if you're not your protective personality, if you get a chance to experience life through a different lens, a different orientation? It's a process of getting more free and being able to really engage with this human life.",
+      "speaker": "Brooke Thomas"
+    }
+  ]
+},
+{
+  "episodeNumber": "138",
+  "quotes": [
+    {
+      "quote": "What came of that circumstance was once I had executed what I really wanted, what was true for me, even though it was challenging, even though it challenged my identity structures, it challenged my thoughts about what a good person would want and so on and so forth. I felt incredibly free, almost like a new flow of energy was coming into my being. And it was the first time I really got clear, like, wow. Aligning with truth brings energy.",
+      "speaker": "Vanessa Scotto"
+    },
+    {
+      "quote": "When you're in truth, it feels good. Even if it's scary, you can feel scared and good at the same time.",
+      "speaker": "Brooke Thomas"
+    },
+    {
+      "quote": "Life will respond by showing you exactly where you're still hooked. So it will be like, oh, OK, honey, you want to get free? OK, well, here are the blind spots that still exist where the small self is still driving the bus. Here it is.",
+      "speaker": "Vanessa Scotto"
+    },
+    {
+      "quote": "What I've seen when it comes to turning away from the truth is that often there can be an idea that the spiritual path is about better tolerating literally everything and not being triggered by literally anything. If we go to the far reaches of that, there's ways that we're putting ourselves in harm's way, even if it's emotionally in harm's way. What is true for them in that moment? And that it takes a tremendous amount of courage because what we're doing is going against our conditioning and we're going against our egos.",
+      "speaker": "Brooke Thomas"
+    },
+    {
+      "quote": "Almost like if you look at it from a kind of global perspective, the whole strategy of the small self is don't be true. Don't be true if it goes against your conditioned programming. So if we don't be true, if truth, in whatever way that is the case, would create perceived harm.",
+      "speaker": "Vanessa Scotto"
+    }
+  ]
+},
+{
+  "episodeNumber": "139",
+  "quotes": [
+    {
+      "quote": "I was presupposing that people who in fact do love me, do treat me well, you know, do accept me, will not accept me. I've already presupposed it. And in the action of presupposing it, I have not accepted myself. And that's that layer of self betrayal.",
+      "speaker": "Vanessa Scotto"
+    },
+    {
+      "quote": "Integrity has nothing to do with small. You know, integrity can be, and we have seen is quite visible, hopefully, and open and out there. So that they got adhered together. Really interesting. And I'm just curious, I think there's plenty we can investigate here. Like how do things piggyback on one another in terms of ego identity in ways that keep us limited? Because that's what's interesting, right? Like why let go of identities? Because it's what good spiritual people do? No, because they keep us limited.",
+      "speaker": "Brooke Thomas"
+    },
+    {
+      "quote": "And I must manage myself to make it OK to them, whatever that means, liked by them or safe or invisible. Since we started out talking about hiding to the imaginary audience. So that can be something interesting to think about, too. Like you were saying, watching your mind for a couple of days, like where am I presupposing the audience? And it's so innocently, but it's still so self-absorbed, too, right? Because instead of just like I exist and I am what I am, it's like it's all about me. What is everyone out there thinking about me?",
+      "speaker": "Brooke Thomas"
+    },
+    {
+      "quote": "An identity, meaning something that's not just naturally arising and true spontaneous self. An identity requires an imaginary audience and that imaginary audience is unfriendly in some way, shape or form because because the driving question is, do they like it? And how is this going to go?",
+      "speaker": "Brooke Thomas"
+    },
+    {
+      "quote": "Am I going to believe that this is a world of form and then that spirit is somewhere out there, maybe in the next life, maybe in an ether? Or am I going to own what I truly believe, which is that this is a formless reality taking shape and form and that all form is spirit and all form is God.",
+      "speaker": "Vanessa Scotto"
+    }
+  ]
+},
+{
+  "episodeNumber": "141",
+  "quotes": [
+    {
+      "quote": "It feels like an issue of a container, meaning a body, a soma, a being that has difficulty containing the emotion, whether it's the emotion of the other person, or receptivity of something quite wonderful, love or warmth... I felt like that glass vessel for a long time, that anything else that was incoming, you know, a co-worker having a rough day, or somebody saying you look gorgeous today, it was actually just more water into the glass container that did not have any room for that water volume.",
+      "speaker": "Brooke Thomas"
+    },
+    {
+      "quote": "I had to learn how to do what Jane was talking about, that kind of dual awareness, right, like yes, if I check into my body, lots of charge in there, and I can also go to the space in the room, you know, and somatic experiencing calls this resourcing, other disciplines do as well, that we can have an awareness of what it feels like in the body and also have some kind of safe resource, also have some way of locating in a place that feels safe and good.",
+      "speaker": "Brooke Thomas"
+    },
+    {
+      "quote": "Part of what came to my mind just when I read it from a more cognitive or psychological understanding was just when we got the message in our childhood, one of the messages that was likely received at that time was it is not safe to experience emotions. Sometimes you can get the message it's bad to experience emotions, you can certainly get the message it's bad to share them... And if we look at it just from a more fundamental level, before we even talk about belief or cognition, when we've been exposed to abuse and suppression and all of these different types of things, we just get the primary message that vulnerability is dangerous. And intimacy happens as we connect through our emotions, right? Intimacy is an incredibly vulnerable feeling state for the human.",
+      "speaker": "Vanessa Scotto"
+    },
+    {
+      "quote": "I realized that actually the safest thing in the world is to know you're safe at the same time that you're undefended. So the body becomes undefended, the psyche understands through gradually and safely reality testing that it's okay. And then we get to have different kinds of experiences where we can step into a little bit, right? Vulnerability. Does it mean that I get attacked? It has in the past, it might in the future, right? So we're not painting some narrative, like if you get somatically open, you only attract amazing people.",
+      "speaker": "Brooke Thomas"
+    },
+    {
+      "quote": "Please, please don't judge where you're at, love where you're at, understand where you're at, and know that wherever you're starting from on this particular journey of emotional reclamation, self-expression, and receiving of love and joy, you can get to a whole and healthy experience of yourself there. So just start with where you're at.",
+      "speaker": "Vanessa Scotto"
+    }
+  ]
+},
+{
+  "episodeNumber": "143",
+  "quotes": [
+    {
+      "quote": "The ego, protective personality, idea of self, it can only have ideas and projections about what a thing is. It can't actually experience the truth of the experiencer or what's actually happening in the present moment. So we could say that it is confused and that it got confused along a more survival pathway of the brain that wants to keep us safe. So it got confused with really super good intentions. It's not the evil demon that lives inside of us, but it's confused.",
+      "speaker": "Brooke Thomas"
+    },
+    {
+      "quote": "We know God through direct experience within us. So it's beautiful that we get these markers outside of teachers or experts or friends. They're wonderful. That makes life rich and that gives us so much insight. But ultimately, finally, the journey is within and we need to recognize we are it. Stop seeking because then we'll always be the seeker and become the finder and recognize we are it.",
+      "speaker": "Vanessa Scotto"
+    },
+    {
+      "quote": "Spiritual realizations or spiritual awakenings are just like candy. And I was like, yeah, like the best candy. But they're just candy. Then you're still this one. You know, you're still this one and you have to metabolize all of the things. And we have to remember that about teachers too.",
+      "speaker": "Brooke Thomas"
+    },
+    {
+      "quote": "Spiritual maturity is well, lack of spiritual maturity is I'm God, you're not. That's not spiritual maturity. Maybe you had an awakening. You're God. You're oneness. You're everything. But if that doesn't apply to other people, you didn't have a maturing of that realization.",
+      "speaker": "Vanessa Scotto"
+    },
+    {
+      "quote": "If I can land in the heart, I can start to trust life. I don't have to be out there judging and poking and prodding. Right. About what's out there. I can sit in the seat of the heart. I can trust life. I can feel safe enough to be here. And when I'm safe enough to be here, I realize there's a lot, like a lot, like bajillions of good nourishing things to receive in any given moment.",
+      "speaker": "Brooke Thomas"
+    }
+  ]
+},
+{
+  "episodeNumber": "144",
+  "quotes": [
+    {
+      "quote": "I started thinking, well, what if judgment was just the way that my system, my body, my new to signal me misalignment, right? Do something, see something, heal something, shift something, say something, right? Like this experience isn't for you... And so that kind of got me thinking like, wow, how much are we labeling ourselves? And misunderstanding and personalizing something because judgment doesn't feel good.",
+      "speaker": "Vanessa Scotto"
+    },
+    {
+      "quote": "Our family is the world. So if our family is judgmental, comparing, envious, ridiculing, if they're dangerous, you know, whatever they are, the extrapolation is this is the world and the world isn't going to change, right? So then we intelligently, we can't leave and we can't change it, right? That's the world. That's how it is. So we adapt... And that's genius because we don't know how else to cope in something that feels unacceptable, right? To the little beings that we are. And then we grow up and now that's still in place, right? Well, the world is like this. So I guess I'll just adapt.",
+      "speaker": "Vanessa Scotto"
+    },
+    {
+      "quote": "If you can notice it like that, there's something, right? Like there's something, there's some grit in the oyster or clam. I don't know what makes it pearl, but to go with the metaphor, there's something that is calling the attention. And so if we can take a moment and use the inquiry, like, well, what is it if I'm noticing the grit, what is it that I might be perceiving accurately in this situation?",
+      "speaker": "Brooke Thomas"
+    },
+    {
+      "quote": "I'd way rather do the inner work and evolve out of a pattern than deal relationally in particular... But it just means we can keep spinning in a certain belief system that's not in service, which is there's something wrong with me. And everything is my job. And if I could just fix myself, then I can find this state of harmony in the world that I imagine exists someday in the future.",
+      "speaker": "Vanessa Scotto"
+    },
+    {
+      "quote": "The healthy side of power is just I'm a person and my existence has merit. And my experience is valid. And I say, no, thank you to this. I say, yes, thank you to this. And that that's in to a huge degree, what we're actually just here to experience is the truth of what's actually, yes, please, or no.",
+      "speaker": "Vanessa Scotto"
+    }
+  ]
+},
+{
+  "episodeNumber": "145",
+  "quotes": [
+    {
+      "quote": "What you're afraid of is everything you project into the unknown. And what you project into the unknown is a lot about the ways you've been wounded, right? We'll project into that blank screen, ways we've been hurt, ways we've been harmed, our beliefs about ourselves and the world.",
+      "speaker": "Vanessa Scotto"
+    },
+    {
+      "quote": "Permission to change. Identities don't want things to change because they exist in order to hold a certain perspective on safety in place. I will be safe if I fill in the blank. And then it's like, oh, whoa, but the fill in the blank needs to go. Am I still safe? And this is our leap of faith moment.",
+      "speaker": "Brooke Thomas"
+    },
+    {
+      "quote": "When we're being invited to a change, because it's here, right, like time for something new to move in, it feels a little bit like being in a river with a current. And initially you're like digging in your heels, right? Or you're like treading water. You're like, no, not sure about that. Not sure that. And then the leap of faith moment is like, you know what I'm going to do? I'm going to float. I'm going to lay on my back and I'm going to see where this current takes me.",
+      "speaker": "Brooke Thomas"
+    },
+    {
+      "quote": "The fear brain has a way of collapsing everything into binary. So when change comes, it's like, do I stay or do I go? But really what's beautiful when you slow down is to bring in a myriad of possibilities.",
+      "speaker": "Vanessa Scotto"
+    },
+    {
+      "quote": "Sometimes fear is saying that's not aligned for you. Don't go that way. Versus the fear that comes up when it is your path, when it is aligned, but there's the fear. And one thing to consider is, is this fruitful? Like behind this door of fear, is there something fruitful for me? Or is there just more fear to be born?",
+      "speaker": "Vanessa Scotto"
+    }
+  ]
+},
+{
+  "episodeNumber": "147",
+  "quotes": [
+    {
+      "quote": "What's missing is the heart from that equation. If we're living more from the heart, it's much harder to buy the idea or even the experience that we're separate. Because when you live in your heart, you just can't get out of the fact that you care. You deeply care about yourself, but you also deeply care about other human beings and the state of the planet. The heart cares. And so there's no tidy solution if you're intending to show up in the world in an open-hearted way.",
+      "speaker": "Brooke Thomas"
+    },
+    {
+      "quote": "Can you even help? That's an important question. That's the difference - here's codependency: there's nothing we can do. Here's interdependency: There's someone available for help, they're asking or it's very clear they're open for it, and I can actually help them with my time, my energy or my attention. That's very different than how codependency generally presents. It's like we see our child suffering, our lover suffering, our parents suffering, and we want to figure out what their problem is and make them see the light and then try to get them to fix it. And there's really nothing we can do.",
+      "speaker": "Vanessa Scotto"
+    },
+    {
+      "quote": "I think one of my favorite Jesus teachings, he talked about people as different kinds of soil. And honestly, not because we're good or bad people, we all have different moments in our life where our soil for any particular issue is either more fertile or more rocky. We don't need to judge them as rocky soil or fertile soil. But we can see, as we give whatever the seeds are, whatever the nutrition is, is it put to use? And in what way?",
+      "speaker": "Brooke Thomas"
+    },
+    {
+      "quote": "Are you locating most of the time outside of yourself? Are you constantly thinking about other people, giving other people advice, churning and burning on how do you fix it for them? How's it going to go for them? Are you always out there or are you located inside of yourself? And honestly, once we realize that we exist, and we discover faith and trust in ourselves, we realize that of course, we can have faith and trust in them too, that they are the captains of their lives.",
+      "speaker": "Brooke Thomas"
+    },
+    {
+      "quote": "How do I let my big open heart and my sensitive attuned nervous system be the gifts that they are in this world, help who I can help, serve how I can serve without doing harm to myself, without erroneous ideas that I'm someone's savior or I'm responsible or that if they're suffering, I can't be happy. Or I can't shine or I can't find joy and all of those little tricky whirlpools that we can get into. Because that's ultimately what we're hoping for. We're hoping to be big, open hearted, attuned, present human beings, which most of the time is the best state we could be in to do anything for anyone really.",
+      "speaker": "Vanessa Scotto"
+    }
+  ]
+},
+{
+  "episodeNumber": "148",
+  "quotes": [
+    {
+      "quote": "In sitting with enough people and in doing a deep dive into my own healing process, it's clear as day to me that some of what we're meeting within ourselves and some of the struggles and the beliefs that we're confronting within us are not even originating within our life, within our, let's say, personal history or personal circumstances. And I think that's a huge thing to take into account when you're in this journey of healing and awakening and meeting trauma within yourself.",
+      "speaker": "Vanessa Scotto"
+    },
+    {
+      "quote": "One of the reasons why it's very freeing is that it takes us away from the route of something we did wrong. Like we're not good enough at healing yet, or we haven't uncovered enough of our psychological history yet, or we haven't achieved enough spiritual realization yet. There's just a way that we can be really shame filled towards ourselves about why haven't I gotten over all of these things in the most thorough way possible yet. What's wrong with me that I still have pain or anxiety or depression or fear?",
+      "speaker": "Brooke Thomas"
+    },
+    {
+      "quote": "When you have that at play, there's a whole different feeling tone around it and insight around it. And welcoming of it, because we are the consciousness that's here to clear some of the trauma out of the human lineage, the human lineage and in the hopes, my hopes, my beliefs so that we can elevate as a whole as a species. So from like the grand cosmic perspective, it's really cool.",
+      "speaker": "Vanessa Scotto"
+    },
+    {
+      "quote": "The people who have space are the ones who'll do the healing. When the trauma and the pressure abate enough, it will come up to be healed. You're not going to breathe. You have to survive. And so it's almost like the generation of people who finally are blessed enough and privileged enough to, like, slow down and breathe, maybe have some support, have a little spaciousness in their minds and in their beings, a little safety, a little more than anyone before. We'll start to have these things rise to the surface.",
+      "speaker": "Vanessa Scotto"
+    },
+    {
+      "quote": "I get to be the angel for my ancestors as well. I get to be the hero for the lineage, which goes all the way back to the Big Bang. Just a reminder. But if we get way closer than that into the family tree, it's a great honor and a great privilege to be able to have experiences of this world that they really longed for and that were really out of reach. And I can do that for them, which is also a nice call to healing that's different than the sort of self-absorbed healing path.",
+      "speaker": "Brooke Thomas"
+    }
+  ]
+},
+{
+  "episodeNumber": "149",
+  "quotes": [
+    {
+      "quote": "I wish I had known that I wasn't a damaged person, that I was suffering the fallout of an interrupted life... This is why I now object to pathologizing post-traumatic stress by calling it a disorder. It's not a disordered reaction to trauma. It's a common and natural one.",
+      "speaker": "Dr. Edith Eva Egger (quoted by Brooke Thomas)"
+    },
+    {
+      "quote": "It's not like, 'oh, something happened to you and so now you're damaged forever.' Instead it's like, 'oh, something happened. There was too large of a charge in your body to be metabolized at that time because the body was and the being was directly under threat. And so life goes on, but the charge is still there, trapped in the nervous system.' And it's just a beautiful viewpoint. Because it's not 'that happened to me. So now I'm just the person who that happened to forever.'",
+      "speaker": "Brooke Thomas"
+    },
+    {
+      "quote": "I didn't realize earlier how much of what I thought was me was a trauma reaction. It was an activated limbic loop where you were just chronically feeling unsafe because your physiology was being stimulated into states of unsafety. Then you walk around the world and you think, 'I am an anxious person. I am a shamed person.' So then you just assume, 'well, no one else seems to be like this. I must have a problem.' And this is kind of the collateral damage of these traumatic experiences that we can have.",
+      "speaker": "Vanessa Scotto"
+    },
+    {
+      "quote": "A trauma response is very fast, it's way below the level of consciousness. Something hits a tender point and the whole chain of events physiologically is on. But what I found is that even though that still happens sometimes, there is an observer self most of the time. There's the me that's experiencing the reaction and there's the me, the wise self, the higher self, the observer self that can go, 'oh, reaction is happening right now.' And that really changes things relationally with myself and in the world.",
+      "speaker": "Brooke Thomas"
+    },
+    {
+      "quote": "We're not chasing perfection. We're not chasing excellence of the one who is always in equanimity, who's never triggered, who's always just endlessly delighted or open-hearted. We're people. We have so much to experience here in a human body. We get to experience excitement and joy and grief and heartbreak and inspiration and boredom. There's so many experiences we get to have. So we're not trying to close the spectrum to some kind of acceptable robot person way to be. But wouldn't it be great if we could have this relationship that we're describing to the state, that we aren't the state? The state is a charge and there are other aspects of self that can observe the charge, that can reparent the self.",
+      "speaker": "Brooke Thomas"
+    }
+  ]
+},
+{
+  "episodeNumber": 150,
+  "quotes": [
+    {
+      "quote": "Looping is such an important word, right? Because it's not like, oh, here is something that's arising that needs to be met. It's like it just keeps it's like a glitch, you know?",
+      "speaker": "Vanessa Scotto"
+    },
+    {
+      "quote": "But I may not be able to go from terror to gratitude authentically, or from shame to gratitude authentically, but I could get to compassion authentically that was available to me. So I would turn towards myself if I was in any of these really contracted states with inner child work, love and compassion. And that softened things.",
+      "speaker": "Vanessa Scotto"
+    },
+    {
+      "quote": "Well, it's like, you know, sometimes Matt Conn used to say awakening is a sobering process. It's like coming into truth, one could say it's very sobering, you're not on in the trance of this particular pattern that's operating, that thinks there's always something to be afraid of.",
+      "speaker": "Vanessa Scotto"
+    },
+    {
+      "quote": "But if you have felt anger in your life at a perpetrator who's done something to you, please do not try to bypass that. With the neurobiological rewiring, our emotions are there to indicate to us that something feels misaligned or something has happened.",
+      "speaker": "Brooke Thomas"
+    },
+    {
+      "quote": "If you can bring love and respect to yourself and to the human condition into communion with I didn't create all of this. This isn't all me. It may be something that happened to me, maybe an aftermath of something terrible that happened to me. But maybe there is a life where I can live without this because it is not an intrinsic part of my nature. If you could bring those things together. I think we can create some real transformation for ourselves.",
+      "speaker": "Vanessa Scotto"
+    }
+  ]
+},
+{
+  "episodeNumber": "152",
+  "quotes": [
+    {
+      "quote": "...what meaning you apply completely defines your experience. And that's what I find fascinating. If we were to apply the meaning, for example, that this was just your soul's agenda, and you were meant to buy this house because something important was going to be realized through this... If we apply the meaning that there's an intuition that you missed, you're going to have a different experience. If we apply the meaning that life's punishing you because you didn't hear the message, you're going to have a different feeling. And where do we get these perspectives from? Are they cultural? Are they because of a trauma? Did we inherit them? And that's what becomes really fascinating is we would swear to our perspective. But if we keep pulling back the level of magnification, we have to wonder what perspective is clouding my direct experience of reality right now.",
+      "speaker": "Vanessa Scotto"
+    },
+    {
+      "quote": "...we seem to think of it as there's a good me and there's a bad me. There's a good me and there's the wrong me, the flawed me. And the good me is kind of habitually trying to get the bad me to do the right things through judgment, through criticism, through cheerleading, through whatever, but it's all baked into this inner war model. And then we say to ourselves, why can't I just forgive myself for not having the body I need? Or why can't I just not have bought that thing or receive love? And that model to me is part of what keeps us cycling in these trances of suffering because there's an idea that I could do it differently and I am not.",
+      "speaker": "Vanessa Scotto"
+    },
+    {
+      "quote": "We are influenced by our capacity, which our nervous system may regulate. We are influenced by the stories that are told culturally, the stories that were told in our family and the stories that we tell ourselves. We are influenced by the fascia that we have, the contractions we have in our body, the DNA we have. We are influenced by the feelings around us in the collective. We are influenced by the state of the earth. Maybe we're influenced by astrology and the stars. Who's to say where that stops? We are an amalgamation of all of these influences. So the whole idea that we think there's just some bad me that's in self-sabotage against the good me and that we have to be ever vigilantly managing and controlling ourselves is the very thing I think we're being invited to deconstruct in order to have greater freedom and love and joy.",
+      "speaker": "Vanessa Scotto"
+    },
+    {
+      "quote": "The invitation with anything that arises in us seems to be the same on repeat. Love the one who's going through it without believing everything that pattern thinks. So the pattern comes up and it says, there's something wrong with you, something wrong with you. What's the fuck is wrong with you? That's what the pattern really sounds like. And we see it. And we see that no one would think that about themselves. No one would create that level of self harm unless they were under the trance of some kind of human conditioning that thought humans were shameful and bad and there was a right and wrong way to begin with, to just operate, to just breathe.",
+      "speaker": "Vanessa Scotto"
+    },
+    {
+      "quote": "I find the phrase like, 'I don't know why,' very relieving oftentimes. Like, I don't know why. Here I am. This is my experience. All I can do is be honest about it. I get a lot more concerned about the people who move very quickly to establish themselves as other, you know, superior, more awake, different. And I say establish themselves because there is this narrative, right? There's a constant storytelling of like, 'I'm the one that has transcended.' I believe there are people who have, so I'm not saying that it's impossible, but for most of us these days, that's not the case. So what we can do is just be honest of like, 'oh, I'm having a day where this voice is yelling at me internally again and telling me that I'm a total screw up or I made a huge mistake.'",
+      "speaker": "Brooke Thomas"
+    }
+  ]
+},
+{
+  "episodeNumber": "153",
+  "quotes": [
+    {
+      "quote": "I think it was that we didn't want people to feel so alone on their path. We felt like we had to come together across the country just to have the kind of conversations we were having. And I think also Brooke, I think it was because you and I have always had a compass that said, stop making spirituality seem like you're escaping being human. And I think we wanted to have conversations with real humans who have studied deeply, practiced devotedly, but we're still having very human struggles. We didn't want to just present the after we wanted to present the during so that, at that time we were saying really hashtag be human. Right. Just be human.",
+      "speaker": "Vanessa Scotto"
+    },
+    {
+      "quote": "Matt Conn once said to me, you will find confidence in silence. He said, when you sit in silence enough, confidence will be born out of that. You will know who you are essentially in the silence and you'll trust it. But also, there is power to be gained in going inward and coming into some silence and letting your process have its own life without any stimuli, without any feedback.",
+      "speaker": "Vanessa Scotto"
+    },
+    {
+      "quote": "The larger question that I keep realizing I'm sitting with... I feel like I'm more called to messing around with the Jenga tower of society. Like what is the bullshit hierarchy, the perfectionism, what is the bullshit that we have been taught is just the way life is and what happens if we can embody something different? If we literally experience ourselves and the world differently and we're able to be present and relating in a different way, what potential does that have for building a new world?",
+      "speaker": "Brooke Thomas"
+    },
+    {
+      "quote": "Humility, like being humbled, when it happens within yourself and in a live process, like, wow, I am a human being and I am x, y, and z doing the same thing on repeat, not capable of doing that, not exactly who I wish I could be right now, all of those things. It's a beautiful part of letting your ego get deconstructed so that something new and more whole, more holistic, more true can come through.",
+      "speaker": "Vanessa Scotto"
+    },
+    {
+      "quote": "For a very long time, one of the gifts of Bliss and Grit was we had enough time with teachers to realize every single one of them was human. Every single one of them still had some conditioning. And we've seen enough harm happen in spiritual communities to say, no one has all the answers. We're never not human. And in fact, there's something even more powerful by allowing yourself to be imperfect and to be human, not only for your own experience of wholeness and truth, but additionally, it's very validating and healing to others.",
+      "speaker": "Vanessa Scotto"
+    }
+  ]
 }
+
+
+
+
 
 ]
 

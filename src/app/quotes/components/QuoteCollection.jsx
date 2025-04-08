@@ -312,7 +312,7 @@ export function QuoteCollection({ initialQuotes, speakers, episodes }) {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M6 18L18 6M6 6l12 12" />
             </svg>
           </div>
-          <h3 className="text-2xl font-semibold text-[#773C40] mb-4">No Matching Wisdom</h3>
+          <h3 className="text-2xl font-semibold text-[#773C40] mb-4">No Matching Quotes</h3>
           <p className="text-gray-700 max-w-md mx-auto leading-relaxed">
             We couldn't find quotes matching your selected filters. Try different options to discover more insights.
           </p>

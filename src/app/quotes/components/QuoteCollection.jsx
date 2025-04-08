@@ -1,17 +1,23 @@
 'use client'
 
-import React, { useState } from 'react';
+import React, { useState, useCallback, useMemo } from 'react';
 import SpotifySDKPlayer from '@/components/SpotifySDKPlayer'; 
 import SpotifyAuth from '@/components/SpotifyAuth';
 import useEpisodesData from '../../../../src/components/PodcastExplorer/hooks/useEpisodesData';
 import { dispatchTimestampEvent} from '../../../../src/components/PodcastExplorer/utils/formatters';
 
-
-
 // Main Quote Collection Component
 export function QuoteCollection({ initialQuotes, speakers, episodes }) {
   const [isVisible, setIsVisible] = useState(false);
   const [isUpdating, setIsUpdating] = useState(false);
+  
+  // Move the hook up to the parent component - only call it once
+  const episodesData = useEpisodesData();
+  
+  // Memoize the getSpotifyId function to avoid unnecessary recalculations
+  const getSpotifyId = useCallback((episodeNumber) => {
+    return episodesData.getSpotifyId(episodeNumber);
+  }, [episodesData]);
 
   // Function to handle flipping the speaker
   const handleSpeakerFlip = async (quoteId, currentSpeakerId) => {
@@ -56,10 +62,15 @@ export function QuoteCollection({ initialQuotes, speakers, episodes }) {
     }
   };
 
-  // Quote Card Component
-  const QuoteCard = ({ quote, speaker, episodeNumber, startTime, quoteId, speakerId, episodeTitle }) => {
-    const { getSpotifyId } = useEpisodesData();
+  // Function to handle playing a quote
+  const handlePlayQuote = useCallback((episodeNumber, startTime) => {
+    const episodeId = getSpotifyId(episodeNumber);
+    dispatchTimestampEvent(episodeId, startTime);
+    setIsVisible(true);
+  }, [getSpotifyId]);
 
+  // Quote Card Component - no longer uses the hook directly
+  const QuoteCard = ({ quote, speaker, episodeNumber, startTime, quoteId, speakerId, episodeTitle }) => {
     return (
       <div 
         className="p-8 bg-white rounded-xl shadow-lg transition-all duration-300 hover:shadow-xl border border-[#773C40]/20" 
@@ -98,9 +109,7 @@ export function QuoteCollection({ initialQuotes, speakers, episodes }) {
                   className="cursor-pointer transition-transform duration-300 hover:scale-110 focus:outline-none"
                   onClick={(e) => {
                     e.stopPropagation();
-                    const episodeId = getSpotifyId(episodeNumber);
-                    dispatchTimestampEvent(episodeId, startTime);
-                    setIsVisible(true);
+                    handlePlayQuote(episodeNumber, startTime);
                   }}
                   aria-label="Play this quote"
                 >{<svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 bg-green-300 border rounded-full ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -116,6 +125,9 @@ export function QuoteCollection({ initialQuotes, speakers, episodes }) {
     );
   };
 
+  // Memoize the QuoteCard to prevent unnecessary re-renders
+  const MemoizedQuoteCard = React.memo(QuoteCard);
+
   // Episode Section Component
   const EpisodeSection = ({ episodeNumber, quotes }) => {
     return (
@@ -126,7 +138,7 @@ export function QuoteCollection({ initialQuotes, speakers, episodes }) {
         <div className="space-y-16 flex flex-col items-center">
           {quotes.map((quote) => (
             <div className="w-full max-w-2xl" key={quote.id}>
-              <QuoteCard 
+              <MemoizedQuoteCard 
                 quoteId={quote.id}
                 quote={quote.content} 
                 speaker={quote.speaker.displayName || quote.speaker.name}
@@ -215,22 +227,26 @@ export function QuoteCollection({ initialQuotes, speakers, episodes }) {
     }));
   };
 
-  const filteredQuotes = initialQuotes.filter(quote => {
-    const isAllowedSpeaker = quote.speakerId === 'vanessa' || quote.speakerId === 'brooke';
-    
-    if (!isAllowedSpeaker) return false;
-    
-    const matchesSpeaker = !filters.speakerId || quote.speakerId === filters.speakerId;
-    const matchesEpisode = !filters.episodeId || quote.episodeId === filters.episodeId;
-    const matchesSearch = !filters.search || 
-      quote.content.toLowerCase().includes(filters.search.toLowerCase());
-    
-    return matchesSpeaker && matchesEpisode && matchesSearch;
-  });
+  // Memoize the filtered quotes to prevent unnecessary filtering on every render
+  const filteredQuotes = useMemo(() => {
+    return initialQuotes.filter(quote => {
+      const isAllowedSpeaker = quote.speakerId === 'vanessa' || quote.speakerId === 'brooke';
+      
+      if (!isAllowedSpeaker) return false;
+      
+      const matchesSpeaker = !filters.speakerId || quote.speakerId === filters.speakerId;
+      const matchesEpisode = !filters.episodeId || quote.episodeId === filters.episodeId;
+      const matchesSearch = !filters.search || 
+        quote.content.toLowerCase().includes(filters.search.toLowerCase());
+      
+      return matchesSpeaker && matchesEpisode && matchesSearch;
+    });
+  }, [initialQuotes, filters]);
   
-  let episodesArray = [];
-  
-  if (hasActiveFilter) {
+  // Memoize episode array processing
+  const episodesArray = useMemo(() => {
+    if (!hasActiveFilter) return [];
+    
     const quotesGroupedByEpisode = {};
     filteredQuotes.forEach(quote => {
       const episodeNumber = quote.episode.episodeNumber;
@@ -240,13 +256,16 @@ export function QuoteCollection({ initialQuotes, speakers, episodes }) {
       quotesGroupedByEpisode[episodeNumber].push(quote);
     });
     
-    episodesArray = Object.entries(quotesGroupedByEpisode)
+    return Object.entries(quotesGroupedByEpisode)
       .map(([episodeNumber, quotes]) => ({
         episodeNumber,
         quotes
       }))
       .sort((a, b) => Number(a.episodeNumber) - Number(b.episodeNumber));
-  }
+  }, [filteredQuotes, hasActiveFilter]);
+
+  // Memoize the EpisodeSection component
+  const MemoizedEpisodeSection = React.memo(EpisodeSection);
 
   return (
     <div className="min-h-screen bg-[#773C40]/5 px-4 py-16">
@@ -279,7 +298,7 @@ export function QuoteCollection({ initialQuotes, speakers, episodes }) {
       ) : episodesArray.length > 0 ? (
         <div className="space-y-20">
           {episodesArray.map((episode) => (
-            <EpisodeSection 
+            <MemoizedEpisodeSection 
               key={episode.episodeNumber}
               episodeNumber={episode.episodeNumber}
               quotes={episode.quotes}

@@ -231,7 +231,7 @@ export default function PodcastExplorer() {
                 value={searchParams.query}
                 onChange={handleSearchChange}
                 placeholder="Search by keyword..."
-                className="py-2 pl-4 pr-2 bg-transparent text-2xl cursor-text rounded-l-full sm:w-72 focus:w-72 focus:outline-none transition-all duration-300"
+                className="py-2 pl-4 pr-2 bg-transparent text-2xl cursor-text rounded-l-full md:w-60 focus:w-72 focus:outline-none transition-all duration-300"
               />
               <button
                 type="submit"
@@ -265,7 +265,7 @@ export default function PodcastExplorer() {
 
 
           <Link href="/quotes" className="flex items-center space-x-2">
-          <p className="text-sm text-white bg-yellow-950 border p-2 m-4 hover:bg-white hover:text-black rounded-xl text-center cursor-pointer shadow-xl">View Quotes</p></Link>
+          <p className="text-sm text-white bg-yellow-950 border p-1 md:p-2 md:m-4 hover:bg-white hover:text-black rounded-xl text-center cursor-pointer shadow-xl">View Quotes</p></Link>
           
         </div>
         
@@ -520,7 +520,7 @@ export default function PodcastExplorer() {
       
       {searchResults.length > 0 ? (
   <div className="space-y-8">
-    {groupResultsByEpisode(searchResults).map(group => (
+    {groupResultsByEpisode(searchResults).sort((a, b) => a.episodeNumber - b.episodeNumber).map(group => (
       <div 
         key={`episode-${group.episodeNumber}`}
         className="bg-white rounded-lg shadow-lg"
